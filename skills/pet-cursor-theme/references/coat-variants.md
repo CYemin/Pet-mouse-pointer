@@ -4,7 +4,7 @@ Use this workflow when the user wants the same pet character and actions in anot
 
 ## Color catalog
 
-The repository's `themes/` and download table identify which variants are complete. The color comparison also includes design-only options; a static sample does not imply an installable theme exists.
+The repository's `themes/` and download table identify which variants are complete. The color comparison is a static design overview; a static sample alone does not establish that an installable theme exists. The current ten-color catalog has ten complete animated packages.
 
 | Breed | Coat choices | Distinguishing markings |
 |---|---|---|

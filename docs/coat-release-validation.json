@@ -15,11 +15,11 @@
         "hotspot_warnings": [],
         "system_settings_modified": false
       },
+      "native_details": "../themes/pet-pixel-complete/verification.json",
       "motion": {
         "status": "passed",
         "states_reviewed": 17
-      },
-      "native_details": "../themes/pet-pixel-complete/verification.json"
+      }
     },
     {
       "slug": "golden-cream-pixel",
@@ -36,11 +36,11 @@
         "hotspot_warnings": [],
         "system_settings_modified": false
       },
+      "native_details": "../themes/golden-cream-pixel/verification.json",
       "motion": {
         "status": "passed",
         "states_reviewed": 17
-      },
-      "native_details": "../themes/golden-cream-pixel/verification.json"
+      }
     },
     {
       "slug": "sheltie-tricolor-pixel",
@@ -57,11 +57,11 @@
         "hotspot_warnings": [],
         "system_settings_modified": false
       },
+      "native_details": "../themes/sheltie-tricolor-pixel/verification.json",
       "motion": {
         "status": "passed",
         "states_reviewed": 17
-      },
-      "native_details": "../themes/sheltie-tricolor-pixel/verification.json"
+      }
     },
     {
       "slug": "sheltie-blue-merle-pixel",
@@ -78,11 +78,11 @@
         "hotspot_warnings": [],
         "system_settings_modified": false
       },
+      "native_details": "../themes/sheltie-blue-merle-pixel/verification.json",
       "motion": {
         "status": "passed",
         "states_reviewed": 17
-      },
-      "native_details": "../themes/sheltie-blue-merle-pixel/verification.json"
+      }
     },
     {
       "slug": "golden-standard-pixel",
@@ -99,11 +99,11 @@
         "hotspot_warnings": [],
         "system_settings_modified": false
       },
+      "native_details": "../themes/golden-standard-pixel/verification.json",
       "motion": {
         "status": "passed",
         "states_reviewed": 17
-      },
-      "native_details": "../themes/golden-standard-pixel/verification.json"
+      }
     },
     {
       "slug": "golden-dark-pixel",
@@ -120,11 +120,95 @@
         "hotspot_warnings": [],
         "system_settings_modified": false
       },
+      "native_details": "../themes/golden-dark-pixel/verification.json",
       "motion": {
         "status": "passed",
         "states_reviewed": 17
+      }
+    },
+    {
+      "slug": "sheltie-dark-sable-pixel",
+      "label": "深貂色喜乐蒂",
+      "feature": "深棕耳冠与后鬃、暖棕脸颊、白色围脖",
+      "asset_revision": "00a6ae070aa0",
+      "states": 17,
+      "frames": 179,
+      "native": {
+        "status": "passed",
+        "roles": 17,
+        "files_checked": 102,
+        "embedded_cursor_frames_checked": 1074,
+        "hotspot_warnings": [],
+        "system_settings_modified": false
       },
-      "native_details": "../themes/golden-dark-pixel/verification.json"
+      "native_details": "../themes/sheltie-dark-sable-pixel/verification.json",
+      "motion": {
+        "status": "passed",
+        "states_reviewed": 17
+      }
+    },
+    {
+      "slug": "sheltie-bi-black-pixel",
+      "label": "黑白喜乐蒂",
+      "feature": "炭黑底毛、白额纹与围脖、无棕色眉颊",
+      "asset_revision": "27f9a974a52b",
+      "states": 17,
+      "frames": 179,
+      "native": {
+        "status": "passed",
+        "roles": 17,
+        "files_checked": 102,
+        "embedded_cursor_frames_checked": 1074,
+        "hotspot_warnings": [],
+        "system_settings_modified": false
+      },
+      "native_details": "../themes/sheltie-bi-black-pixel/verification.json",
+      "motion": {
+        "status": "passed",
+        "states_reviewed": 17
+      }
+    },
+    {
+      "slug": "sheltie-bi-blue-pixel",
+      "label": "双色蓝喜乐蒂",
+      "feature": "银灰黑斑与白色围脖、无棕色眉颊",
+      "asset_revision": "3d0b58310976",
+      "states": 17,
+      "frames": 179,
+      "native": {
+        "status": "passed",
+        "roles": 17,
+        "files_checked": 102,
+        "embedded_cursor_frames_checked": 1074,
+        "hotspot_warnings": [],
+        "system_settings_modified": false
+      },
+      "native_details": "../themes/sheltie-bi-blue-pixel/verification.json",
+      "motion": {
+        "status": "passed",
+        "states_reviewed": 17
+      }
+    },
+    {
+      "slug": "golden-light-pixel",
+      "label": "浅金毛",
+      "feature": "浅麦金毛发、暖金垂耳、绿色胸背",
+      "asset_revision": "205c05bf637b",
+      "states": 17,
+      "frames": 174,
+      "native": {
+        "status": "passed",
+        "roles": 17,
+        "files_checked": 102,
+        "embedded_cursor_frames_checked": 1044,
+        "hotspot_warnings": [],
+        "system_settings_modified": false
+      },
+      "native_details": "../themes/golden-light-pixel/verification.json",
+      "motion": {
+        "status": "passed",
+        "states_reviewed": 17
+      }
     }
   ],
   "all_theme_arrows_upgraded": true,

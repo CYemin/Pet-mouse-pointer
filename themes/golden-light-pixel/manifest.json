@@ -1,0 +1,3882 @@
+{
+  "name": "Light Golden · 浅金毛像素指针",
+  "version": "1.0.0",
+  "asset_revision": "205c05bf637b",
+  "sizes": [
+    32,
+    48,
+    64,
+    96,
+    128
+  ],
+  "states": [
+    {
+      "id": "normal",
+      "role": "Arrow",
+      "label": "正常选择",
+      "idea": "奶油金犬迎着微风，围脖毛与垂耳持续轻动，鼻尖定位",
+      "file": "normal.ani",
+      "variants": {
+        "32": "32/normal.ani",
+        "48": "48/normal.ani",
+        "64": "64/normal.ani",
+        "96": "96/normal.ani",
+        "128": "128/normal.ani"
+      },
+      "hotspots": {
+        "32": [
+          3,
+          9
+        ],
+        "48": [
+          5,
+          13
+        ],
+        "64": [
+          7,
+          17
+        ],
+        "96": [
+          10,
+          26
+        ],
+        "128": [
+          13,
+          35
+        ]
+      },
+      "animated": true,
+      "frame_count": 16,
+      "sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "ticks": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "source": "assets/golden-light-pixel/normal.png",
+      "landmarks": [
+        [
+          45,
+          80
+        ],
+        [
+          42,
+          83
+        ],
+        [
+          42,
+          79
+        ],
+        [
+          40,
+          77
+        ],
+        [
+          46,
+          78
+        ],
+        [
+          41,
+          80
+        ],
+        [
+          43,
+          76
+        ],
+        [
+          39,
+          74
+        ],
+        [
+          45,
+          77
+        ],
+        [
+          41,
+          78
+        ],
+        [
+          42,
+          80
+        ],
+        [
+          37,
+          81
+        ],
+        [
+          43,
+          78
+        ],
+        [
+          41,
+          79
+        ],
+        [
+          42,
+          79
+        ],
+        [
+          39,
+          78
+        ]
+      ],
+      "unique_frame_count": 16,
+      "animation_fps": 20.0,
+      "visual_fps": 20.0,
+      "peak_fps": 20.0,
+      "cycle_ms": 800.0,
+      "pixel_art": true,
+      "unique_frame_counts": {
+        "32": 16,
+        "48": 16,
+        "64": 16,
+        "96": 16,
+        "128": 16
+      },
+      "animation_stats_by_size": {
+        "32": {
+          "unique_frame_count": 16,
+          "animation_fps": 20.0,
+          "visual_fps": 20.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 800.0
+        },
+        "48": {
+          "unique_frame_count": 16,
+          "animation_fps": 20.0,
+          "visual_fps": 20.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 800.0
+        },
+        "64": {
+          "unique_frame_count": 16,
+          "animation_fps": 20.0,
+          "visual_fps": 20.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 800.0
+        },
+        "96": {
+          "unique_frame_count": 16,
+          "animation_fps": 20.0,
+          "visual_fps": 20.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 800.0
+        },
+        "128": {
+          "unique_frame_count": 16,
+          "animation_fps": 20.0,
+          "visual_fps": 20.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 800.0
+        }
+      },
+      "native_pixel_size": 48,
+      "pixel_alpha_threshold": 128,
+      "pixel_palette_colors": 48,
+      "source_rects": [
+        [
+          0,
+          0,
+          314,
+          314
+        ],
+        [
+          314,
+          0,
+          627,
+          314
+        ],
+        [
+          627,
+          0,
+          940,
+          314
+        ],
+        [
+          940,
+          0,
+          1254,
+          314
+        ],
+        [
+          0,
+          314,
+          316,
+          627
+        ],
+        [
+          316,
+          314,
+          627,
+          627
+        ],
+        [
+          627,
+          314,
+          940,
+          627
+        ],
+        [
+          940,
+          314,
+          1254,
+          627
+        ],
+        [
+          0,
+          627,
+          314,
+          940
+        ],
+        [
+          314,
+          627,
+          627,
+          940
+        ],
+        [
+          627,
+          627,
+          944,
+          940
+        ],
+        [
+          944,
+          627,
+          1254,
+          940
+        ],
+        [
+          0,
+          940,
+          315,
+          1254
+        ],
+        [
+          315,
+          940,
+          627,
+          1254
+        ],
+        [
+          627,
+          940,
+          940,
+          1254
+        ],
+        [
+          940,
+          940,
+          1254,
+          1254
+        ]
+      ],
+      "landmark_units": "pixels"
+    },
+    {
+      "id": "help",
+      "role": "Help",
+      "label": "帮助选择",
+      "idea": "困惑地挑眉、竖起一只垂耳，问号弹出再缩回",
+      "file": "help.ani",
+      "variants": {
+        "32": "32/help.ani",
+        "48": "48/help.ani",
+        "64": "64/help.ani",
+        "96": "96/help.ani",
+        "128": "128/help.ani"
+      },
+      "hotspots": {
+        "32": [
+          4,
+          13
+        ],
+        "48": [
+          5,
+          18
+        ],
+        "64": [
+          7,
+          24
+        ],
+        "96": [
+          10,
+          36
+        ],
+        "128": [
+          13,
+          48
+        ]
+      },
+      "animated": true,
+      "frame_count": 16,
+      "sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "ticks": [
+        30,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        6,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "source": "assets/golden-light-pixel/help.png",
+      "landmarks": [
+        [
+          38,
+          123
+        ],
+        [
+          37,
+          123
+        ],
+        [
+          36,
+          123
+        ],
+        [
+          36,
+          123
+        ],
+        [
+          37,
+          122
+        ],
+        [
+          37,
+          124
+        ],
+        [
+          36,
+          124
+        ],
+        [
+          36,
+          124
+        ],
+        [
+          38,
+          124
+        ],
+        [
+          37,
+          122
+        ],
+        [
+          36,
+          123
+        ],
+        [
+          36,
+          122
+        ],
+        [
+          38,
+          122
+        ],
+        [
+          37,
+          123
+        ],
+        [
+          37,
+          123
+        ],
+        [
+          36,
+          123
+        ]
+      ],
+      "unique_frame_count": 16,
+      "animation_fps": 12.307692,
+      "visual_fps": 12.307692,
+      "peak_fps": 20.0,
+      "cycle_ms": 1300.0,
+      "pixel_art": true,
+      "unique_frame_counts": {
+        "32": 16,
+        "48": 16,
+        "64": 16,
+        "96": 16,
+        "128": 16
+      },
+      "animation_stats_by_size": {
+        "32": {
+          "unique_frame_count": 16,
+          "animation_fps": 12.307692,
+          "visual_fps": 12.307692,
+          "peak_fps": 20.0,
+          "cycle_ms": 1300.0
+        },
+        "48": {
+          "unique_frame_count": 16,
+          "animation_fps": 12.307692,
+          "visual_fps": 12.307692,
+          "peak_fps": 20.0,
+          "cycle_ms": 1300.0
+        },
+        "64": {
+          "unique_frame_count": 16,
+          "animation_fps": 12.307692,
+          "visual_fps": 12.307692,
+          "peak_fps": 20.0,
+          "cycle_ms": 1300.0
+        },
+        "96": {
+          "unique_frame_count": 16,
+          "animation_fps": 12.307692,
+          "visual_fps": 12.307692,
+          "peak_fps": 20.0,
+          "cycle_ms": 1300.0
+        },
+        "128": {
+          "unique_frame_count": 16,
+          "animation_fps": 12.307692,
+          "visual_fps": 12.307692,
+          "peak_fps": 20.0,
+          "cycle_ms": 1300.0
+        }
+      },
+      "native_pixel_size": 48,
+      "pixel_alpha_threshold": 128,
+      "pixel_palette_colors": 48,
+      "source_rects": [
+        [
+          940,
+          314,
+          1254,
+          627
+        ],
+        [
+          0,
+          627,
+          314,
+          940
+        ],
+        [
+          314,
+          627,
+          627,
+          940
+        ],
+        [
+          627,
+          627,
+          940,
+          940
+        ],
+        [
+          940,
+          627,
+          1254,
+          940
+        ],
+        [
+          0,
+          940,
+          314,
+          1254
+        ],
+        [
+          314,
+          940,
+          627,
+          1254
+        ],
+        [
+          627,
+          940,
+          940,
+          1254
+        ],
+        [
+          940,
+          940,
+          1254,
+          1254
+        ],
+        [
+          0,
+          0,
+          314,
+          314
+        ],
+        [
+          314,
+          0,
+          627,
+          314
+        ],
+        [
+          627,
+          0,
+          940,
+          314
+        ],
+        [
+          940,
+          0,
+          1254,
+          314
+        ],
+        [
+          0,
+          314,
+          314,
+          627
+        ],
+        [
+          314,
+          314,
+          627,
+          627
+        ],
+        [
+          627,
+          314,
+          940,
+          627
+        ]
+      ],
+      "landmark_units": "pixels",
+      "hotspot_overrides": {
+        "32": [
+          4,
+          13
+        ]
+      }
+    },
+    {
+      "id": "working",
+      "role": "AppStarting",
+      "label": "后台工作",
+      "idea": "竖耳倾听、眼神追随，三颗小点依次亮起",
+      "file": "working.ani",
+      "variants": {
+        "32": "32/working.ani",
+        "48": "48/working.ani",
+        "64": "64/working.ani",
+        "96": "96/working.ani",
+        "128": "128/working.ani"
+      },
+      "hotspots": {
+        "32": [
+          3,
+          11
+        ],
+        "48": [
+          3,
+          16
+        ],
+        "64": [
+          4,
+          21
+        ],
+        "96": [
+          6,
+          32
+        ],
+        "128": [
+          8,
+          43
+        ]
+      },
+      "animated": true,
+      "frame_count": 9,
+      "sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "ticks": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "source": "assets/golden-light-pixel/working.png",
+      "landmarks": [
+        [
+          48,
+          160
+        ],
+        [
+          50,
+          161
+        ],
+        [
+          62,
+          160
+        ],
+        [
+          48,
+          144
+        ],
+        [
+          50,
+          144
+        ],
+        [
+          61,
+          144
+        ],
+        [
+          47,
+          120
+        ],
+        [
+          49,
+          117
+        ],
+        [
+          61,
+          116
+        ]
+      ],
+      "unique_frame_count": 9,
+      "animation_fps": 20.0,
+      "visual_fps": 20.0,
+      "peak_fps": 20.0,
+      "cycle_ms": 450.0,
+      "pixel_art": true,
+      "unique_frame_counts": {
+        "32": 9,
+        "48": 9,
+        "64": 9,
+        "96": 9,
+        "128": 9
+      },
+      "animation_stats_by_size": {
+        "32": {
+          "unique_frame_count": 9,
+          "animation_fps": 20.0,
+          "visual_fps": 20.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 450.0
+        },
+        "48": {
+          "unique_frame_count": 9,
+          "animation_fps": 20.0,
+          "visual_fps": 20.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 450.0
+        },
+        "64": {
+          "unique_frame_count": 9,
+          "animation_fps": 20.0,
+          "visual_fps": 20.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 450.0
+        },
+        "96": {
+          "unique_frame_count": 9,
+          "animation_fps": 20.0,
+          "visual_fps": 20.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 450.0
+        },
+        "128": {
+          "unique_frame_count": 9,
+          "animation_fps": 20.0,
+          "visual_fps": 20.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 450.0
+        }
+      },
+      "native_pixel_size": 48,
+      "pixel_alpha_threshold": 128,
+      "pixel_palette_colors": 48,
+      "source_rects": [
+        [
+          0,
+          0,
+          418,
+          418
+        ],
+        [
+          418,
+          0,
+          836,
+          418
+        ],
+        [
+          836,
+          0,
+          1254,
+          418
+        ],
+        [
+          0,
+          418,
+          418,
+          836
+        ],
+        [
+          418,
+          418,
+          836,
+          836
+        ],
+        [
+          836,
+          418,
+          1254,
+          836
+        ],
+        [
+          0,
+          836,
+          418,
+          1254
+        ],
+        [
+          418,
+          836,
+          836,
+          1254
+        ],
+        [
+          836,
+          836,
+          1254,
+          1254
+        ]
+      ],
+      "landmark_units": "pixels",
+      "hotspot_overrides": {
+        "32": [
+          3,
+          11
+        ]
+      }
+    },
+    {
+      "id": "wait",
+      "role": "Wait",
+      "label": "忙碌等待",
+      "idea": "把头枕在前爪上睡着，冒出 ZZZ，再慢慢醒来",
+      "file": "wait.ani",
+      "variants": {
+        "32": "32/wait.ani",
+        "48": "48/wait.ani",
+        "64": "64/wait.ani",
+        "96": "96/wait.ani",
+        "128": "128/wait.ani"
+      },
+      "hotspots": {
+        "32": [
+          3,
+          14
+        ],
+        "48": [
+          4,
+          21
+        ],
+        "64": [
+          5,
+          28
+        ],
+        "96": [
+          8,
+          42
+        ],
+        "128": [
+          11,
+          56
+        ]
+      },
+      "animated": true,
+      "frame_count": 16,
+      "sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "ticks": [
+        30,
+        3,
+        3,
+        3,
+        9,
+        6,
+        6,
+        9,
+        24,
+        12,
+        6,
+        6,
+        9,
+        3,
+        3,
+        12
+      ],
+      "source": "assets/golden-light-pixel/wait.png",
+      "landmarks": [
+        [
+          22,
+          133
+        ],
+        [
+          23,
+          134
+        ],
+        [
+          22,
+          133
+        ],
+        [
+          23,
+          134
+        ],
+        [
+          22,
+          133
+        ],
+        [
+          22,
+          133
+        ],
+        [
+          22,
+          133
+        ],
+        [
+          23,
+          134
+        ],
+        [
+          22,
+          133
+        ],
+        [
+          20,
+          133
+        ],
+        [
+          22,
+          133
+        ],
+        [
+          23,
+          134
+        ],
+        [
+          22,
+          134
+        ],
+        [
+          22,
+          134
+        ],
+        [
+          22,
+          134
+        ],
+        [
+          23,
+          134
+        ]
+      ],
+      "unique_frame_count": 16,
+      "animation_fps": 6.666667,
+      "visual_fps": 6.666667,
+      "peak_fps": 20.0,
+      "cycle_ms": 2400.0,
+      "pixel_art": true,
+      "unique_frame_counts": {
+        "32": 16,
+        "48": 16,
+        "64": 16,
+        "96": 16,
+        "128": 16
+      },
+      "animation_stats_by_size": {
+        "32": {
+          "unique_frame_count": 16,
+          "animation_fps": 6.666667,
+          "visual_fps": 6.666667,
+          "peak_fps": 20.0,
+          "cycle_ms": 2400.0
+        },
+        "48": {
+          "unique_frame_count": 16,
+          "animation_fps": 6.666667,
+          "visual_fps": 6.666667,
+          "peak_fps": 20.0,
+          "cycle_ms": 2400.0
+        },
+        "64": {
+          "unique_frame_count": 16,
+          "animation_fps": 6.666667,
+          "visual_fps": 6.666667,
+          "peak_fps": 20.0,
+          "cycle_ms": 2400.0
+        },
+        "96": {
+          "unique_frame_count": 16,
+          "animation_fps": 6.666667,
+          "visual_fps": 6.666667,
+          "peak_fps": 20.0,
+          "cycle_ms": 2400.0
+        },
+        "128": {
+          "unique_frame_count": 16,
+          "animation_fps": 6.666667,
+          "visual_fps": 6.666667,
+          "peak_fps": 20.0,
+          "cycle_ms": 2400.0
+        }
+      },
+      "native_pixel_size": 48,
+      "pixel_alpha_threshold": 128,
+      "pixel_palette_colors": 48,
+      "source_rects": [
+        [
+          0,
+          0,
+          314,
+          314
+        ],
+        [
+          314,
+          0,
+          627,
+          314
+        ],
+        [
+          627,
+          0,
+          940,
+          314
+        ],
+        [
+          940,
+          0,
+          1254,
+          314
+        ],
+        [
+          0,
+          314,
+          314,
+          627
+        ],
+        [
+          314,
+          314,
+          627,
+          627
+        ],
+        [
+          627,
+          314,
+          940,
+          627
+        ],
+        [
+          940,
+          314,
+          1254,
+          627
+        ],
+        [
+          0,
+          627,
+          316,
+          940
+        ],
+        [
+          316,
+          627,
+          627,
+          940
+        ],
+        [
+          627,
+          627,
+          940,
+          940
+        ],
+        [
+          940,
+          627,
+          1254,
+          940
+        ],
+        [
+          0,
+          940,
+          314,
+          1254
+        ],
+        [
+          314,
+          940,
+          627,
+          1254
+        ],
+        [
+          627,
+          940,
+          940,
+          1254
+        ],
+        [
+          940,
+          940,
+          1254,
+          1254
+        ]
+      ],
+      "landmark_units": "pixels"
+    },
+    {
+      "id": "cross",
+      "role": "Crosshair",
+      "label": "精确选择",
+      "idea": "专注地闭嘴瞄准，眨眼、动耳，小准星中心定位",
+      "file": "cross.ani",
+      "variants": {
+        "32": "32/cross.ani",
+        "48": "48/cross.ani",
+        "64": "64/cross.ani",
+        "96": "96/cross.ani",
+        "128": "128/cross.ani"
+      },
+      "hotspots": {
+        "32": [
+          5,
+          5
+        ],
+        "48": [
+          7,
+          7
+        ],
+        "64": [
+          9,
+          9
+        ],
+        "96": [
+          14,
+          14
+        ],
+        "128": [
+          19,
+          19
+        ]
+      },
+      "animated": true,
+      "frame_count": 9,
+      "sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "ticks": [
+        24,
+        3,
+        3,
+        3,
+        6,
+        3,
+        3,
+        3,
+        6
+      ],
+      "source": "assets/golden-light-pixel/cross.png",
+      "landmarks": [
+        [
+          99,
+          94
+        ],
+        [
+          81,
+          93
+        ],
+        [
+          72,
+          93
+        ],
+        [
+          99,
+          72
+        ],
+        [
+          67,
+          73
+        ],
+        [
+          69,
+          73
+        ],
+        [
+          99,
+          54
+        ],
+        [
+          71,
+          54
+        ],
+        [
+          73,
+          53
+        ]
+      ],
+      "unique_frame_count": 9,
+      "animation_fps": 10.0,
+      "visual_fps": 10.0,
+      "peak_fps": 20.0,
+      "cycle_ms": 900.0,
+      "pixel_art": true,
+      "unique_frame_counts": {
+        "32": 9,
+        "48": 9,
+        "64": 9,
+        "96": 9,
+        "128": 9
+      },
+      "animation_stats_by_size": {
+        "32": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "48": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "64": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "96": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "128": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        }
+      },
+      "native_pixel_size": 48,
+      "pixel_alpha_threshold": 128,
+      "pixel_palette_colors": 48,
+      "source_rects": [
+        [
+          0,
+          0,
+          419,
+          418
+        ],
+        [
+          419,
+          0,
+          836,
+          418
+        ],
+        [
+          836,
+          0,
+          1254,
+          418
+        ],
+        [
+          0,
+          418,
+          432,
+          836
+        ],
+        [
+          432,
+          418,
+          839,
+          836
+        ],
+        [
+          839,
+          418,
+          1254,
+          836
+        ],
+        [
+          0,
+          836,
+          429,
+          1254
+        ],
+        [
+          429,
+          836,
+          836,
+          1254
+        ],
+        [
+          836,
+          836,
+          1254,
+          1254
+        ]
+      ],
+      "landmark_units": "pixels"
+    },
+    {
+      "id": "text",
+      "role": "IBeam",
+      "label": "文本选择",
+      "idea": "歪头偷看文字，眨眼、动耳，I形插入线中心定位",
+      "file": "text.ani",
+      "variants": {
+        "32": "32/text.ani",
+        "48": "48/text.ani",
+        "64": "64/text.ani",
+        "96": "96/text.ani",
+        "128": "128/text.ani"
+      },
+      "hotspots": {
+        "32": [
+          3,
+          14
+        ],
+        "48": [
+          5,
+          21
+        ],
+        "64": [
+          7,
+          28
+        ],
+        "96": [
+          10,
+          42
+        ],
+        "128": [
+          13,
+          56
+        ]
+      },
+      "animated": true,
+      "frame_count": 9,
+      "sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "ticks": [
+        24,
+        3,
+        3,
+        3,
+        6,
+        3,
+        3,
+        3,
+        6
+      ],
+      "source": "assets/golden-light-pixel/text.png",
+      "landmarks": [
+        [
+          78,
+          207
+        ],
+        [
+          34,
+          207
+        ],
+        [
+          40,
+          207
+        ],
+        [
+          78,
+          182
+        ],
+        [
+          26,
+          181
+        ],
+        [
+          34,
+          182
+        ],
+        [
+          78,
+          156
+        ],
+        [
+          34,
+          156
+        ],
+        [
+          42,
+          156
+        ]
+      ],
+      "unique_frame_count": 9,
+      "animation_fps": 10.0,
+      "visual_fps": 10.0,
+      "peak_fps": 20.0,
+      "cycle_ms": 900.0,
+      "pixel_art": true,
+      "unique_frame_counts": {
+        "32": 9,
+        "48": 9,
+        "64": 9,
+        "96": 9,
+        "128": 9
+      },
+      "animation_stats_by_size": {
+        "32": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "48": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "64": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "96": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "128": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        }
+      },
+      "native_pixel_size": 48,
+      "pixel_alpha_threshold": 128,
+      "pixel_palette_colors": 48,
+      "source_rects": [
+        [
+          0,
+          0,
+          439,
+          418
+        ],
+        [
+          439,
+          0,
+          841,
+          418
+        ],
+        [
+          841,
+          0,
+          1254,
+          418
+        ],
+        [
+          0,
+          418,
+          447,
+          836
+        ],
+        [
+          447,
+          418,
+          847,
+          836
+        ],
+        [
+          847,
+          418,
+          1254,
+          836
+        ],
+        [
+          0,
+          836,
+          439,
+          1254
+        ],
+        [
+          439,
+          836,
+          839,
+          1254
+        ],
+        [
+          839,
+          836,
+          1254,
+          1254
+        ]
+      ],
+      "landmark_units": "pixels"
+    },
+    {
+      "id": "pen",
+      "role": "NWPen",
+      "label": "手写",
+      "idea": "叼着短铅笔认真写字，眨眼、动耳，笔尖定位",
+      "file": "pen.ani",
+      "variants": {
+        "32": "32/pen.ani",
+        "48": "48/pen.ani",
+        "64": "64/pen.ani",
+        "96": "96/pen.ani",
+        "128": "128/pen.ani"
+      },
+      "hotspots": {
+        "32": [
+          3,
+          8
+        ],
+        "48": [
+          4,
+          12
+        ],
+        "64": [
+          5,
+          16
+        ],
+        "96": [
+          8,
+          24
+        ],
+        "128": [
+          11,
+          32
+        ]
+      },
+      "animated": true,
+      "frame_count": 9,
+      "sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "ticks": [
+        24,
+        3,
+        3,
+        3,
+        6,
+        3,
+        3,
+        3,
+        6
+      ],
+      "source": "assets/golden-light-pixel/pen.png",
+      "landmarks": [
+        [
+          43,
+          109
+        ],
+        [
+          42,
+          109
+        ],
+        [
+          38,
+          109
+        ],
+        [
+          42,
+          94
+        ],
+        [
+          35,
+          94
+        ],
+        [
+          28,
+          94
+        ],
+        [
+          42,
+          81
+        ],
+        [
+          34,
+          80
+        ],
+        [
+          47,
+          81
+        ]
+      ],
+      "unique_frame_count": 9,
+      "animation_fps": 10.0,
+      "visual_fps": 10.0,
+      "peak_fps": 20.0,
+      "cycle_ms": 900.0,
+      "pixel_art": true,
+      "unique_frame_counts": {
+        "32": 9,
+        "48": 9,
+        "64": 9,
+        "96": 9,
+        "128": 9
+      },
+      "animation_stats_by_size": {
+        "32": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "48": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "64": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "96": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "128": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        }
+      },
+      "native_pixel_size": 48,
+      "pixel_alpha_threshold": 128,
+      "pixel_palette_colors": 48,
+      "source_rects": [
+        [
+          0,
+          0,
+          418,
+          418
+        ],
+        [
+          418,
+          0,
+          844,
+          418
+        ],
+        [
+          844,
+          0,
+          1254,
+          418
+        ],
+        [
+          0,
+          418,
+          425,
+          836
+        ],
+        [
+          425,
+          418,
+          854,
+          836
+        ],
+        [
+          854,
+          418,
+          1254,
+          836
+        ],
+        [
+          0,
+          836,
+          427,
+          1254
+        ],
+        [
+          427,
+          836,
+          836,
+          1254
+        ],
+        [
+          836,
+          836,
+          1254,
+          1254
+        ]
+      ],
+      "landmark_units": "pixels"
+    },
+    {
+      "id": "unavailable",
+      "role": "No",
+      "label": "不可用",
+      "idea": "抬起粉肉垫前爪，眨眼、轻轻摇头，禁止标记中心定位",
+      "file": "unavailable.ani",
+      "variants": {
+        "32": "32/unavailable.ani",
+        "48": "48/unavailable.ani",
+        "64": "64/unavailable.ani",
+        "96": "96/unavailable.ani",
+        "128": "128/unavailable.ani"
+      },
+      "hotspots": {
+        "32": [
+          7,
+          7
+        ],
+        "48": [
+          10,
+          11
+        ],
+        "64": [
+          13,
+          15
+        ],
+        "96": [
+          20,
+          22
+        ],
+        "128": [
+          27,
+          29
+        ]
+      },
+      "animated": true,
+      "frame_count": 9,
+      "sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "ticks": [
+        24,
+        3,
+        3,
+        3,
+        6,
+        3,
+        3,
+        3,
+        6
+      ],
+      "source": "assets/golden-light-pixel/unavailable.png",
+      "landmarks": [
+        [
+          141,
+          142
+        ],
+        [
+          110,
+          145
+        ],
+        [
+          89,
+          142
+        ],
+        [
+          141,
+          104
+        ],
+        [
+          111,
+          104
+        ],
+        [
+          88,
+          104
+        ],
+        [
+          142,
+          63
+        ],
+        [
+          109,
+          63
+        ],
+        [
+          87,
+          59
+        ]
+      ],
+      "unique_frame_count": 9,
+      "animation_fps": 10.0,
+      "visual_fps": 10.0,
+      "peak_fps": 20.0,
+      "cycle_ms": 900.0,
+      "pixel_art": true,
+      "unique_frame_counts": {
+        "32": 9,
+        "48": 9,
+        "64": 9,
+        "96": 9,
+        "128": 9
+      },
+      "animation_stats_by_size": {
+        "32": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "48": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "64": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "96": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "128": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        }
+      },
+      "native_pixel_size": 48,
+      "pixel_alpha_threshold": 128,
+      "pixel_palette_colors": 48,
+      "source_rects": [
+        [
+          0,
+          0,
+          424,
+          418
+        ],
+        [
+          424,
+          0,
+          836,
+          418
+        ],
+        [
+          836,
+          0,
+          1254,
+          418
+        ],
+        [
+          0,
+          418,
+          424,
+          836
+        ],
+        [
+          424,
+          418,
+          836,
+          836
+        ],
+        [
+          836,
+          418,
+          1254,
+          836
+        ],
+        [
+          0,
+          836,
+          424,
+          1254
+        ],
+        [
+          424,
+          836,
+          836,
+          1254
+        ],
+        [
+          836,
+          836,
+          1254,
+          1254
+        ]
+      ],
+      "landmark_units": "pixels"
+    },
+    {
+      "id": "size-ns",
+      "role": "SizeNS",
+      "label": "垂直缩放",
+      "idea": "抬头看上下双箭头，眨眼、抬爪，箭头中心定位",
+      "file": "size-ns.ani",
+      "variants": {
+        "32": "32/size-ns.ani",
+        "48": "48/size-ns.ani",
+        "64": "64/size-ns.ani",
+        "96": "96/size-ns.ani",
+        "128": "128/size-ns.ani"
+      },
+      "hotspots": {
+        "32": [
+          5,
+          9
+        ],
+        "48": [
+          7,
+          13
+        ],
+        "64": [
+          9,
+          17
+        ],
+        "96": [
+          14,
+          26
+        ],
+        "128": [
+          19,
+          35
+        ]
+      },
+      "animated": true,
+      "frame_count": 9,
+      "sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "ticks": [
+        24,
+        3,
+        3,
+        3,
+        6,
+        3,
+        3,
+        3,
+        6
+      ],
+      "source": "assets/golden-light-pixel/size-ns.png",
+      "landmarks": [
+        [
+          79,
+          109
+        ],
+        [
+          65,
+          109
+        ],
+        [
+          61,
+          110
+        ],
+        [
+          79,
+          89
+        ],
+        [
+          65,
+          90
+        ],
+        [
+          49,
+          89
+        ],
+        [
+          79,
+          74
+        ],
+        [
+          65,
+          73
+        ],
+        [
+          61,
+          74
+        ]
+      ],
+      "unique_frame_count": 9,
+      "animation_fps": 10.0,
+      "visual_fps": 10.0,
+      "peak_fps": 20.0,
+      "cycle_ms": 900.0,
+      "pixel_art": true,
+      "unique_frame_counts": {
+        "32": 9,
+        "48": 9,
+        "64": 9,
+        "96": 9,
+        "128": 9
+      },
+      "animation_stats_by_size": {
+        "32": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "48": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "64": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "96": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "128": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        }
+      },
+      "native_pixel_size": 48,
+      "pixel_alpha_threshold": 128,
+      "pixel_palette_colors": 48,
+      "source_rects": [
+        [
+          0,
+          0,
+          418,
+          418
+        ],
+        [
+          418,
+          0,
+          836,
+          418
+        ],
+        [
+          836,
+          0,
+          1254,
+          418
+        ],
+        [
+          0,
+          418,
+          418,
+          836
+        ],
+        [
+          418,
+          418,
+          847,
+          836
+        ],
+        [
+          847,
+          418,
+          1254,
+          836
+        ],
+        [
+          0,
+          836,
+          418,
+          1254
+        ],
+        [
+          418,
+          836,
+          836,
+          1254
+        ],
+        [
+          836,
+          836,
+          1254,
+          1254
+        ]
+      ],
+      "landmark_units": "pixels",
+      "operation_mark": {
+        "kind": "size-ns",
+        "family": "golden"
+      }
+    },
+    {
+      "id": "size-we",
+      "role": "SizeWE",
+      "label": "水平缩放",
+      "idea": "用前爪轻推左右双箭头，眨眼，箭头中心定位",
+      "file": "size-we.ani",
+      "variants": {
+        "32": "32/size-we.ani",
+        "48": "48/size-we.ani",
+        "64": "64/size-we.ani",
+        "96": "96/size-we.ani",
+        "128": "128/size-we.ani"
+      },
+      "hotspots": {
+        "32": [
+          11,
+          6
+        ],
+        "48": [
+          16,
+          9
+        ],
+        "64": [
+          21,
+          12
+        ],
+        "96": [
+          32,
+          18
+        ],
+        "128": [
+          43,
+          24
+        ]
+      },
+      "animated": true,
+      "frame_count": 9,
+      "sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "ticks": [
+        24,
+        3,
+        3,
+        3,
+        6,
+        3,
+        3,
+        3,
+        6
+      ],
+      "source": "assets/golden-light-pixel/size-we.png",
+      "landmarks": [
+        [
+          196,
+          108
+        ],
+        [
+          188,
+          107
+        ],
+        [
+          168,
+          107
+        ],
+        [
+          196,
+          97
+        ],
+        [
+          188,
+          92
+        ],
+        [
+          168,
+          92
+        ],
+        [
+          196,
+          81
+        ],
+        [
+          188,
+          81
+        ],
+        [
+          167,
+          81
+        ]
+      ],
+      "unique_frame_count": 9,
+      "animation_fps": 10.0,
+      "visual_fps": 10.0,
+      "peak_fps": 20.0,
+      "cycle_ms": 900.0,
+      "pixel_art": true,
+      "unique_frame_counts": {
+        "32": 9,
+        "48": 9,
+        "64": 9,
+        "96": 9,
+        "128": 9
+      },
+      "animation_stats_by_size": {
+        "32": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "48": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "64": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "96": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "128": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        }
+      },
+      "native_pixel_size": 48,
+      "pixel_alpha_threshold": 128,
+      "pixel_palette_colors": 48,
+      "source_rects": [
+        [
+          0,
+          0,
+          418,
+          418
+        ],
+        [
+          418,
+          0,
+          836,
+          418
+        ],
+        [
+          836,
+          0,
+          1254,
+          418
+        ],
+        [
+          0,
+          418,
+          418,
+          836
+        ],
+        [
+          418,
+          418,
+          836,
+          836
+        ],
+        [
+          836,
+          418,
+          1254,
+          836
+        ],
+        [
+          0,
+          836,
+          418,
+          1254
+        ],
+        [
+          418,
+          836,
+          836,
+          1254
+        ],
+        [
+          836,
+          836,
+          1254,
+          1254
+        ]
+      ],
+      "landmark_units": "pixels",
+      "operation_mark": {
+        "kind": "size-we",
+        "family": "golden"
+      }
+    },
+    {
+      "id": "size-nwse",
+      "role": "SizeNWSE",
+      "label": "左上右下缩放",
+      "idea": "眨眼、抬爪，沿左上至右下缩放，双箭头中心定位",
+      "file": "size-nwse.ani",
+      "variants": {
+        "32": "32/size-nwse.ani",
+        "48": "48/size-nwse.ani",
+        "64": "64/size-nwse.ani",
+        "96": "96/size-nwse.ani",
+        "128": "128/size-nwse.ani"
+      },
+      "hotspots": {
+        "32": [
+          8,
+          8
+        ],
+        "48": [
+          12,
+          12
+        ],
+        "64": [
+          16,
+          16
+        ],
+        "96": [
+          24,
+          24
+        ],
+        "128": [
+          32,
+          32
+        ]
+      },
+      "animated": true,
+      "frame_count": 9,
+      "sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "ticks": [
+        24,
+        3,
+        3,
+        3,
+        6,
+        3,
+        3,
+        3,
+        6
+      ],
+      "source": "assets/golden-light-pixel/size-nwse.png",
+      "landmarks": [
+        [
+          109,
+          117
+        ],
+        [
+          78,
+          118
+        ],
+        [
+          66,
+          117
+        ],
+        [
+          109,
+          59
+        ],
+        [
+          78,
+          58
+        ],
+        [
+          61,
+          59
+        ],
+        [
+          109,
+          59
+        ],
+        [
+          77,
+          59
+        ],
+        [
+          66,
+          59
+        ]
+      ],
+      "unique_frame_count": 9,
+      "animation_fps": 10.0,
+      "visual_fps": 10.0,
+      "peak_fps": 20.0,
+      "cycle_ms": 900.0,
+      "pixel_art": true,
+      "unique_frame_counts": {
+        "32": 9,
+        "48": 9,
+        "64": 9,
+        "96": 9,
+        "128": 9
+      },
+      "animation_stats_by_size": {
+        "32": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "48": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "64": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "96": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "128": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        }
+      },
+      "native_pixel_size": 48,
+      "pixel_alpha_threshold": 128,
+      "pixel_palette_colors": 48,
+      "source_rects": [
+        [
+          0,
+          0,
+          433,
+          449
+        ],
+        [
+          433,
+          0,
+          836,
+          449
+        ],
+        [
+          836,
+          0,
+          1254,
+          449
+        ],
+        [
+          0,
+          449,
+          433,
+          841
+        ],
+        [
+          433,
+          449,
+          841,
+          841
+        ],
+        [
+          841,
+          449,
+          1254,
+          841
+        ],
+        [
+          0,
+          841,
+          433,
+          1254
+        ],
+        [
+          433,
+          841,
+          836,
+          1254
+        ],
+        [
+          836,
+          841,
+          1254,
+          1254
+        ]
+      ],
+      "landmark_units": "pixels",
+      "operation_mark": {
+        "kind": "size-nwse",
+        "family": "golden"
+      }
+    },
+    {
+      "id": "size-nesw",
+      "role": "SizeNESW",
+      "label": "右上左下缩放",
+      "idea": "动耳、眨眼，沿右上至左下缩放，双箭头中心定位",
+      "file": "size-nesw.ani",
+      "variants": {
+        "32": "32/size-nesw.ani",
+        "48": "48/size-nesw.ani",
+        "64": "64/size-nesw.ani",
+        "96": "96/size-nesw.ani",
+        "128": "128/size-nesw.ani"
+      },
+      "hotspots": {
+        "32": [
+          8,
+          8
+        ],
+        "48": [
+          12,
+          12
+        ],
+        "64": [
+          16,
+          16
+        ],
+        "96": [
+          24,
+          24
+        ],
+        "128": [
+          32,
+          32
+        ]
+      },
+      "animated": true,
+      "frame_count": 9,
+      "sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "ticks": [
+        24,
+        3,
+        3,
+        3,
+        6,
+        3,
+        3,
+        3,
+        6
+      ],
+      "source": "assets/golden-light-pixel/size-nesw.png",
+      "landmarks": [
+        [
+          106,
+          103
+        ],
+        [
+          90,
+          103
+        ],
+        [
+          74,
+          102
+        ],
+        [
+          106,
+          70
+        ],
+        [
+          85,
+          69
+        ],
+        [
+          74,
+          70
+        ],
+        [
+          106,
+          71
+        ],
+        [
+          89,
+          71
+        ],
+        [
+          74,
+          71
+        ]
+      ],
+      "unique_frame_count": 9,
+      "animation_fps": 10.0,
+      "visual_fps": 10.0,
+      "peak_fps": 20.0,
+      "cycle_ms": 900.0,
+      "pixel_art": true,
+      "unique_frame_counts": {
+        "32": 9,
+        "48": 9,
+        "64": 9,
+        "96": 9,
+        "128": 9
+      },
+      "animation_stats_by_size": {
+        "32": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "48": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "64": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "96": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "128": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        }
+      },
+      "native_pixel_size": 48,
+      "pixel_alpha_threshold": 128,
+      "pixel_palette_colors": 48,
+      "source_rects": [
+        [
+          0,
+          0,
+          418,
+          431
+        ],
+        [
+          418,
+          0,
+          836,
+          431
+        ],
+        [
+          836,
+          0,
+          1254,
+          431
+        ],
+        [
+          0,
+          431,
+          423,
+          836
+        ],
+        [
+          423,
+          431,
+          836,
+          836
+        ],
+        [
+          836,
+          431,
+          1254,
+          836
+        ],
+        [
+          0,
+          836,
+          420,
+          1254
+        ],
+        [
+          420,
+          836,
+          836,
+          1254
+        ],
+        [
+          836,
+          836,
+          1254,
+          1254
+        ]
+      ],
+      "landmark_units": "pixels",
+      "operation_mark": {
+        "kind": "size-nesw",
+        "family": "golden"
+      }
+    },
+    {
+      "id": "move",
+      "role": "SizeAll",
+      "label": "移动",
+      "idea": "开心地眨眼，四向箭头清楚指向四边，中心定位",
+      "file": "move.ani",
+      "variants": {
+        "32": "32/move.ani",
+        "48": "48/move.ani",
+        "64": "64/move.ani",
+        "96": "96/move.ani",
+        "128": "128/move.ani"
+      },
+      "hotspots": {
+        "32": [
+          9,
+          9
+        ],
+        "48": [
+          13,
+          13
+        ],
+        "64": [
+          17,
+          17
+        ],
+        "96": [
+          26,
+          26
+        ],
+        "128": [
+          35,
+          35
+        ]
+      },
+      "animated": true,
+      "frame_count": 9,
+      "sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "ticks": [
+        24,
+        3,
+        3,
+        3,
+        6,
+        3,
+        3,
+        3,
+        6
+      ],
+      "source": "assets/golden-light-pixel/move.png",
+      "landmarks": [
+        [
+          89,
+          83
+        ],
+        [
+          78,
+          84
+        ],
+        [
+          76,
+          84
+        ],
+        [
+          87,
+          59
+        ],
+        [
+          67,
+          60
+        ],
+        [
+          74,
+          59
+        ],
+        [
+          88,
+          57
+        ],
+        [
+          71,
+          58
+        ],
+        [
+          75,
+          58
+        ]
+      ],
+      "unique_frame_count": 9,
+      "animation_fps": 10.0,
+      "visual_fps": 10.0,
+      "peak_fps": 20.0,
+      "cycle_ms": 900.0,
+      "pixel_art": true,
+      "unique_frame_counts": {
+        "32": 9,
+        "48": 9,
+        "64": 9,
+        "96": 9,
+        "128": 9
+      },
+      "animation_stats_by_size": {
+        "32": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "48": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "64": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "96": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "128": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        }
+      },
+      "native_pixel_size": 48,
+      "pixel_alpha_threshold": 128,
+      "pixel_palette_colors": 48,
+      "source_rects": [
+        [
+          0,
+          0,
+          419,
+          433
+        ],
+        [
+          419,
+          0,
+          836,
+          433
+        ],
+        [
+          836,
+          0,
+          1254,
+          433
+        ],
+        [
+          0,
+          433,
+          429,
+          843
+        ],
+        [
+          429,
+          433,
+          837,
+          843
+        ],
+        [
+          837,
+          433,
+          1254,
+          843
+        ],
+        [
+          0,
+          843,
+          426,
+          1254
+        ],
+        [
+          426,
+          843,
+          839,
+          1254
+        ],
+        [
+          839,
+          843,
+          1254,
+          1254
+        ]
+      ],
+      "landmark_units": "pixels",
+      "operation_mark": {
+        "kind": "move",
+        "family": "golden"
+      }
+    },
+    {
+      "id": "alternate",
+      "role": "UpArrow",
+      "label": "候选选择",
+      "idea": "抬头看向上箭头，眨眼、抬爪，箭头尖定位",
+      "file": "alternate.ani",
+      "variants": {
+        "32": "32/alternate.ani",
+        "48": "48/alternate.ani",
+        "64": "64/alternate.ani",
+        "96": "96/alternate.ani",
+        "128": "128/alternate.ani"
+      },
+      "hotspots": {
+        "32": [
+          6,
+          2
+        ],
+        "48": [
+          9,
+          3
+        ],
+        "64": [
+          12,
+          4
+        ],
+        "96": [
+          18,
+          6
+        ],
+        "128": [
+          24,
+          8
+        ]
+      },
+      "animated": true,
+      "frame_count": 9,
+      "sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "ticks": [
+        24,
+        3,
+        3,
+        3,
+        6,
+        3,
+        3,
+        3,
+        6
+      ],
+      "source": "assets/golden-light-pixel/alternate.png",
+      "landmarks": [
+        [
+          79,
+          38
+        ],
+        [
+          53,
+          37
+        ],
+        [
+          44,
+          37
+        ],
+        [
+          79,
+          17
+        ],
+        [
+          53,
+          17
+        ],
+        [
+          43,
+          17
+        ],
+        [
+          79,
+          1
+        ],
+        [
+          53,
+          1
+        ],
+        [
+          44,
+          1
+        ]
+      ],
+      "unique_frame_count": 9,
+      "animation_fps": 10.0,
+      "visual_fps": 10.0,
+      "peak_fps": 20.0,
+      "cycle_ms": 900.0,
+      "pixel_art": true,
+      "unique_frame_counts": {
+        "32": 9,
+        "48": 9,
+        "64": 9,
+        "96": 9,
+        "128": 9
+      },
+      "animation_stats_by_size": {
+        "32": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "48": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "64": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "96": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "128": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        }
+      },
+      "native_pixel_size": 48,
+      "pixel_alpha_threshold": 128,
+      "pixel_palette_colors": 48,
+      "source_rects": [
+        [
+          0,
+          0,
+          418,
+          422
+        ],
+        [
+          418,
+          0,
+          836,
+          422
+        ],
+        [
+          836,
+          0,
+          1254,
+          422
+        ],
+        [
+          0,
+          422,
+          418,
+          836
+        ],
+        [
+          418,
+          422,
+          836,
+          836
+        ],
+        [
+          836,
+          422,
+          1254,
+          836
+        ],
+        [
+          0,
+          836,
+          418,
+          1254
+        ],
+        [
+          418,
+          836,
+          836,
+          1254
+        ],
+        [
+          836,
+          836,
+          1254,
+          1254
+        ]
+      ],
+      "landmark_units": "pixels",
+      "operation_mark": {
+        "kind": "alternate",
+        "family": "golden"
+      }
+    },
+    {
+      "id": "link",
+      "role": "Hand",
+      "label": "链接选择",
+      "idea": "闭嘴嗅闻，鼻翼和垂耳轻轻动，鼻尖定位",
+      "file": "link.ani",
+      "variants": {
+        "32": "32/link.ani",
+        "48": "48/link.ani",
+        "64": "64/link.ani",
+        "96": "96/link.ani",
+        "128": "128/link.ani"
+      },
+      "hotspots": {
+        "32": [
+          3,
+          9
+        ],
+        "48": [
+          3,
+          13
+        ],
+        "64": [
+          4,
+          17
+        ],
+        "96": [
+          6,
+          26
+        ],
+        "128": [
+          8,
+          35
+        ]
+      },
+      "animated": true,
+      "frame_count": 9,
+      "sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "ticks": [
+        30,
+        3,
+        3,
+        3,
+        6,
+        3,
+        3,
+        3,
+        6
+      ],
+      "source": "assets/golden-light-pixel/link.png",
+      "landmarks": [
+        [
+          61,
+          133
+        ],
+        [
+          25,
+          134
+        ],
+        [
+          19,
+          133
+        ],
+        [
+          54,
+          109
+        ],
+        [
+          26,
+          110
+        ],
+        [
+          16,
+          110
+        ],
+        [
+          54,
+          87
+        ],
+        [
+          25,
+          87
+        ],
+        [
+          17,
+          87
+        ]
+      ],
+      "unique_frame_count": 9,
+      "animation_fps": 9.0,
+      "visual_fps": 9.0,
+      "peak_fps": 20.0,
+      "cycle_ms": 1000.0,
+      "pixel_art": true,
+      "unique_frame_counts": {
+        "32": 9,
+        "48": 9,
+        "64": 9,
+        "96": 9,
+        "128": 9
+      },
+      "animation_stats_by_size": {
+        "32": {
+          "unique_frame_count": 9,
+          "animation_fps": 9.0,
+          "visual_fps": 9.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 1000.0
+        },
+        "48": {
+          "unique_frame_count": 9,
+          "animation_fps": 9.0,
+          "visual_fps": 9.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 1000.0
+        },
+        "64": {
+          "unique_frame_count": 9,
+          "animation_fps": 9.0,
+          "visual_fps": 9.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 1000.0
+        },
+        "96": {
+          "unique_frame_count": 9,
+          "animation_fps": 9.0,
+          "visual_fps": 9.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 1000.0
+        },
+        "128": {
+          "unique_frame_count": 9,
+          "animation_fps": 9.0,
+          "visual_fps": 9.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 1000.0
+        }
+      },
+      "native_pixel_size": 48,
+      "pixel_alpha_threshold": 128,
+      "pixel_palette_colors": 48,
+      "source_rects": [
+        [
+          0,
+          0,
+          426,
+          418
+        ],
+        [
+          426,
+          0,
+          836,
+          418
+        ],
+        [
+          836,
+          0,
+          1254,
+          418
+        ],
+        [
+          0,
+          418,
+          423,
+          836
+        ],
+        [
+          423,
+          418,
+          836,
+          836
+        ],
+        [
+          836,
+          418,
+          1254,
+          836
+        ],
+        [
+          0,
+          836,
+          424,
+          1254
+        ],
+        [
+          424,
+          836,
+          836,
+          1254
+        ],
+        [
+          836,
+          836,
+          1254,
+          1254
+        ]
+      ],
+      "landmark_units": "pixels",
+      "hotspot_overrides": {
+        "32": [
+          3,
+          9
+        ]
+      }
+    },
+    {
+      "id": "pin",
+      "role": "Pin",
+      "label": "位置选择",
+      "idea": "闭嘴嗅闻，垂耳轻动，带小定位徽记，鼻尖定位",
+      "file": "pin.ani",
+      "variants": {
+        "32": "32/pin.ani",
+        "48": "48/pin.ani",
+        "64": "64/pin.ani",
+        "96": "96/pin.ani",
+        "128": "128/pin.ani"
+      },
+      "hotspots": {
+        "32": [
+          2,
+          9
+        ],
+        "48": [
+          3,
+          13
+        ],
+        "64": [
+          4,
+          17
+        ],
+        "96": [
+          6,
+          26
+        ],
+        "128": [
+          8,
+          35
+        ]
+      },
+      "animated": true,
+      "frame_count": 9,
+      "sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "ticks": [
+        24,
+        3,
+        3,
+        3,
+        6,
+        3,
+        3,
+        3,
+        6
+      ],
+      "source": "assets/golden-light-pixel/pin.png",
+      "landmarks": [
+        [
+          38,
+          122
+        ],
+        [
+          20,
+          122
+        ],
+        [
+          18,
+          121
+        ],
+        [
+          38,
+          105
+        ],
+        [
+          21,
+          108
+        ],
+        [
+          19,
+          108
+        ],
+        [
+          38,
+          92
+        ],
+        [
+          21,
+          92
+        ],
+        [
+          19,
+          93
+        ]
+      ],
+      "unique_frame_count": 9,
+      "animation_fps": 10.0,
+      "visual_fps": 10.0,
+      "peak_fps": 20.0,
+      "cycle_ms": 900.0,
+      "pixel_art": true,
+      "unique_frame_counts": {
+        "32": 9,
+        "48": 9,
+        "64": 9,
+        "96": 9,
+        "128": 9
+      },
+      "animation_stats_by_size": {
+        "32": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "48": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "64": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "96": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "128": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        }
+      },
+      "native_pixel_size": 48,
+      "pixel_alpha_threshold": 128,
+      "pixel_palette_colors": 48,
+      "source_rects": [
+        [
+          0,
+          0,
+          418,
+          418
+        ],
+        [
+          418,
+          0,
+          836,
+          418
+        ],
+        [
+          836,
+          0,
+          1254,
+          418
+        ],
+        [
+          0,
+          418,
+          418,
+          836
+        ],
+        [
+          418,
+          418,
+          836,
+          836
+        ],
+        [
+          836,
+          418,
+          1254,
+          836
+        ],
+        [
+          0,
+          836,
+          418,
+          1254
+        ],
+        [
+          418,
+          836,
+          836,
+          1254
+        ],
+        [
+          836,
+          836,
+          1254,
+          1254
+        ]
+      ],
+      "landmark_units": "pixels"
+    },
+    {
+      "id": "person",
+      "role": "Person",
+      "label": "人员选择",
+      "idea": "开心认出熟人，眨眼、动耳，带小人形徽记，鼻尖定位",
+      "file": "person.ani",
+      "variants": {
+        "32": "32/person.ani",
+        "48": "48/person.ani",
+        "64": "64/person.ani",
+        "96": "96/person.ani",
+        "128": "128/person.ani"
+      },
+      "hotspots": {
+        "32": [
+          2,
+          9
+        ],
+        "48": [
+          3,
+          13
+        ],
+        "64": [
+          4,
+          17
+        ],
+        "96": [
+          6,
+          26
+        ],
+        "128": [
+          8,
+          35
+        ]
+      },
+      "animated": true,
+      "frame_count": 9,
+      "sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "ticks": [
+        24,
+        3,
+        3,
+        3,
+        6,
+        3,
+        3,
+        3,
+        6
+      ],
+      "source": "assets/golden-light-pixel/person.png",
+      "landmarks": [
+        [
+          29,
+          126
+        ],
+        [
+          37,
+          126
+        ],
+        [
+          38,
+          126
+        ],
+        [
+          30,
+          103
+        ],
+        [
+          36,
+          104
+        ],
+        [
+          39,
+          103
+        ],
+        [
+          30,
+          94
+        ],
+        [
+          36,
+          94
+        ],
+        [
+          36,
+          94
+        ]
+      ],
+      "unique_frame_count": 9,
+      "animation_fps": 10.0,
+      "visual_fps": 10.0,
+      "peak_fps": 20.0,
+      "cycle_ms": 900.0,
+      "pixel_art": true,
+      "unique_frame_counts": {
+        "32": 9,
+        "48": 9,
+        "64": 9,
+        "96": 9,
+        "128": 9
+      },
+      "animation_stats_by_size": {
+        "32": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "48": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "64": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "96": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        },
+        "128": {
+          "unique_frame_count": 9,
+          "animation_fps": 10.0,
+          "visual_fps": 10.0,
+          "peak_fps": 20.0,
+          "cycle_ms": 900.0
+        }
+      },
+      "native_pixel_size": 48,
+      "pixel_alpha_threshold": 128,
+      "pixel_palette_colors": 48,
+      "source_rects": [
+        [
+          0,
+          0,
+          418,
+          423
+        ],
+        [
+          418,
+          0,
+          836,
+          423
+        ],
+        [
+          836,
+          0,
+          1254,
+          423
+        ],
+        [
+          0,
+          423,
+          418,
+          836
+        ],
+        [
+          418,
+          423,
+          836,
+          836
+        ],
+        [
+          836,
+          423,
+          1254,
+          836
+        ],
+        [
+          0,
+          836,
+          418,
+          1254
+        ],
+        [
+          418,
+          836,
+          838,
+          1254
+        ],
+        [
+          838,
+          836,
+          1254,
+          1254
+        ]
+      ],
+      "landmark_units": "pixels"
+    }
+  ],
+  "scheme_order": [
+    "Arrow",
+    "Help",
+    "AppStarting",
+    "Wait",
+    "Crosshair",
+    "IBeam",
+    "NWPen",
+    "No",
+    "SizeNS",
+    "SizeWE",
+    "SizeNWSE",
+    "SizeNESW",
+    "SizeAll",
+    "UpArrow",
+    "Hand",
+    "Pin",
+    "Person"
+  ],
+  "system_settings_modified": false,
+  "pixel_art": true
+}

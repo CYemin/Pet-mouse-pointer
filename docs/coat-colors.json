@@ -32,7 +32,8 @@
         ],
         "merle_patches": []
       },
-      "stage": "static-design"
+      "stage": "complete-theme",
+      "theme": "sheltie-dark-sable-pixel"
     },
     {
       "id": "sheltie-bi-black",
@@ -48,7 +49,8 @@
         ],
         "merle_patches": []
       },
-      "stage": "static-design"
+      "stage": "complete-theme",
+      "theme": "sheltie-bi-black-pixel"
     },
     {
       "id": "sheltie-tricolor",
@@ -106,7 +108,8 @@
           "rear-mane"
         ]
       },
-      "stage": "static-design"
+      "stage": "complete-theme",
+      "theme": "sheltie-bi-blue-pixel"
     },
     {
       "id": "golden-cream",
@@ -131,7 +134,8 @@
         "white_regions": [],
         "merle_patches": []
       },
-      "stage": "static-design"
+      "stage": "complete-theme",
+      "theme": "golden-light-pixel"
     },
     {
       "id": "golden-golden",

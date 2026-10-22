@@ -2,34 +2,46 @@
 
 用自己的宠物照片，制作一套有表情、有动作、可以安装和恢复的 Windows 鼠标指针。
 
-项目包含可复用的 **Pet Cursor Theme Skill**、CUR/ANI 构建与验证脚本，以及六套可直接下载的像素主题。Skill 支持根据照片设计新角色，也支持在已批准角色上扩展毛色版本，保留动作、鼻尖点击点与清楚的操作标记。
+项目包含可复用的 **Pet Cursor Theme Skill**、CUR/ANI 构建与验证脚本，以及十套可直接下载的像素动画主题。Skill 支持根据照片设计新角色，也支持在已批准角色上扩展毛色版本，保留动作、鼻尖点击点与清楚的操作标记。
 
 ## 下载现成主题
 
 | 主题 | 特征 | 下载 |
 |---|---|---|
-| 喜乐蒂 · 金貂色 | 金棕毛、白额纹、长嘴筒与折耳 | [完整 ZIP](downloads/pet-pixel-complete.zip?raw=1) · [说明](themes/pet-pixel-complete/README.md) |
-| 金毛 · 奶油白 | 宽脸、垂耳、粉褐鼻与绿色胸背 | [完整 ZIP](downloads/golden-cream-pixel.zip?raw=1) · [说明](themes/golden-cream-pixel/README.md) |
+| 金貂喜乐蒂 | 金棕毛色、白额纹与长嘴筒 | [完整 ZIP](downloads/pet-pixel-complete.zip?raw=1) · [说明](themes/pet-pixel-complete/README.md) |
+| 奶油白金毛 | 奶油宽脸、垂耳与绿色胸背 | [完整 ZIP](downloads/golden-cream-pixel.zip?raw=1) · [说明](themes/golden-cream-pixel/README.md) |
 | 三色喜乐蒂 | 黑色底毛、棕色眉颊、白色围脖 | [完整 ZIP](downloads/sheltie-tricolor-pixel.zip?raw=1) · [说明](themes/sheltie-tricolor-pixel/README.md) |
 | 蓝陨喜乐蒂 | 银灰黑斑、棕色眉颊、白色围脖 | [完整 ZIP](downloads/sheltie-blue-merle-pixel.zip?raw=1) · [说明](themes/sheltie-blue-merle-pixel/README.md) |
 | 标准金毛 | 蜂蜜金毛发、粉褐鼻、绿色胸背 | [完整 ZIP](downloads/golden-standard-pixel.zip?raw=1) · [说明](themes/golden-standard-pixel/README.md) |
 | 深金毛 | 铜金毛发、较深垂耳、绿色胸背 | [完整 ZIP](downloads/golden-dark-pixel.zip?raw=1) · [说明](themes/golden-dark-pixel/README.md) |
+| 深貂色喜乐蒂 | 深棕耳冠与后鬃、暖棕脸颊、白色围脖 | [完整 ZIP](downloads/sheltie-dark-sable-pixel.zip?raw=1) · [说明](themes/sheltie-dark-sable-pixel/README.md) |
+| 黑白喜乐蒂 | 炭黑底毛、白额纹与围脖、无棕色眉颊 | [完整 ZIP](downloads/sheltie-bi-black-pixel.zip?raw=1) · [说明](themes/sheltie-bi-black-pixel/README.md) |
+| 双色蓝喜乐蒂 | 银灰黑斑与白色围脖、无棕色眉颊 | [完整 ZIP](downloads/sheltie-bi-blue-pixel.zip?raw=1) · [说明](themes/sheltie-bi-blue-pixel/README.md) |
+| 浅金毛 | 浅麦金毛发、暖金垂耳、绿色胸背 | [完整 ZIP](downloads/golden-light-pixel.zip?raw=1) · [说明](themes/golden-light-pixel/README.md) |
 
-六套均包含 **17 种动画状态**与 **32 / 48 / 64 / 96 / 128px** 五种尺寸，默认48px。
+十套均包含 **17 种动画状态**与 **32 / 48 / 64 / 96 / 128px** 五种尺寸，默认48px。
 
 ### 毛色对照
 
-当前有10款静态毛色设计，其中6款已有完整主题。深貂色、黑白、双色蓝喜乐蒂与浅金毛目前仅有配色母版。
+毛色对照中的10款均已有完整动画主题：6款喜乐蒂、4款金毛。深貂色、黑白、双色蓝喜乐蒂和浅金毛现已补齐全部动作，不再仅提供静态母版。
 
 ![10款毛色对照](docs/images/coat-colors.png)
 
 ### 更清楚的操作箭头
 
-六套主题的上下、左右、两种斜向缩放、移动与候选选择箭头均已放大，使用统一像素符号，并与宠物脸部分开放置。正常选择仍由鼻尖点击；缩放与移动在符号中心定位，候选选择在向上箭头尖定位。
+十套主题的上下、左右、两种斜向缩放、移动与候选选择均使用统一的大号像素箭头，并与宠物脸部分开放置。正常选择仍由鼻尖点击；缩放与移动在符号中心定位，候选选择在向上箭头尖定位。
 
-![六套主题箭头：旧48px、新48px与3倍放大对照](docs/images/larger-operation-arrows.png)
+下图展示首六套的箭头升级，新增四套沿用相同符号与尺寸。
+
+![首六套箭头：旧48px、新48px与3倍放大对照](docs/images/larger-operation-arrows.png)
 
 ### 动画预览
+
+| 深貂色喜乐蒂 | 黑白喜乐蒂 |
+|---|---|
+| ![深貂动作](docs/images/sheltie-dark-sable-pixel.gif) | ![黑白动作](docs/images/sheltie-bi-black-pixel.gif) |
+| 双色蓝喜乐蒂 | 浅金毛 |
+| ![双色蓝动作](docs/images/sheltie-bi-blue-pixel.gif) | ![浅金动作](docs/images/golden-light-pixel.gif) |
 
 | 三色喜乐蒂 | 蓝陨喜乐蒂 |
 |---|---|
@@ -157,9 +169,9 @@ Windows 原生检查会验证 CUR/ANI 结构、各尺寸、每个嵌入帧的加
 
 ### 示例验证范围
 
-- 六套主题均有 Windows 原生加载、绘制、尺寸和热点检查，以及48/96px的逐帧视觉复查记录，包括循环接缝。
-- 六套共102个状态、1059张源动作导出帧；全部六种功能箭头已统一放大并重新检查。轻微像素轮廓与毛发纹理变化仍可能存在。
-- 自动检测只提供可疑过渡线索，视觉结论见各包内 `motion-review/visual-review.json`。六套汇总见 [验证记录](docs/coat-release-validation.json)。
+- 十套主题均有 Windows 原生加载、绘制、尺寸和热点检查，以及48/96px的逐帧视觉复查记录，包括循环接缝。
+- 十套共170个状态、1770张源动作导出帧；六种功能箭头均采用大号符号。轻微像素轮廓与毛发纹理变化仍可能存在。
+- 自动检测只提供可疑过渡线索，视觉结论见各包内 `motion-review/visual-review.json`。十套汇总见 [验证记录](docs/coat-release-validation.json)。
 - 三个双击入口经过预演检查；原生检查与预演不代表实际替换了系统指针。真实桌面手感、不同DPI和多显示器仍需实际试用。
 
 ### 扩展其他毛色
@@ -175,7 +187,7 @@ skills/pet-cursor-theme/    可复用 Skill、脚本和配置／检查规范
 themes/pet-pixel-complete/ 喜乐蒂主题说明
 themes/golden-cream-pixel/ 奶油金毛主题说明
 themes/*-pixel/           其他毛色主题说明与检查记录
-downloads/                六套可安装 ZIP 与 Skill ZIP
+downloads/                十套可安装 ZIP 与 Skill ZIP
 docs/images/              README 动画预览
 ```
 

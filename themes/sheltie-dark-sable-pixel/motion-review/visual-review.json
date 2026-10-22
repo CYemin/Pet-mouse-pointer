@@ -1,0 +1,860 @@
+{
+  "status": "passed",
+  "asset_revision": "00a6ae070aa0",
+  "reviewed_at": "2026-10-22T17:00:47.301731+00:00",
+  "reviewer": "Independent Codex agent: bi-black theme author reviewing dark-sable artwork by another agent",
+  "source_manifest": "manifest.json",
+  "source_manifest_sha256": "db3325256749d246cfd159f6c2643c53b075528e95e3702183c86fa9fcaa5359",
+  "reviewed_state_ids": [
+    "normal",
+    "help",
+    "working",
+    "wait",
+    "cross",
+    "text",
+    "pen",
+    "unavailable",
+    "size-ns",
+    "size-we",
+    "size-nwse",
+    "size-nesw",
+    "move",
+    "alternate",
+    "link",
+    "pin",
+    "person"
+  ],
+  "unreviewed_state_ids": [],
+  "sizes_reviewed": [
+    48,
+    96
+  ],
+  "backgrounds_reviewed": [
+    "light",
+    "dark"
+  ],
+  "playback_speeds_reviewed": [
+    "normal",
+    "quarter-speed"
+  ],
+  "coverage": {
+    "state_count": 17,
+    "source_frames": 179,
+    "displayed_steps_per_size": 179,
+    "sequence_edges_across_sizes_including_wrap": 358,
+    "loop_closures_across_sizes": 34,
+    "sequence_sheets_reviewed": 34,
+    "all_sequence_frames_reviewed": true,
+    "all_adjacent_transitions_and_last_to_first_reviewed": true,
+    "exhaustive_transition_method": "Viewed all34 exported full-sequence PNGs, both light and dark tiles, all adjacent displayed frames and explicit frame0 loop return. Final rebuilt alternate/size-nesw four sheets reviewed again.",
+    "playback_method": "mcp__cua_repl Chrome actual GIF playback at48/96 normal and quarter speed on paired light/dark backgrounds. All17 states played in six grouped pages and observed at multiple phases; final two repaired states played again with revision query to bypass cache. Playback sampled; exhaustive transition coverage comes from complete sequence sheets."
+  },
+  "final_revision_verification": {
+    "prior_asset_revision": "7d5c25ee6394",
+    "unchanged_state_ids": [
+      "normal",
+      "help",
+      "working",
+      "wait",
+      "cross",
+      "text",
+      "pen",
+      "unavailable",
+      "size-ns",
+      "size-we",
+      "size-nwse",
+      "move",
+      "link",
+      "pin",
+      "person"
+    ],
+    "unchanged_frame_png_sha256_count": 820,
+    "all820_independently_rechecked_identical": true,
+    "hash_baseline_file": "review-baseline-other15.json",
+    "final_changed_state_ids": [
+      "alternate",
+      "size-nesw"
+    ],
+    "final_changed_sequences_and_actual_playback_reviewed": true,
+    "explanation": "The15 unaffected states were visually reviewed from revision7d5c25ee6394. Their820 exported frame PNGs are byte-identical at final revision00a6ae070aa0. Two repaired states were rechecked in final sequence sheets and actual normal/quarter-speed browser playback."
+  },
+  "automatic_report": {
+    "file": "automatic-report.json",
+    "candidate_count": 0,
+    "automatic_report_alone_used_as_visual_pass": false
+  },
+  "resolved_findings": [
+    {
+      "state": "alternate",
+      "original_issue": "Detached2px brown old-arrow fragments in frames2,3,5,6,7,8.",
+      "decision": "Targeted removal calibration rebuilt; final4-sheet/GIF review confirms eliminated."
+    },
+    {
+      "state": "size-nesw",
+      "original_issue": "Detached3/4px brown old-arrow bar in all9frames.",
+      "decision": "Targeted removal calibration rebuilt; final4-sheet/GIF review confirms eliminated."
+    }
+  ],
+  "state_reviews": [
+    {
+      "id": "normal",
+      "status": "passed",
+      "displayed_sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "transitions_per_size_including_wrap": 15,
+      "loop_return_reviewed": true,
+      "decision": "Nose fixed; continuous ruff breeze with stable eye socket and muzzle; loop has no whole-head shift."
+    },
+    {
+      "id": "help",
+      "status": "passed",
+      "displayed_sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "transitions_per_size_including_wrap": 16,
+      "loop_return_reviewed": true,
+      "decision": "Question mark growth/shrink is deliberate; puzzled head and chest stable. Extra32px all16frame overlay confirms hotspot(4,12) on forward nose edge."
+    },
+    {
+      "id": "working",
+      "status": "passed",
+      "displayed_sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "transitions_per_size_including_wrap": 12,
+      "loop_return_reviewed": true,
+      "decision": "Ear rises and lowers smoothly, blue/cyan working dots distinguishable; stable eye/muzzle/chest."
+    },
+    {
+      "id": "wait",
+      "status": "passed",
+      "displayed_sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "transitions_per_size_including_wrap": 16,
+      "loop_return_reviewed": true,
+      "decision": "Intentional sleep and wake sequence plus floating ZZZ, paws and nose anchored; loop returns coherently."
+    },
+    {
+      "id": "cross",
+      "status": "passed",
+      "displayed_sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "transitions_per_size_including_wrap": 9,
+      "loop_return_reviewed": true,
+      "decision": "Raised paw and blink purposeful; fixed crosshair contact and stable head."
+    },
+    {
+      "id": "text",
+      "status": "passed",
+      "displayed_sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "transitions_per_size_including_wrap": 9,
+      "loop_return_reviewed": true,
+      "decision": "Fixed insertion beam; blink/ear/fur movement without head translation or scale pop."
+    },
+    {
+      "id": "pen",
+      "status": "passed",
+      "displayed_sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "transitions_per_size_including_wrap": 9,
+      "loop_return_reviewed": true,
+      "decision": "Pencil point stable; yellow pencil and pink eraser distinct; no abrupt face shift."
+    },
+    {
+      "id": "unavailable",
+      "status": "passed",
+      "displayed_sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "transitions_per_size_including_wrap": 9,
+      "loop_return_reviewed": true,
+      "decision": "Red prohibition sign and raised paw remain readable; blinking/ear pose changes coherent."
+    },
+    {
+      "id": "size-ns",
+      "status": "passed",
+      "displayed_sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "transitions_per_size_including_wrap": 9,
+      "loop_return_reviewed": true,
+      "decision": "Large vertical arrow fixed and separated from animated pet; no clipping residue."
+    },
+    {
+      "id": "size-we",
+      "status": "passed",
+      "displayed_sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "transitions_per_size_including_wrap": 9,
+      "loop_return_reviewed": true,
+      "decision": "Large horizontal arrow fixed; blink and paw movement coherent, no whole-pet jump."
+    },
+    {
+      "id": "size-nwse",
+      "status": "passed",
+      "displayed_sequence": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        1,
+        7
+      ],
+      "transitions_per_size_including_wrap": 9,
+      "loop_return_reviewed": true,
+      "decision": "Diagonal arrow fixed with clear heads; reordered blink/paw sequence and wrap coherent."
+    },
+    {
+      "id": "size-nesw",
+      "status": "passed",
+      "displayed_sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "transitions_per_size_including_wrap": 9,
+      "loop_return_reviewed": true,
+      "decision": "Final repaired frames have no old-arrow floating bar; large fixed diagonal arrow and pet remain distinct, no severe jitter at any transition or wrap."
+    },
+    {
+      "id": "move",
+      "status": "passed",
+      "displayed_sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "transitions_per_size_including_wrap": 9,
+      "loop_return_reviewed": true,
+      "decision": "Large four-way mark fixed; pet eye/ear/tongue motion purposeful and stable."
+    },
+    {
+      "id": "alternate",
+      "status": "passed",
+      "displayed_sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "transitions_per_size_including_wrap": 9,
+      "loop_return_reviewed": true,
+      "decision": "Final repaired frames have no detached old-arrow points; upward arrow fixed, no pose or scale pop; all loop transitions rechecked."
+    },
+    {
+      "id": "link",
+      "status": "passed",
+      "displayed_sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "transitions_per_size_including_wrap": 12,
+      "loop_return_reviewed": true,
+      "decision": "Closed-mouth sniffing and blink retained; fixed nose, stable socket and chest."
+    },
+    {
+      "id": "pin",
+      "status": "passed",
+      "displayed_sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "transitions_per_size_including_wrap": 9,
+      "loop_return_reviewed": true,
+      "decision": "Nose contact fixed, pin badge remains attached visually; no severe unintended shifts."
+    },
+    {
+      "id": "person",
+      "status": "passed",
+      "displayed_sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "transitions_per_size_including_wrap": 9,
+      "loop_return_reviewed": true,
+      "decision": "Recognition blink/ear action coherent; nose and person badge stable."
+    }
+  ],
+  "severe_unresolved_issues": [],
+  "limitations": [
+    "Mild one-native-pixel fur/contour texture variations remain visible, without severe global translation or scale jumps.",
+    "Actual Windows desktop application/restoration, subjective clicking feel and multi-monitor/DPI switching were not performed.",
+    "32px extra visual coverage is limited to Help nose-hotspot validation; exhaustive sequence visual coverage is48/96px."
+  ],
+  "evidence": {
+    "reviewed_sequences_and_playback_files": [
+      {
+        "file": "normal-48-full-sequence.png",
+        "sha256": "55a7bf40d74672db170f394c3837ca80a24d4bc27c6dd256f8ab4204da1eb4e2"
+      },
+      {
+        "file": "normal-48-normal.gif",
+        "sha256": "bb8e035c7190d67f23f8470a166b427389631006d04631e263ccaf0e7a2a6a63"
+      },
+      {
+        "file": "normal-48-slow.gif",
+        "sha256": "753d2e15cfb48d07f3b24e73a871f2f783445246ab2fa7f30ad61c1bc9099643"
+      },
+      {
+        "file": "normal-96-full-sequence.png",
+        "sha256": "f902b8bda64198e26e774b0a7c63fe812a847c97afec1d91456456ffc45b2516"
+      },
+      {
+        "file": "normal-96-normal.gif",
+        "sha256": "149df11059a5e3e07aa0cbfcbc2da4bfab4aec24adbad86a13ca6fdad5407fc5"
+      },
+      {
+        "file": "normal-96-slow.gif",
+        "sha256": "a6bb30bb85fe9b21b37ff456804b1232d23b88e94f63efb513390fa8aa865c26"
+      },
+      {
+        "file": "help-48-full-sequence.png",
+        "sha256": "d4ce45404d2c21fcaddd8f08491405c06f73cda6d2cfc0f0af217054f278f149"
+      },
+      {
+        "file": "help-48-normal.gif",
+        "sha256": "2f47610d9a45897094414a8d18f2fe8d84bafefc6e6c23062eb4fbe955c6de1e"
+      },
+      {
+        "file": "help-48-slow.gif",
+        "sha256": "ac291add51d4d9e44be239f8df6f66a4e2d6e0f5363aaee88cafaaed00c8ab8c"
+      },
+      {
+        "file": "help-96-full-sequence.png",
+        "sha256": "eaee67585ffcaf1ded0868843863a448c1033eeeb34c86e4123923e0fade6721"
+      },
+      {
+        "file": "help-96-normal.gif",
+        "sha256": "57a994f70112f9885359b1dc1db6f219f42b93b3415ff7a073716761edea86bb"
+      },
+      {
+        "file": "help-96-slow.gif",
+        "sha256": "10a8835f7901a77a7c3933b38a20c7c541653864e05403457c6d45e54088a595"
+      },
+      {
+        "file": "working-48-full-sequence.png",
+        "sha256": "591c80d92223987661a47a7a54f25624a184d9cf9715bafe8812f3e82e4b4a41"
+      },
+      {
+        "file": "working-48-normal.gif",
+        "sha256": "75b079e217c529c838163600559c8969e592f6098d28df35c1c6a3057082d906"
+      },
+      {
+        "file": "working-48-slow.gif",
+        "sha256": "02efdbdbf2ed383171c33beb701ab051f934d70a5a1a644553f95ad6bd02d411"
+      },
+      {
+        "file": "working-96-full-sequence.png",
+        "sha256": "88ea16a69e8f7e1e1fb0f5266c20fb55d55372e246253b888a8ebd2b1fb79c0f"
+      },
+      {
+        "file": "working-96-normal.gif",
+        "sha256": "a063affa354677a686c5440949b46693bf0550e21ce4e238710744cefc6d07a0"
+      },
+      {
+        "file": "working-96-slow.gif",
+        "sha256": "bfee5afd1d2eec07db60d15650c6d5226c57ed0f44edf649fdbb15f58877c8ae"
+      },
+      {
+        "file": "wait-48-full-sequence.png",
+        "sha256": "46eea4b4f75f493fe3bd1b34e589a5a4fcb8c28e811af39b6a9b00b9c98dfb51"
+      },
+      {
+        "file": "wait-48-normal.gif",
+        "sha256": "15b7216c95e328172f2d1f2f342f9c392897bcc0587a93f26de2db649bd1c8e6"
+      },
+      {
+        "file": "wait-48-slow.gif",
+        "sha256": "4545dda39ff17df5e842f7f989c0eea0ae8c178200964febbd709cac8fca0d8c"
+      },
+      {
+        "file": "wait-96-full-sequence.png",
+        "sha256": "15972ca4a96c33905a0af7a0bfdd463b1af89d1578af4070d0c054e5f4107a43"
+      },
+      {
+        "file": "wait-96-normal.gif",
+        "sha256": "f6cf9126100f508fa7c656092c539fe5eba47ef0cd960bd3fab28cd931e02573"
+      },
+      {
+        "file": "wait-96-slow.gif",
+        "sha256": "097c8d22620db38dbea68c8fc944ddd7f6253a661157c3596bf0af4e43a0d92e"
+      },
+      {
+        "file": "cross-48-full-sequence.png",
+        "sha256": "1ea5a537d9060d6ef1ee2c115a99e936579ed76a92eb709fa64dc700c7290f78"
+      },
+      {
+        "file": "cross-48-normal.gif",
+        "sha256": "73c1bf5f39604c3d91911662f082071891d463e3ba61b90feebba6373bdae5cc"
+      },
+      {
+        "file": "cross-48-slow.gif",
+        "sha256": "256a9901108d1f854e662a5d2c9ed0d6e2089d6a439bfdf7e3bfc9f4ffa22fbe"
+      },
+      {
+        "file": "cross-96-full-sequence.png",
+        "sha256": "14292d9352dfb01941249f3216aba34bd73f1adaf9514625ce25dc35ba122c8e"
+      },
+      {
+        "file": "cross-96-normal.gif",
+        "sha256": "ee71415212d342938979d6ec77e24f85c31999ce0883af5d1156ddbc37ccc810"
+      },
+      {
+        "file": "cross-96-slow.gif",
+        "sha256": "72abc2ab6a96351d03f4c037f0e80a6a2f2524ced0afca18158a8e579fabf283"
+      },
+      {
+        "file": "text-48-full-sequence.png",
+        "sha256": "c7a0778649e2d551060c690e652ecb37d5c8b2beca3dd9195ecf4ddfc9218954"
+      },
+      {
+        "file": "text-48-normal.gif",
+        "sha256": "ea50cb496f9cbeb696762f4076c3c03e412d9c3c6288bd8288da9c44125e6d63"
+      },
+      {
+        "file": "text-48-slow.gif",
+        "sha256": "288304c331e45761a27a070a64d9af74eecf1e2073b02fb7a929344f7bfc2c7b"
+      },
+      {
+        "file": "text-96-full-sequence.png",
+        "sha256": "a7725362b23e43f9f5f2e36a36e543f8988e1b0356e79a98ec46039f9cbf2415"
+      },
+      {
+        "file": "text-96-normal.gif",
+        "sha256": "1e1c47647b3bd0ffed20c4be40ec3010e52c9f1ac4afdfac13afd06cef83c9fa"
+      },
+      {
+        "file": "text-96-slow.gif",
+        "sha256": "9d4ce06578569edd92f0f79dc0dc298fee82f20b21fb8ca8df2ea8c19f3b0e05"
+      },
+      {
+        "file": "pen-48-full-sequence.png",
+        "sha256": "81c2c2a9a1a72c7725edfd3d95fe2d400594b33df1a0a86ffc1836dc67e8ea62"
+      },
+      {
+        "file": "pen-48-normal.gif",
+        "sha256": "2b0ea1fc6c1b51124944e5706cadfcd7fedc25b2f829fa8f5a03093aac9aaecd"
+      },
+      {
+        "file": "pen-48-slow.gif",
+        "sha256": "4c602ef13dca3b53963ac5dd18f85c72e2a280930c86d5a78ed07b0295c94049"
+      },
+      {
+        "file": "pen-96-full-sequence.png",
+        "sha256": "74bc3d5328530dff04ab8b9e6e6c8440b1bf4ed01909dc99d74388726f8abe4d"
+      },
+      {
+        "file": "pen-96-normal.gif",
+        "sha256": "d624216e040db677d2ddba48bbb356b9c535272315b1d1f88799374d8f016f9e"
+      },
+      {
+        "file": "pen-96-slow.gif",
+        "sha256": "7436d115aa67829be8450f4c6336a871ea7dee77b8126bec33d54d970d7717f7"
+      },
+      {
+        "file": "unavailable-48-full-sequence.png",
+        "sha256": "29798979744aabbb1beafd6455de3aaf2a8b9505f92e9b3443e90630c153b1ab"
+      },
+      {
+        "file": "unavailable-48-normal.gif",
+        "sha256": "1104906aee551eb84615937f20807c36c407d97fe2835dcbe8d6b4a2c32e415f"
+      },
+      {
+        "file": "unavailable-48-slow.gif",
+        "sha256": "1affff26a18d5db160fe0b8c0e70f900c055bfed51d197989f216b417e31238e"
+      },
+      {
+        "file": "unavailable-96-full-sequence.png",
+        "sha256": "34428909d7c6c27000ffc3c3bcd50c3b0b81aef7ac55da6438b7dbb1e0e18b5f"
+      },
+      {
+        "file": "unavailable-96-normal.gif",
+        "sha256": "56ba5e66349ee20766d94ecabe82ea8835578328d1f9283e341901987edcd27f"
+      },
+      {
+        "file": "unavailable-96-slow.gif",
+        "sha256": "ad28a90b60be08c709d2296a08d429ecab280e1b04b6c096c293d686cfdcc836"
+      },
+      {
+        "file": "size-ns-48-full-sequence.png",
+        "sha256": "26ee6f35cc9aca2e7e2e29214e5f5b16db6a029ff989ab63c1c279bdd32a748e"
+      },
+      {
+        "file": "size-ns-48-normal.gif",
+        "sha256": "0f177c486c3bf5d3d4de18db96fe509604c2e25f0a2316150ac5194b15ebef48"
+      },
+      {
+        "file": "size-ns-48-slow.gif",
+        "sha256": "a0a4d85e7a097466806ca708c7aee7331b7829d93ba26d155441fa25dcfdf43e"
+      },
+      {
+        "file": "size-ns-96-full-sequence.png",
+        "sha256": "e8ea557d367f657c67d56343aecc19345a65559980250445441a1c766fa491c0"
+      },
+      {
+        "file": "size-ns-96-normal.gif",
+        "sha256": "5f85a87bb329d71a33041cbb30f5cf860219618ae5fac11bf24deedbf541817f"
+      },
+      {
+        "file": "size-ns-96-slow.gif",
+        "sha256": "b7b4cbf810402b41adfff1cc509d79e87002062b39c2b0e6e1e32bd42838e2a9"
+      },
+      {
+        "file": "size-we-48-full-sequence.png",
+        "sha256": "1ee6869ff4a766481964fcc988df2c84e9c1550bee4a2f211bba4d03acedc38f"
+      },
+      {
+        "file": "size-we-48-normal.gif",
+        "sha256": "e18b9cb5f3b202970a3cbe671d30d0eefc57b8fb793effe0f0cfb838f1715b10"
+      },
+      {
+        "file": "size-we-48-slow.gif",
+        "sha256": "9247859e027ddf4779144bf43bc4cc79e9b8f00361404116c049095d6c8cb2c9"
+      },
+      {
+        "file": "size-we-96-full-sequence.png",
+        "sha256": "13ffe01f17965c55d101985fff07e9fc5594873e65204ecd05381c4177d6e22e"
+      },
+      {
+        "file": "size-we-96-normal.gif",
+        "sha256": "804c5e722fce3b29981732f8e0e37073384958a0eaf95e25ee9178053a884448"
+      },
+      {
+        "file": "size-we-96-slow.gif",
+        "sha256": "edfa237b37902a747a9fb9338847d87f970e0863cd2a8160b6aff79a3b17f33a"
+      },
+      {
+        "file": "size-nwse-48-full-sequence.png",
+        "sha256": "be72c7726515f4e7c5b9a5a6bf465a877cf06ab7335034ad5be3503ca16b8641"
+      },
+      {
+        "file": "size-nwse-48-normal.gif",
+        "sha256": "df2d84475693733d0d226beae5403e219ef85fc66b6d1e7848d98fc53339b231"
+      },
+      {
+        "file": "size-nwse-48-slow.gif",
+        "sha256": "800c85b99441f9112099b4f452bb167a441651cc8e7f7a4d70a0598997fa6a65"
+      },
+      {
+        "file": "size-nwse-96-full-sequence.png",
+        "sha256": "a0b203529a424ec97dfca072e9ef270d85f1b63cf1777ad83af4169d059b4db4"
+      },
+      {
+        "file": "size-nwse-96-normal.gif",
+        "sha256": "ea2d7d33832cfcf1af034fa37cd58d8f719ced05e7c42e2d7e80bc1b0d6ea15b"
+      },
+      {
+        "file": "size-nwse-96-slow.gif",
+        "sha256": "dc066154cef15ed8954e4ff2b1f26b39ba6509a3ff84a3b78835bc4af8a996f1"
+      },
+      {
+        "file": "size-nesw-48-full-sequence.png",
+        "sha256": "77ebcd0c0c954cf3a86288b6014dd428e8e4b27f7effa544d73100a2df667655"
+      },
+      {
+        "file": "size-nesw-48-normal.gif",
+        "sha256": "53a550ea1f0a198359f25a6dfa2aef0554bf678b23de83c9181e2580df9b3ba1"
+      },
+      {
+        "file": "size-nesw-48-slow.gif",
+        "sha256": "fb1ccf34db9cb155643fa674c1448fd5bea21817e2c2fca241433b7b46464ad9"
+      },
+      {
+        "file": "size-nesw-96-full-sequence.png",
+        "sha256": "b2b030f835a40584e59f585abb5581de697264b723d0949457d7828476d152bb"
+      },
+      {
+        "file": "size-nesw-96-normal.gif",
+        "sha256": "65f01342e599a9a6c5e0d94666ecf8a5f881b1fbed38abc7701bbcd15b19d6da"
+      },
+      {
+        "file": "size-nesw-96-slow.gif",
+        "sha256": "7853c262548fab4566d4a7c2cc4e75ce14881cb477b959f2066e995603961f76"
+      },
+      {
+        "file": "move-48-full-sequence.png",
+        "sha256": "5e6ba24d118dcd51ba535f07d64a2eab1784181f0219b5c69dad7cbb83f7d8da"
+      },
+      {
+        "file": "move-48-normal.gif",
+        "sha256": "b0d8824993642edccf9754fb121e4c103ffcdb9140dd5e28e2ac97a095ab8233"
+      },
+      {
+        "file": "move-48-slow.gif",
+        "sha256": "ab8565e4d1aff942ee84acb39e4f2b55d3026e8b0ea0ef9990ee0e5a63befbf8"
+      },
+      {
+        "file": "move-96-full-sequence.png",
+        "sha256": "9d08d7936eca11159fa81074121a0b478f1ded43df9a7cf7a6a5802151e55193"
+      },
+      {
+        "file": "move-96-normal.gif",
+        "sha256": "2d3312509c4b25f3886a97c9485d9a997197718fcafa4e0b139b16326c8ea908"
+      },
+      {
+        "file": "move-96-slow.gif",
+        "sha256": "060b1f617e1feefdf17b5b5bb2dec4ec225b1a5a24e189448f1cfbfc1831109c"
+      },
+      {
+        "file": "alternate-48-full-sequence.png",
+        "sha256": "24d53d68ba64594eff0b6441183eb075269bf9c8c7ddf12ff0097314e34076e3"
+      },
+      {
+        "file": "alternate-48-normal.gif",
+        "sha256": "51aec0ab1dddb3e4239e98230947724de9a3ad00c2f838592970edd7562469d2"
+      },
+      {
+        "file": "alternate-48-slow.gif",
+        "sha256": "e8692cfa12bb1b8d281399c0610988d98f0f70c7ede7cf37ad18d8bde72b721f"
+      },
+      {
+        "file": "alternate-96-full-sequence.png",
+        "sha256": "d8a5029769d3ef1e12932ca9c6ab14a661ad1ee67a1a02bd475ceb6b63acc86c"
+      },
+      {
+        "file": "alternate-96-normal.gif",
+        "sha256": "801e858e7849a22d0767477cec0299676661b281a8808f841336614bfdfb060d"
+      },
+      {
+        "file": "alternate-96-slow.gif",
+        "sha256": "3c1a32924ad382907297b030cd48d5f66cdc6e2c269cf1f23afe7473198cc25c"
+      },
+      {
+        "file": "link-48-full-sequence.png",
+        "sha256": "ac4ffc6ace3efcda7b0b2bc8e78cf2a7f639453b7e0c2a11fe6af268697cd5e2"
+      },
+      {
+        "file": "link-48-normal.gif",
+        "sha256": "387be768c2e7f84a3e6bf740a25cad0dc2307f60e29889900438a39146235738"
+      },
+      {
+        "file": "link-48-slow.gif",
+        "sha256": "1049c7ed56fbdfec98f49d4698ea9a3bb4a513d84fd04cf4d3085d5e3152f361"
+      },
+      {
+        "file": "link-96-full-sequence.png",
+        "sha256": "747f62537788a2077844f9e458a4f9ca2e87b5ff3ae76b76298482e0ff009667"
+      },
+      {
+        "file": "link-96-normal.gif",
+        "sha256": "d09edd6416a24e57064496cc81b06b9ce1276351901cfca686998c821d09e682"
+      },
+      {
+        "file": "link-96-slow.gif",
+        "sha256": "0f581e40cc4b64c76a2e11cbbf8b952ffb4542d209d3ebab9a09ae8fcbf500f1"
+      },
+      {
+        "file": "pin-48-full-sequence.png",
+        "sha256": "5fbdd4f0c10033fc934e23bd4d4313eeabc14080de270b961ec616d17aa8fd59"
+      },
+      {
+        "file": "pin-48-normal.gif",
+        "sha256": "82beec324cc9b0baa90b9f7c218db6f4c25ae64d81beceea379ff75607bcd136"
+      },
+      {
+        "file": "pin-48-slow.gif",
+        "sha256": "4100ccb03be091676edd91bc0561f3f4b2851c8e5e93961d1a7e701890a788b7"
+      },
+      {
+        "file": "pin-96-full-sequence.png",
+        "sha256": "be93bf8bcf67d2109f8d5971a881de43a698cf9cd8b00cfd9a1803cd420c65e7"
+      },
+      {
+        "file": "pin-96-normal.gif",
+        "sha256": "134ccabeea3d74df6aca2665c1a2805985b1e5807ae65fb628f25ab501f0318e"
+      },
+      {
+        "file": "pin-96-slow.gif",
+        "sha256": "31380a12cca63cfec6f9d6d32f30cac81655bdf9d121bf4f310ac43cfb30b62e"
+      },
+      {
+        "file": "person-48-full-sequence.png",
+        "sha256": "558f5cf3772e810e94d0ec751a4cec35d1970989d6fa6332335ffb33d0ec2832"
+      },
+      {
+        "file": "person-48-normal.gif",
+        "sha256": "4d0808db108562123d8ab239294a52c7c415bd6e289d7b0d65ed0cddf16a7481"
+      },
+      {
+        "file": "person-48-slow.gif",
+        "sha256": "d264d9e4f0ece97c127384b9940486030b669db4cc0a284ee67bac17b61ea384"
+      },
+      {
+        "file": "person-96-full-sequence.png",
+        "sha256": "4f51d584ee9b9aae7f4954619abdf1877404becebfd0dfb641f54dcaa0abc1a6"
+      },
+      {
+        "file": "person-96-normal.gif",
+        "sha256": "dceb72d83ac33e8e4002a0513842bc8dc18b784c7bb421233c6f50468e860f3b"
+      },
+      {
+        "file": "person-96-slow.gif",
+        "sha256": "cf3a98b882f9fdb7f5d6a1976bc0fb1deb39426d043c215944c96e472973148d"
+      }
+    ],
+    "browser_pages": [
+      "visual-group-0.html",
+      "visual-group-1.html",
+      "visual-group-2.html",
+      "visual-group-3.html",
+      "visual-group-4.html",
+      "visual-group-5.html",
+      "visual-final-repair.html"
+    ],
+    "browser_screenshots": "Multiple phase screenshots are present in the review conversation tool output; no local screenshot file claimed."
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "status": "passed",
+  "scope": "Severe unintended translation, scale jumps, clipping and frame/coat-pattern pops",
+  "asset_revision": "27f9a974a52b",
+  "version": "1.0.0",
+  "reviewed_at_utc": "2026-10-22T17:11:56.386920+00:00",
+  "reviewer": "Codex independent sequence reviewer plus root actual CUA playback review",
+  "reviewed_state_ids": [
+    "normal",
+    "help",
+    "working",
+    "wait",
+    "cross",
+    "text",
+    "pen",
+    "unavailable",
+    "size-ns",
+    "size-we",
+    "size-nwse",
+    "size-nesw",
+    "move",
+    "alternate",
+    "link",
+    "pin",
+    "person"
+  ],
+  "sizes_reviewed": [
+    48,
+    96
+  ],
+  "backgrounds": [
+    "light",
+    "dark"
+  ],
+  "native_frames_reviewed": 179,
+  "frame_variants_reviewed": 358,
+  "sequence_edges_reviewed": 358,
+  "loop_closures_reviewed": 34,
+  "methods": [
+    "Independent reviewer actually viewed all 34 full-sequence PNG boards, every adjacent edge and explicit last-to-first return, on both backgrounds. Its detailed coverage is preserved in the linked sequence review.",
+    "Root used CUA and Chromium to view all 17 states in six groups with native48 and96, normal and quarter-speed GIFs. Distinct live phases were observed; exhaustive edge coverage comes from sequence boards, not a claim that one screenshot is a video.",
+    "Compared visible nose, eye socket, muzzle and chest, fixed operation symbols, coat topology and identifying accessory colors; distinguished intentional blinks/ear/fur/paw/question/ZZZ actions from placement defects.",
+    "Automatic registration estimates and native loading were supporting checks, not substitutes for visual review."
+  ],
+  "sequence_review_evidence": "motion-review/visual-sequence-review.json",
+  "sequence_review_sha256": "4a49352ad5e9f9ce3a470a4378ecb990a6ff79cf05e0bf17e41a3ae8fa0356b9",
+  "browser_review_page": "motion-review/root-visual-playback.html",
+  "browser_review_groups": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "severe_anomalies_observed": [],
+  "remaining_limitations": [
+    "Small local fur, cheek, ear and chest contour differences remain between drawings, especially at96px.",
+    "Intentional animated eye, ear, fur, paw and status-symbol changes remain visible.",
+    "Actual installed desktop click feel, mixed-DPI and multi-monitor behavior were not tested."
+  ],
+  "evidence_files": [
+    {
+      "file": "motion-review/normal-48-full-sequence.png",
+      "sha256": "5cc81254eead1bcf1c442d519b547084567487212d918bcc04ea93f01fd67b8c"
+    },
+    {
+      "file": "motion-review/normal-96-full-sequence.png",
+      "sha256": "6c37fa5b23334eb96c811d6cfee8b9cc077eb9be07be091b41e4ccf03c0d0c16"
+    },
+    {
+      "file": "motion-review/help-48-full-sequence.png",
+      "sha256": "4e051fb7f81c1afc9d9cdc0b97e8dc1095d4f1a892c9f36a907b69d216746d9e"
+    },
+    {
+      "file": "motion-review/help-96-full-sequence.png",
+      "sha256": "bd8df40fba7e7d6ac82c24e4997ebc60ba9a8189a275fed223d29f8c3aacb461"
+    },
+    {
+      "file": "motion-review/working-48-full-sequence.png",
+      "sha256": "613c4c32b0a350e36fa4b49ab7d53a6ba2fd66d9574a100c2852717801cb3e47"
+    },
+    {
+      "file": "motion-review/working-96-full-sequence.png",
+      "sha256": "3a8d03917eb51b6b3f2369b1b455a048b47dffef54a11ae415a41cf2d63e5f19"
+    },
+    {
+      "file": "motion-review/wait-48-full-sequence.png",
+      "sha256": "859974c9fa8a24041db8460be190da05f860fdfb02d70f1f13a8f1b2d4a4a759"
+    },
+    {
+      "file": "motion-review/wait-96-full-sequence.png",
+      "sha256": "cea0820d3e5d8961c9654d1624107e2ffbe2198723e375a2bb82a00001eae2b9"
+    },
+    {
+      "file": "motion-review/cross-48-full-sequence.png",
+      "sha256": "8da8e42d9391c773d131c09e8e50b09c9d629323ae3a9b57d56cbc4f4f4f6227"
+    },
+    {
+      "file": "motion-review/cross-96-full-sequence.png",
+      "sha256": "60dae0ad43c2e3d2af48fec13107a6b5a3a064fc1e7ceb5a19f5d2227c18ba58"
+    },
+    {
+      "file": "motion-review/text-48-full-sequence.png",
+      "sha256": "e231702cd428e8db8f50c90cd3ddd33ff86da98c5e043dcf2e1be4074acef47b"
+    },
+    {
+      "file": "motion-review/text-96-full-sequence.png",
+      "sha256": "4e74952b35e3d4cbd4d862d3e2155fed0c961ac7c9ebba3127928bcbb47f70a6"
+    },
+    {
+      "file": "motion-review/pen-48-full-sequence.png",
+      "sha256": "f11107da2167a97d2538d24c2dc9bb07734667d4a9b82fd71257b9f7f4ddedcf"
+    },
+    {
+      "file": "motion-review/pen-96-full-sequence.png",
+      "sha256": "26c2bd85f100d950280fb35624b01541701cef12ce122bd2fd4607905929684b"
+    },
+    {
+      "file": "motion-review/unavailable-48-full-sequence.png",
+      "sha256": "f8c51064aa8d4b0124286f351d3752b36550bfa9ff886de231eb7dcc50e14ac0"
+    },
+    {
+      "file": "motion-review/unavailable-96-full-sequence.png",
+      "sha256": "7470ab184ba5f5f293c344881030563ed6bd58b6b295085f05d344c9fd2eb90b"
+    },
+    {
+      "file": "motion-review/size-ns-48-full-sequence.png",
+      "sha256": "9b0174a32124078cefbbbe721e1853d8d9e55ba72fc99f800ebadb0edc891ceb"
+    },
+    {
+      "file": "motion-review/size-ns-96-full-sequence.png",
+      "sha256": "5e7717218c5217f9ac00d4ff0b1cef9f9ba70bb8c20c6b127952e5ddf362554a"
+    },
+    {
+      "file": "motion-review/size-we-48-full-sequence.png",
+      "sha256": "f73b5617cb9dc44f8f3dd0b1254339349d946519322e66395e286d5bfe7691b6"
+    },
+    {
+      "file": "motion-review/size-we-96-full-sequence.png",
+      "sha256": "5f8a1f6b0acafacd336789f58938f6e0e102e7ba0f4cdf84bde2891600fe0df6"
+    },
+    {
+      "file": "motion-review/size-nwse-48-full-sequence.png",
+      "sha256": "175d353513faa58aa8106581a088dcce5b14b17825dea154d4c6c2765e0c5bfb"
+    },
+    {
+      "file": "motion-review/size-nwse-96-full-sequence.png",
+      "sha256": "a539ff08519128de2aeb7af14a9db3d3135e199b374b6cf2a0c0a63ef15f5163"
+    },
+    {
+      "file": "motion-review/size-nesw-48-full-sequence.png",
+      "sha256": "553f971694067c073495e78a02a195b28a944b870b19cbeb85004651ec57c7a1"
+    },
+    {
+      "file": "motion-review/size-nesw-96-full-sequence.png",
+      "sha256": "0af0f79b26fd8602cfd7d9cb579f7a9d35e8d803e73ec674803d048d94a1294e"
+    },
+    {
+      "file": "motion-review/move-48-full-sequence.png",
+      "sha256": "7905c6d72f30dba936d12f9064fc555fa3954b82518846e02beed7659feadbe6"
+    },
+    {
+      "file": "motion-review/move-96-full-sequence.png",
+      "sha256": "80e2ecabc389445b7077847d4972635d33f8d05e3b1d90795115b291a3131e8f"
+    },
+    {
+      "file": "motion-review/alternate-48-full-sequence.png",
+      "sha256": "7b949caabc8edde21b742e07a98bf4c82ad6dbd4449a10efd5e6d9cbfb9aa1b8"
+    },
+    {
+      "file": "motion-review/alternate-96-full-sequence.png",
+      "sha256": "5d193149e0d82203453e9c4abe112626c8a8164e0ef2e51db3ade7c0473bf65d"
+    },
+    {
+      "file": "motion-review/link-48-full-sequence.png",
+      "sha256": "d0c9cefe050aab4bf3a2867f2dafa2a3a90e907eacc81fe564f59ca37398b1ae"
+    },
+    {
+      "file": "motion-review/link-96-full-sequence.png",
+      "sha256": "4967699919403b3010cae02af13587d315a2f704cb9dbec2282ae4da829864f6"
+    },
+    {
+      "file": "motion-review/pin-48-full-sequence.png",
+      "sha256": "6effe000505a025c0829d70820833de7ef01d60912d0fd948418e0af95179c04"
+    },
+    {
+      "file": "motion-review/pin-96-full-sequence.png",
+      "sha256": "5a5ce48dfab2c4859819196f25785fda9f9ede441579bb97c890f678f7321e8c"
+    },
+    {
+      "file": "motion-review/person-48-full-sequence.png",
+      "sha256": "3e373b3e99dd7231bf5b907186a65086f55b5b5ec3872f080b52dd4359edc7a9"
+    },
+    {
+      "file": "motion-review/person-96-full-sequence.png",
+      "sha256": "84dedec5b7d04995d0cb81bd6cb72801e92232e0c031e10e2c6bf097a0b57b46"
+    }
+  ],
+  "states": [
+    {
+      "id": "normal",
+      "frames_reviewed": 15,
+      "sequence_edges_per_size_reviewed": 15,
+      "loop_closure_reviewed": true,
+      "status": "no_severe_unintended_jitter_observed"
+    },
+    {
+      "id": "help",
+      "frames_reviewed": 16,
+      "sequence_edges_per_size_reviewed": 16,
+      "loop_closure_reviewed": true,
+      "status": "no_severe_unintended_jitter_observed"
+    },
+    {
+      "id": "working",
+      "frames_reviewed": 12,
+      "sequence_edges_per_size_reviewed": 12,
+      "loop_closure_reviewed": true,
+      "status": "no_severe_unintended_jitter_observed"
+    },
+    {
+      "id": "wait",
+      "frames_reviewed": 16,
+      "sequence_edges_per_size_reviewed": 16,
+      "loop_closure_reviewed": true,
+      "status": "no_severe_unintended_jitter_observed"
+    },
+    {
+      "id": "cross",
+      "frames_reviewed": 9,
+      "sequence_edges_per_size_reviewed": 9,
+      "loop_closure_reviewed": true,
+      "status": "no_severe_unintended_jitter_observed"
+    },
+    {
+      "id": "text",
+      "frames_reviewed": 9,
+      "sequence_edges_per_size_reviewed": 9,
+      "loop_closure_reviewed": true,
+      "status": "no_severe_unintended_jitter_observed"
+    },
+    {
+      "id": "pen",
+      "frames_reviewed": 9,
+      "sequence_edges_per_size_reviewed": 9,
+      "loop_closure_reviewed": true,
+      "status": "no_severe_unintended_jitter_observed"
+    },
+    {
+      "id": "unavailable",
+      "frames_reviewed": 9,
+      "sequence_edges_per_size_reviewed": 9,
+      "loop_closure_reviewed": true,
+      "status": "no_severe_unintended_jitter_observed"
+    },
+    {
+      "id": "size-ns",
+      "frames_reviewed": 9,
+      "sequence_edges_per_size_reviewed": 9,
+      "loop_closure_reviewed": true,
+      "status": "no_severe_unintended_jitter_observed"
+    },
+    {
+      "id": "size-we",
+      "frames_reviewed": 9,
+      "sequence_edges_per_size_reviewed": 9,
+      "loop_closure_reviewed": true,
+      "status": "no_severe_unintended_jitter_observed"
+    },
+    {
+      "id": "size-nwse",
+      "frames_reviewed": 9,
+      "sequence_edges_per_size_reviewed": 9,
+      "loop_closure_reviewed": true,
+      "status": "no_severe_unintended_jitter_observed"
+    },
+    {
+      "id": "size-nesw",
+      "frames_reviewed": 9,
+      "sequence_edges_per_size_reviewed": 9,
+      "loop_closure_reviewed": true,
+      "status": "no_severe_unintended_jitter_observed"
+    },
+    {
+      "id": "move",
+      "frames_reviewed": 9,
+      "sequence_edges_per_size_reviewed": 9,
+      "loop_closure_reviewed": true,
+      "status": "no_severe_unintended_jitter_observed"
+    },
+    {
+      "id": "alternate",
+      "frames_reviewed": 9,
+      "sequence_edges_per_size_reviewed": 9,
+      "loop_closure_reviewed": true,
+      "status": "no_severe_unintended_jitter_observed"
+    },
+    {
+      "id": "link",
+      "frames_reviewed": 12,
+      "sequence_edges_per_size_reviewed": 12,
+      "loop_closure_reviewed": true,
+      "status": "no_severe_unintended_jitter_observed"
+    },
+    {
+      "id": "pin",
+      "frames_reviewed": 9,
+      "sequence_edges_per_size_reviewed": 9,
+      "loop_closure_reviewed": true,
+      "status": "no_severe_unintended_jitter_observed"
+    },
+    {
+      "id": "person",
+      "frames_reviewed": 9,
+      "sequence_edges_per_size_reviewed": 9,
+      "loop_closure_reviewed": true,
+      "status": "no_severe_unintended_jitter_observed"
+    }
+  ]
+}
