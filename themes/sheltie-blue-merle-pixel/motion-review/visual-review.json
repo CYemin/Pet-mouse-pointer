@@ -1,0 +1,2205 @@
+{
+  "status": "passed",
+  "asset_revision": "6b4db5ecbb57",
+  "reviewed_at": "2026-10-22T11:50:33.633871+00:00",
+  "reviewer": "Codex sheltie visual review agent",
+  "source_manifest": "manifest.json",
+  "source_manifest_sha256": "1a99f7da3ee07b29b236aca6540f52b5a71ada6005dc4547a5c9ec9944b3b100",
+  "reviewed_state_ids": [
+    "normal",
+    "help",
+    "working",
+    "wait",
+    "cross",
+    "text",
+    "pen",
+    "unavailable",
+    "size-ns",
+    "size-we",
+    "size-nwse",
+    "size-nesw",
+    "move",
+    "alternate",
+    "link",
+    "pin",
+    "person"
+  ],
+  "unreviewed_state_ids": [],
+  "sizes_reviewed": [
+    48,
+    96
+  ],
+  "backgrounds_reviewed": [
+    "light",
+    "dark"
+  ],
+  "playback_speeds_reviewed": [
+    "normal",
+    "quarter-speed"
+  ],
+  "coverage": {
+    "state_count": 17,
+    "displayed_steps_per_size": 179,
+    "displayed_transition_edges_per_size_including_wrap": 179,
+    "sizes_count": 2,
+    "backgrounds_count": 2,
+    "all_sequence_frames_reviewed": true,
+    "all_adjacent_transitions_and_last_to_first_reviewed": true,
+    "exhaustive_transition_method": "Every displayed frame and neighboring transition was visually inspected in the exported 48px and 96px full-sequence sheets, each showing light and dark backgrounds and an explicit return to frame 0.",
+    "playback_method": "Normal-speed and quarter-speed GIFs were played in a hidden IAB browser, observed at multiple time-separated phases at exported 48/96 sizes on both backgrounds. Playback was sampled; exhaustive transition coverage comes from the full-sequence sheet inspection."
+  },
+  "final_revision_verification": {
+    "unchanged_state_ids": [
+      "normal",
+      "help",
+      "working",
+      "wait",
+      "cross",
+      "text",
+      "pen",
+      "unavailable",
+      "link",
+      "pin",
+      "person"
+    ],
+    "prior_asset_revision": "b853a5e41e1b",
+    "png_and_gif_hashes_identical_after_final_rebuild": true,
+    "new_final_arrow_state_ids": [
+      "size-ns",
+      "size-we",
+      "size-nwse",
+      "size-nesw",
+      "move",
+      "alternate"
+    ],
+    "final_arrow_sequences_and_playback_reviewed": true,
+    "explanation": "The eleven non-arrow states were reviewed before the final arrow rebuild. Every reviewed PNG and GIF was SHA256-verified as byte-identical after the final rebuild. The six changed arrow states were then reviewed from newly generated evidence with the final revision in the browser query to bypass cache."
+  },
+  "automatic_report": {
+    "file": "automatic-report.json",
+    "asset_revision": "6b4db5ecbb57",
+    "candidate_count": 0,
+    "automatic_report_alone_used_as_visual_pass": false
+  },
+  "candidate_decisions": [],
+  "candidate_decision_note": "The automatic report raised zero candidates. Every unflagged displayed transition was nevertheless inspected.",
+  "state_reviews": [
+    {
+      "id": "normal",
+      "status": "passed",
+      "displayed_sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "all_displayed_transitions_reviewed": [
+        {
+          "from_step": 0,
+          "to_step": 1,
+          "from_frame": 0,
+          "to_frame": 1
+        },
+        {
+          "from_step": 1,
+          "to_step": 2,
+          "from_frame": 1,
+          "to_frame": 2
+        },
+        {
+          "from_step": 2,
+          "to_step": 3,
+          "from_frame": 2,
+          "to_frame": 3
+        },
+        {
+          "from_step": 3,
+          "to_step": 4,
+          "from_frame": 3,
+          "to_frame": 4
+        },
+        {
+          "from_step": 4,
+          "to_step": 5,
+          "from_frame": 4,
+          "to_frame": 5
+        },
+        {
+          "from_step": 5,
+          "to_step": 6,
+          "from_frame": 5,
+          "to_frame": 6
+        },
+        {
+          "from_step": 6,
+          "to_step": 7,
+          "from_frame": 6,
+          "to_frame": 7
+        },
+        {
+          "from_step": 7,
+          "to_step": 8,
+          "from_frame": 7,
+          "to_frame": 8
+        },
+        {
+          "from_step": 8,
+          "to_step": 9,
+          "from_frame": 8,
+          "to_frame": 9
+        },
+        {
+          "from_step": 9,
+          "to_step": 10,
+          "from_frame": 9,
+          "to_frame": 10
+        },
+        {
+          "from_step": 10,
+          "to_step": 11,
+          "from_frame": 10,
+          "to_frame": 11
+        },
+        {
+          "from_step": 11,
+          "to_step": 12,
+          "from_frame": 11,
+          "to_frame": 12
+        },
+        {
+          "from_step": 12,
+          "to_step": 13,
+          "from_frame": 12,
+          "to_frame": 13
+        },
+        {
+          "from_step": 13,
+          "to_step": 14,
+          "from_frame": 13,
+          "to_frame": 14
+        },
+        {
+          "from_step": 14,
+          "to_step": 0,
+          "from_frame": 14,
+          "to_frame": 0
+        }
+      ],
+      "loop_return_reviewed": true,
+      "sizes": [
+        48,
+        96
+      ],
+      "backgrounds": [
+        "light",
+        "dark"
+      ],
+      "playback_speeds": [
+        "normal",
+        "quarter-speed"
+      ],
+      "decision": "Nose stays visually anchored; eyelid, ear and ruff movement is coherent, including loop closure."
+    },
+    {
+      "id": "help",
+      "status": "passed",
+      "displayed_sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "all_displayed_transitions_reviewed": [
+        {
+          "from_step": 0,
+          "to_step": 1,
+          "from_frame": 0,
+          "to_frame": 1
+        },
+        {
+          "from_step": 1,
+          "to_step": 2,
+          "from_frame": 1,
+          "to_frame": 2
+        },
+        {
+          "from_step": 2,
+          "to_step": 3,
+          "from_frame": 2,
+          "to_frame": 3
+        },
+        {
+          "from_step": 3,
+          "to_step": 4,
+          "from_frame": 3,
+          "to_frame": 4
+        },
+        {
+          "from_step": 4,
+          "to_step": 5,
+          "from_frame": 4,
+          "to_frame": 5
+        },
+        {
+          "from_step": 5,
+          "to_step": 6,
+          "from_frame": 5,
+          "to_frame": 6
+        },
+        {
+          "from_step": 6,
+          "to_step": 7,
+          "from_frame": 6,
+          "to_frame": 7
+        },
+        {
+          "from_step": 7,
+          "to_step": 8,
+          "from_frame": 7,
+          "to_frame": 8
+        },
+        {
+          "from_step": 8,
+          "to_step": 9,
+          "from_frame": 8,
+          "to_frame": 9
+        },
+        {
+          "from_step": 9,
+          "to_step": 10,
+          "from_frame": 9,
+          "to_frame": 10
+        },
+        {
+          "from_step": 10,
+          "to_step": 11,
+          "from_frame": 10,
+          "to_frame": 11
+        },
+        {
+          "from_step": 11,
+          "to_step": 12,
+          "from_frame": 11,
+          "to_frame": 12
+        },
+        {
+          "from_step": 12,
+          "to_step": 13,
+          "from_frame": 12,
+          "to_frame": 13
+        },
+        {
+          "from_step": 13,
+          "to_step": 14,
+          "from_frame": 13,
+          "to_frame": 14
+        },
+        {
+          "from_step": 14,
+          "to_step": 15,
+          "from_frame": 14,
+          "to_frame": 15
+        },
+        {
+          "from_step": 15,
+          "to_step": 0,
+          "from_frame": 15,
+          "to_frame": 0
+        }
+      ],
+      "loop_return_reviewed": true,
+      "sizes": [
+        48,
+        96
+      ],
+      "backgrounds": [
+        "light",
+        "dark"
+      ],
+      "playback_speeds": [
+        "normal",
+        "quarter-speed"
+      ],
+      "decision": "Question mark growth and head expression are deliberate; no whole-head jump at the loop return."
+    },
+    {
+      "id": "working",
+      "status": "passed",
+      "displayed_sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "all_displayed_transitions_reviewed": [
+        {
+          "from_step": 0,
+          "to_step": 1,
+          "from_frame": 0,
+          "to_frame": 1
+        },
+        {
+          "from_step": 1,
+          "to_step": 2,
+          "from_frame": 1,
+          "to_frame": 2
+        },
+        {
+          "from_step": 2,
+          "to_step": 3,
+          "from_frame": 2,
+          "to_frame": 3
+        },
+        {
+          "from_step": 3,
+          "to_step": 4,
+          "from_frame": 3,
+          "to_frame": 4
+        },
+        {
+          "from_step": 4,
+          "to_step": 5,
+          "from_frame": 4,
+          "to_frame": 5
+        },
+        {
+          "from_step": 5,
+          "to_step": 6,
+          "from_frame": 5,
+          "to_frame": 6
+        },
+        {
+          "from_step": 6,
+          "to_step": 7,
+          "from_frame": 6,
+          "to_frame": 7
+        },
+        {
+          "from_step": 7,
+          "to_step": 8,
+          "from_frame": 7,
+          "to_frame": 8
+        },
+        {
+          "from_step": 8,
+          "to_step": 9,
+          "from_frame": 8,
+          "to_frame": 9
+        },
+        {
+          "from_step": 9,
+          "to_step": 10,
+          "from_frame": 9,
+          "to_frame": 10
+        },
+        {
+          "from_step": 10,
+          "to_step": 11,
+          "from_frame": 10,
+          "to_frame": 11
+        },
+        {
+          "from_step": 11,
+          "to_step": 0,
+          "from_frame": 11,
+          "to_frame": 0
+        }
+      ],
+      "loop_return_reviewed": true,
+      "sizes": [
+        48,
+        96
+      ],
+      "backgrounds": [
+        "light",
+        "dark"
+      ],
+      "playback_speeds": [
+        "normal",
+        "quarter-speed"
+      ],
+      "decision": "Perked ear and moving fur are continuous; stable muzzle and eye region show no severe placement or scale jump."
+    },
+    {
+      "id": "wait",
+      "status": "passed",
+      "displayed_sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "all_displayed_transitions_reviewed": [
+        {
+          "from_step": 0,
+          "to_step": 1,
+          "from_frame": 0,
+          "to_frame": 1
+        },
+        {
+          "from_step": 1,
+          "to_step": 2,
+          "from_frame": 1,
+          "to_frame": 2
+        },
+        {
+          "from_step": 2,
+          "to_step": 3,
+          "from_frame": 2,
+          "to_frame": 3
+        },
+        {
+          "from_step": 3,
+          "to_step": 4,
+          "from_frame": 3,
+          "to_frame": 4
+        },
+        {
+          "from_step": 4,
+          "to_step": 5,
+          "from_frame": 4,
+          "to_frame": 5
+        },
+        {
+          "from_step": 5,
+          "to_step": 6,
+          "from_frame": 5,
+          "to_frame": 6
+        },
+        {
+          "from_step": 6,
+          "to_step": 7,
+          "from_frame": 6,
+          "to_frame": 7
+        },
+        {
+          "from_step": 7,
+          "to_step": 8,
+          "from_frame": 7,
+          "to_frame": 8
+        },
+        {
+          "from_step": 8,
+          "to_step": 9,
+          "from_frame": 8,
+          "to_frame": 9
+        },
+        {
+          "from_step": 9,
+          "to_step": 10,
+          "from_frame": 9,
+          "to_frame": 10
+        },
+        {
+          "from_step": 10,
+          "to_step": 11,
+          "from_frame": 10,
+          "to_frame": 11
+        },
+        {
+          "from_step": 11,
+          "to_step": 12,
+          "from_frame": 11,
+          "to_frame": 12
+        },
+        {
+          "from_step": 12,
+          "to_step": 13,
+          "from_frame": 12,
+          "to_frame": 13
+        },
+        {
+          "from_step": 13,
+          "to_step": 14,
+          "from_frame": 13,
+          "to_frame": 14
+        },
+        {
+          "from_step": 14,
+          "to_step": 15,
+          "from_frame": 14,
+          "to_frame": 15
+        },
+        {
+          "from_step": 15,
+          "to_step": 0,
+          "from_frame": 15,
+          "to_frame": 0
+        }
+      ],
+      "loop_return_reviewed": true,
+      "sizes": [
+        48,
+        96
+      ],
+      "backgrounds": [
+        "light",
+        "dark"
+      ],
+      "playback_speeds": [
+        "normal",
+        "quarter-speed"
+      ],
+      "decision": "Eye closure, paws and floating sleep letters form a coherent sleep cycle; loop returns without severe displacement."
+    },
+    {
+      "id": "cross",
+      "status": "passed",
+      "displayed_sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "all_displayed_transitions_reviewed": [
+        {
+          "from_step": 0,
+          "to_step": 1,
+          "from_frame": 0,
+          "to_frame": 1
+        },
+        {
+          "from_step": 1,
+          "to_step": 2,
+          "from_frame": 1,
+          "to_frame": 2
+        },
+        {
+          "from_step": 2,
+          "to_step": 3,
+          "from_frame": 2,
+          "to_frame": 3
+        },
+        {
+          "from_step": 3,
+          "to_step": 4,
+          "from_frame": 3,
+          "to_frame": 4
+        },
+        {
+          "from_step": 4,
+          "to_step": 5,
+          "from_frame": 4,
+          "to_frame": 5
+        },
+        {
+          "from_step": 5,
+          "to_step": 6,
+          "from_frame": 5,
+          "to_frame": 6
+        },
+        {
+          "from_step": 6,
+          "to_step": 7,
+          "from_frame": 6,
+          "to_frame": 7
+        },
+        {
+          "from_step": 7,
+          "to_step": 8,
+          "from_frame": 7,
+          "to_frame": 8
+        },
+        {
+          "from_step": 8,
+          "to_step": 0,
+          "from_frame": 8,
+          "to_frame": 0
+        }
+      ],
+      "loop_return_reviewed": true,
+      "sizes": [
+        48,
+        96
+      ],
+      "backgrounds": [
+        "light",
+        "dark"
+      ],
+      "playback_speeds": [
+        "normal",
+        "quarter-speed"
+      ],
+      "decision": "Crosshair remains fixed while eyelid and paw motion remain coherent."
+    },
+    {
+      "id": "text",
+      "status": "passed",
+      "displayed_sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "all_displayed_transitions_reviewed": [
+        {
+          "from_step": 0,
+          "to_step": 1,
+          "from_frame": 0,
+          "to_frame": 1
+        },
+        {
+          "from_step": 1,
+          "to_step": 2,
+          "from_frame": 1,
+          "to_frame": 2
+        },
+        {
+          "from_step": 2,
+          "to_step": 3,
+          "from_frame": 2,
+          "to_frame": 3
+        },
+        {
+          "from_step": 3,
+          "to_step": 4,
+          "from_frame": 3,
+          "to_frame": 4
+        },
+        {
+          "from_step": 4,
+          "to_step": 5,
+          "from_frame": 4,
+          "to_frame": 5
+        },
+        {
+          "from_step": 5,
+          "to_step": 6,
+          "from_frame": 5,
+          "to_frame": 6
+        },
+        {
+          "from_step": 6,
+          "to_step": 7,
+          "from_frame": 6,
+          "to_frame": 7
+        },
+        {
+          "from_step": 7,
+          "to_step": 8,
+          "from_frame": 7,
+          "to_frame": 8
+        },
+        {
+          "from_step": 8,
+          "to_step": 0,
+          "from_frame": 8,
+          "to_frame": 0
+        }
+      ],
+      "loop_return_reviewed": true,
+      "sizes": [
+        48,
+        96
+      ],
+      "backgrounds": [
+        "light",
+        "dark"
+      ],
+      "playback_speeds": [
+        "normal",
+        "quarter-speed"
+      ],
+      "decision": "Insertion marker remains fixed; blink and fur motion do not cause a severe body shift."
+    },
+    {
+      "id": "pen",
+      "status": "passed",
+      "displayed_sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "all_displayed_transitions_reviewed": [
+        {
+          "from_step": 0,
+          "to_step": 1,
+          "from_frame": 0,
+          "to_frame": 1
+        },
+        {
+          "from_step": 1,
+          "to_step": 2,
+          "from_frame": 1,
+          "to_frame": 2
+        },
+        {
+          "from_step": 2,
+          "to_step": 3,
+          "from_frame": 2,
+          "to_frame": 3
+        },
+        {
+          "from_step": 3,
+          "to_step": 4,
+          "from_frame": 3,
+          "to_frame": 4
+        },
+        {
+          "from_step": 4,
+          "to_step": 5,
+          "from_frame": 4,
+          "to_frame": 5
+        },
+        {
+          "from_step": 5,
+          "to_step": 6,
+          "from_frame": 5,
+          "to_frame": 6
+        },
+        {
+          "from_step": 6,
+          "to_step": 7,
+          "from_frame": 6,
+          "to_frame": 7
+        },
+        {
+          "from_step": 7,
+          "to_step": 8,
+          "from_frame": 7,
+          "to_frame": 8
+        },
+        {
+          "from_step": 8,
+          "to_step": 0,
+          "from_frame": 8,
+          "to_frame": 0
+        }
+      ],
+      "loop_return_reviewed": true,
+      "sizes": [
+        48,
+        96
+      ],
+      "backgrounds": [
+        "light",
+        "dark"
+      ],
+      "playback_speeds": [
+        "normal",
+        "quarter-speed"
+      ],
+      "decision": "Pencil tip and geometry remain fixed through eyelid and coat motion."
+    },
+    {
+      "id": "unavailable",
+      "status": "passed",
+      "displayed_sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "all_displayed_transitions_reviewed": [
+        {
+          "from_step": 0,
+          "to_step": 1,
+          "from_frame": 0,
+          "to_frame": 1
+        },
+        {
+          "from_step": 1,
+          "to_step": 2,
+          "from_frame": 1,
+          "to_frame": 2
+        },
+        {
+          "from_step": 2,
+          "to_step": 3,
+          "from_frame": 2,
+          "to_frame": 3
+        },
+        {
+          "from_step": 3,
+          "to_step": 4,
+          "from_frame": 3,
+          "to_frame": 4
+        },
+        {
+          "from_step": 4,
+          "to_step": 5,
+          "from_frame": 4,
+          "to_frame": 5
+        },
+        {
+          "from_step": 5,
+          "to_step": 6,
+          "from_frame": 5,
+          "to_frame": 6
+        },
+        {
+          "from_step": 6,
+          "to_step": 7,
+          "from_frame": 6,
+          "to_frame": 7
+        },
+        {
+          "from_step": 7,
+          "to_step": 8,
+          "from_frame": 7,
+          "to_frame": 8
+        },
+        {
+          "from_step": 8,
+          "to_step": 0,
+          "from_frame": 8,
+          "to_frame": 0
+        }
+      ],
+      "loop_return_reviewed": true,
+      "sizes": [
+        48,
+        96
+      ],
+      "backgrounds": [
+        "light",
+        "dark"
+      ],
+      "playback_speeds": [
+        "normal",
+        "quarter-speed"
+      ],
+      "decision": "Red operation badge stays fixed; paw gesture and blinking are deliberate."
+    },
+    {
+      "id": "size-ns",
+      "status": "passed",
+      "displayed_sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "all_displayed_transitions_reviewed": [
+        {
+          "from_step": 0,
+          "to_step": 1,
+          "from_frame": 0,
+          "to_frame": 1
+        },
+        {
+          "from_step": 1,
+          "to_step": 2,
+          "from_frame": 1,
+          "to_frame": 2
+        },
+        {
+          "from_step": 2,
+          "to_step": 3,
+          "from_frame": 2,
+          "to_frame": 3
+        },
+        {
+          "from_step": 3,
+          "to_step": 4,
+          "from_frame": 3,
+          "to_frame": 4
+        },
+        {
+          "from_step": 4,
+          "to_step": 5,
+          "from_frame": 4,
+          "to_frame": 5
+        },
+        {
+          "from_step": 5,
+          "to_step": 6,
+          "from_frame": 5,
+          "to_frame": 6
+        },
+        {
+          "from_step": 6,
+          "to_step": 7,
+          "from_frame": 6,
+          "to_frame": 7
+        },
+        {
+          "from_step": 7,
+          "to_step": 8,
+          "from_frame": 7,
+          "to_frame": 8
+        },
+        {
+          "from_step": 8,
+          "to_step": 0,
+          "from_frame": 8,
+          "to_frame": 0
+        }
+      ],
+      "loop_return_reviewed": true,
+      "sizes": [
+        48,
+        96
+      ],
+      "backgrounds": [
+        "light",
+        "dark"
+      ],
+      "playback_speeds": [
+        "normal",
+        "quarter-speed"
+      ],
+      "decision": "Enlarged operation symbol is clear and fixed; eye/paw/fur movement remains coherent, without overlap, clipping or severe head shift. Both arrow directions and the loop return were checked."
+    },
+    {
+      "id": "size-we",
+      "status": "passed",
+      "displayed_sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "all_displayed_transitions_reviewed": [
+        {
+          "from_step": 0,
+          "to_step": 1,
+          "from_frame": 0,
+          "to_frame": 1
+        },
+        {
+          "from_step": 1,
+          "to_step": 2,
+          "from_frame": 1,
+          "to_frame": 2
+        },
+        {
+          "from_step": 2,
+          "to_step": 3,
+          "from_frame": 2,
+          "to_frame": 3
+        },
+        {
+          "from_step": 3,
+          "to_step": 4,
+          "from_frame": 3,
+          "to_frame": 4
+        },
+        {
+          "from_step": 4,
+          "to_step": 5,
+          "from_frame": 4,
+          "to_frame": 5
+        },
+        {
+          "from_step": 5,
+          "to_step": 6,
+          "from_frame": 5,
+          "to_frame": 6
+        },
+        {
+          "from_step": 6,
+          "to_step": 7,
+          "from_frame": 6,
+          "to_frame": 7
+        },
+        {
+          "from_step": 7,
+          "to_step": 8,
+          "from_frame": 7,
+          "to_frame": 8
+        },
+        {
+          "from_step": 8,
+          "to_step": 0,
+          "from_frame": 8,
+          "to_frame": 0
+        }
+      ],
+      "loop_return_reviewed": true,
+      "sizes": [
+        48,
+        96
+      ],
+      "backgrounds": [
+        "light",
+        "dark"
+      ],
+      "playback_speeds": [
+        "normal",
+        "quarter-speed"
+      ],
+      "decision": "Enlarged operation symbol is clear and fixed; eye/paw/fur movement remains coherent, without overlap, clipping or severe head shift. Both arrow directions and the loop return were checked."
+    },
+    {
+      "id": "size-nwse",
+      "status": "passed",
+      "displayed_sequence": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        1,
+        7
+      ],
+      "all_displayed_transitions_reviewed": [
+        {
+          "from_step": 0,
+          "to_step": 1,
+          "from_frame": 0,
+          "to_frame": 2
+        },
+        {
+          "from_step": 1,
+          "to_step": 2,
+          "from_frame": 2,
+          "to_frame": 3
+        },
+        {
+          "from_step": 2,
+          "to_step": 3,
+          "from_frame": 3,
+          "to_frame": 4
+        },
+        {
+          "from_step": 3,
+          "to_step": 4,
+          "from_frame": 4,
+          "to_frame": 5
+        },
+        {
+          "from_step": 4,
+          "to_step": 5,
+          "from_frame": 5,
+          "to_frame": 6
+        },
+        {
+          "from_step": 5,
+          "to_step": 6,
+          "from_frame": 6,
+          "to_frame": 8
+        },
+        {
+          "from_step": 6,
+          "to_step": 7,
+          "from_frame": 8,
+          "to_frame": 1
+        },
+        {
+          "from_step": 7,
+          "to_step": 8,
+          "from_frame": 1,
+          "to_frame": 7
+        },
+        {
+          "from_step": 8,
+          "to_step": 0,
+          "from_frame": 7,
+          "to_frame": 0
+        }
+      ],
+      "loop_return_reviewed": true,
+      "sizes": [
+        48,
+        96
+      ],
+      "backgrounds": [
+        "light",
+        "dark"
+      ],
+      "playback_speeds": [
+        "normal",
+        "quarter-speed"
+      ],
+      "decision": "Enlarged operation symbol is clear and fixed; eye/paw/fur movement remains coherent, without overlap, clipping or severe head shift. Both arrow directions and the loop return were checked."
+    },
+    {
+      "id": "size-nesw",
+      "status": "passed",
+      "displayed_sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "all_displayed_transitions_reviewed": [
+        {
+          "from_step": 0,
+          "to_step": 1,
+          "from_frame": 0,
+          "to_frame": 1
+        },
+        {
+          "from_step": 1,
+          "to_step": 2,
+          "from_frame": 1,
+          "to_frame": 2
+        },
+        {
+          "from_step": 2,
+          "to_step": 3,
+          "from_frame": 2,
+          "to_frame": 3
+        },
+        {
+          "from_step": 3,
+          "to_step": 4,
+          "from_frame": 3,
+          "to_frame": 4
+        },
+        {
+          "from_step": 4,
+          "to_step": 5,
+          "from_frame": 4,
+          "to_frame": 5
+        },
+        {
+          "from_step": 5,
+          "to_step": 6,
+          "from_frame": 5,
+          "to_frame": 6
+        },
+        {
+          "from_step": 6,
+          "to_step": 7,
+          "from_frame": 6,
+          "to_frame": 7
+        },
+        {
+          "from_step": 7,
+          "to_step": 8,
+          "from_frame": 7,
+          "to_frame": 8
+        },
+        {
+          "from_step": 8,
+          "to_step": 0,
+          "from_frame": 8,
+          "to_frame": 0
+        }
+      ],
+      "loop_return_reviewed": true,
+      "sizes": [
+        48,
+        96
+      ],
+      "backgrounds": [
+        "light",
+        "dark"
+      ],
+      "playback_speeds": [
+        "normal",
+        "quarter-speed"
+      ],
+      "decision": "Enlarged operation symbol is clear and fixed; eye/paw/fur movement remains coherent, without overlap, clipping or severe head shift. Both arrow directions and the loop return were checked."
+    },
+    {
+      "id": "move",
+      "status": "passed",
+      "displayed_sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "all_displayed_transitions_reviewed": [
+        {
+          "from_step": 0,
+          "to_step": 1,
+          "from_frame": 0,
+          "to_frame": 1
+        },
+        {
+          "from_step": 1,
+          "to_step": 2,
+          "from_frame": 1,
+          "to_frame": 2
+        },
+        {
+          "from_step": 2,
+          "to_step": 3,
+          "from_frame": 2,
+          "to_frame": 3
+        },
+        {
+          "from_step": 3,
+          "to_step": 4,
+          "from_frame": 3,
+          "to_frame": 4
+        },
+        {
+          "from_step": 4,
+          "to_step": 5,
+          "from_frame": 4,
+          "to_frame": 5
+        },
+        {
+          "from_step": 5,
+          "to_step": 6,
+          "from_frame": 5,
+          "to_frame": 6
+        },
+        {
+          "from_step": 6,
+          "to_step": 7,
+          "from_frame": 6,
+          "to_frame": 7
+        },
+        {
+          "from_step": 7,
+          "to_step": 8,
+          "from_frame": 7,
+          "to_frame": 8
+        },
+        {
+          "from_step": 8,
+          "to_step": 0,
+          "from_frame": 8,
+          "to_frame": 0
+        }
+      ],
+      "loop_return_reviewed": true,
+      "sizes": [
+        48,
+        96
+      ],
+      "backgrounds": [
+        "light",
+        "dark"
+      ],
+      "playback_speeds": [
+        "normal",
+        "quarter-speed"
+      ],
+      "decision": "Enlarged operation symbol is clear and fixed; eye/paw/fur movement remains coherent, without overlap, clipping or severe head shift. Both arrow directions and the loop return were checked."
+    },
+    {
+      "id": "alternate",
+      "status": "passed",
+      "displayed_sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "all_displayed_transitions_reviewed": [
+        {
+          "from_step": 0,
+          "to_step": 1,
+          "from_frame": 0,
+          "to_frame": 1
+        },
+        {
+          "from_step": 1,
+          "to_step": 2,
+          "from_frame": 1,
+          "to_frame": 2
+        },
+        {
+          "from_step": 2,
+          "to_step": 3,
+          "from_frame": 2,
+          "to_frame": 3
+        },
+        {
+          "from_step": 3,
+          "to_step": 4,
+          "from_frame": 3,
+          "to_frame": 4
+        },
+        {
+          "from_step": 4,
+          "to_step": 5,
+          "from_frame": 4,
+          "to_frame": 5
+        },
+        {
+          "from_step": 5,
+          "to_step": 6,
+          "from_frame": 5,
+          "to_frame": 6
+        },
+        {
+          "from_step": 6,
+          "to_step": 7,
+          "from_frame": 6,
+          "to_frame": 7
+        },
+        {
+          "from_step": 7,
+          "to_step": 8,
+          "from_frame": 7,
+          "to_frame": 8
+        },
+        {
+          "from_step": 8,
+          "to_step": 0,
+          "from_frame": 8,
+          "to_frame": 0
+        }
+      ],
+      "loop_return_reviewed": true,
+      "sizes": [
+        48,
+        96
+      ],
+      "backgrounds": [
+        "light",
+        "dark"
+      ],
+      "playback_speeds": [
+        "normal",
+        "quarter-speed"
+      ],
+      "decision": "Enlarged operation symbol is clear and fixed; eye/paw/fur movement remains coherent, without overlap, clipping or severe head shift. Both arrow directions and the loop return were checked."
+    },
+    {
+      "id": "link",
+      "status": "passed",
+      "displayed_sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "all_displayed_transitions_reviewed": [
+        {
+          "from_step": 0,
+          "to_step": 1,
+          "from_frame": 0,
+          "to_frame": 1
+        },
+        {
+          "from_step": 1,
+          "to_step": 2,
+          "from_frame": 1,
+          "to_frame": 2
+        },
+        {
+          "from_step": 2,
+          "to_step": 3,
+          "from_frame": 2,
+          "to_frame": 3
+        },
+        {
+          "from_step": 3,
+          "to_step": 4,
+          "from_frame": 3,
+          "to_frame": 4
+        },
+        {
+          "from_step": 4,
+          "to_step": 5,
+          "from_frame": 4,
+          "to_frame": 5
+        },
+        {
+          "from_step": 5,
+          "to_step": 6,
+          "from_frame": 5,
+          "to_frame": 6
+        },
+        {
+          "from_step": 6,
+          "to_step": 7,
+          "from_frame": 6,
+          "to_frame": 7
+        },
+        {
+          "from_step": 7,
+          "to_step": 8,
+          "from_frame": 7,
+          "to_frame": 8
+        },
+        {
+          "from_step": 8,
+          "to_step": 9,
+          "from_frame": 8,
+          "to_frame": 9
+        },
+        {
+          "from_step": 9,
+          "to_step": 10,
+          "from_frame": 9,
+          "to_frame": 10
+        },
+        {
+          "from_step": 10,
+          "to_step": 11,
+          "from_frame": 10,
+          "to_frame": 11
+        },
+        {
+          "from_step": 11,
+          "to_step": 0,
+          "from_frame": 11,
+          "to_frame": 0
+        }
+      ],
+      "loop_return_reviewed": true,
+      "sizes": [
+        48,
+        96
+      ],
+      "backgrounds": [
+        "light",
+        "dark"
+      ],
+      "playback_speeds": [
+        "normal",
+        "quarter-speed"
+      ],
+      "decision": "Nose contact remains visually fixed while the eye expression changes."
+    },
+    {
+      "id": "pin",
+      "status": "passed",
+      "displayed_sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "all_displayed_transitions_reviewed": [
+        {
+          "from_step": 0,
+          "to_step": 1,
+          "from_frame": 0,
+          "to_frame": 1
+        },
+        {
+          "from_step": 1,
+          "to_step": 2,
+          "from_frame": 1,
+          "to_frame": 2
+        },
+        {
+          "from_step": 2,
+          "to_step": 3,
+          "from_frame": 2,
+          "to_frame": 3
+        },
+        {
+          "from_step": 3,
+          "to_step": 4,
+          "from_frame": 3,
+          "to_frame": 4
+        },
+        {
+          "from_step": 4,
+          "to_step": 5,
+          "from_frame": 4,
+          "to_frame": 5
+        },
+        {
+          "from_step": 5,
+          "to_step": 6,
+          "from_frame": 5,
+          "to_frame": 6
+        },
+        {
+          "from_step": 6,
+          "to_step": 7,
+          "from_frame": 6,
+          "to_frame": 7
+        },
+        {
+          "from_step": 7,
+          "to_step": 8,
+          "from_frame": 7,
+          "to_frame": 8
+        },
+        {
+          "from_step": 8,
+          "to_step": 0,
+          "from_frame": 8,
+          "to_frame": 0
+        }
+      ],
+      "loop_return_reviewed": true,
+      "sizes": [
+        48,
+        96
+      ],
+      "backgrounds": [
+        "light",
+        "dark"
+      ],
+      "playback_speeds": [
+        "normal",
+        "quarter-speed"
+      ],
+      "decision": "Location marker remains fixed while pet eye and fur details move."
+    },
+    {
+      "id": "person",
+      "status": "passed",
+      "displayed_sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "all_displayed_transitions_reviewed": [
+        {
+          "from_step": 0,
+          "to_step": 1,
+          "from_frame": 0,
+          "to_frame": 1
+        },
+        {
+          "from_step": 1,
+          "to_step": 2,
+          "from_frame": 1,
+          "to_frame": 2
+        },
+        {
+          "from_step": 2,
+          "to_step": 3,
+          "from_frame": 2,
+          "to_frame": 3
+        },
+        {
+          "from_step": 3,
+          "to_step": 4,
+          "from_frame": 3,
+          "to_frame": 4
+        },
+        {
+          "from_step": 4,
+          "to_step": 5,
+          "from_frame": 4,
+          "to_frame": 5
+        },
+        {
+          "from_step": 5,
+          "to_step": 6,
+          "from_frame": 5,
+          "to_frame": 6
+        },
+        {
+          "from_step": 6,
+          "to_step": 7,
+          "from_frame": 6,
+          "to_frame": 7
+        },
+        {
+          "from_step": 7,
+          "to_step": 8,
+          "from_frame": 7,
+          "to_frame": 8
+        },
+        {
+          "from_step": 8,
+          "to_step": 0,
+          "from_frame": 8,
+          "to_frame": 0
+        }
+      ],
+      "loop_return_reviewed": true,
+      "sizes": [
+        48,
+        96
+      ],
+      "backgrounds": [
+        "light",
+        "dark"
+      ],
+      "playback_speeds": [
+        "normal",
+        "quarter-speed"
+      ],
+      "decision": "Person marker remains fixed while pet eye and fur details move."
+    }
+  ],
+  "findings": [
+    "No severe unintended whole-body translation, whole-head scale jump, or one-frame anatomy pop was found.",
+    "The visible nose/contact feature or operation marker remains visually stable while intended blinking, ear, fur and paw motions animate.",
+    "All six enlarged arrow markers remain clear at 48px and at 96px on light and dark backgrounds, with no observed pet overlap or clipping.",
+    "Blue-merle broad coat patches remain attached to consistent cheek and ear regions across the full cycles; no severe patch pop was found."
+  ],
+  "remaining_issues": [
+    {
+      "severity": "minor",
+      "type": "texture_variation",
+      "detail": "Mild native-pixel fur/chest outline and texture variation remains visible, especially at 96px. It was distinguished from severe positional jitter; no correction is required for this review pass."
+    }
+  ],
+  "limitations": [
+    "Review covers exported artwork and browser playback at 48px and 96px. It does not establish actual desktop click feel, installed-cursor behavior, or multi-monitor behavior.",
+    "32px, 64px and 128px were outside this visual review scope. Native/structural validation is reported separately."
+  ],
+  "evidence": {
+    "sequence_and_playback_assets": [
+      {
+        "file": "normal-48-full-sequence.png",
+        "sha256": "6123432816476f71500db5f586e0e7527b23877e4cbc3d44ae9d6f048cc756e5"
+      },
+      {
+        "file": "normal-48-normal.gif",
+        "sha256": "17f3678f5e661a7fd8305e2fd4d564e748cef82c23cf63d535a63e8578418517"
+      },
+      {
+        "file": "normal-48-slow.gif",
+        "sha256": "eabba9e752a11ffcc43b580bf40ae69cf048be70db4213d6a361ecb1cd974c20"
+      },
+      {
+        "file": "normal-96-full-sequence.png",
+        "sha256": "3e0afd792f8f592c4d850ae714c6c2d6ef19c2fed99e6f79817457f0b3b8e437"
+      },
+      {
+        "file": "normal-96-normal.gif",
+        "sha256": "aedc02329e5de88d2fc25ae4b56a3ac9b34c6fdea0e194784b5b9e947bcd16f0"
+      },
+      {
+        "file": "normal-96-slow.gif",
+        "sha256": "c498d20891c7512a6e9e6d4c664c3635390c9738ce5bec46ae6161c3cf90f28b"
+      },
+      {
+        "file": "help-48-full-sequence.png",
+        "sha256": "2a30428eb4a9602f1a598de6fabde1af4e76e4134b7462c19b165986d2d0491f"
+      },
+      {
+        "file": "help-48-normal.gif",
+        "sha256": "2dc6d8db5ed0866540ca8904c0354e4e784c7dd54ad8b2735af27b3d30348019"
+      },
+      {
+        "file": "help-48-slow.gif",
+        "sha256": "15724e91d5bbc7a6411c09c4b56c5d72df3cae4bf459f7063a5774566e918f73"
+      },
+      {
+        "file": "help-96-full-sequence.png",
+        "sha256": "a0f4b4e5a3ed4c098925107586a68a019f4c97a21c97cf30eb2dec0cfa333bee"
+      },
+      {
+        "file": "help-96-normal.gif",
+        "sha256": "493943028d7ce0213f37772bd72bde8e1d95fb29f806104d0d169cea952e8380"
+      },
+      {
+        "file": "help-96-slow.gif",
+        "sha256": "c69ab3ae18324f8793e1a48460c5e80fe7d7b6f8a95c0a37f308eaba60d97bd6"
+      },
+      {
+        "file": "working-48-full-sequence.png",
+        "sha256": "a9233bd7503a384f00d06991906ad840496272d82b32dc982552c5ea1d26425b"
+      },
+      {
+        "file": "working-48-normal.gif",
+        "sha256": "aa80257eabb842d9b654d4137a21a8dccfb00fe69306cf3decbd85f9ee288fde"
+      },
+      {
+        "file": "working-48-slow.gif",
+        "sha256": "27e5743e7da6206faa3b33f1bd52df73e8a0fb4cb689d5084d497d9d420e0360"
+      },
+      {
+        "file": "working-96-full-sequence.png",
+        "sha256": "804572e2ee0b7582c7b55a8f93ab5b41c0ef3a078958c046681730e521e6025c"
+      },
+      {
+        "file": "working-96-normal.gif",
+        "sha256": "4823ad35ec2cedb8bc5b2a3cfba91cada02fed0120c641e7d9c3e8f17d15f05c"
+      },
+      {
+        "file": "working-96-slow.gif",
+        "sha256": "2fd74dbfcb2763c2d0db4ee25e86f33a601e72ccfbf4fba6c8e5f6e0a7468a12"
+      },
+      {
+        "file": "wait-48-full-sequence.png",
+        "sha256": "f2c1dbbb4ec4bb2703743e9a54da519fd583f19ecc1bbec3f82b6bca641943bf"
+      },
+      {
+        "file": "wait-48-normal.gif",
+        "sha256": "aa6dcf6803e899762e1ecb3beb2eae05d051fdfe32b553df19708f9df06d66ef"
+      },
+      {
+        "file": "wait-48-slow.gif",
+        "sha256": "f88318982644daad2b5c85f50fa385ed703ee3435ddaada90bee7aafaee4e741"
+      },
+      {
+        "file": "wait-96-full-sequence.png",
+        "sha256": "b8194c49f76876ba90a86728c6d23f9c4e911c1c3babd9cf308a03a2db66b567"
+      },
+      {
+        "file": "wait-96-normal.gif",
+        "sha256": "4e70a0e163c33b22c58631b8d3a9d37bf7a8ca8ff4e3635d25bbcd650b09fca0"
+      },
+      {
+        "file": "wait-96-slow.gif",
+        "sha256": "0461adc592597e23c90efc63a035380a9411299e45c57515ebc07ae2640711dd"
+      },
+      {
+        "file": "cross-48-full-sequence.png",
+        "sha256": "affba51c43262dd9b29a7195d3e69bfc58676b0528f411da7cf059b8a9b67a99"
+      },
+      {
+        "file": "cross-48-normal.gif",
+        "sha256": "eb28bd9939745ccfb605e64c14261f9c37a411b05e27ae919934f12d462ad35c"
+      },
+      {
+        "file": "cross-48-slow.gif",
+        "sha256": "61b736e821baaf1019f765b8a8fd536989275eb9c85c79772ef644cea4ad9438"
+      },
+      {
+        "file": "cross-96-full-sequence.png",
+        "sha256": "fff3512fdb17777a4d33b64fc3dc08e43f6d3e385115dbef4cc690cc44a59a4b"
+      },
+      {
+        "file": "cross-96-normal.gif",
+        "sha256": "23c13f71cef14b05514bef08bb16e222b8e3fae81a70b1dd22f61ad15b2cb6b0"
+      },
+      {
+        "file": "cross-96-slow.gif",
+        "sha256": "4237f00889f6f08b767786088de3baf88b8568e25ee5a0ab4368d1a88eeaa5ad"
+      },
+      {
+        "file": "text-48-full-sequence.png",
+        "sha256": "e28873d6b44b18cbd8e2a9029bad060c6cd5065de14c4d9147b6acd356b0dacb"
+      },
+      {
+        "file": "text-48-normal.gif",
+        "sha256": "67295978094b49977302aa7307f5ea9edebe57dd3adadb21c66d61072febc894"
+      },
+      {
+        "file": "text-48-slow.gif",
+        "sha256": "a375e9bd0f8f466bef3a093b584c9a380dc582296bab0016935de9a31263965f"
+      },
+      {
+        "file": "text-96-full-sequence.png",
+        "sha256": "3e18fc980c9db4df4833afd143dd1c07d87b779d3576ac9de66c92ca35b79fb4"
+      },
+      {
+        "file": "text-96-normal.gif",
+        "sha256": "473994ea95a20936007f664535b44806b1b7512377bc6116c0232de9102f0c55"
+      },
+      {
+        "file": "text-96-slow.gif",
+        "sha256": "48758d1d0e426ab00aeb5efe94148333665d0aeb30c29ebf859e4cd5fda5461d"
+      },
+      {
+        "file": "pen-48-full-sequence.png",
+        "sha256": "2f998f498f59536ba98ecca381c948e5e6c26c93fa2a9af56eea3800302bde36"
+      },
+      {
+        "file": "pen-48-normal.gif",
+        "sha256": "6a12d6155092c8d3b735e761da77c8c1e7ca5b2a63cb19cdffa184c270f5bbde"
+      },
+      {
+        "file": "pen-48-slow.gif",
+        "sha256": "21f5ce15ca31633bbe12ce9f5f41dfff45fd324ba5e1b06b2a10197dd84a737b"
+      },
+      {
+        "file": "pen-96-full-sequence.png",
+        "sha256": "da2813f2e989cb61c8cf4c7cac2df3b2bdb3b5090e68fceb7c3c4f01d2b4a337"
+      },
+      {
+        "file": "pen-96-normal.gif",
+        "sha256": "c62388dd911a78694904b16ebcb54ebe6fd424105e7c4a6a725f2ef87bc7b351"
+      },
+      {
+        "file": "pen-96-slow.gif",
+        "sha256": "34982bca273b5572b495a73bea184ddf3a8464cff448e6d0be9c117d0829bf7d"
+      },
+      {
+        "file": "unavailable-48-full-sequence.png",
+        "sha256": "c34cc15de57b02b35287bb6c5bc13fa3efaaac9e8acb3514a468e5ab16625311"
+      },
+      {
+        "file": "unavailable-48-normal.gif",
+        "sha256": "c670f15545471d12756d89cf8577741231500970f29b3ea11e2199bdc9d1ad0f"
+      },
+      {
+        "file": "unavailable-48-slow.gif",
+        "sha256": "72fa99a0a1d205de3dc8e4e1a39e656d7f9d4cc3055d2c7bced258a4a9f455dd"
+      },
+      {
+        "file": "unavailable-96-full-sequence.png",
+        "sha256": "024983a216ffb68b4331ecb9a2b5b4e93931b10fa35bfa99237d421ad77201d2"
+      },
+      {
+        "file": "unavailable-96-normal.gif",
+        "sha256": "160f4720d3a08e08f1295a6415dc0b164b13912c26498e60b285fdf14881914b"
+      },
+      {
+        "file": "unavailable-96-slow.gif",
+        "sha256": "6b9cd9c6c601523a98edfe3ea3e3580e44a1a02e634b00553c5ece9636236e9f"
+      },
+      {
+        "file": "size-ns-48-full-sequence.png",
+        "sha256": "1fd807c2887372ff51e9e15071841387820f6cd53d66d9ee1dffd8461d59ccfe"
+      },
+      {
+        "file": "size-ns-48-normal.gif",
+        "sha256": "5cc369e530e64472f31e1c6ec403f73bcd372c05b5d3e088ece75849557fcb31"
+      },
+      {
+        "file": "size-ns-48-slow.gif",
+        "sha256": "b3f2c5ba91645cc41db961556918c3a41e08146ad68ee594aad8be4bba01e70b"
+      },
+      {
+        "file": "size-ns-96-full-sequence.png",
+        "sha256": "e486e5120564062e6177a305b1a0bc2ae28f4d91d6eaaa099a2184fb4e435a49"
+      },
+      {
+        "file": "size-ns-96-normal.gif",
+        "sha256": "863395215b9f17f4647d6ab2c32bb35d6f3bd525991aaf684749250f7d0e2ee4"
+      },
+      {
+        "file": "size-ns-96-slow.gif",
+        "sha256": "dfe09f861deee803fee9ff8516dc3d093ffc182709f8606382087bb874488e9e"
+      },
+      {
+        "file": "size-we-48-full-sequence.png",
+        "sha256": "85ba7e74cf47012bb5fdef98e7653fcb3773ee6599d56c10bf0adb8b4e983e7a"
+      },
+      {
+        "file": "size-we-48-normal.gif",
+        "sha256": "36985963b6d78851fdf32a527b54c8efe2795e8fd29f6e74db6d439d949abe53"
+      },
+      {
+        "file": "size-we-48-slow.gif",
+        "sha256": "e2ce7861f7247d5ad71b5f8a6f0d22a3819f9ca3b079a6f0a46915391e4e4cb1"
+      },
+      {
+        "file": "size-we-96-full-sequence.png",
+        "sha256": "e567d92a1b3582a06b0a466d430528d940845a8d21ed62d97cf6c0fc143d11a5"
+      },
+      {
+        "file": "size-we-96-normal.gif",
+        "sha256": "6aa24a6d38ac9e008ce1114b532b1135de01ab01b88750cb1e60c49ab30d7e12"
+      },
+      {
+        "file": "size-we-96-slow.gif",
+        "sha256": "be9e78afba2f364ebc957d3fcbdf2f1fe69f635faf91f4f7f14ab0409fc3ddbd"
+      },
+      {
+        "file": "size-nwse-48-full-sequence.png",
+        "sha256": "deb74e1a33d41e96151af4ab8b9f7400383363df4bf50c26da7c1500e50e6d59"
+      },
+      {
+        "file": "size-nwse-48-normal.gif",
+        "sha256": "ee1ef07ef374b1d3b1961d53ae86ab95017e1c5f8d74702aa3a613f72b4fd5a4"
+      },
+      {
+        "file": "size-nwse-48-slow.gif",
+        "sha256": "783bb72ed737cd43ea3a3137327a5f43a8b23423bcf58ccb9a2a35d2654d6752"
+      },
+      {
+        "file": "size-nwse-96-full-sequence.png",
+        "sha256": "637d995faac4049eca7db450959449ee0215ad50e66075ba83257bda173854da"
+      },
+      {
+        "file": "size-nwse-96-normal.gif",
+        "sha256": "628c2e0463c4e2d9b09fb8737bb9844c7b153de95c120ca21fd3df4b7ad6e524"
+      },
+      {
+        "file": "size-nwse-96-slow.gif",
+        "sha256": "64c40320b64c9d561774f8fd865764c6642e6f4fae5225c652598ad9aa755b70"
+      },
+      {
+        "file": "size-nesw-48-full-sequence.png",
+        "sha256": "12eb4ba7c6ae081268d03ab94e5a7f1628559307910b4a9446b2613700092211"
+      },
+      {
+        "file": "size-nesw-48-normal.gif",
+        "sha256": "87aad3cfe65230949f686f6228c476c0436e63c1a0f2ed45385426ccdb5989b7"
+      },
+      {
+        "file": "size-nesw-48-slow.gif",
+        "sha256": "36152a32b013835800b779fdd8379f27b27ca4bbb6ba8e197575cf0072a389e3"
+      },
+      {
+        "file": "size-nesw-96-full-sequence.png",
+        "sha256": "167a858ff2d70f62aef05a2fb2d5678fa90951222ac25c20df79f82c947a7f63"
+      },
+      {
+        "file": "size-nesw-96-normal.gif",
+        "sha256": "edfda82892745b7ec4e5f6af9c5a7619dba35f74af069ddde5878f14ca4caece"
+      },
+      {
+        "file": "size-nesw-96-slow.gif",
+        "sha256": "a571860ae2fc0de67170f4363970571fa786635240b6a8298ab6701d3dfe8ef0"
+      },
+      {
+        "file": "move-48-full-sequence.png",
+        "sha256": "759a771e8bf2c7ad551480ae93500113d934bc71139be1679390ca6ed6f6c2f4"
+      },
+      {
+        "file": "move-48-normal.gif",
+        "sha256": "b85a173612f386c389b9696f881b57d8568bdc2767d4d08ea783f614f2f7301c"
+      },
+      {
+        "file": "move-48-slow.gif",
+        "sha256": "cf102ee896d3336e0c0ec9e1d9b713c6dbacf667d8f308e46b8e4d88c315e516"
+      },
+      {
+        "file": "move-96-full-sequence.png",
+        "sha256": "95d59f014609d6b398cd5cec7ab6f6ecfcc4a37038718510cfb0ea4e9cf8d781"
+      },
+      {
+        "file": "move-96-normal.gif",
+        "sha256": "1b3b0982a250ffa886d622e8bc39173aa2814623bc15e9548abbdd1010c6b00f"
+      },
+      {
+        "file": "move-96-slow.gif",
+        "sha256": "019939b48968539223677d43f86401481485f16639a27dd0c350fc0cae0558f5"
+      },
+      {
+        "file": "alternate-48-full-sequence.png",
+        "sha256": "87f769beb9c84f6a70cbda4150ddddb4a67940ea09febf5f164cbae0470ebe2d"
+      },
+      {
+        "file": "alternate-48-normal.gif",
+        "sha256": "e03763d6ac918df932084639b238828e7a5a21f49f409738ea1478d33bb6161b"
+      },
+      {
+        "file": "alternate-48-slow.gif",
+        "sha256": "4d87576d539f0a0092d8591b5dcb55d37311d474bfe994bc8c1175387247c6a3"
+      },
+      {
+        "file": "alternate-96-full-sequence.png",
+        "sha256": "150feb27db3209caf9779b73acf9a89b04c3c001921eafa3f947c92894e3cd6e"
+      },
+      {
+        "file": "alternate-96-normal.gif",
+        "sha256": "6a516545d613924630a6213984f3c0f7c872e3ee9277ff07768361af62e9143b"
+      },
+      {
+        "file": "alternate-96-slow.gif",
+        "sha256": "9fc54a19e702e5526f8d29b62aa3e35498fb5c1f13eb373e45def8ac215a7ae3"
+      },
+      {
+        "file": "link-48-full-sequence.png",
+        "sha256": "38e50bc3b06810408f68533863e1b0a19788e49eec1944d28b665e00c3e0a583"
+      },
+      {
+        "file": "link-48-normal.gif",
+        "sha256": "940defeebf06417f116053c027347700e15c90d94dbd918407b25c5e262d1e7d"
+      },
+      {
+        "file": "link-48-slow.gif",
+        "sha256": "53a4e38fc4435f214f6146fdcf448b8dfb635911e28e7668ef1f239047f97aee"
+      },
+      {
+        "file": "link-96-full-sequence.png",
+        "sha256": "0f94620492f6ac892d5c433f34c4a9185e8bf9f2958a4ff8e3a3905010c697dd"
+      },
+      {
+        "file": "link-96-normal.gif",
+        "sha256": "32f2dc29ad6f087787233a22e985da941290f04033989282a7cf74475b590279"
+      },
+      {
+        "file": "link-96-slow.gif",
+        "sha256": "5f0b36cce14bdf6f3072b5cc3891c204c6ceb4d2b576a42020fcaad72735a9f4"
+      },
+      {
+        "file": "pin-48-full-sequence.png",
+        "sha256": "cf11635f26f905d9d3b87850cc41d1b1ea3a4ec0d967fd5096346ceeb909a699"
+      },
+      {
+        "file": "pin-48-normal.gif",
+        "sha256": "8abba954ea95a78234f956331229bbace07d57a8cb89199111ac09eb1be7b182"
+      },
+      {
+        "file": "pin-48-slow.gif",
+        "sha256": "300812ba9bf5f1b3802c1bd433d18ff71c2bab54f18de7b0451b6b1503ede059"
+      },
+      {
+        "file": "pin-96-full-sequence.png",
+        "sha256": "8346b9c4eebc1aa920808af0cc71ac1de31d018d857f667df2fb4fdfb0dc7674"
+      },
+      {
+        "file": "pin-96-normal.gif",
+        "sha256": "d7a289989f5fc221e6c58373889e696972e6e58d7b390b487b08767bda8da6ae"
+      },
+      {
+        "file": "pin-96-slow.gif",
+        "sha256": "9443b083f21becf49f967ba9d607f922af84462c859905db923a34464e14626c"
+      },
+      {
+        "file": "person-48-full-sequence.png",
+        "sha256": "92720b36066b49054873505d8945747ded65f647ee5027ad0c74ad1d59dbce1d"
+      },
+      {
+        "file": "person-48-normal.gif",
+        "sha256": "2db8cbe56038dd12847053de2150552f18ade1e9e36aa1d1cbd7a34457c4ef23"
+      },
+      {
+        "file": "person-48-slow.gif",
+        "sha256": "0f10b87ac7a2cbd8bf98038be22bfba8154e3a1923388625b9319e3352fc15f4"
+      },
+      {
+        "file": "person-96-full-sequence.png",
+        "sha256": "0912b7017651426599713fe3e4435da8d5a653f609f403dd226eef367e1f36d7"
+      },
+      {
+        "file": "person-96-normal.gif",
+        "sha256": "3d7f810b38adb75111e37600b37995a3747bf9dc24a37ee749a8bf653e9e5d7c"
+      },
+      {
+        "file": "person-96-slow.gif",
+        "sha256": "8de54a79e72b35fab97fb52bc18d96fac83b9287ea881dd49bd080c534176e18"
+      }
+    ],
+    "browser_playback_screenshots": [
+      {
+        "file": "visual-playback-group0.png",
+        "group": 0,
+        "asset_revision_visible_in_browser": "b853a5e41e1b",
+        "state_ids": [
+          "normal",
+          "help",
+          "working"
+        ]
+      },
+      {
+        "file": "visual-playback-group1.png",
+        "group": 1,
+        "asset_revision_visible_in_browser": "b853a5e41e1b",
+        "state_ids": [
+          "wait",
+          "cross",
+          "text"
+        ]
+      },
+      {
+        "file": "visual-playback-group2.png",
+        "group": 2,
+        "asset_revision_visible_in_browser": "b853a5e41e1b",
+        "state_ids": [
+          "pen",
+          "unavailable",
+          "link"
+        ]
+      },
+      {
+        "file": "visual-playback-group3.png",
+        "group": 3,
+        "asset_revision_visible_in_browser": "b853a5e41e1b",
+        "state_ids": [
+          "pin",
+          "person"
+        ]
+      },
+      {
+        "file": "visual-playback-group4.png",
+        "group": 4,
+        "asset_revision_visible_in_browser": "6b4db5ecbb57",
+        "state_ids": [
+          "size-ns",
+          "size-we",
+          "size-nwse"
+        ]
+      },
+      {
+        "file": "visual-playback-group5.png",
+        "group": 5,
+        "asset_revision_visible_in_browser": "6b4db5ecbb57",
+        "state_ids": [
+          "size-nesw",
+          "move",
+          "alternate"
+        ]
+      }
+    ]
+  }
+}

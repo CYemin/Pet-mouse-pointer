@@ -50,6 +50,23 @@ Example single-state entry (include all roles in the final config):
 - The compiler aligns all frames to a common contact point and common square, retaining source-frame scale. It emits 32/48/64/96/128 variants plus default 48px copies.
 - A raw source border should be fully transparent. Inspect faint background washes or halos before encoding; request image-tool cleanup if needed.
 
+## Larger operation arrows
+
+For pixel-art themes, `operation_mark` optionally extracts the old small mark from each aligned native frame and places an enlarged, fixed symbol beside the pet. This technical composition preserves the pet's animation with a shared crop/scale per state. All ordinary point-select roles remain unchanged when the property is absent.
+
+```json
+{
+  "id": "size-we",
+  "operation_mark": {"kind": "size-we", "family": "golden"}
+}
+```
+
+The six supported kinds are `size-ns`, `size-we`, `size-nwse`, `size-nesw`, `move` and `alternate`. At native48px their standard symbol extents are9×21,26×13,19×19,19×19,21×21 and12×18px. Symbols use a consistent brown/cream pixel style; their centers are the click points, except `alternate`, which uses the up-arrow tip.
+
+The bundled `sheltie` and `golden` families are reviewed extraction/layout presets for this repository's example source geometry. Do not apply them blindly to a different drawing. For another layout, review `removal_box`, `protect_boxes`, per-frame overrides, `pet_box`, `marker_pos` and `marker_size` in `operation_marks.py`. Removal coordinates use the pre-composition48px canvas; optional `reference_anchor` or `removal_relative_to_anchor` controls coordinate adjustment. The helper rejects overlap between the new symbol and pet pixels or geometry outside the canvas.
+
+Templates load from the Skill's own `assets/operation-marks-v1/`; independent projects do not need to copy them. After changing a mark, inspect all frames on both backgrounds, verify the rendered mark and contact point at each exported size, and run motion/native checks again. A large bounding box alone does not prove an arrowhead is readable.
+
 The generated preview embeds its manifest, so it can be opened locally with its `frames/` folder retained. A local HTTP server is convenient for testing but is not required to install the native cursor files.
 
 ## Pixel themes and animation cadence

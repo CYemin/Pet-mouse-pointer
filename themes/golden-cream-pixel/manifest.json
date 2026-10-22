@@ -1,7 +1,7 @@
 {
   "name": "Cream Golden · 奶油金犬像素指针",
-  "version": "1.0.1",
-  "asset_revision": "adade5e62861",
+  "version": "1.1.0",
+  "asset_revision": "fc7b7831043b",
   "sizes": [
     32,
     48,
@@ -1961,24 +1961,24 @@
       },
       "hotspots": {
         "32": [
-          4,
-          7
+          5,
+          9
         ],
         "48": [
           7,
-          11
+          13
         ],
         "64": [
           9,
-          15
+          17
         ],
         "96": [
           14,
-          22
+          26
         ],
         "128": [
           19,
-          29
+          35
         ]
       },
       "animated": true,
@@ -2096,7 +2096,7 @@
       },
       "native_pixel_size": 48,
       "pixel_alpha_threshold": 128,
-      "pixel_palette_colors": 16,
+      "pixel_palette_colors": 48,
       "source_rects": [
         [
           0,
@@ -2154,11 +2154,9 @@
         ]
       ],
       "landmark_units": "pixels",
-      "hotspot_overrides": {
-        "32": [
-          4,
-          7
-        ]
+      "operation_mark": {
+        "kind": "size-ns",
+        "family": "golden"
       }
     },
     {
@@ -2176,24 +2174,24 @@
       },
       "hotspots": {
         "32": [
-          13,
-          5
+          11,
+          6
         ],
         "48": [
-          20,
-          8
+          16,
+          9
         ],
         "64": [
-          27,
-          11
+          21,
+          12
         ],
         "96": [
-          40,
-          16
+          32,
+          18
         ],
         "128": [
-          53,
-          21
+          43,
+          24
         ]
       },
       "animated": true,
@@ -2311,7 +2309,7 @@
       },
       "native_pixel_size": 48,
       "pixel_alpha_threshold": 128,
-      "pixel_palette_colors": 16,
+      "pixel_palette_colors": 48,
       "source_rects": [
         [
           0,
@@ -2368,7 +2366,11 @@
           1254
         ]
       ],
-      "landmark_units": "pixels"
+      "landmark_units": "pixels",
+      "operation_mark": {
+        "kind": "size-we",
+        "family": "golden"
+      }
     },
     {
       "id": "size-nwse",
@@ -2385,24 +2387,24 @@
       },
       "hotspots": {
         "32": [
-          6,
-          6
+          8,
+          8
         ],
         "48": [
-          9,
-          9
-        ],
-        "64": [
           12,
           12
         ],
-        "96": [
-          18,
-          18
+        "64": [
+          16,
+          16
         ],
-        "128": [
+        "96": [
           24,
           24
+        ],
+        "128": [
+          32,
+          32
         ]
       },
       "animated": true,
@@ -2520,7 +2522,7 @@
       },
       "native_pixel_size": 48,
       "pixel_alpha_threshold": 128,
-      "pixel_palette_colors": 16,
+      "pixel_palette_colors": 48,
       "source_rects": [
         [
           0,
@@ -2577,7 +2579,11 @@
           1254
         ]
       ],
-      "landmark_units": "pixels"
+      "landmark_units": "pixels",
+      "operation_mark": {
+        "kind": "size-nwse",
+        "family": "golden"
+      }
     },
     {
       "id": "size-nesw",
@@ -2594,24 +2600,24 @@
       },
       "hotspots": {
         "32": [
-          6,
-          6
+          8,
+          8
         ],
         "48": [
-          9,
-          9
-        ],
-        "64": [
           12,
           12
         ],
-        "96": [
-          18,
-          18
+        "64": [
+          16,
+          16
         ],
-        "128": [
+        "96": [
           24,
           24
+        ],
+        "128": [
+          32,
+          32
         ]
       },
       "animated": true,
@@ -2729,7 +2735,7 @@
       },
       "native_pixel_size": 48,
       "pixel_alpha_threshold": 128,
-      "pixel_palette_colors": 16,
+      "pixel_palette_colors": 48,
       "source_rects": [
         [
           0,
@@ -2786,7 +2792,11 @@
           1254
         ]
       ],
-      "landmark_units": "pixels"
+      "landmark_units": "pixels",
+      "operation_mark": {
+        "kind": "size-nesw",
+        "family": "golden"
+      }
     },
     {
       "id": "move",
@@ -2803,24 +2813,24 @@
       },
       "hotspots": {
         "32": [
-          7,
-          6
-        ],
-        "48": [
-          10,
+          9,
           9
         ],
-        "64": [
+        "48": [
           13,
-          12
+          13
+        ],
+        "64": [
+          17,
+          17
         ],
         "96": [
-          20,
-          18
+          26,
+          26
         ],
         "128": [
-          27,
-          24
+          35,
+          35
         ]
       },
       "animated": true,
@@ -2938,7 +2948,7 @@
       },
       "native_pixel_size": 48,
       "pixel_alpha_threshold": 128,
-      "pixel_palette_colors": 16,
+      "pixel_palette_colors": 48,
       "source_rects": [
         [
           0,
@@ -2995,13 +3005,17 @@
           1254
         ]
       ],
-      "landmark_units": "pixels"
+      "landmark_units": "pixels",
+      "operation_mark": {
+        "kind": "move",
+        "family": "golden"
+      }
     },
     {
       "id": "alternate",
       "role": "UpArrow",
       "label": "候选选择",
-      "idea": "抬头看向小上箭头，眨眼、抬爪，箭头尖定位",
+      "idea": "抬头看向上箭头，眨眼、抬爪，箭头尖定位",
       "file": "alternate.ani",
       "variants": {
         "32": "32/alternate.ani",
@@ -3012,23 +3026,23 @@
       },
       "hotspots": {
         "32": [
-          5,
-          3
+          6,
+          2
         ],
         "48": [
-          7,
+          9,
           3
         ],
         "64": [
-          9,
+          12,
           4
         ],
         "96": [
-          14,
+          18,
           6
         ],
         "128": [
-          19,
+          24,
           8
         ]
       },
@@ -3147,7 +3161,7 @@
       },
       "native_pixel_size": 48,
       "pixel_alpha_threshold": 128,
-      "pixel_palette_colors": 16,
+      "pixel_palette_colors": 48,
       "source_rects": [
         [
           0,
@@ -3205,11 +3219,9 @@
         ]
       ],
       "landmark_units": "pixels",
-      "hotspot_overrides": {
-        "32": [
-          5,
-          3
-        ]
+      "operation_mark": {
+        "kind": "alternate",
+        "family": "golden"
       }
     },
     {

@@ -1,0 +1,311 @@
+{
+  "status": "passed",
+  "asset_revision": "1edf84d4be0d",
+  "reviewed_at_utc": "2026-10-22T11:50:48.747474+00:00",
+  "source_manifest": "manifest.json",
+  "reviewer": "Codex golden theme visual QA agent",
+  "reviewed_state_ids": [
+    "normal",
+    "help",
+    "working",
+    "wait",
+    "cross",
+    "text",
+    "pen",
+    "unavailable",
+    "size-ns",
+    "size-we",
+    "size-nwse",
+    "size-nesw",
+    "move",
+    "alternate",
+    "link",
+    "pin",
+    "person"
+  ],
+  "sizes_reviewed": [
+    48,
+    96
+  ],
+  "backgrounds_reviewed": [
+    "light",
+    "dark"
+  ],
+  "playback_rates_reviewed": [
+    "normal",
+    "quarter-speed"
+  ],
+  "methods": [
+    "Inspected full-sequence contact sheets for every displayed frame and explicit last-to-first return at 48px and96px, with paired light/dark panels.",
+    "Viewed normal and quarter-speed GIFs in a hidden localhost IAB board at actual48px and96px, comparing repeated playback-phase screenshots. Final GIF URLs carried the final asset_revision cache key.",
+    "Tracked nose, eye socket, muzzle, chest/harness, pencil tip, insertion line, crosshair and arrow intersection separately; assessed stable contact and body scale rather than relying on opaque hotspot pixels."
+  ],
+  "coverage": {
+    "all_states_reviewed": true,
+    "all_displayed_frames_reviewed": true,
+    "all_adjacent_transitions_reviewed": true,
+    "last_to_first_reviewed": true,
+    "frames_per_size": 174,
+    "displayed_sequence_steps_per_size": 174,
+    "transition_edges_across_sizes": 348,
+    "loop_closures_across_sizes": 34,
+    "state_coverage": [
+      {
+        "id": "normal",
+        "frame_count": 16,
+        "sequence_steps": 16,
+        "adjacent_edges_including_loop_per_size": 16,
+        "sizes": [
+          48,
+          96
+        ],
+        "backgrounds": [
+          "light",
+          "dark"
+        ]
+      },
+      {
+        "id": "help",
+        "frame_count": 16,
+        "sequence_steps": 16,
+        "adjacent_edges_including_loop_per_size": 16,
+        "sizes": [
+          48,
+          96
+        ],
+        "backgrounds": [
+          "light",
+          "dark"
+        ]
+      },
+      {
+        "id": "working",
+        "frame_count": 9,
+        "sequence_steps": 9,
+        "adjacent_edges_including_loop_per_size": 9,
+        "sizes": [
+          48,
+          96
+        ],
+        "backgrounds": [
+          "light",
+          "dark"
+        ]
+      },
+      {
+        "id": "wait",
+        "frame_count": 16,
+        "sequence_steps": 16,
+        "adjacent_edges_including_loop_per_size": 16,
+        "sizes": [
+          48,
+          96
+        ],
+        "backgrounds": [
+          "light",
+          "dark"
+        ]
+      },
+      {
+        "id": "cross",
+        "frame_count": 9,
+        "sequence_steps": 9,
+        "adjacent_edges_including_loop_per_size": 9,
+        "sizes": [
+          48,
+          96
+        ],
+        "backgrounds": [
+          "light",
+          "dark"
+        ]
+      },
+      {
+        "id": "text",
+        "frame_count": 9,
+        "sequence_steps": 9,
+        "adjacent_edges_including_loop_per_size": 9,
+        "sizes": [
+          48,
+          96
+        ],
+        "backgrounds": [
+          "light",
+          "dark"
+        ]
+      },
+      {
+        "id": "pen",
+        "frame_count": 9,
+        "sequence_steps": 9,
+        "adjacent_edges_including_loop_per_size": 9,
+        "sizes": [
+          48,
+          96
+        ],
+        "backgrounds": [
+          "light",
+          "dark"
+        ]
+      },
+      {
+        "id": "unavailable",
+        "frame_count": 9,
+        "sequence_steps": 9,
+        "adjacent_edges_including_loop_per_size": 9,
+        "sizes": [
+          48,
+          96
+        ],
+        "backgrounds": [
+          "light",
+          "dark"
+        ]
+      },
+      {
+        "id": "size-ns",
+        "frame_count": 9,
+        "sequence_steps": 9,
+        "adjacent_edges_including_loop_per_size": 9,
+        "sizes": [
+          48,
+          96
+        ],
+        "backgrounds": [
+          "light",
+          "dark"
+        ]
+      },
+      {
+        "id": "size-we",
+        "frame_count": 9,
+        "sequence_steps": 9,
+        "adjacent_edges_including_loop_per_size": 9,
+        "sizes": [
+          48,
+          96
+        ],
+        "backgrounds": [
+          "light",
+          "dark"
+        ]
+      },
+      {
+        "id": "size-nwse",
+        "frame_count": 9,
+        "sequence_steps": 9,
+        "adjacent_edges_including_loop_per_size": 9,
+        "sizes": [
+          48,
+          96
+        ],
+        "backgrounds": [
+          "light",
+          "dark"
+        ]
+      },
+      {
+        "id": "size-nesw",
+        "frame_count": 9,
+        "sequence_steps": 9,
+        "adjacent_edges_including_loop_per_size": 9,
+        "sizes": [
+          48,
+          96
+        ],
+        "backgrounds": [
+          "light",
+          "dark"
+        ]
+      },
+      {
+        "id": "move",
+        "frame_count": 9,
+        "sequence_steps": 9,
+        "adjacent_edges_including_loop_per_size": 9,
+        "sizes": [
+          48,
+          96
+        ],
+        "backgrounds": [
+          "light",
+          "dark"
+        ]
+      },
+      {
+        "id": "alternate",
+        "frame_count": 9,
+        "sequence_steps": 9,
+        "adjacent_edges_including_loop_per_size": 9,
+        "sizes": [
+          48,
+          96
+        ],
+        "backgrounds": [
+          "light",
+          "dark"
+        ]
+      },
+      {
+        "id": "link",
+        "frame_count": 9,
+        "sequence_steps": 9,
+        "adjacent_edges_including_loop_per_size": 9,
+        "sizes": [
+          48,
+          96
+        ],
+        "backgrounds": [
+          "light",
+          "dark"
+        ]
+      },
+      {
+        "id": "pin",
+        "frame_count": 9,
+        "sequence_steps": 9,
+        "adjacent_edges_including_loop_per_size": 9,
+        "sizes": [
+          48,
+          96
+        ],
+        "backgrounds": [
+          "light",
+          "dark"
+        ]
+      },
+      {
+        "id": "person",
+        "frame_count": 9,
+        "sequence_steps": 9,
+        "adjacent_edges_including_loop_per_size": 9,
+        "sizes": [
+          48,
+          96
+        ],
+        "backgrounds": [
+          "light",
+          "dark"
+        ]
+      }
+    ]
+  },
+  "automatic_candidate_decisions": {
+    "source": "automatic-report.json",
+    "candidate_count": 0,
+    "decision": "Automatic report is supplementary evidence only. All unflagged frames and loop closures were inspected visually."
+  },
+  "findings": [
+    "No severe accidental whole-body translation, sudden scale jump or isolated bad-pose pop was observed in the reviewed frames and playback phases.",
+    "The six enlarged arrow symbols remain legible on both backgrounds at48px; their tips and intersections are not clipped, and their pointing direction is unambiguous.",
+    "Nose contacts and functional marker contacts remain visually stable while ears, eyelids, local fur and paws move.",
+    "Tongue coral/pink and green/teal chest accents remain distinguishable in the states where visible."
+  ],
+  "remaining_minor_issues": [
+    "Mild local fur, cheek and muzzle contour drift is visible between drawings, especially enlarged to96px. This does not read as a severe body-placement or body-scale jump.",
+    "Help question mark changes scale and sleep letters appear/disappear intentionally; these changes are separate from body registration."
+  ],
+  "limitations": [
+    "This is visual review of exported cursor frames and playback evidence; actual installed desktop click feel, mixed-DPI and multi-monitor behavior were not exercised by this reviewer."
+  ]
+}

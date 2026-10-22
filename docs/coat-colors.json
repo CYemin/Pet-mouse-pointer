@@ -1,0 +1,163 @@
+{
+  "kind": "coat-color-catalog",
+  "variants": [
+    {
+      "id": "sheltie-sable",
+      "label": "金貂色",
+      "breed": "sheltie",
+      "coat": {
+        "base": "golden-sable",
+        "tan_points": false,
+        "white_regions": [
+          "blaze",
+          "muzzle",
+          "ruff"
+        ],
+        "merle_patches": []
+      },
+      "stage": "complete-theme",
+      "theme": "pet-pixel-complete"
+    },
+    {
+      "id": "sheltie-dark-sable",
+      "label": "深貂色",
+      "breed": "sheltie",
+      "coat": {
+        "base": "mahogany-sable",
+        "tan_points": false,
+        "white_regions": [
+          "blaze",
+          "muzzle",
+          "ruff"
+        ],
+        "merle_patches": []
+      },
+      "stage": "static-design"
+    },
+    {
+      "id": "sheltie-bi-black",
+      "label": "黑白",
+      "breed": "sheltie",
+      "coat": {
+        "base": "charcoal-black",
+        "tan_points": false,
+        "white_regions": [
+          "blaze",
+          "muzzle",
+          "ruff"
+        ],
+        "merle_patches": []
+      },
+      "stage": "static-design"
+    },
+    {
+      "id": "sheltie-tricolor",
+      "label": "三色",
+      "breed": "sheltie",
+      "coat": {
+        "base": "black-white-tan",
+        "tan_points": true,
+        "white_regions": [
+          "blaze",
+          "muzzle",
+          "ruff"
+        ],
+        "merle_patches": []
+      },
+      "stage": "complete-theme",
+      "theme": "sheltie-tricolor-pixel"
+    },
+    {
+      "id": "sheltie-blue-merle",
+      "label": "蓝陨",
+      "breed": "sheltie",
+      "coat": {
+        "base": "silver-black-white-tan",
+        "tan_points": true,
+        "white_regions": [
+          "blaze",
+          "muzzle",
+          "ruff"
+        ],
+        "merle_patches": [
+          "ear-base",
+          "rear-crown",
+          "rear-mane"
+        ]
+      },
+      "stage": "complete-theme",
+      "theme": "sheltie-blue-merle-pixel"
+    },
+    {
+      "id": "sheltie-bi-blue",
+      "label": "双色蓝",
+      "breed": "sheltie",
+      "coat": {
+        "base": "silver-black-white",
+        "tan_points": false,
+        "white_regions": [
+          "blaze",
+          "muzzle",
+          "ruff"
+        ],
+        "merle_patches": [
+          "ear-base",
+          "rear-crown",
+          "rear-mane"
+        ]
+      },
+      "stage": "static-design"
+    },
+    {
+      "id": "golden-cream",
+      "label": "奶油白",
+      "breed": "golden",
+      "coat": {
+        "base": "cream",
+        "tan_points": false,
+        "white_regions": [],
+        "merle_patches": []
+      },
+      "stage": "complete-theme",
+      "theme": "golden-cream-pixel"
+    },
+    {
+      "id": "golden-light-golden",
+      "label": "浅金",
+      "breed": "golden",
+      "coat": {
+        "base": "light-wheat-golden",
+        "tan_points": false,
+        "white_regions": [],
+        "merle_patches": []
+      },
+      "stage": "static-design"
+    },
+    {
+      "id": "golden-golden",
+      "label": "标准金",
+      "breed": "golden",
+      "coat": {
+        "base": "honey-golden",
+        "tan_points": false,
+        "white_regions": [],
+        "merle_patches": []
+      },
+      "stage": "complete-theme",
+      "theme": "golden-standard-pixel"
+    },
+    {
+      "id": "golden-dark-golden",
+      "label": "深金",
+      "breed": "golden",
+      "coat": {
+        "base": "copper-golden",
+        "tan_points": false,
+        "white_regions": [],
+        "merle_patches": []
+      },
+      "stage": "complete-theme",
+      "theme": "golden-dark-pixel"
+    }
+  ]
+}

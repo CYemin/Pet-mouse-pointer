@@ -1,0 +1,2212 @@
+{
+  "status": "passed",
+  "roles": 17,
+  "files_checked": 102,
+  "embedded_cursor_frames_checked": 1074,
+  "all_native_loads_and_draws_passed": true,
+  "hotspot_warnings": [],
+  "system_settings_modified": false,
+  "manual_checks_pending": [
+    "Windows desktop scheme installation and restoration",
+    "multiple monitors and DPI switching",
+    "user evaluation of likeness and click feel"
+  ],
+  "checks": [
+    {
+      "file": "32\\normal.ani",
+      "role": "Arrow",
+      "size": 32,
+      "hotspot": [
+        3,
+        8
+      ],
+      "native_frame_hashes": [
+        "500f0e66d8933b1a",
+        "affd014648d71a04",
+        "d8d29441d7fb7852",
+        "5199eca662c1fcff",
+        "324d69afa6d6b0df",
+        "c6d779432342c789",
+        "117c3b1ced3c1d88",
+        "865cc60cf9e69c90",
+        "9ec5342335143bbf",
+        "9ec4866aa5c32dca",
+        "4cb901c6d1584a69",
+        "fcc955adfb14bb9a",
+        "abc9ad99d5ab99e1",
+        "eb416e49a8fb714b",
+        "d8180f122a59d9e6"
+      ]
+    },
+    {
+      "file": "48\\normal.ani",
+      "role": "Arrow",
+      "size": 48,
+      "hotspot": [
+        4,
+        12
+      ],
+      "native_frame_hashes": [
+        "f33c34030ea2cd82",
+        "722b80b2f0138d46",
+        "9ff0048adbbb062b",
+        "d08ba37f0e14b8ec",
+        "466ae987841ee50d",
+        "2866f05b14f73262",
+        "edfa7706923c29a4",
+        "1e585b635b374df9",
+        "b09aba3646db9bf2",
+        "6e5b28f42310a207",
+        "cf89df620f76c7a3",
+        "fec69f3ee668ddeb",
+        "37e9c517514e048c",
+        "9b5a43f54402086e",
+        "773bcb8409cef141"
+      ]
+    },
+    {
+      "file": "64\\normal.ani",
+      "role": "Arrow",
+      "size": 64,
+      "hotspot": [
+        5,
+        16
+      ],
+      "native_frame_hashes": [
+        "491354608fe24829",
+        "988f342fdef959f2",
+        "973fecfe662206cf",
+        "8d76d4def9a00f89",
+        "530ab436c257c06e",
+        "9e55febcdffd36cc",
+        "4e985eece9643bb6",
+        "a52951f8e3ed9201",
+        "62292a725468aa79",
+        "19ec13f2d46c8fc0",
+        "81caa3fe32f9804f",
+        "3622ee7100a0c5af",
+        "ba9881c6e521cc0f",
+        "4765e2254b060ee1",
+        "e9ffccb76dfafed0"
+      ]
+    },
+    {
+      "file": "96\\normal.ani",
+      "role": "Arrow",
+      "size": 96,
+      "hotspot": [
+        8,
+        24
+      ],
+      "native_frame_hashes": [
+        "524f48a8db3f54eb",
+        "c32099829aadb1bc",
+        "417d7449bfbcb84b",
+        "91e4bda8a875ae41",
+        "b0053c990e1a9143",
+        "30cc514a521d4703",
+        "01906c126ff1db7a",
+        "a18fd6e3d6a361c9",
+        "ca5a4a89660fcca6",
+        "85885c57d81aabbf",
+        "c7124b9142121988",
+        "e92f2469c817151f",
+        "2bd448edaa756cb5",
+        "95ad43e05e05db51",
+        "44d68d132dd450e0"
+      ]
+    },
+    {
+      "file": "128\\normal.ani",
+      "role": "Arrow",
+      "size": 128,
+      "hotspot": [
+        11,
+        32
+      ],
+      "native_frame_hashes": [
+        "066aa371e607fec5",
+        "8bb5c738e9aa3b71",
+        "2b85602714720ba4",
+        "874afca055b6cb04",
+        "2dfcff43076461b0",
+        "0aa52a9cce393593",
+        "12bf37ecfa11b420",
+        "79cd0fd8dd297676",
+        "5772e841aae90cfe",
+        "0a63ba5d470c22af",
+        "2406affb7fe083a3",
+        "3d551c166719ece6",
+        "4e8526d1233e5e4d",
+        "7a6b3eaf9e004cbb",
+        "040fb9fccfc3feff"
+      ]
+    },
+    {
+      "file": "normal.ani",
+      "role": "Arrow",
+      "size": 48,
+      "hotspot": [
+        4,
+        12
+      ],
+      "native_frame_hashes": [
+        "f33c34030ea2cd82",
+        "722b80b2f0138d46",
+        "9ff0048adbbb062b",
+        "d08ba37f0e14b8ec",
+        "466ae987841ee50d",
+        "2866f05b14f73262",
+        "edfa7706923c29a4",
+        "1e585b635b374df9",
+        "b09aba3646db9bf2",
+        "6e5b28f42310a207",
+        "cf89df620f76c7a3",
+        "fec69f3ee668ddeb",
+        "37e9c517514e048c",
+        "9b5a43f54402086e",
+        "773bcb8409cef141"
+      ]
+    },
+    {
+      "file": "32\\help.ani",
+      "role": "Help",
+      "size": 32,
+      "hotspot": [
+        5,
+        13
+      ],
+      "native_frame_hashes": [
+        "128e68b00708ce98",
+        "adc35452bcf6119b",
+        "b7c6dca7181161ab",
+        "2daa25aa148f2c24",
+        "edcffe0f415e7e1e",
+        "f970ab0451fd6bcb",
+        "b37a1ba9327dc91f",
+        "dad80c4db5ca26ac",
+        "2881581eea39a505",
+        "a75afa17c1147b88",
+        "e3665be5e6c415af",
+        "668ee3e0f2beaf7f",
+        "61595147ca1b4092",
+        "05387264853b6b3a",
+        "15025cb5dd9617b6",
+        "6efca73210375264"
+      ]
+    },
+    {
+      "file": "48\\help.ani",
+      "role": "Help",
+      "size": 48,
+      "hotspot": [
+        7,
+        19
+      ],
+      "native_frame_hashes": [
+        "7b22cf8c5e6ae342",
+        "7287c791fb5e8922",
+        "62c45c4694527135",
+        "6ea7600b8fd80b00",
+        "b2b8f839eaf7c9e8",
+        "aa75f73419b1132b",
+        "b4c5ba711e291b52",
+        "0f0f472ccda07ab1",
+        "dca5a55eda896378",
+        "cf045f46edec07db",
+        "d0d9b479c4486c6e",
+        "177a4072ac6356bc",
+        "bf62c20c0f2783a7",
+        "01266396057d4770",
+        "dbaae3abef6503a4",
+        "4777bd0ccd77fe80"
+      ]
+    },
+    {
+      "file": "64\\help.ani",
+      "role": "Help",
+      "size": 64,
+      "hotspot": [
+        9,
+        25
+      ],
+      "native_frame_hashes": [
+        "d4cc68117b35706b",
+        "c580152d12ce571f",
+        "5efa7c466fef28ba",
+        "47edf23d16fbcabc",
+        "046850a3ebeee862",
+        "5a06202a209ebafd",
+        "729035b6cb79e370",
+        "30370cc271fde05c",
+        "548681a039e8fdd3",
+        "75a112fe025e728f",
+        "d60e26b257f2de12",
+        "74c9d43b39b90299",
+        "0fab9f48b8d57a01",
+        "f6437f2dbf1a2c12",
+        "ca1dac99b58dd60a",
+        "8dcf07b7516e6d95"
+      ]
+    },
+    {
+      "file": "96\\help.ani",
+      "role": "Help",
+      "size": 96,
+      "hotspot": [
+        14,
+        38
+      ],
+      "native_frame_hashes": [
+        "b335182388716200",
+        "1fe8327a9b02cbda",
+        "0f718b74ab3aa059",
+        "cd3037f16fbd08e4",
+        "045a1bf3f61053f6",
+        "e10502d0448b50fa",
+        "1dbb024073103698",
+        "091570de7cdca0fa",
+        "c456d87a02685622",
+        "3e394ca1b55772cb",
+        "7c44678062654391",
+        "5342736105070fb2",
+        "dc10d0fe9667fa8f",
+        "68e02ba2939cdffa",
+        "3dc60c6c09498d99",
+        "557e68a1174dd35c"
+      ]
+    },
+    {
+      "file": "128\\help.ani",
+      "role": "Help",
+      "size": 128,
+      "hotspot": [
+        19,
+        51
+      ],
+      "native_frame_hashes": [
+        "1ee80850ae3caea0",
+        "5608f526309baf46",
+        "c31d5be54f2fa09c",
+        "3a547feae6dfcb6f",
+        "0b118d2d5e46df8d",
+        "920475022fecad27",
+        "6538514cf69cb720",
+        "4e7e973f2a33f925",
+        "ad73e1a393768ce5",
+        "74acecbd7bdaf55d",
+        "6c0a55453c8f70e4",
+        "e42e5446ad2665e1",
+        "878f4bb99663acae",
+        "b05c80ec3ebaa10c",
+        "80e5209d21ed3e0f",
+        "dc27fee45ec230f6"
+      ]
+    },
+    {
+      "file": "help.ani",
+      "role": "Help",
+      "size": 48,
+      "hotspot": [
+        7,
+        19
+      ],
+      "native_frame_hashes": [
+        "7b22cf8c5e6ae342",
+        "7287c791fb5e8922",
+        "62c45c4694527135",
+        "6ea7600b8fd80b00",
+        "b2b8f839eaf7c9e8",
+        "aa75f73419b1132b",
+        "b4c5ba711e291b52",
+        "0f0f472ccda07ab1",
+        "dca5a55eda896378",
+        "cf045f46edec07db",
+        "d0d9b479c4486c6e",
+        "177a4072ac6356bc",
+        "bf62c20c0f2783a7",
+        "01266396057d4770",
+        "dbaae3abef6503a4",
+        "4777bd0ccd77fe80"
+      ]
+    },
+    {
+      "file": "32\\working.ani",
+      "role": "AppStarting",
+      "size": 32,
+      "hotspot": [
+        4,
+        11
+      ],
+      "native_frame_hashes": [
+        "ccb08551347d9397",
+        "62f46cc6ac3a3bb4",
+        "6d86e3bef1a69408",
+        "7b210c25150092f0",
+        "1bdb03b304ac7d44",
+        "17f890b86364e41a",
+        "674a8e7f760a0de1",
+        "584bb2199a899536",
+        "7e5fa909b766ce4e",
+        "12aaa8b86b456024",
+        "164434bfe88296a9",
+        "86355cf445d6162b"
+      ]
+    },
+    {
+      "file": "48\\working.ani",
+      "role": "AppStarting",
+      "size": 48,
+      "hotspot": [
+        6,
+        16
+      ],
+      "native_frame_hashes": [
+        "7ba532b9928028aa",
+        "4ae8d86ac0286399",
+        "fb5f2a809f2cb6be",
+        "e1705d4426704de1",
+        "6d76fbb35ced4c1c",
+        "0c27d39bcd93558e",
+        "16dfd637a6fe1de9",
+        "a4b9ed5832f4b19c",
+        "1ad03ba20da9747e",
+        "596b10f60f17ecf1",
+        "108bda7a44b22d28",
+        "7656ff2265928f2d"
+      ]
+    },
+    {
+      "file": "64\\working.ani",
+      "role": "AppStarting",
+      "size": 64,
+      "hotspot": [
+        8,
+        21
+      ],
+      "native_frame_hashes": [
+        "29612d879f0fadf0",
+        "49a79488eb610f86",
+        "997b7f4f8098f920",
+        "54553bad8c92d1f3",
+        "1d32e0423e6007c9",
+        "fd4358439887145c",
+        "5cc8c270bc28a62e",
+        "f8baecec758a820f",
+        "8b36a80ae71a1066",
+        "872c6ebfa91aad84",
+        "6ab5a73cf5d290a7",
+        "05b4c2362a42a167"
+      ]
+    },
+    {
+      "file": "96\\working.ani",
+      "role": "AppStarting",
+      "size": 96,
+      "hotspot": [
+        12,
+        32
+      ],
+      "native_frame_hashes": [
+        "a749a26def233fca",
+        "1ee602ae4e3b7dbc",
+        "4e30067f4401c613",
+        "200b280e4a16427d",
+        "2b0192fbf4877a9b",
+        "692194ecafee2cc4",
+        "528b92d40c3f515c",
+        "f880dbb4c1273775",
+        "bfa789bb0185e7a3",
+        "f67f1db3e5cdb47c",
+        "52ab5f2faf56a41c",
+        "be15320b455bb797"
+      ]
+    },
+    {
+      "file": "128\\working.ani",
+      "role": "AppStarting",
+      "size": 128,
+      "hotspot": [
+        16,
+        43
+      ],
+      "native_frame_hashes": [
+        "57ddf549ff3e2d32",
+        "871bec096645f23e",
+        "af4a87ee7d01b85d",
+        "f2e603d08b960526",
+        "096abc88634459a6",
+        "f83b37e11ac96855",
+        "adb0a03ef5fc2b20",
+        "5b06f151b8b191c3",
+        "f2da680feceea8b9",
+        "54226d7c6784c797",
+        "8be29a8c6423e328",
+        "23ccac5358b2f972"
+      ]
+    },
+    {
+      "file": "working.ani",
+      "role": "AppStarting",
+      "size": 48,
+      "hotspot": [
+        6,
+        16
+      ],
+      "native_frame_hashes": [
+        "7ba532b9928028aa",
+        "4ae8d86ac0286399",
+        "fb5f2a809f2cb6be",
+        "e1705d4426704de1",
+        "6d76fbb35ced4c1c",
+        "0c27d39bcd93558e",
+        "16dfd637a6fe1de9",
+        "a4b9ed5832f4b19c",
+        "1ad03ba20da9747e",
+        "596b10f60f17ecf1",
+        "108bda7a44b22d28",
+        "7656ff2265928f2d"
+      ]
+    },
+    {
+      "file": "32\\wait.ani",
+      "role": "Wait",
+      "size": 32,
+      "hotspot": [
+        3,
+        17
+      ],
+      "native_frame_hashes": [
+        "09ff0116527301f2",
+        "98db67838c615e80",
+        "496feb9ffeb22ef7",
+        "bd376aeba70b9943",
+        "69a8ac2df3dd3c6f",
+        "e9a34681541b9918",
+        "9dd5d8e921744232",
+        "abf055d6cb4299e3",
+        "308183062ae7453b",
+        "7cd15c718a41ec5f",
+        "3e5dcfdafe4994b3",
+        "a8031f5f0d4db53d",
+        "4839f4f9897f7a8c",
+        "d6a3031bbe59c6dc",
+        "a74ee1d1289bd3c9",
+        "c8c9198744678d68"
+      ]
+    },
+    {
+      "file": "48\\wait.ani",
+      "role": "Wait",
+      "size": 48,
+      "hotspot": [
+        4,
+        26
+      ],
+      "native_frame_hashes": [
+        "0845172bb572805f",
+        "d12444433825546f",
+        "1eb343d22dfcf213",
+        "9716c6dd8cd6978c",
+        "24cae9c4433ece5a",
+        "85a64445c5347969",
+        "6c49d4607a283b2c",
+        "c2a17255373e26f1",
+        "8ebce36bd57acae8",
+        "ab9609e694ed4c5f",
+        "e29d7bb4ee79da35",
+        "61c35a33730feaec",
+        "b048b4b3234dc313",
+        "5673362711ad8fd2",
+        "bc2a0a6b6a0f2a7a",
+        "c570fb0ea5f91c7c"
+      ]
+    },
+    {
+      "file": "64\\wait.ani",
+      "role": "Wait",
+      "size": 64,
+      "hotspot": [
+        5,
+        35
+      ],
+      "native_frame_hashes": [
+        "5c1225049c592bf7",
+        "5413a15355423439",
+        "5ed3f3d8931b1102",
+        "e09044bff7dd1f69",
+        "37a4016a5707782c",
+        "69dd24b3179b5cac",
+        "2aa5843bde0f2f22",
+        "466015eeaa128785",
+        "ea498b3a725863c8",
+        "497ae22f70793ee8",
+        "f27e2bc2237d5bf5",
+        "e6e19fcc0b444cce",
+        "09dd44363439e258",
+        "640741d751b5cd87",
+        "8cb05f77a37a22fe",
+        "7b5bd54dcfcb2ec9"
+      ]
+    },
+    {
+      "file": "96\\wait.ani",
+      "role": "Wait",
+      "size": 96,
+      "hotspot": [
+        8,
+        52
+      ],
+      "native_frame_hashes": [
+        "62badeda9001cad5",
+        "ad1c045d612ed531",
+        "7e5df7ef8f582f9f",
+        "5215b42336d4477e",
+        "23b75453c3cfaf64",
+        "1f026b4fe3de64eb",
+        "ab8f1c4556630c90",
+        "154a13890efc7492",
+        "fa4f7b0439b18b24",
+        "2aa1abc1d44128a5",
+        "791f09c4d076c725",
+        "879ebbf6ad108a08",
+        "144e2ce92b2b4318",
+        "cf34e67f07dbf0f5",
+        "80a570a136bc0529",
+        "d3108e33d25367f2"
+      ]
+    },
+    {
+      "file": "128\\wait.ani",
+      "role": "Wait",
+      "size": 128,
+      "hotspot": [
+        11,
+        69
+      ],
+      "native_frame_hashes": [
+        "250eadf5e3ba9283",
+        "b8efd470b3603afa",
+        "480ad6fcd053c486",
+        "e1644178d559b369",
+        "61fed39c0ea7bcf0",
+        "0c1de0e517346549",
+        "b3091e81d4ebf486",
+        "bb2dfd093b39b2d9",
+        "643478fe8a2fc8ab",
+        "2c3fcae63238fd09",
+        "b9450b6328cdfd27",
+        "30cbecbb84392b9c",
+        "a1dc51c262d385e8",
+        "493149d4ff28be17",
+        "cc586ee28ca0a293",
+        "f115a0a41e351102"
+      ]
+    },
+    {
+      "file": "wait.ani",
+      "role": "Wait",
+      "size": 48,
+      "hotspot": [
+        4,
+        26
+      ],
+      "native_frame_hashes": [
+        "0845172bb572805f",
+        "d12444433825546f",
+        "1eb343d22dfcf213",
+        "9716c6dd8cd6978c",
+        "24cae9c4433ece5a",
+        "85a64445c5347969",
+        "6c49d4607a283b2c",
+        "c2a17255373e26f1",
+        "8ebce36bd57acae8",
+        "ab9609e694ed4c5f",
+        "e29d7bb4ee79da35",
+        "61c35a33730feaec",
+        "b048b4b3234dc313",
+        "5673362711ad8fd2",
+        "bc2a0a6b6a0f2a7a",
+        "c570fb0ea5f91c7c"
+      ]
+    },
+    {
+      "file": "32\\cross.ani",
+      "role": "Crosshair",
+      "size": 32,
+      "hotspot": [
+        4,
+        4
+      ],
+      "native_frame_hashes": [
+        "418cac7442ef4b35",
+        "85b922f8464f7919",
+        "516ad46ebfd89880",
+        "6e1c11643d877068",
+        "308817915be2b84e",
+        "1cf4cd107ca1ecce",
+        "95c0d720cf1ddd1d",
+        "68d89183cd33dcaf",
+        "64bb9c64ea8fd38a"
+      ]
+    },
+    {
+      "file": "48\\cross.ani",
+      "role": "Crosshair",
+      "size": 48,
+      "hotspot": [
+        7,
+        7
+      ],
+      "native_frame_hashes": [
+        "e58f2042408b8065",
+        "0bb5ec4557b9091e",
+        "86d7b5c236159d49",
+        "44a41775b43db32e",
+        "97c20cc72b3320d6",
+        "0589f6c9f2bcfebb",
+        "778337df59a88c4d",
+        "fd363a9a1b141410",
+        "94f29f7f841d7201"
+      ]
+    },
+    {
+      "file": "64\\cross.ani",
+      "role": "Crosshair",
+      "size": 64,
+      "hotspot": [
+        9,
+        9
+      ],
+      "native_frame_hashes": [
+        "73bf999a9c40ce87",
+        "ed89270fb63de8ee",
+        "6016511ea4aa3ea7",
+        "d33610179da9cbf2",
+        "809dab98904837ef",
+        "d9868a8da6c7f97e",
+        "191ccf868486a94c",
+        "b06c875013a21bbe",
+        "4f4541a9756f414a"
+      ]
+    },
+    {
+      "file": "96\\cross.ani",
+      "role": "Crosshair",
+      "size": 96,
+      "hotspot": [
+        14,
+        14
+      ],
+      "native_frame_hashes": [
+        "5520395bb1961f78",
+        "8fb1cded09eea23c",
+        "e240311e2845701f",
+        "fc832a927e710ef0",
+        "7f173a4e9c7bfdb1",
+        "6a1b66de7251b37c",
+        "89496f2e60fc9aa8",
+        "f0526abc73b9c997",
+        "4125dbb7e7865a48"
+      ]
+    },
+    {
+      "file": "128\\cross.ani",
+      "role": "Crosshair",
+      "size": 128,
+      "hotspot": [
+        19,
+        19
+      ],
+      "native_frame_hashes": [
+        "65df8a9a7f003233",
+        "ecc2b72ee9b11921",
+        "f8425caea593878f",
+        "ac677c559bc051f3",
+        "00078fcd47ff3d26",
+        "d7e9732012336ac6",
+        "193c0b776b2441d6",
+        "c96c05c47e883211",
+        "7670a800d7f1e887"
+      ]
+    },
+    {
+      "file": "cross.ani",
+      "role": "Crosshair",
+      "size": 48,
+      "hotspot": [
+        7,
+        7
+      ],
+      "native_frame_hashes": [
+        "e58f2042408b8065",
+        "0bb5ec4557b9091e",
+        "86d7b5c236159d49",
+        "44a41775b43db32e",
+        "97c20cc72b3320d6",
+        "0589f6c9f2bcfebb",
+        "778337df59a88c4d",
+        "fd363a9a1b141410",
+        "94f29f7f841d7201"
+      ]
+    },
+    {
+      "file": "32\\text.ani",
+      "role": "IBeam",
+      "size": 32,
+      "hotspot": [
+        4,
+        15
+      ],
+      "native_frame_hashes": [
+        "6ba05de211da4af9",
+        "1b642655c870a560",
+        "defaeb856e1b3cee",
+        "e005bc18123fe65c",
+        "1b522e44285920a3",
+        "3e1f03b1ae77a2a9",
+        "9ade75295cc57ee6",
+        "a8ce747c6869b7cb",
+        "df3cd23912526613"
+      ]
+    },
+    {
+      "file": "48\\text.ani",
+      "role": "IBeam",
+      "size": 48,
+      "hotspot": [
+        6,
+        22
+      ],
+      "native_frame_hashes": [
+        "ab2c00a12cbf611e",
+        "eb27c87c26a047ef",
+        "6c564e866daf939a",
+        "8509d2c70faa55c5",
+        "fe2a1037b2341e9c",
+        "b0621e333fdee8d1",
+        "613a308c0c509a37",
+        "075fa579b982dbc1",
+        "7da078a8f38561ff"
+      ]
+    },
+    {
+      "file": "64\\text.ani",
+      "role": "IBeam",
+      "size": 64,
+      "hotspot": [
+        8,
+        29
+      ],
+      "native_frame_hashes": [
+        "aecc1ca5e4dd1919",
+        "fa041a1ec1ec9a7e",
+        "c6e0bdfcd2c63f1b",
+        "70b5f27479ce1e06",
+        "d4464017caee3847",
+        "23d1a242178faf83",
+        "baaeb872dc599150",
+        "9ab65ba6d8669546",
+        "bd01d9a195d3c0fa"
+      ]
+    },
+    {
+      "file": "96\\text.ani",
+      "role": "IBeam",
+      "size": 96,
+      "hotspot": [
+        12,
+        44
+      ],
+      "native_frame_hashes": [
+        "fe13e5c22713ed06",
+        "65f5387c53dea052",
+        "5e7c67188fb54d59",
+        "01004feb55c085f9",
+        "4e3b51c34fc52a33",
+        "0521c0c1807f0005",
+        "ad123bffd96654d7",
+        "de9066aaeb55806a",
+        "77246d325779de14"
+      ]
+    },
+    {
+      "file": "128\\text.ani",
+      "role": "IBeam",
+      "size": 128,
+      "hotspot": [
+        16,
+        59
+      ],
+      "native_frame_hashes": [
+        "1eba2883b4996802",
+        "74ad9d1fbf697c85",
+        "c54442c92a2a4607",
+        "a810243dfedd64f1",
+        "b73122b157013f5b",
+        "b0155a1e42304d49",
+        "57c160ed4d58a907",
+        "bd7197d7c661df93",
+        "a2c99598d25c51ff"
+      ]
+    },
+    {
+      "file": "text.ani",
+      "role": "IBeam",
+      "size": 48,
+      "hotspot": [
+        6,
+        22
+      ],
+      "native_frame_hashes": [
+        "ab2c00a12cbf611e",
+        "eb27c87c26a047ef",
+        "6c564e866daf939a",
+        "8509d2c70faa55c5",
+        "fe2a1037b2341e9c",
+        "b0621e333fdee8d1",
+        "613a308c0c509a37",
+        "075fa579b982dbc1",
+        "7da078a8f38561ff"
+      ]
+    },
+    {
+      "file": "32\\pen.ani",
+      "role": "NWPen",
+      "size": 32,
+      "hotspot": [
+        2,
+        7
+      ],
+      "native_frame_hashes": [
+        "6d928d19b237c887",
+        "19127e7d79072fb2",
+        "b3fbfa08702e13b0",
+        "6130ae0534cdda49",
+        "25dddefcda68d529",
+        "af32fc85d5d5af4d",
+        "401cf81dbf781fbd",
+        "80c41784048ac19a",
+        "ea3d9780a3576399"
+      ]
+    },
+    {
+      "file": "48\\pen.ani",
+      "role": "NWPen",
+      "size": 48,
+      "hotspot": [
+        3,
+        11
+      ],
+      "native_frame_hashes": [
+        "9cdaeb484fc96b90",
+        "8c2bd5e7b8462154",
+        "74eb13539e0dbe82",
+        "a5ba7440e1da6f18",
+        "0cf28491481c97b5",
+        "640de2f0be00aa16",
+        "47e6b3f54397b2ad",
+        "994c84165f83fcd1",
+        "178810b19252150a"
+      ]
+    },
+    {
+      "file": "64\\pen.ani",
+      "role": "NWPen",
+      "size": 64,
+      "hotspot": [
+        4,
+        15
+      ],
+      "native_frame_hashes": [
+        "356ce3f5c6fa240c",
+        "2641af84721261df",
+        "4189dce49c15b847",
+        "4ff23928931366a0",
+        "ce55dd0170229532",
+        "86ddd083e6724be0",
+        "a1512299d25b7a7c",
+        "0eb4776d47b4d017",
+        "09e064baffe6c5f3"
+      ]
+    },
+    {
+      "file": "96\\pen.ani",
+      "role": "NWPen",
+      "size": 96,
+      "hotspot": [
+        6,
+        22
+      ],
+      "native_frame_hashes": [
+        "d571a4e0edf8e3f6",
+        "de2ea606fd30e195",
+        "fa684cdd3ca38dce",
+        "8249e61f28335845",
+        "fe66eccd34dcfcae",
+        "718e85b37e02e02d",
+        "f43053c180df909c",
+        "d8495b6a39699573",
+        "ad4deea034304384"
+      ]
+    },
+    {
+      "file": "128\\pen.ani",
+      "role": "NWPen",
+      "size": 128,
+      "hotspot": [
+        8,
+        29
+      ],
+      "native_frame_hashes": [
+        "a96bb69e74bae57a",
+        "fe19a33331b8abe7",
+        "f6a335bf6b63e0aa",
+        "f32462ce8fe0de54",
+        "250c94445ab67a38",
+        "9e01220b8da446f5",
+        "5be99efaba846fbf",
+        "568298bb3cbdfcae",
+        "4b01a5d03a0faeed"
+      ]
+    },
+    {
+      "file": "pen.ani",
+      "role": "NWPen",
+      "size": 48,
+      "hotspot": [
+        3,
+        11
+      ],
+      "native_frame_hashes": [
+        "9cdaeb484fc96b90",
+        "8c2bd5e7b8462154",
+        "74eb13539e0dbe82",
+        "a5ba7440e1da6f18",
+        "0cf28491481c97b5",
+        "640de2f0be00aa16",
+        "47e6b3f54397b2ad",
+        "994c84165f83fcd1",
+        "178810b19252150a"
+      ]
+    },
+    {
+      "file": "32\\unavailable.ani",
+      "role": "No",
+      "size": 32,
+      "hotspot": [
+        6,
+        6
+      ],
+      "native_frame_hashes": [
+        "1a4e8c2fe24f9bb1",
+        "15a9238c553cf57e",
+        "507e4db0ea0053da",
+        "e59129e80d8024a9",
+        "96a592a97dc0c5e4",
+        "df2eff92d1bd6b54",
+        "36840cf97e3feda1",
+        "36144d631daaa0de",
+        "1431e80814a6eb6b"
+      ]
+    },
+    {
+      "file": "48\\unavailable.ani",
+      "role": "No",
+      "size": 48,
+      "hotspot": [
+        9,
+        9
+      ],
+      "native_frame_hashes": [
+        "1fa76b2ee7cc4fad",
+        "551e795e138e305b",
+        "99667a82f121c0d6",
+        "2c16c07d613266c6",
+        "e1574f6693cdf1ea",
+        "31dba6fac92b2fb8",
+        "22991f99cdd71fd0",
+        "b2ebcc647e8aa466",
+        "b0bca9c1a02ff03b"
+      ]
+    },
+    {
+      "file": "64\\unavailable.ani",
+      "role": "No",
+      "size": 64,
+      "hotspot": [
+        12,
+        12
+      ],
+      "native_frame_hashes": [
+        "eb5a67b613640712",
+        "d68587d1a784a432",
+        "26d064955ff7de41",
+        "6eca589c6d255132",
+        "ffb8cd40235f83a6",
+        "9af3092addffcb05",
+        "6e7d3bca8ee521b8",
+        "b679396e13763651",
+        "34a8ae1b24da6d78"
+      ]
+    },
+    {
+      "file": "96\\unavailable.ani",
+      "role": "No",
+      "size": 96,
+      "hotspot": [
+        18,
+        18
+      ],
+      "native_frame_hashes": [
+        "a8598e15e5dcc912",
+        "0cb4649df3977bc4",
+        "64b1847efda96257",
+        "0e2edbbb2cd6dae5",
+        "81b28aa040e03225",
+        "550ac6acdc6395b9",
+        "7ddf9c984d3b5909",
+        "61c42be7ebc3f9ad",
+        "65293db04f5ed139"
+      ]
+    },
+    {
+      "file": "128\\unavailable.ani",
+      "role": "No",
+      "size": 128,
+      "hotspot": [
+        24,
+        24
+      ],
+      "native_frame_hashes": [
+        "100689ea40d12937",
+        "7c7dbcf6cf4673b1",
+        "0589a1d6f4a6a24c",
+        "41ea6b3c226bd6ba",
+        "978c66d3aa5d6589",
+        "6df5dc813b6b3003",
+        "7db9407220e61fb2",
+        "536f2d00b642d167",
+        "5539156b23436952"
+      ]
+    },
+    {
+      "file": "unavailable.ani",
+      "role": "No",
+      "size": 48,
+      "hotspot": [
+        9,
+        9
+      ],
+      "native_frame_hashes": [
+        "1fa76b2ee7cc4fad",
+        "551e795e138e305b",
+        "99667a82f121c0d6",
+        "2c16c07d613266c6",
+        "e1574f6693cdf1ea",
+        "31dba6fac92b2fb8",
+        "22991f99cdd71fd0",
+        "b2ebcc647e8aa466",
+        "b0bca9c1a02ff03b"
+      ]
+    },
+    {
+      "file": "32\\size-ns.ani",
+      "role": "SizeNS",
+      "size": 32,
+      "hotspot": [
+        5,
+        9
+      ],
+      "native_frame_hashes": [
+        "1ca2966895cf4993",
+        "fb0f1fdd724301db",
+        "c283206f8893dde4",
+        "bdc7ac5dd1d0408c",
+        "7142cc472a79c144",
+        "f15bbf2e10f67fae",
+        "1499ee8588d10ab6",
+        "427091ed297154e1",
+        "15951903c152c152"
+      ]
+    },
+    {
+      "file": "48\\size-ns.ani",
+      "role": "SizeNS",
+      "size": 48,
+      "hotspot": [
+        7,
+        13
+      ],
+      "native_frame_hashes": [
+        "ca1f1543b4ad73c9",
+        "1d2cb30c8e839633",
+        "52eb0db1a845856f",
+        "fa20787bdade6dbe",
+        "1d0b6acd6a3508ff",
+        "79da42a79d8a6fcb",
+        "1615e231fc0976d4",
+        "228c65a2241895bf",
+        "e1f606161292d36a"
+      ]
+    },
+    {
+      "file": "64\\size-ns.ani",
+      "role": "SizeNS",
+      "size": 64,
+      "hotspot": [
+        9,
+        17
+      ],
+      "native_frame_hashes": [
+        "b165aa32b4c68a50",
+        "7c048eac0e289d5a",
+        "668eb0e583df7784",
+        "5b292e1d5ea8bade",
+        "a2cfb3b245adec87",
+        "52914d73623a277e",
+        "5f10593dbd96d39c",
+        "22e8a09126bf99f2",
+        "52b37074ed26109b"
+      ]
+    },
+    {
+      "file": "96\\size-ns.ani",
+      "role": "SizeNS",
+      "size": 96,
+      "hotspot": [
+        14,
+        26
+      ],
+      "native_frame_hashes": [
+        "0feb9ad04ba2e08c",
+        "aa86d1a7eb1500aa",
+        "db0aa15e74d9df40",
+        "41b16733fb3760ab",
+        "ba954b2e2098091d",
+        "80db5613044249fa",
+        "0d3606677e2c8bbc",
+        "0575f65378b68040",
+        "418539356f445602"
+      ]
+    },
+    {
+      "file": "128\\size-ns.ani",
+      "role": "SizeNS",
+      "size": 128,
+      "hotspot": [
+        19,
+        35
+      ],
+      "native_frame_hashes": [
+        "266e9cc81805bc72",
+        "ffdf57d27985c6df",
+        "e3611cbdff32b02a",
+        "6a2e89c7eed82afa",
+        "6f424973f0b622e4",
+        "ace5aed3e20bfe05",
+        "ef65d4d7cfed796e",
+        "88c9ff78a3ba0f14",
+        "85a717148fe55f19"
+      ]
+    },
+    {
+      "file": "size-ns.ani",
+      "role": "SizeNS",
+      "size": 48,
+      "hotspot": [
+        7,
+        13
+      ],
+      "native_frame_hashes": [
+        "ca1f1543b4ad73c9",
+        "1d2cb30c8e839633",
+        "52eb0db1a845856f",
+        "fa20787bdade6dbe",
+        "1d0b6acd6a3508ff",
+        "79da42a79d8a6fcb",
+        "1615e231fc0976d4",
+        "228c65a2241895bf",
+        "e1f606161292d36a"
+      ]
+    },
+    {
+      "file": "32\\size-we.ani",
+      "role": "SizeWE",
+      "size": 32,
+      "hotspot": [
+        11,
+        6
+      ],
+      "native_frame_hashes": [
+        "4bdd8dbb4024dfd2",
+        "97f2912d97cc9cc8",
+        "ab089be44fb81688",
+        "1cfc10422d239275",
+        "c7d002386660477f",
+        "934098e1b838f2d5",
+        "f82f54e961771cdf",
+        "e97387e4a598a03c",
+        "aee77a6aa2a7f111"
+      ]
+    },
+    {
+      "file": "48\\size-we.ani",
+      "role": "SizeWE",
+      "size": 48,
+      "hotspot": [
+        16,
+        9
+      ],
+      "native_frame_hashes": [
+        "1e9653527ee77a5c",
+        "05a3b719a025576e",
+        "c09822ac06ceb107",
+        "0d7b58d831a88cc8",
+        "b5f5b0aefbe014fc",
+        "390102cfee1638a4",
+        "c7e7f441d582558b",
+        "922f3c7a48330fa6",
+        "15433e86fa6c7247"
+      ]
+    },
+    {
+      "file": "64\\size-we.ani",
+      "role": "SizeWE",
+      "size": 64,
+      "hotspot": [
+        21,
+        12
+      ],
+      "native_frame_hashes": [
+        "ea177756839f00a4",
+        "607d84cc11b5970b",
+        "e01ec13970e607f2",
+        "8a9f52be7a845192",
+        "642b44d2ac67049d",
+        "d8781632a305a2c6",
+        "c129539f7db64c1f",
+        "316188219a60f720",
+        "e20eacc5ba9b36c5"
+      ]
+    },
+    {
+      "file": "96\\size-we.ani",
+      "role": "SizeWE",
+      "size": 96,
+      "hotspot": [
+        32,
+        18
+      ],
+      "native_frame_hashes": [
+        "ca0141af5bd0a50d",
+        "7664fe8e6db5901e",
+        "7fb85d4e6b585578",
+        "91b23d56f4df2e11",
+        "3ebab6fd2403ffed",
+        "91afdd0b68e8e0ce",
+        "d8ed429dee411329",
+        "1e01fa694a951353",
+        "b367d03fdf5eba1b"
+      ]
+    },
+    {
+      "file": "128\\size-we.ani",
+      "role": "SizeWE",
+      "size": 128,
+      "hotspot": [
+        43,
+        24
+      ],
+      "native_frame_hashes": [
+        "493dd7d904007c8d",
+        "652e87a2fc982143",
+        "0e02a491656a3461",
+        "e95f2a9c03f47e4f",
+        "9574cf441a695d77",
+        "d8afb238a87f2ab7",
+        "d5f5210b545079f2",
+        "168b47037426cd83",
+        "ba5fe7cb7e194bbc"
+      ]
+    },
+    {
+      "file": "size-we.ani",
+      "role": "SizeWE",
+      "size": 48,
+      "hotspot": [
+        16,
+        9
+      ],
+      "native_frame_hashes": [
+        "1e9653527ee77a5c",
+        "05a3b719a025576e",
+        "c09822ac06ceb107",
+        "0d7b58d831a88cc8",
+        "b5f5b0aefbe014fc",
+        "390102cfee1638a4",
+        "c7e7f441d582558b",
+        "922f3c7a48330fa6",
+        "15433e86fa6c7247"
+      ]
+    },
+    {
+      "file": "32\\size-nwse.ani",
+      "role": "SizeNWSE",
+      "size": 32,
+      "hotspot": [
+        8,
+        8
+      ],
+      "native_frame_hashes": [
+        "48b4d50fda4c7db9",
+        "55ce252fd577a8f3",
+        "183ed5fdcb870db9",
+        "67f16ce922173d10",
+        "281a5256eb86a944",
+        "4351885de4422b8f",
+        "1932031cb5b27695",
+        "631577a38df3e8b0",
+        "686c04fc8987851f"
+      ]
+    },
+    {
+      "file": "48\\size-nwse.ani",
+      "role": "SizeNWSE",
+      "size": 48,
+      "hotspot": [
+        12,
+        12
+      ],
+      "native_frame_hashes": [
+        "a5bc1d1f5ad9c1d8",
+        "247767d52c23c4db",
+        "015ed6a2148bd3ea",
+        "be1d8c05c868cfb1",
+        "9eb19b96ac40ff19",
+        "e76e24825a341767",
+        "ddbb71d94ec823b0",
+        "633f2a083806ce61",
+        "b25dcd82b89ad662"
+      ]
+    },
+    {
+      "file": "64\\size-nwse.ani",
+      "role": "SizeNWSE",
+      "size": 64,
+      "hotspot": [
+        16,
+        16
+      ],
+      "native_frame_hashes": [
+        "fcba332a4e2795c7",
+        "5d392191e346d4b0",
+        "ef7ad743a9d76b09",
+        "6b2421b6139fee54",
+        "d12adc97fb9a9f99",
+        "432c1b461dab5ae0",
+        "60e587bbd32dfe99",
+        "11c80d20e191ee36",
+        "525337f75f600965"
+      ]
+    },
+    {
+      "file": "96\\size-nwse.ani",
+      "role": "SizeNWSE",
+      "size": 96,
+      "hotspot": [
+        24,
+        24
+      ],
+      "native_frame_hashes": [
+        "2eb374ecc62c63f0",
+        "a279f8de67a98af7",
+        "ca53cd1c7ef6c48c",
+        "c62d2d7fd2d6e66a",
+        "1c5ec5d368862c7d",
+        "b46dea2ef38cd75c",
+        "db5c7e6c75a6af4a",
+        "406f0a56f2461e5e",
+        "76565a3ab6953250"
+      ]
+    },
+    {
+      "file": "128\\size-nwse.ani",
+      "role": "SizeNWSE",
+      "size": 128,
+      "hotspot": [
+        32,
+        32
+      ],
+      "native_frame_hashes": [
+        "ed48125857775e75",
+        "e66d0ae9ee14a5f2",
+        "2c7bef287eb09012",
+        "7926ca71b089de1c",
+        "a6fef58d6012ba9d",
+        "515b00977b312505",
+        "1a6e9d44db6ef34d",
+        "c3ebe78ab0bfce08",
+        "98e0e7e600278916"
+      ]
+    },
+    {
+      "file": "size-nwse.ani",
+      "role": "SizeNWSE",
+      "size": 48,
+      "hotspot": [
+        12,
+        12
+      ],
+      "native_frame_hashes": [
+        "a5bc1d1f5ad9c1d8",
+        "247767d52c23c4db",
+        "015ed6a2148bd3ea",
+        "be1d8c05c868cfb1",
+        "9eb19b96ac40ff19",
+        "e76e24825a341767",
+        "ddbb71d94ec823b0",
+        "633f2a083806ce61",
+        "b25dcd82b89ad662"
+      ]
+    },
+    {
+      "file": "32\\size-nesw.ani",
+      "role": "SizeNESW",
+      "size": 32,
+      "hotspot": [
+        8,
+        8
+      ],
+      "native_frame_hashes": [
+        "2ddadddb23367e6a",
+        "397997046f04537f",
+        "591b21123ea675b2",
+        "9f6dfd95d9f42d3a",
+        "a58c2ed6a4b1fe3d",
+        "0b673888339ee2b2",
+        "93d1ab90b71b2b5e",
+        "38b1a3fff802fbab",
+        "888efbdcc96595bb"
+      ]
+    },
+    {
+      "file": "48\\size-nesw.ani",
+      "role": "SizeNESW",
+      "size": 48,
+      "hotspot": [
+        12,
+        12
+      ],
+      "native_frame_hashes": [
+        "fca4954ddbb7cf96",
+        "2f31c16010dc3101",
+        "3e40d5022590c76c",
+        "bd37213a152d0c3e",
+        "e6ff432a28ae05cf",
+        "c7fb30d9a01fd236",
+        "373ac7fce99499b0",
+        "96bc79faa68e72bd",
+        "687263c26fdc9513"
+      ]
+    },
+    {
+      "file": "64\\size-nesw.ani",
+      "role": "SizeNESW",
+      "size": 64,
+      "hotspot": [
+        16,
+        16
+      ],
+      "native_frame_hashes": [
+        "ca27931d0a2262dc",
+        "dd8987da8b377d1d",
+        "feaf30ad2c644f5c",
+        "634bfde1817e1ff9",
+        "9a3e45f279c42d4f",
+        "271f406e3a0b0ed6",
+        "0c47722e1ac09f6a",
+        "989310d51675c37d",
+        "115d45d14af624a8"
+      ]
+    },
+    {
+      "file": "96\\size-nesw.ani",
+      "role": "SizeNESW",
+      "size": 96,
+      "hotspot": [
+        24,
+        24
+      ],
+      "native_frame_hashes": [
+        "23bb4790256092bb",
+        "133303dc462ab14b",
+        "059e71e85b60d4a6",
+        "22a41da06d036fa2",
+        "94742a299e3baa32",
+        "010b460b187dbd7e",
+        "6dc2a36155749c2d",
+        "6b2568d149f33dde",
+        "317b81962fa762f3"
+      ]
+    },
+    {
+      "file": "128\\size-nesw.ani",
+      "role": "SizeNESW",
+      "size": 128,
+      "hotspot": [
+        32,
+        32
+      ],
+      "native_frame_hashes": [
+        "566ab97abe1c2374",
+        "38299d62e9c69be6",
+        "832827575e13f2ea",
+        "e5ffb95edfd4d835",
+        "5180ca6740fdfd9b",
+        "22780568c201ea10",
+        "fae2027936a22281",
+        "27bd846bd9f5b648",
+        "e0e7e1ffb5f23c9e"
+      ]
+    },
+    {
+      "file": "size-nesw.ani",
+      "role": "SizeNESW",
+      "size": 48,
+      "hotspot": [
+        12,
+        12
+      ],
+      "native_frame_hashes": [
+        "fca4954ddbb7cf96",
+        "2f31c16010dc3101",
+        "3e40d5022590c76c",
+        "bd37213a152d0c3e",
+        "e6ff432a28ae05cf",
+        "c7fb30d9a01fd236",
+        "373ac7fce99499b0",
+        "96bc79faa68e72bd",
+        "687263c26fdc9513"
+      ]
+    },
+    {
+      "file": "32\\move.ani",
+      "role": "SizeAll",
+      "size": 32,
+      "hotspot": [
+        9,
+        9
+      ],
+      "native_frame_hashes": [
+        "98f0143f077b64c9",
+        "2e04b25e16a10331",
+        "9e14279cf4f6320e",
+        "98e7190a8ad224e5",
+        "263b548f3c646873",
+        "502f52604230b432",
+        "ee2c6ed6d655afad",
+        "579d9be4fd949e39",
+        "c6bad299296a1f4a"
+      ]
+    },
+    {
+      "file": "48\\move.ani",
+      "role": "SizeAll",
+      "size": 48,
+      "hotspot": [
+        13,
+        13
+      ],
+      "native_frame_hashes": [
+        "133be2c523f1789a",
+        "4249122577dabbe8",
+        "9bfad1fdb68b324d",
+        "524dc175ac9d3fb6",
+        "9ae7a1f96003b304",
+        "37a37f2c4ed8c072",
+        "2e7fb6979ab7272a",
+        "8bd7bfe17c1e24e0",
+        "c231e0bdec18034f"
+      ]
+    },
+    {
+      "file": "64\\move.ani",
+      "role": "SizeAll",
+      "size": 64,
+      "hotspot": [
+        17,
+        17
+      ],
+      "native_frame_hashes": [
+        "bc20c2d4c8d8ad65",
+        "868672b7186be7c8",
+        "88e6144f6e5b2ba0",
+        "712da45e00269cec",
+        "febb748fcdad408d",
+        "d3ac7ed4f5de302c",
+        "1f477638b826e574",
+        "ca61437022d98c12",
+        "5e41a38b05589253"
+      ]
+    },
+    {
+      "file": "96\\move.ani",
+      "role": "SizeAll",
+      "size": 96,
+      "hotspot": [
+        26,
+        26
+      ],
+      "native_frame_hashes": [
+        "c325f5a771e15365",
+        "586343f91a946f77",
+        "2a32cf90fdd02814",
+        "e9b966eefcebcab9",
+        "6fd7a8b486397287",
+        "08b522a373c10ebe",
+        "7c3c58844b701da5",
+        "a523bce9034fe097",
+        "c71ccff3ee1beec8"
+      ]
+    },
+    {
+      "file": "128\\move.ani",
+      "role": "SizeAll",
+      "size": 128,
+      "hotspot": [
+        35,
+        35
+      ],
+      "native_frame_hashes": [
+        "4659b97016a93a77",
+        "55237303b0dec284",
+        "cb91b3953a8434e7",
+        "495f1fb292481352",
+        "f21ddbb780cb3b7e",
+        "4c4b27f6cdbf6a28",
+        "42fc189873dd5508",
+        "3be07116eb2a11d0",
+        "61bf148e422fda91"
+      ]
+    },
+    {
+      "file": "move.ani",
+      "role": "SizeAll",
+      "size": 48,
+      "hotspot": [
+        13,
+        13
+      ],
+      "native_frame_hashes": [
+        "133be2c523f1789a",
+        "4249122577dabbe8",
+        "9bfad1fdb68b324d",
+        "524dc175ac9d3fb6",
+        "9ae7a1f96003b304",
+        "37a37f2c4ed8c072",
+        "2e7fb6979ab7272a",
+        "8bd7bfe17c1e24e0",
+        "c231e0bdec18034f"
+      ]
+    },
+    {
+      "file": "32\\alternate.ani",
+      "role": "UpArrow",
+      "size": 32,
+      "hotspot": [
+        6,
+        2
+      ],
+      "native_frame_hashes": [
+        "c0889f19fb627ca8",
+        "a3ba1efb0553f81d",
+        "9fd3912989a347d2",
+        "4bf8b75e464c2ff6",
+        "9d27b24267f1c95e",
+        "661ec65a54e86fb0",
+        "776882888d015caf",
+        "63fdfe1dabfa0e81",
+        "e311e08428760db3"
+      ]
+    },
+    {
+      "file": "48\\alternate.ani",
+      "role": "UpArrow",
+      "size": 48,
+      "hotspot": [
+        9,
+        3
+      ],
+      "native_frame_hashes": [
+        "5ded9213e9b9b296",
+        "c28612fe54793f69",
+        "379680da2c03d781",
+        "9a33086269bec343",
+        "0f3efed5ad751375",
+        "bd2cbdc10252dff9",
+        "ce48eac0a987789a",
+        "085b3f4132af406e",
+        "a7f3287e391113a5"
+      ]
+    },
+    {
+      "file": "64\\alternate.ani",
+      "role": "UpArrow",
+      "size": 64,
+      "hotspot": [
+        12,
+        4
+      ],
+      "native_frame_hashes": [
+        "b407dfd083b9a087",
+        "50b7e1ec1018ec46",
+        "0e6ce36a05a5390f",
+        "b41a35c02e2b4008",
+        "6d2862c17fcade58",
+        "fcf17c3d0d63ee6b",
+        "a83117b4e961a1f0",
+        "965a679d830667a5",
+        "0e805420e0e74586"
+      ]
+    },
+    {
+      "file": "96\\alternate.ani",
+      "role": "UpArrow",
+      "size": 96,
+      "hotspot": [
+        18,
+        6
+      ],
+      "native_frame_hashes": [
+        "9a48d1a733ab8eb7",
+        "6e569fea4829647a",
+        "a369b632d064eae8",
+        "faa393a7a30ac414",
+        "fc43c2db314d74ff",
+        "a6ee1b044368ecd9",
+        "49825504f32f1513",
+        "dc4a74e250411ff2",
+        "a63b0bac8322e9ed"
+      ]
+    },
+    {
+      "file": "128\\alternate.ani",
+      "role": "UpArrow",
+      "size": 128,
+      "hotspot": [
+        24,
+        8
+      ],
+      "native_frame_hashes": [
+        "16028546162b06a7",
+        "4776c61610e304cc",
+        "56c1561b5c8acd8f",
+        "5c4bbaff4b5c605c",
+        "f0a0275f3e8dcb98",
+        "09ca105b85b1d288",
+        "57930adb2b51890f",
+        "86954ab6c202bcec",
+        "d028636a1ea49e91"
+      ]
+    },
+    {
+      "file": "alternate.ani",
+      "role": "UpArrow",
+      "size": 48,
+      "hotspot": [
+        9,
+        3
+      ],
+      "native_frame_hashes": [
+        "5ded9213e9b9b296",
+        "c28612fe54793f69",
+        "379680da2c03d781",
+        "9a33086269bec343",
+        "0f3efed5ad751375",
+        "bd2cbdc10252dff9",
+        "ce48eac0a987789a",
+        "085b3f4132af406e",
+        "a7f3287e391113a5"
+      ]
+    },
+    {
+      "file": "32\\link.ani",
+      "role": "Hand",
+      "size": 32,
+      "hotspot": [
+        3,
+        8
+      ],
+      "native_frame_hashes": [
+        "59a950e468ef961a",
+        "2feec74e369d43a5",
+        "96a89ccd77554d73",
+        "59518b1e2d6095f4",
+        "64f9c0b4323300f1",
+        "32ff2933ba8799a3",
+        "ea85c7b89c7a53f4",
+        "602ca6fe45aa4822",
+        "6d9dc3f3c2b0645b",
+        "e7d6422343bd638f",
+        "f83250963b71b337",
+        "2c24214793591f6c"
+      ]
+    },
+    {
+      "file": "48\\link.ani",
+      "role": "Hand",
+      "size": 48,
+      "hotspot": [
+        4,
+        12
+      ],
+      "native_frame_hashes": [
+        "36ec2209d1aea0f4",
+        "a755fe5118cab664",
+        "95a6716564c0555d",
+        "4203d0296a2da714",
+        "7f677e6ad7977273",
+        "da8a888217e39550",
+        "a59c8262e8d76d0f",
+        "e084228c27a3a1e5",
+        "a32ef4fa1c39f634",
+        "e15d51358e0a3e1a",
+        "fca82188bc7c1b7b",
+        "63c7ed389eae4055"
+      ]
+    },
+    {
+      "file": "64\\link.ani",
+      "role": "Hand",
+      "size": 64,
+      "hotspot": [
+        5,
+        16
+      ],
+      "native_frame_hashes": [
+        "bbd2332299f6dc1e",
+        "0db8976870b1de4e",
+        "f4a7c82ad8ba4cfd",
+        "78119f20ad05c4a4",
+        "d128f718edcf46df",
+        "b3a91bdde0f0e2e0",
+        "df247803f7ca354b",
+        "350c624c720b0605",
+        "0b696a4f5335a19f",
+        "58118eb5fe66bcf4",
+        "a76e9d978c089371",
+        "5378dbd41ae2b02f"
+      ]
+    },
+    {
+      "file": "96\\link.ani",
+      "role": "Hand",
+      "size": 96,
+      "hotspot": [
+        8,
+        24
+      ],
+      "native_frame_hashes": [
+        "17eb55702d2398fd",
+        "d94572cfc2977106",
+        "657203bc91debe85",
+        "0fca799fed0c4314",
+        "9e6f5d67564ba5c8",
+        "909432fc291018f0",
+        "cd5b26899362bb7b",
+        "473d530fc78a81cc",
+        "c450345aeadd271f",
+        "5b3e242ed0cc14ce",
+        "0e0a83b9205e7ee3",
+        "cc8c77f27892e597"
+      ]
+    },
+    {
+      "file": "128\\link.ani",
+      "role": "Hand",
+      "size": 128,
+      "hotspot": [
+        11,
+        32
+      ],
+      "native_frame_hashes": [
+        "2863be30a1ae0dff",
+        "236ca984a55fa6e5",
+        "78af20ccac1b2086",
+        "6c41da4ddd31c13b",
+        "4115e0ad87c95953",
+        "21cd6e0f88a747de",
+        "a99b271f5d7413ee",
+        "97a9001e9f6b76cc",
+        "f0c3ee202a3dc5ec",
+        "be170bf15509c4db",
+        "ad7415bd2468080e",
+        "04d7413c319c3609"
+      ]
+    },
+    {
+      "file": "link.ani",
+      "role": "Hand",
+      "size": 48,
+      "hotspot": [
+        4,
+        12
+      ],
+      "native_frame_hashes": [
+        "36ec2209d1aea0f4",
+        "a755fe5118cab664",
+        "95a6716564c0555d",
+        "4203d0296a2da714",
+        "7f677e6ad7977273",
+        "da8a888217e39550",
+        "a59c8262e8d76d0f",
+        "e084228c27a3a1e5",
+        "a32ef4fa1c39f634",
+        "e15d51358e0a3e1a",
+        "fca82188bc7c1b7b",
+        "63c7ed389eae4055"
+      ]
+    },
+    {
+      "file": "32\\pin.ani",
+      "role": "Pin",
+      "size": 32,
+      "hotspot": [
+        3,
+        9
+      ],
+      "native_frame_hashes": [
+        "89e8e71388f2583f",
+        "8a596b1a59168706",
+        "4d2feb3ad07df743",
+        "872f857a074d8390",
+        "4f13972589d143c6",
+        "3540f68f92508c6e",
+        "ae7b2164bb4dffaa",
+        "3ae90d25423a2f96",
+        "ab77369903529769"
+      ]
+    },
+    {
+      "file": "48\\pin.ani",
+      "role": "Pin",
+      "size": 48,
+      "hotspot": [
+        4,
+        13
+      ],
+      "native_frame_hashes": [
+        "e9727d5503395bc4",
+        "22c62d8a2cfccffe",
+        "cff5290c05248138",
+        "48811c734dde9828",
+        "bfeb2c4f51a9e379",
+        "5f15f2193ebb7ccb",
+        "4da6f2a60d169bfc",
+        "b9989451ce9f80d2",
+        "0647e741e3137ffc"
+      ]
+    },
+    {
+      "file": "64\\pin.ani",
+      "role": "Pin",
+      "size": 64,
+      "hotspot": [
+        5,
+        17
+      ],
+      "native_frame_hashes": [
+        "5a92f9d8a4cfca03",
+        "02639e18416cc993",
+        "7ecf94aae7aadf8b",
+        "a8ec9238f7e46931",
+        "935f81d861718078",
+        "fb0a6b0bd060ebd2",
+        "4a3489025989450e",
+        "c0d52370d046b1fd",
+        "067a0f508442676d"
+      ]
+    },
+    {
+      "file": "96\\pin.ani",
+      "role": "Pin",
+      "size": 96,
+      "hotspot": [
+        8,
+        26
+      ],
+      "native_frame_hashes": [
+        "c35d0f472aed6a82",
+        "149da2fd13c64108",
+        "ed460eb287292ee3",
+        "a859f527387c12f7",
+        "d899034f5900c444",
+        "7c7422f893ec7f16",
+        "dc3ffcb908b106e3",
+        "da3ff330c0d3541b",
+        "690974de877b266c"
+      ]
+    },
+    {
+      "file": "128\\pin.ani",
+      "role": "Pin",
+      "size": 128,
+      "hotspot": [
+        11,
+        35
+      ],
+      "native_frame_hashes": [
+        "3367f4282788444f",
+        "4b1d941df08d7033",
+        "b001ac76f257c97f",
+        "44622a293fa27cda",
+        "e8c6f4d489403afc",
+        "3fb79b7f828509b9",
+        "2a4b4c4b06b9951b",
+        "0c2593766b1adf9b",
+        "3f71a1ef189b9aab"
+      ]
+    },
+    {
+      "file": "pin.ani",
+      "role": "Pin",
+      "size": 48,
+      "hotspot": [
+        4,
+        13
+      ],
+      "native_frame_hashes": [
+        "e9727d5503395bc4",
+        "22c62d8a2cfccffe",
+        "cff5290c05248138",
+        "48811c734dde9828",
+        "bfeb2c4f51a9e379",
+        "5f15f2193ebb7ccb",
+        "4da6f2a60d169bfc",
+        "b9989451ce9f80d2",
+        "0647e741e3137ffc"
+      ]
+    },
+    {
+      "file": "32\\person.ani",
+      "role": "Person",
+      "size": 32,
+      "hotspot": [
+        3,
+        11
+      ],
+      "native_frame_hashes": [
+        "d7e8406c99bd3043",
+        "a6baff6867c704b7",
+        "f0bc568884023e69",
+        "11b62bfefcff09c1",
+        "44bc5c4f30377670",
+        "b12b9667ba17dedd",
+        "136303c73c890bf6",
+        "338e55b00df79d17",
+        "4ec16350942487cd"
+      ]
+    },
+    {
+      "file": "48\\person.ani",
+      "role": "Person",
+      "size": 48,
+      "hotspot": [
+        4,
+        16
+      ],
+      "native_frame_hashes": [
+        "a1e9110128b5c138",
+        "c6b246b8b4a7a949",
+        "dfe1d9480df03562",
+        "9df653df292da3e1",
+        "a63753b4574b11c8",
+        "f720807a56fe1ee0",
+        "7927463f43acdf4c",
+        "ed0cde6a84040d6d",
+        "2ba08defff2a2997"
+      ]
+    },
+    {
+      "file": "64\\person.ani",
+      "role": "Person",
+      "size": 64,
+      "hotspot": [
+        5,
+        21
+      ],
+      "native_frame_hashes": [
+        "45655673cb99a018",
+        "8bdf5dd6a0865b23",
+        "ca4a4ddae0fbdfa1",
+        "953c251ef5af22c2",
+        "ea56c72aeeb7627e",
+        "980891e55072916b",
+        "6c85ea69378a1d1b",
+        "bf28459bbc8cc3bd",
+        "c7e9d62ca0fe9bab"
+      ]
+    },
+    {
+      "file": "96\\person.ani",
+      "role": "Person",
+      "size": 96,
+      "hotspot": [
+        8,
+        32
+      ],
+      "native_frame_hashes": [
+        "445431826cab348e",
+        "c30965749a56a8a8",
+        "bd8b2b77e853de47",
+        "c01e08a199bab534",
+        "19db369d0935fb0e",
+        "77945674867444ad",
+        "fbf330002b37d939",
+        "a978f9e22b7aa2c5",
+        "aa1f16f22269175d"
+      ]
+    },
+    {
+      "file": "128\\person.ani",
+      "role": "Person",
+      "size": 128,
+      "hotspot": [
+        11,
+        43
+      ],
+      "native_frame_hashes": [
+        "cecab3d7d2f5ae88",
+        "1a91d7b24295f164",
+        "7214eb90bf6532bd",
+        "64ab6dfac324ef5a",
+        "10c3ceb9f3b99cf2",
+        "0438196d83b0ebaf",
+        "f7b706509ee273af",
+        "685ccb8ac846e0b9",
+        "cf5d2cddeecc0bc1"
+      ]
+    },
+    {
+      "file": "person.ani",
+      "role": "Person",
+      "size": 48,
+      "hotspot": [
+        4,
+        16
+      ],
+      "native_frame_hashes": [
+        "a1e9110128b5c138",
+        "c6b246b8b4a7a949",
+        "dfe1d9480df03562",
+        "9df653df292da3e1",
+        "a63753b4574b11c8",
+        "f720807a56fe1ee0",
+        "7927463f43acdf4c",
+        "ed0cde6a84040d6d",
+        "2ba08defff2a2997"
+      ]
+    }
+  ]
+}

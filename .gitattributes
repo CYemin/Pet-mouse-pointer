@@ -8,3 +8,5 @@
 *.zip -text
 *.png -text
 *.gif -text
+# Keep reviewed manifest bytes intact, including Windows CRLF, for SHA evidence.
+themes/*/manifest.json -text whitespace=cr-at-eol

@@ -1,10 +1,10 @@
 {
   "status": "passed",
   "scope": "visual motion review for severe unintended translation, scale jumps and frame pops",
-  "asset_revision": "9b69d9254e43",
-  "version": "0.3.1",
-  "reviewed_at_utc": "2026-10-22T06:57:20.157591+00:00",
-  "reviewer": "Codex independent visual review agent",
+  "asset_revision": "527bfb601858",
+  "version": "0.4.0",
+  "reviewed_at_utc": "2026-10-22T11:59:19.942582+00:00",
+  "reviewer": "Codex final visual review with byte-identical prior coverage",
   "reviewed_state_ids": [
     "normal",
     "help",
@@ -37,14 +37,17 @@
   "sequence_edges_reviewed": 358,
   "loop_closures_reviewed": 34,
   "methods": [
-    "Viewed all 34 native/enlarged full-sequence PNG boards on both backgrounds, including every displayed frame and explicit loop return.",
-    "Followed visible nose/contact mark, eye socket, muzzle, head/chest and operation glyph across every ordered adjacent pair; did not use fixed hotspot opacity to approve body stability.",
-    "Loaded all normal-speed and quarter-speed GIFs at 48px and96px together in Chromium and observed multiple live playback phases. Exhaustive edge coverage derives from the complete sequence boards, rather than claiming a screenshot is a video.",
-    "Compared automatic registration context after the visual examination; zero automatic candidates was not treated as a pass criterion."
+    "For all six changed arrow states, viewed every frame and explicit loop return in 48px and96px full-sequence boards on light and dark backgrounds (24 boards across the two original themes).",
+    "Loaded original two themes six changed arrow states at normal and quarter speed, at 48px and96px, in Chromium. Observed distinct live playback phases; exhaustive edge coverage derives from sequence boards.",
+    "Confirmed each enlarged operation symbol stays fixed while eye, muzzle, ears, chest and paw movements remain coherent; no severe unintended shift, scale pop, clipping or loop jump was observed.",
+    "Preserved prior complete visual approval for the other eleven states only after matching every exported PNG SHA256 at all five sizes against the previous reviewed output. These eleven states were not newly browser-reviewed for this arrow-only revision.",
+    "Native loading and automatic motion analysis were rerun on the final revision; heuristic results were context only."
   ],
-  "browser_review_page": "motion-review/visual-playback.html",
+  "browser_review_page": "motion-review/arrow-final-playback.html",
   "automatic_candidate_count": 0,
-  "repairs": [],
+  "repairs": [
+    "Replaced six small operation arrows with common larger pixel symbols, using one shared pet transform per state."
+  ],
   "severe_anomalies_observed": [],
   "remaining_limitations": [
     "Minor pixel-cluster/contour variation remains in fur, ears, paws and a few badge silhouettes; this is not a claim of perfectly identical stationary pixels.",
@@ -66,7 +69,8 @@
         "integer_enlargement_sequence": "motion-review/normal-96-full-sequence.png",
         "normal_playback": "motion-review/normal-96-normal.gif",
         "slow_playback": "motion-review/normal-96-slow.gif"
-      }
+      },
+      "approval_provenance": "Previous complete review; all exported PNG bytes verified unchanged."
     },
     {
       "id": "help",
@@ -81,7 +85,8 @@
         "integer_enlargement_sequence": "motion-review/help-96-full-sequence.png",
         "normal_playback": "motion-review/help-96-normal.gif",
         "slow_playback": "motion-review/help-96-slow.gif"
-      }
+      },
+      "approval_provenance": "Previous complete review; all exported PNG bytes verified unchanged."
     },
     {
       "id": "working",
@@ -96,7 +101,8 @@
         "integer_enlargement_sequence": "motion-review/working-96-full-sequence.png",
         "normal_playback": "motion-review/working-96-normal.gif",
         "slow_playback": "motion-review/working-96-slow.gif"
-      }
+      },
+      "approval_provenance": "Previous complete review; all exported PNG bytes verified unchanged."
     },
     {
       "id": "wait",
@@ -111,7 +117,8 @@
         "integer_enlargement_sequence": "motion-review/wait-96-full-sequence.png",
         "normal_playback": "motion-review/wait-96-normal.gif",
         "slow_playback": "motion-review/wait-96-slow.gif"
-      }
+      },
+      "approval_provenance": "Previous complete review; all exported PNG bytes verified unchanged."
     },
     {
       "id": "cross",
@@ -126,7 +133,8 @@
         "integer_enlargement_sequence": "motion-review/cross-96-full-sequence.png",
         "normal_playback": "motion-review/cross-96-normal.gif",
         "slow_playback": "motion-review/cross-96-slow.gif"
-      }
+      },
+      "approval_provenance": "Previous complete review; all exported PNG bytes verified unchanged."
     },
     {
       "id": "text",
@@ -141,7 +149,8 @@
         "integer_enlargement_sequence": "motion-review/text-96-full-sequence.png",
         "normal_playback": "motion-review/text-96-normal.gif",
         "slow_playback": "motion-review/text-96-slow.gif"
-      }
+      },
+      "approval_provenance": "Previous complete review; all exported PNG bytes verified unchanged."
     },
     {
       "id": "pen",
@@ -156,7 +165,8 @@
         "integer_enlargement_sequence": "motion-review/pen-96-full-sequence.png",
         "normal_playback": "motion-review/pen-96-normal.gif",
         "slow_playback": "motion-review/pen-96-slow.gif"
-      }
+      },
+      "approval_provenance": "Previous complete review; all exported PNG bytes verified unchanged."
     },
     {
       "id": "unavailable",
@@ -171,7 +181,8 @@
         "integer_enlargement_sequence": "motion-review/unavailable-96-full-sequence.png",
         "normal_playback": "motion-review/unavailable-96-normal.gif",
         "slow_playback": "motion-review/unavailable-96-slow.gif"
-      }
+      },
+      "approval_provenance": "Previous complete review; all exported PNG bytes verified unchanged."
     },
     {
       "id": "size-ns",
@@ -179,7 +190,7 @@
       "sequence_edges_per_size_reviewed": 9,
       "loop_closure_reviewed": true,
       "status": "no_severe_unintended_jitter_observed",
-      "notes": "Vertical double arrow remains fixed; local paw/ear movement and small contour variation are visible.",
+      "notes": "Enlarged fixed symbol and pet separated. Every final native/enlarged adjacent edge and return checked; blink/ear/paw motion remains coherent. Minor 1px contour variation remains.",
       "max_body_registration_estimate_48": 1.0,
       "evidence": {
         "native_sequence": "motion-review/size-ns-48-full-sequence.png",
@@ -194,7 +205,7 @@
       "sequence_edges_per_size_reviewed": 9,
       "loop_closure_reviewed": true,
       "status": "no_severe_unintended_jitter_observed",
-      "notes": "Horizontal double arrow remains fixed; the pet changes paw/eyelid expression without severe translation.",
+      "notes": "Enlarged fixed symbol and pet separated. Every final native/enlarged adjacent edge and return checked; blink/ear/paw motion remains coherent. Minor 1px contour variation remains.",
       "max_body_registration_estimate_48": 1.0,
       "evidence": {
         "native_sequence": "motion-review/size-we-48-full-sequence.png",
@@ -209,7 +220,7 @@
       "sequence_edges_per_size_reviewed": 9,
       "loop_closure_reviewed": true,
       "status": "no_severe_unintended_jitter_observed",
-      "notes": "Reviewed displayed order is 0,2,3,4,5,6,8,1,7,then0. Diagonal mark and nose are stable; blink/paw poses are consistent across this order.",
+      "notes": "Enlarged fixed symbol and pet separated. Every final native/enlarged adjacent edge and return checked; blink/ear/paw motion remains coherent. Minor 1px contour variation remains.",
       "max_body_registration_estimate_48": 0.0,
       "evidence": {
         "native_sequence": "motion-review/size-nwse-48-full-sequence.png",
@@ -224,7 +235,7 @@
       "sequence_edges_per_size_reviewed": 9,
       "loop_closure_reviewed": true,
       "status": "no_severe_unintended_jitter_observed",
-      "notes": "Diagonal double arrow stays fixed; ear/paw and eyelid changes remain local, with consistent loop return.",
+      "notes": "Enlarged fixed symbol and pet separated. Every final native/enlarged adjacent edge and return checked; blink/ear/paw motion remains coherent. Minor 1px contour variation remains.",
       "max_body_registration_estimate_48": 0.0,
       "evidence": {
         "native_sequence": "motion-review/size-nesw-48-full-sequence.png",
@@ -239,7 +250,7 @@
       "sequence_edges_per_size_reviewed": 9,
       "loop_closure_reviewed": true,
       "status": "no_severe_unintended_jitter_observed",
-      "notes": "Four-way marker stays fixed; blink and slight ruff/paw silhouette changes do not read as severe movement of the whole head.",
+      "notes": "Enlarged fixed symbol and pet separated. Every final native/enlarged adjacent edge and return checked; blink/ear/paw motion remains coherent. Minor 1px contour variation remains.",
       "max_body_registration_estimate_48": 1.414214,
       "evidence": {
         "native_sequence": "motion-review/move-48-full-sequence.png",
@@ -254,7 +265,7 @@
       "sequence_edges_per_size_reviewed": 9,
       "loop_closure_reviewed": true,
       "status": "no_severe_unintended_jitter_observed",
-      "notes": "Up arrow tip stays fixed; pet eyes/ear/paw vary while head placement remains consistent.",
+      "notes": "Enlarged fixed symbol and pet separated. Every final native/enlarged adjacent edge and return checked; blink/ear/paw motion remains coherent. Minor 1px contour variation remains.",
       "max_body_registration_estimate_48": 0.0,
       "evidence": {
         "native_sequence": "motion-review/alternate-48-full-sequence.png",
@@ -276,7 +287,8 @@
         "integer_enlargement_sequence": "motion-review/link-96-full-sequence.png",
         "normal_playback": "motion-review/link-96-normal.gif",
         "slow_playback": "motion-review/link-96-slow.gif"
-      }
+      },
+      "approval_provenance": "Previous complete review; all exported PNG bytes verified unchanged."
     },
     {
       "id": "pin",
@@ -291,7 +303,8 @@
         "integer_enlargement_sequence": "motion-review/pin-96-full-sequence.png",
         "normal_playback": "motion-review/pin-96-normal.gif",
         "slow_playback": "motion-review/pin-96-slow.gif"
-      }
+      },
+      "approval_provenance": "Previous complete review; all exported PNG bytes verified unchanged."
     },
     {
       "id": "person",
@@ -306,7 +319,36 @@
         "integer_enlargement_sequence": "motion-review/person-96-full-sequence.png",
         "normal_playback": "motion-review/person-96-normal.gif",
         "slow_playback": "motion-review/person-96-slow.gif"
-      }
+      },
+      "approval_provenance": "Previous complete review; all exported PNG bytes verified unchanged."
     }
-  ]
+  ],
+  "coverage_provenance": {
+    "prior_reviewed_revision": "9b69d9254e43",
+    "unchanged_state_ids": [
+      "normal",
+      "help",
+      "working",
+      "wait",
+      "cross",
+      "text",
+      "pen",
+      "unavailable",
+      "link",
+      "pin",
+      "person"
+    ],
+    "unchanged_exported_png_hashes_verified": 636,
+    "newly_reviewed_state_ids": [
+      "alternate",
+      "move",
+      "size-nesw",
+      "size-ns",
+      "size-nwse",
+      "size-we"
+    ],
+    "newly_reviewed_frames": 54,
+    "newly_reviewed_edges_across_two_sizes": 108,
+    "newly_reviewed_loop_closures": 12
+  }
 }

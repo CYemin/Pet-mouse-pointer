@@ -1,0 +1,134 @@
+{
+  "themes": [
+    {
+      "slug": "pet-pixel-complete",
+      "label": "金貂喜乐蒂",
+      "feature": "金棕毛色、白额纹与长嘴筒",
+      "asset_revision": "527bfb601858",
+      "states": 17,
+      "frames": 179,
+      "native": {
+        "status": "passed",
+        "roles": 17,
+        "files_checked": 102,
+        "embedded_cursor_frames_checked": 1074,
+        "hotspot_warnings": [],
+        "system_settings_modified": false
+      },
+      "motion": {
+        "status": "passed",
+        "states_reviewed": 17
+      },
+      "native_details": "../themes/pet-pixel-complete/verification.json"
+    },
+    {
+      "slug": "golden-cream-pixel",
+      "label": "奶油白金毛",
+      "feature": "奶油宽脸、垂耳与绿色胸背",
+      "asset_revision": "fc7b7831043b",
+      "states": 17,
+      "frames": 174,
+      "native": {
+        "status": "passed",
+        "roles": 17,
+        "files_checked": 102,
+        "embedded_cursor_frames_checked": 1044,
+        "hotspot_warnings": [],
+        "system_settings_modified": false
+      },
+      "motion": {
+        "status": "passed",
+        "states_reviewed": 17
+      },
+      "native_details": "../themes/golden-cream-pixel/verification.json"
+    },
+    {
+      "slug": "sheltie-tricolor-pixel",
+      "label": "三色喜乐蒂",
+      "feature": "黑色底毛、棕色眉颊、白色围脖",
+      "asset_revision": "846e532c82d7",
+      "states": 17,
+      "frames": 179,
+      "native": {
+        "status": "passed",
+        "roles": 17,
+        "files_checked": 102,
+        "embedded_cursor_frames_checked": 1074,
+        "hotspot_warnings": [],
+        "system_settings_modified": false
+      },
+      "motion": {
+        "status": "passed",
+        "states_reviewed": 17
+      },
+      "native_details": "../themes/sheltie-tricolor-pixel/verification.json"
+    },
+    {
+      "slug": "sheltie-blue-merle-pixel",
+      "label": "蓝陨喜乐蒂",
+      "feature": "银灰黑斑、棕色眉颊、白色围脖",
+      "asset_revision": "6b4db5ecbb57",
+      "states": 17,
+      "frames": 179,
+      "native": {
+        "status": "passed",
+        "roles": 17,
+        "files_checked": 102,
+        "embedded_cursor_frames_checked": 1074,
+        "hotspot_warnings": [],
+        "system_settings_modified": false
+      },
+      "motion": {
+        "status": "passed",
+        "states_reviewed": 17
+      },
+      "native_details": "../themes/sheltie-blue-merle-pixel/verification.json"
+    },
+    {
+      "slug": "golden-standard-pixel",
+      "label": "标准金毛",
+      "feature": "蜂蜜金毛发、粉褐鼻、绿色胸背",
+      "asset_revision": "755722013048",
+      "states": 17,
+      "frames": 174,
+      "native": {
+        "status": "passed",
+        "roles": 17,
+        "files_checked": 102,
+        "embedded_cursor_frames_checked": 1044,
+        "hotspot_warnings": [],
+        "system_settings_modified": false
+      },
+      "motion": {
+        "status": "passed",
+        "states_reviewed": 17
+      },
+      "native_details": "../themes/golden-standard-pixel/verification.json"
+    },
+    {
+      "slug": "golden-dark-pixel",
+      "label": "深金毛",
+      "feature": "铜金毛发、较深垂耳、绿色胸背",
+      "asset_revision": "1edf84d4be0d",
+      "states": 17,
+      "frames": 174,
+      "native": {
+        "status": "passed",
+        "roles": 17,
+        "files_checked": 102,
+        "embedded_cursor_frames_checked": 1044,
+        "hotspot_warnings": [],
+        "system_settings_modified": false
+      },
+      "motion": {
+        "status": "passed",
+        "states_reviewed": 17
+      },
+      "native_details": "../themes/golden-dark-pixel/verification.json"
+    }
+  ],
+  "all_theme_arrows_upgraded": true,
+  "system_settings_modified": false,
+  "motion_review_required": true,
+  "original_pet_photos_included": false
+}

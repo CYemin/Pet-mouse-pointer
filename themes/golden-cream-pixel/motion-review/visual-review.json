@@ -1,8 +1,8 @@
 {
   "status": "passed",
-  "asset_revision": "adade5e62861",
-  "version": "1.0.1",
-  "reviewed_at_utc": "2026-10-22T06:19:26.574989+00:00",
+  "asset_revision": "fc7b7831043b",
+  "version": "1.1.0",
+  "reviewed_at_utc": "2026-10-22T11:59:19.976093+00:00",
   "reviewed_state_ids": [
     "normal",
     "help",
@@ -35,11 +35,13 @@
   "sequence_edges_reviewed": 348,
   "loop_closures_reviewed": 34,
   "exact_integer_scaled_variants_verified": 174,
-  "reviewer": "Codex visual review with independent agent diagnostics and root review of final full-sequence boards",
+  "reviewer": "Codex final visual review with byte-identical prior coverage",
   "methods": [
-    "Every displayed frame and loop return on light/dark contact sheets",
-    "Adjacent-frame overlays and translation/scale diagnostics, including unflagged transitions",
-    "Normal-speed and quarter-speed playback; final corrected normal/WE loops rechecked in browser"
+    "For all six changed arrow states, viewed every frame and explicit loop return in 48px and96px full-sequence boards on light and dark backgrounds (24 boards across the two original themes).",
+    "Loaded original two themes six changed arrow states at normal and quarter speed, at 48px and96px, in Chromium. Observed distinct live playback phases; exhaustive edge coverage derives from sequence boards.",
+    "Confirmed each enlarged operation symbol stays fixed while eye, muzzle, ears, chest and paw movements remain coherent; no severe unintended shift, scale pop, clipping or loop jump was observed.",
+    "Preserved prior complete visual approval for the other eleven states only after matching every exported PNG SHA256 at all five sizes against the previous reviewed output. These eleven states were not newly browser-reviewed for this arrow-only revision.",
+    "Native loading and automatic motion analysis were rerun on the final revision; heuristic results were context only."
   ],
   "repairs": [
     {
@@ -63,7 +65,8 @@
       "cause": "Third-column generated dog positions shifted right relative to the fixed arrow.",
       "change": "Targeted image-generation repair aligned the dog positions, then all nine solid arrow centers were remeasured.",
       "result": "Abrupt horizontal offsets resolved; all9frames preserved."
-    }
+    },
+    "Replaced six small operation arrows with common larger pixel symbols, using one shared pet transform per state."
   ],
   "candidate_decisions": [
     {
@@ -89,7 +92,8 @@
         "full_sequence_contact_sheet": "motion-review/normal-96-full-sequence.png",
         "normal_playback": "motion-review/normal-96-normal.gif",
         "slow_playback": "motion-review/normal-96-slow.gif"
-      }
+      },
+      "approval_provenance": "Previous complete review; all exported PNG bytes verified unchanged."
     },
     {
       "id": "help",
@@ -102,7 +106,8 @@
         "full_sequence_contact_sheet": "motion-review/help-96-full-sequence.png",
         "normal_playback": "motion-review/help-96-normal.gif",
         "slow_playback": "motion-review/help-96-slow.gif"
-      }
+      },
+      "approval_provenance": "Previous complete review; all exported PNG bytes verified unchanged."
     },
     {
       "id": "working",
@@ -115,7 +120,8 @@
         "full_sequence_contact_sheet": "motion-review/working-96-full-sequence.png",
         "normal_playback": "motion-review/working-96-normal.gif",
         "slow_playback": "motion-review/working-96-slow.gif"
-      }
+      },
+      "approval_provenance": "Previous complete review; all exported PNG bytes verified unchanged."
     },
     {
       "id": "wait",
@@ -128,7 +134,8 @@
         "full_sequence_contact_sheet": "motion-review/wait-96-full-sequence.png",
         "normal_playback": "motion-review/wait-96-normal.gif",
         "slow_playback": "motion-review/wait-96-slow.gif"
-      }
+      },
+      "approval_provenance": "Previous complete review; all exported PNG bytes verified unchanged."
     },
     {
       "id": "cross",
@@ -141,7 +148,8 @@
         "full_sequence_contact_sheet": "motion-review/cross-96-full-sequence.png",
         "normal_playback": "motion-review/cross-96-normal.gif",
         "slow_playback": "motion-review/cross-96-slow.gif"
-      }
+      },
+      "approval_provenance": "Previous complete review; all exported PNG bytes verified unchanged."
     },
     {
       "id": "text",
@@ -154,7 +162,8 @@
         "full_sequence_contact_sheet": "motion-review/text-96-full-sequence.png",
         "normal_playback": "motion-review/text-96-normal.gif",
         "slow_playback": "motion-review/text-96-slow.gif"
-      }
+      },
+      "approval_provenance": "Previous complete review; all exported PNG bytes verified unchanged."
     },
     {
       "id": "pen",
@@ -167,7 +176,8 @@
         "full_sequence_contact_sheet": "motion-review/pen-96-full-sequence.png",
         "normal_playback": "motion-review/pen-96-normal.gif",
         "slow_playback": "motion-review/pen-96-slow.gif"
-      }
+      },
+      "approval_provenance": "Previous complete review; all exported PNG bytes verified unchanged."
     },
     {
       "id": "unavailable",
@@ -180,7 +190,8 @@
         "full_sequence_contact_sheet": "motion-review/unavailable-96-full-sequence.png",
         "normal_playback": "motion-review/unavailable-96-normal.gif",
         "slow_playback": "motion-review/unavailable-96-slow.gif"
-      }
+      },
+      "approval_provenance": "Previous complete review; all exported PNG bytes verified unchanged."
     },
     {
       "id": "size-ns",
@@ -193,7 +204,8 @@
         "full_sequence_contact_sheet": "motion-review/size-ns-96-full-sequence.png",
         "normal_playback": "motion-review/size-ns-96-normal.gif",
         "slow_playback": "motion-review/size-ns-96-slow.gif"
-      }
+      },
+      "notes": "Enlarged fixed symbol and pet separated. Every final native/enlarged adjacent edge and return checked; blink/ear/paw motion remains coherent. Minor 1px contour variation remains."
     },
     {
       "id": "size-we",
@@ -206,7 +218,8 @@
         "full_sequence_contact_sheet": "motion-review/size-we-96-full-sequence.png",
         "normal_playback": "motion-review/size-we-96-normal.gif",
         "slow_playback": "motion-review/size-we-96-slow.gif"
-      }
+      },
+      "notes": "Enlarged fixed symbol and pet separated. Every final native/enlarged adjacent edge and return checked; blink/ear/paw motion remains coherent. Minor 1px contour variation remains."
     },
     {
       "id": "size-nwse",
@@ -219,7 +232,8 @@
         "full_sequence_contact_sheet": "motion-review/size-nwse-96-full-sequence.png",
         "normal_playback": "motion-review/size-nwse-96-normal.gif",
         "slow_playback": "motion-review/size-nwse-96-slow.gif"
-      }
+      },
+      "notes": "Enlarged fixed symbol and pet separated. Every final native/enlarged adjacent edge and return checked; blink/ear/paw motion remains coherent. Minor 1px contour variation remains."
     },
     {
       "id": "size-nesw",
@@ -232,7 +246,8 @@
         "full_sequence_contact_sheet": "motion-review/size-nesw-96-full-sequence.png",
         "normal_playback": "motion-review/size-nesw-96-normal.gif",
         "slow_playback": "motion-review/size-nesw-96-slow.gif"
-      }
+      },
+      "notes": "Enlarged fixed symbol and pet separated. Every final native/enlarged adjacent edge and return checked; blink/ear/paw motion remains coherent. Minor 1px contour variation remains."
     },
     {
       "id": "move",
@@ -245,7 +260,8 @@
         "full_sequence_contact_sheet": "motion-review/move-96-full-sequence.png",
         "normal_playback": "motion-review/move-96-normal.gif",
         "slow_playback": "motion-review/move-96-slow.gif"
-      }
+      },
+      "notes": "Enlarged fixed symbol and pet separated. Every final native/enlarged adjacent edge and return checked; blink/ear/paw motion remains coherent. Minor 1px contour variation remains."
     },
     {
       "id": "alternate",
@@ -258,7 +274,8 @@
         "full_sequence_contact_sheet": "motion-review/alternate-96-full-sequence.png",
         "normal_playback": "motion-review/alternate-96-normal.gif",
         "slow_playback": "motion-review/alternate-96-slow.gif"
-      }
+      },
+      "notes": "Enlarged fixed symbol and pet separated. Every final native/enlarged adjacent edge and return checked; blink/ear/paw motion remains coherent. Minor 1px contour variation remains."
     },
     {
       "id": "link",
@@ -271,7 +288,8 @@
         "full_sequence_contact_sheet": "motion-review/link-96-full-sequence.png",
         "normal_playback": "motion-review/link-96-normal.gif",
         "slow_playback": "motion-review/link-96-slow.gif"
-      }
+      },
+      "approval_provenance": "Previous complete review; all exported PNG bytes verified unchanged."
     },
     {
       "id": "pin",
@@ -284,7 +302,8 @@
         "full_sequence_contact_sheet": "motion-review/pin-96-full-sequence.png",
         "normal_playback": "motion-review/pin-96-normal.gif",
         "slow_playback": "motion-review/pin-96-slow.gif"
-      }
+      },
+      "approval_provenance": "Previous complete review; all exported PNG bytes verified unchanged."
     },
     {
       "id": "person",
@@ -297,7 +316,37 @@
         "full_sequence_contact_sheet": "motion-review/person-96-full-sequence.png",
         "normal_playback": "motion-review/person-96-normal.gif",
         "slow_playback": "motion-review/person-96-slow.gif"
-      }
+      },
+      "approval_provenance": "Previous complete review; all exported PNG bytes verified unchanged."
     }
-  ]
+  ],
+  "coverage_provenance": {
+    "prior_reviewed_revision": "adade5e62861",
+    "unchanged_state_ids": [
+      "normal",
+      "help",
+      "working",
+      "wait",
+      "cross",
+      "text",
+      "pen",
+      "unavailable",
+      "link",
+      "pin",
+      "person"
+    ],
+    "unchanged_exported_png_hashes_verified": 611,
+    "newly_reviewed_state_ids": [
+      "alternate",
+      "move",
+      "size-nesw",
+      "size-ns",
+      "size-nwse",
+      "size-we"
+    ],
+    "newly_reviewed_frames": 54,
+    "newly_reviewed_edges_across_two_sizes": 108,
+    "newly_reviewed_loop_closures": 12
+  },
+  "browser_review_page": "motion-review/arrow-final-playback.html"
 }

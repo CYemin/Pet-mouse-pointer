@@ -2,24 +2,44 @@
 
 用自己的宠物照片，制作一套有表情、有动作、可以安装和恢复的 Windows 鼠标指针。
 
-项目包含可复用的 **Pet Cursor Theme Skill**、CUR/ANI 构建与验证脚本，以及两套已经制作好的像素主题。Skill 会根据宠物的脸型、毛色、耳朵和配饰设计角色，为不同鼠标状态安排动作，并把鼻尖、笔尖或操作标记与实际点击位置对齐。
+项目包含可复用的 **Pet Cursor Theme Skill**、CUR/ANI 构建与验证脚本，以及六套可直接下载的像素主题。Skill 支持根据照片设计新角色，也支持在已批准角色上扩展毛色版本，保留动作、鼻尖点击点与清楚的操作标记。
 
 ## 下载现成主题
 
 | 主题 | 特征 | 下载 |
 |---|---|---|
-| 喜乐蒂 · Pixel Companion | 金棕毛色、白额纹、长嘴筒与折耳 | [下载完整 ZIP](downloads/pet-pixel-complete.zip?raw=1) · [主题说明](themes/pet-pixel-complete/README.md) |
-| 金毛 · Cream Golden | 奶油白宽脸、垂耳、粉褐鼻头与绿色胸背带 | [下载完整 ZIP](downloads/golden-cream-pixel.zip?raw=1) · [主题说明](themes/golden-cream-pixel/README.md) |
+| 喜乐蒂 · 金貂色 | 金棕毛、白额纹、长嘴筒与折耳 | [完整 ZIP](downloads/pet-pixel-complete.zip?raw=1) · [说明](themes/pet-pixel-complete/README.md) |
+| 金毛 · 奶油白 | 宽脸、垂耳、粉褐鼻与绿色胸背 | [完整 ZIP](downloads/golden-cream-pixel.zip?raw=1) · [说明](themes/golden-cream-pixel/README.md) |
+| 三色喜乐蒂 | 黑色底毛、棕色眉颊、白色围脖 | [完整 ZIP](downloads/sheltie-tricolor-pixel.zip?raw=1) · [说明](themes/sheltie-tricolor-pixel/README.md) |
+| 蓝陨喜乐蒂 | 银灰黑斑、棕色眉颊、白色围脖 | [完整 ZIP](downloads/sheltie-blue-merle-pixel.zip?raw=1) · [说明](themes/sheltie-blue-merle-pixel/README.md) |
+| 标准金毛 | 蜂蜜金毛发、粉褐鼻、绿色胸背 | [完整 ZIP](downloads/golden-standard-pixel.zip?raw=1) · [说明](themes/golden-standard-pixel/README.md) |
+| 深金毛 | 铜金毛发、较深垂耳、绿色胸背 | [完整 ZIP](downloads/golden-dark-pixel.zip?raw=1) · [说明](themes/golden-dark-pixel/README.md) |
 
-两套主题均包含 **17 种动画状态**，提供 **32 / 48 / 64 / 96 / 128px** 五种尺寸。默认使用 48px，96px 是像素网格的整数倍放大。
+六套均包含 **17 种动画状态**与 **32 / 48 / 64 / 96 / 128px** 五种尺寸，默认48px。
 
-### 喜乐蒂
+### 毛色对照
 
-![喜乐蒂像素指针动画](docs/images/pet-pixel-complete.gif)
+当前有10款静态毛色设计，其中6款已有完整主题。深貂色、黑白、双色蓝喜乐蒂与浅金毛目前仅有配色母版。
 
-### 金毛
+![10款毛色对照](docs/images/coat-colors.png)
 
-![金毛像素指针动画](docs/images/golden-cream-pixel.gif)
+### 更清楚的操作箭头
+
+六套主题的上下、左右、两种斜向缩放、移动与候选选择箭头均已放大，使用统一像素符号，并与宠物脸部分开放置。正常选择仍由鼻尖点击；缩放与移动在符号中心定位，候选选择在向上箭头尖定位。
+
+![六套主题箭头：旧48px、新48px与3倍放大对照](docs/images/larger-operation-arrows.png)
+
+### 动画预览
+
+| 三色喜乐蒂 | 蓝陨喜乐蒂 |
+|---|---|
+| ![三色动作](docs/images/sheltie-tricolor-pixel.gif) | ![蓝陨动作](docs/images/sheltie-blue-merle-pixel.gif) |
+| 标准金毛 | 深金毛 |
+| ![标准金动作](docs/images/golden-standard-pixel.gif) | ![深金动作](docs/images/golden-dark-pixel.gif) |
+| 金貂喜乐蒂 | 奶油白金毛 |
+| ![金貂动作](docs/images/pet-pixel-complete.gif) | ![奶油白动作](docs/images/golden-cream-pixel.gif) |
+
+预览展示正常、帮助、等待、链接等动作。完整17状态、热点与实际尺寸请打开对应包内的 `preview.html`。
 
 ## 普通用户：双击应用或恢复
 
@@ -41,7 +61,7 @@
 
 ### 安装 Skill
 
-下载 [Skill ZIP](downloads/pet-cursor-skill.zip?raw=1)，或取出仓库的 [`skills/pet-cursor-theme/`](skills/pet-cursor-theme/) 文件夹。将整个文件夹放入支持 `SKILL.md` 的客户端技能目录，再按客户端的方式启用。请保留其中的 `scripts/`、`references/` 与 `requirements.txt`。
+下载 [Skill ZIP](downloads/pet-cursor-skill.zip?raw=1)，或取出仓库的 [`skills/pet-cursor-theme/`](skills/pet-cursor-theme/) 文件夹。将整个文件夹放入支持 `SKILL.md` 的客户端技能目录，再按客户端的方式启用。请保留其中的 `scripts/`、`references/`、`assets/` 与 `requirements.txt`。
 
 Skill 需要宿主提供可用的图像生成工具。本项目不包含图像模型、API 密钥，也不会自行把照片发送给某个固定服务；图像生成的可用性和使用条件取决于宿主及所选服务。
 
@@ -51,7 +71,7 @@ Skill 需要宿主提供可用的图像生成工具。本项目不包含图像�
 
 > 使用 pet-cursor-theme Skill，根据这张照片制作完整的 Windows 鼠标指针主题。采用清晰的像素风格，保留宠物自己的毛色、耳型和配饰。正常选择用侧脸鼻尖定位，毛发持续轻动；帮助选择做疑问表情，问号弹出再缩回；等待时睡着、冒出 ZZZ、再醒来。17 种状态都要有动画，操作标记保持清楚。每次制作或修改后，逐帧检查所有过渡与首尾衔接，修复严重抖动、偏移和突然缩放，交付预览、安装包和检查记录。
 
-流程包括观察宠物特征、确定造型、生成各状态素材、测量每帧点击点、编译五种尺寸、逐帧复查和 Windows 验证。新宠物需要重新设计脸型和动作；示例中的犬种特征不会直接套用到新照片上。像素风是当前两套示例采用的方向，编译器也支持非像素素材。
+流程包括观察宠物特征、确定造型、生成各状态素材、测量每帧点击点、编译五种尺寸、逐帧复查和 Windows 验证。新宠物需要重新设计脸型和动作；示例中的犬种特征不会直接套用到新照片上。像素风是当前示例采用的方向，编译器也支持非像素素材。
 
 ## 17 种状态与点击点
 
@@ -137,18 +157,25 @@ Windows 原生检查会验证 CUR/ANI 结构、各尺寸、每个嵌入帧的加
 
 ### 示例验证范围
 
-- 两套示例已有 Windows 原生加载、绘制、尺寸与热点检查记录，详情见各自 ZIP 内的 `verification.json`。
-- 金毛主题已有全部 17 个状态、174 帧在 48/96px 下的逐帧视觉复查记录，包含首尾衔接；记录见包内 `motion-review/visual-review.json`。轻微像素轮廓变化仍可能存在。
-- 喜乐蒂主题也已完成17个状态、179帧在48/96px下的逐帧视觉复查，包含首尾衔接；详见其包内记录。
-- 原生检查和安装预演不代表已经替换系统指针。真实桌面点击手感、不同 DPI 和多显示器切换仍需实际试用；部分应用会使用自己的指针。
+- 六套主题均有 Windows 原生加载、绘制、尺寸和热点检查，以及48/96px的逐帧视觉复查记录，包括循环接缝。
+- 六套共102个状态、1059张源动作导出帧；全部六种功能箭头已统一放大并重新检查。轻微像素轮廓与毛发纹理变化仍可能存在。
+- 自动检测只提供可疑过渡线索，视觉结论见各包内 `motion-review/visual-review.json`。六套汇总见 [验证记录](docs/coat-release-validation.json)。
+- 三个双击入口经过预演检查；原生检查与预演不代表实际替换了系统指针。真实桌面手感、不同DPI和多显示器仍需实际试用。
+
+### 扩展其他毛色
+
+先选择或生成毛色母版，再逐状态编辑源精灵图，保护眼睛、鼻子、舌头、胸背配饰与功能符号。蓝陨等斑块需固定在对应身体部位，逐帧检查花纹连续性。
+可复用的注册脚本会把旧的测量点映射到新图，并保留动作时序；它不能代替视觉验收。流程、毛色选项与命令见 [毛色扩展说明](skills/pet-cursor-theme/references/coat-variants.md)。
+色板数量可按角色调整，彩色胸背和粉色舌头等细节较多时可用32–48色，避免被严格16色量化吞掉。
 
 ## 仓库结构
 
 ```text
 skills/pet-cursor-theme/    可复用 Skill、脚本和配置／检查规范
 themes/pet-pixel-complete/ 喜乐蒂主题说明
-themes/golden-cream-pixel/ 金毛主题说明
-downloads/                两套可安装 ZIP 与 Skill ZIP
+themes/golden-cream-pixel/ 奶油金毛主题说明
+themes/*-pixel/           其他毛色主题说明与检查记录
+downloads/                六套可安装 ZIP 与 Skill ZIP
 docs/images/              README 动画预览
 ```
 

@@ -13,6 +13,8 @@ import hashlib
 from PIL import Image, ImageDraw, ImageFont
 from build_samples import cur_file, ani_file
 from cursor_launchers import write_launchers
+from operation_marks import apply_operation_marks
+import operation_marks as marker_tools
 
 TOOL_DIR=Path(__file__).resolve().parent
 ROOT=TOOL_DIR.parent
@@ -85,6 +87,8 @@ def animation_stats(frames,sequence,ticks):
 
 def prepare(spec,config=None):
     options=pixel_options(config or {},spec)
+    if spec.get('operation_mark') and not options['pixel_art']:
+        raise ValueError('Operation marker composition requires a pixel-art state')
     image=Image.open(ROOT/spec['source']).convert('RGBA')
     cols,rows=spec.get('grid',[1,1]); w,h=image.size
     ids=spec.get('source_frames',list(range(cols*rows)))
@@ -127,6 +131,9 @@ def prepare(spec,config=None):
         frames=pixel_convert([f.resize((native,native),Image.Resampling.NEAREST) for f in frames],options)
         anchor=tuple(max(0,min(native-1,round(v*native/side))) for v in anchor)
         side=native
+        if spec.get('operation_mark'):
+            frames,anchor=apply_operation_marks(frames,anchor,spec,options,ROOT)
+            frames=pixel_convert(frames,options)
     return frames,anchor,side
 
 def build():
@@ -141,6 +148,13 @@ def build():
     (OUT/'frames').mkdir(exist_ok=True)
     revision=hashlib.sha256(CONFIG.read_bytes())
     for spec in config['states']:revision.update((ROOT/spec['source']).read_bytes())
+    marked=[s for s in config['states'] if s.get('operation_mark')]
+    if marked:
+        revision.update(Path(marker_tools.__file__).read_bytes())
+        kinds={s['operation_mark'].get('kind',s['id']) if isinstance(s['operation_mark'],dict) else s['id'] for s in marked}
+        if not kinds.issubset(marker_tools.KINDS):raise ValueError('Unsupported operation marker kind')
+        for kind in sorted(kinds):
+            revision.update((Path(marker_tools.__file__).resolve().parents[1]/'assets/operation-marks-v1'/f'{kind}.png').read_bytes())
     manifest={'name':config.get('name','Pet Companion — 手绘宠物指针'),'version':config.get('version','0.1.0'),
               'asset_revision':revision.hexdigest()[:12],
               'sizes':list(SIZES),'states':[],'scheme_order':ORDER,
@@ -207,6 +221,7 @@ def build():
         if 'source_rects' in spec:state['source_rects']=spec['source_rects']
         if 'landmark_units' in spec:state['landmark_units']=spec['landmark_units']
         if 'motion_audit' in spec:state['motion_audit']=spec['motion_audit']
+        if 'operation_mark' in spec:state['operation_mark']=spec['operation_mark']
         if hotspot_overrides:state['hotspot_overrides']=hotspot_overrides
         manifest['states'].append(state)
     gallery.save(OUT/'theme-overview.png')
