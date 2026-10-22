@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+.build-checks/
+.motion-test-*/
+output/
+projects/
+private-inputs/
+Thumbs.db
+.DS_Store

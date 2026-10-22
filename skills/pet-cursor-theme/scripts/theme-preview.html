@@ -1,0 +1,58 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>小狗的17种心情 · 完整手绘指针</title>
+<style>
+:root{--bg:#f4efe6;--card:#fffaf2;--ink:#44362d;--muted:#867363;--line:#dacdbd;--accent:#885b3d}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.7 system-ui,"Microsoft YaHei",sans-serif}body.dark{--bg:#202a2d;--card:#2b373b;--ink:#f3eade;--muted:#c0b19e;--line:#4a5559;--accent:#c79263}main{max-width:1240px;margin:auto;padding:42px 24px}small{letter-spacing:.18em;color:var(--muted)}h1{font-size:38px;margin:10px 0;line-height:1.3}p{color:var(--muted);max-width:840px}.toolbar{display:flex;gap:10px;flex-wrap:wrap;position:sticky;top:0;z-index:10;background:var(--bg);padding:14px 0;border-bottom:1px solid var(--line)}button,select{border:1px solid var(--line);background:var(--card);color:var(--ink);padding:8px 15px;border-radius:20px;font:inherit}button[aria-pressed=true]{background:var(--accent);color:var(--bg)}#cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin:24px 0}.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:18px;position:relative}.card h2{font-size:18px;margin:10px 0 5px}.card p{font-size:13px;margin:4px 0;min-height:44px}.artbox{width:100%;aspect-ratio:1;position:relative}.artbox img{width:100%;height:100%;object-fit:contain}.marker{position:absolute;width:17px;height:17px;transform:translate(-50%,-50%);display:none;pointer-events:none}.marker:before,.marker:after{content:'';background:#00a0ab;position:absolute}.marker:before{left:0;top:8px;width:17px;height:1px}.marker:after{left:8px;top:0;width:1px;height:17px}.show-hotspots .marker{display:block}.actual{height:70px;display:flex;align-items:center;gap:16px;border-top:1px solid var(--line);margin-top:12px;color:var(--muted);font-size:12px}.actual img{object-fit:contain}.badge{font-size:11px;color:var(--muted)}.choose{font-size:12px;padding:4px 12px}.playground{padding:24px;border:1px dashed var(--accent);border-radius:20px;background:var(--card);min-height:170px}.targets{display:flex;gap:20px;align-items:center;flex-wrap:wrap;margin:16px 0}.target{width:12px;height:12px;padding:0;background:var(--accent);border-radius:50%;cursor:inherit}.target.large{width:25px;height:25px}.playground button:not(.target){cursor:inherit}textarea{width:100%;height:80px;font:inherit;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;margin-top:16px;cursor:var(--text-cursor,text)}footer{font-size:12px;color:var(--muted);margin-top:28px}@media(max-width:950px){#cards{grid-template-columns:repeat(3,1fr)}}@media(max-width:650px){#cards{grid-template-columns:repeat(2,1fr)}h1{font-size:28px}}@media(max-width:400px){#cards{grid-template-columns:1fr}}
+</style>
+<style>.pixel-art img{image-rendering:crisp-edges;image-rendering:pixelated}.timing{display:block;font-size:11px;color:var(--muted);line-height:1.65;margin:5px 0 10px;min-height:36px}</style>
+<main><small>YOUR DOG · 17 LITTLE EXPRESSIONS</small><h1>小狗的17种心情。</h1><p>同一只小狗，遇到不同任务会有不同表情：疑惑、等待、认真瞄准、用力拉扯，或认出主人。功能标记保留清楚的方向，点选状态用鼻尖定位。</p>
+<div class="toolbar"><button id="background">深浅背景</button><button id="hotspots">显示点击热点</button><label>试用尺寸 <select id="size"><option>32</option><option selected>48</option><option>64</option><option>96</option><option>128</option></select></label><select id="state" aria-label="选择试用状态"></select></div>
+<section id="cards"></section><section id="arena" class="playground"><strong id="chosen">正常选择</strong><p>在此区域体验当前指针，用鼻尖或操作标记的中心点选小圆点。网页以 PNG 帧模拟动画，系统应用使用包内 CUR / ANI。</p><div class="targets"><button class="target" aria-label="点选小圆点"></button><button class="target" aria-label="点选小圆点"></button><button class="target large" aria-label="点选大圆点"></button><span id="hits">已点中 0 次</span></div></section><textarea placeholder="这里试用宠物文本插入指针。"></textarea><footer>青色十字仅为热点说明，不包含在系统指针里。系统原生加载检查与实际应用手感是两类验证；部分软件使用自己的指针。默认包为48px，也提供32/64/96/128px。</footer></main>
+<script>
+const M=__MANIFEST__;
+let size=48,selected=(M.states.find(s=>s.role==='Arrow')||M.states[0]).id,hits=0;
+const active={},cards={},imageCache=new Map();
+const arena=document.querySelector('#arena'),chosen=document.querySelector('#chosen');
+document.title=M.name;
+if(M.pixel_art){document.querySelector('h1').textContent='小狗的17种像素心情。';document.querySelector('main > p').textContent='同一只小狗，用清晰的像素轮廓表达不同任务。动作峰值帧率、包含停顿的全循环平均帧率和实际不同帧数分别列出；放大预览保留像素边缘。'}
+function source(s,n,frame){return `frames/${s.id}-${n}-${frame}.png?v=${M.asset_revision}`}
+function artSize(s){return s.pixel_art&&M.sizes.includes(s.native_pixel_size)?s.native_pixel_size:128}
+function cursor(s,frame){const [x,y]=s.hotspots[size];return `url("${source(s,size,frame)}") ${x} ${y}, default`}
+function timing(s){const a=s.animation_stats_by_size?.[size]||s;if(!s.animated)return '静态 · 1 张不同帧';const fmt=n=>Number(n.toFixed(1));return a.peak_fps===undefined?`${s.frame_count} 张导出帧`:`动作峰值 ${fmt(a.peak_fps)} FPS · 全循环平均 ${fmt(a.visual_fps)} FPS · ${a.unique_frame_count} 张不同帧`}
+function update(s,frame,force=false){
+  if(active[s.id]===frame&&!force)return;
+  active[s.id]=frame;const card=cards[s.id],n=artSize(s);
+  card.querySelector('.art').src=source(s,n,frame);
+  const small=card.querySelector('.mini');small.src=source(s,size,frame);small.style.width=small.style.height=size+'px';
+  card.style.cursor=cursor(s,frame);
+  const mark=card.querySelector('.marker'),[x,y]=s.hotspots[n];mark.style.left=(x+.5)/n*100+'%';mark.style.top=(y+.5)/n*100+'%';
+  if(force)card.querySelector('.timing').textContent=timing(s);
+  if(selected===s.id){arena.style.cursor=cursor(s,frame);chosen.textContent=s.label+' · '+s.idea}
+  if(s.role==='IBeam')document.documentElement.style.setProperty('--text-cursor',cursor(s,frame));
+}
+function preload(n){
+  const loads=[];
+  for(const s of M.states)for(const pixels of new Set([n,artSize(s)]))for(const frame of new Set(s.sequence)){
+    const url=source(s,pixels,frame);
+    if(!imageCache.has(url)){const img=new Image();const ready=new Promise(resolve=>{img.onload=img.onerror=()=>resolve()});img.src=url;imageCache.set(url,{img,ready})}
+    loads.push(imageCache.get(url).ready);
+  }
+  return Promise.all(loads);
+}
+// Select from the absolute 60 Hz ANI timeline. Delayed browser paints skip to
+// the correct frame instead of accumulating a timeout delay on every step.
+function frameAt(s,elapsed){let tick=(elapsed*60/1000)%s.ticks.reduce((a,b)=>a+b,0);for(let i=0;i<s.sequence.length;i++){if(tick<s.ticks[i])return s.sequence[i];tick-=s.ticks[i]}return s.sequence[0]}
+for(const s of M.states){
+  const card=document.createElement('article');card.className='card'+(s.pixel_art?' pixel-art':'');card.id='card-'+s.id;
+  card.innerHTML=`<div class="artbox"><img class="art" alt="${s.label}的小狗表情"><span class="marker"></span></div><span class="badge">${s.role} · ${s.animated?'动画':'静态操作'}</span><h2>${s.label}</h2><p>${s.idea}</p><span class="timing"></span><button class="choose">在下方试用</button><div class="actual"><img class="mini" alt="实际尺寸预览"><span>实际尺寸</span></div>`;
+  document.querySelector('#cards').append(card);cards[s.id]=card;
+  const option=document.createElement('option');option.value=s.id;option.textContent=s.label;document.querySelector('#state').append(option);
+  card.querySelector('.choose').onclick=()=>{selected=s.id;document.querySelector('#state').value=s.id;update(s,active[s.id],true);arena.scrollIntoView({behavior:'smooth',block:'center'})};
+  update(s,s.sequence[0],true);
+}
+document.querySelector('#state').value=selected;
+preload(size).then(()=>{const epoch=performance.now();function animate(now){for(const s of M.states)if(s.animated)update(s,frameAt(s,now-epoch));requestAnimationFrame(animate)}requestAnimationFrame(animate)});
+document.querySelector('#state').onchange=e=>{selected=e.target.value;const s=M.states.find(s=>s.id===selected);update(s,active[s.id],true)};
+document.querySelector('#size').onchange=async e=>{const requested=+e.target.value;await preload(requested);if(+document.querySelector('#size').value!==requested)return;size=requested;M.states.forEach(s=>update(s,active[s.id],true))};
+document.querySelector('#background').onclick=()=>document.body.classList.toggle('dark');
+document.querySelector('#hotspots').onclick=e=>{document.body.classList.toggle('show-hotspots');e.target.setAttribute('aria-pressed',document.body.classList.contains('show-hotspots'))};
+document.querySelectorAll('.target').forEach(b=>b.onclick=()=>document.querySelector('#hits').textContent=`已点中 ${++hits} 次`);
+</script></html>

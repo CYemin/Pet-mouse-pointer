@@ -1,0 +1,37 @@
+{
+  "checked_at_utc": "2026-10-22T06:59:51.987088+00:00",
+  "python_tests_passed": 34,
+  "powershell_backup_logic_checks_passed": 16,
+  "skill_structure_validation": "passed",
+  "independent_project_cli_build": "passed",
+  "markdown_relative_links": "passed",
+  "public_packages": [
+    {
+      "theme": "pet-pixel-complete",
+      "version": "0.3.1",
+      "roles": 17,
+      "frames": 179,
+      "files_checked": 102,
+      "native_embedded_frames_checked": 1074,
+      "motion_visual_review": "passed",
+      "sha256": "f173e4b66faa2961587aa66bebe7e801d79771bc7e060861219696def939fbb2",
+      "bytes": 14664815
+    },
+    {
+      "theme": "golden-cream-pixel",
+      "version": "1.0.1",
+      "roles": 17,
+      "frames": 174,
+      "files_checked": 102,
+      "native_embedded_frames_checked": 1044,
+      "motion_visual_review": "passed",
+      "sha256": "3014dbbc6fc5e210151fb671dea1057951941adf935f3f94b74cbd586c09bb37",
+      "bytes": 14857158
+    }
+  ],
+  "system_cursors_changed": false,
+  "limits": [
+    "Native load/draw and motion review do not establish desktop click feel or multi-monitor/DPI behavior.",
+    "Small pixel contour and intended ear/paw/fur motion remain."
+  ]
+}

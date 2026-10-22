@@ -1,0 +1,170 @@
+# Pet Mouse Pointer · 宠物鼠标指针
+
+用自己的宠物照片，制作一套有表情、有动作、可以安装和恢复的 Windows 鼠标指针。
+
+项目包含可复用的 **Pet Cursor Theme Skill**、CUR/ANI 构建与验证脚本，以及两套已经制作好的像素主题。Skill 会根据宠物的脸型、毛色、耳朵和配饰设计角色，为不同鼠标状态安排动作，并把鼻尖、笔尖或操作标记与实际点击位置对齐。
+
+## 下载现成主题
+
+| 主题 | 特征 | 下载 |
+|---|---|---|
+| 喜乐蒂 · Pixel Companion | 金棕毛色、白额纹、长嘴筒与折耳 | [下载完整 ZIP](downloads/pet-pixel-complete.zip?raw=1) · [主题说明](themes/pet-pixel-complete/README.md) |
+| 金毛 · Cream Golden | 奶油白宽脸、垂耳、粉褐鼻头与绿色胸背带 | [下载完整 ZIP](downloads/golden-cream-pixel.zip?raw=1) · [主题说明](themes/golden-cream-pixel/README.md) |
+
+两套主题均包含 **17 种动画状态**，提供 **32 / 48 / 64 / 96 / 128px** 五种尺寸。默认使用 48px，96px 是像素网格的整数倍放大。
+
+### 喜乐蒂
+
+![喜乐蒂像素指针动画](docs/images/pet-pixel-complete.gif)
+
+### 金毛
+
+![金毛像素指针动画](docs/images/golden-cream-pixel.gif)
+
+## 普通用户：双击应用或恢复
+
+下载对应 ZIP 后，**先完整解压**，再进入主题文件夹。无需安装 Python，也无需管理员权限。
+
+| 双击文件 | 作用 |
+|---|---|
+| `应用鼠标主题.cmd` | 应用默认 48px 版本 |
+| `应用大号鼠标.cmd` | 应用 96px 版本 |
+| `恢复原鼠标.cmd` | 恢复应用前备份的鼠标设置 |
+
+运行窗口会显示结果，按任意键关闭。应用前会备份当前用户的指针设置，并把系统需要的文件复制到用户目录。连续应用本项目主题或切换尺寸时，只要当前完整方案仍属于本项目且原备份有效，就会保留最初的恢复基线。恢复操作保留备份文件。
+
+主题包中的 `preview.html` 可以直接打开；请保留旁边的 `frames/` 文件夹。预览支持尺寸、深浅背景、热点标记和点击试用。网页显示 PNG 动画，Windows 实际使用 ANI 文件。
+
+如果系统策略阻止脚本运行，可按 `Win + R` 输入 `main.cpl`，在「指针」页手动分配主题内的文件，并先另存原方案。手动分配后应保留这些 ANI 文件的路径。
+
+## 用自己的宠物制作
+
+### 安装 Skill
+
+下载 [Skill ZIP](downloads/pet-cursor-skill.zip?raw=1)，或取出仓库的 [`skills/pet-cursor-theme/`](skills/pet-cursor-theme/) 文件夹。将整个文件夹放入支持 `SKILL.md` 的客户端技能目录，再按客户端的方式启用。请保留其中的 `scripts/`、`references/` 与 `requirements.txt`。
+
+Skill 需要宿主提供可用的图像生成工具。本项目不包含图像模型、API 密钥，也不会自行把照片发送给某个固定服务；图像生成的可用性和使用条件取决于宿主及所选服务。
+
+### 提供照片和要求
+
+启用后，附上清楚的宠物照片，例如：
+
+> 使用 pet-cursor-theme Skill，根据这张照片制作完整的 Windows 鼠标指针主题。采用清晰的像素风格，保留宠物自己的毛色、耳型和配饰。正常选择用侧脸鼻尖定位，毛发持续轻动；帮助选择做疑问表情，问号弹出再缩回；等待时睡着、冒出 ZZZ、再醒来。17 种状态都要有动画，操作标记保持清楚。每次制作或修改后，逐帧检查所有过渡与首尾衔接，修复严重抖动、偏移和突然缩放，交付预览、安装包和检查记录。
+
+流程包括观察宠物特征、确定造型、生成各状态素材、测量每帧点击点、编译五种尺寸、逐帧复查和 Windows 验证。新宠物需要重新设计脸型和动作；示例中的犬种特征不会直接套用到新照片上。像素风是当前两套示例采用的方向，编译器也支持非像素素材。
+
+## 17 种状态与点击点
+
+| Windows 角色 | 中文状态 | 点击位置 |
+|---|---|---|
+| `Arrow` | 正常选择 | 鼻尖 |
+| `Help` | 帮助选择 | 鼻尖 |
+| `AppStarting` | 后台工作 | 鼻尖 |
+| `Wait` | 忙碌等待 | 睡姿中明确、固定的接触点 |
+| `Crosshair` | 精确选择 | 准星中心 |
+| `IBeam` | 文本选择 | 插入线中心 |
+| `NWPen` | 手写 | 笔尖 |
+| `No` | 不可用 | 禁止标记中心 |
+| `SizeNS` | 垂直缩放 | 双向箭头中心 |
+| `SizeWE` | 水平缩放 | 双向箭头中心 |
+| `SizeNWSE` | 左上右下缩放 | 双向箭头中心 |
+| `SizeNESW` | 右上左下缩放 | 双向箭头中心 |
+| `SizeAll` | 移动 | 四向箭头交点 |
+| `UpArrow` | 候选选择 | 向上箭头尖 |
+| `Hand` | 链接选择 | 鼻尖 |
+| `Pin` | 位置选择 | 鼻尖或明确设计的接触点 |
+| `Person` | 人员选择 | 鼻尖或明确设计的接触点 |
+
+动画中让眼睛、耳朵、毛发或爪子动起来，点击点与操作标记保持稳定。正常选择、疑问、嗅闻、专注和睡眠可以有不同表情与姿态。
+
+动作过渡通常使用 3 个 ANI 时基单位，即每帧 1/20 秒。睡眠、表情和休息会有意停留，因此完整循环的平均变化率可能低于 20 FPS。预览与清单分别记录实际独立帧数、动作峰值、循环平均变化率和时长；重复同一张图不会增加真实动作细节。
+
+## 开发者：构建与检查
+
+需要 Python 3.10+ 和 Pillow 12.3+。编译可在非 Windows 环境完成；原生验证与应用主题需要 Windows。
+
+在仓库根目录运行：
+
+```powershell
+python -m pip install -r requirements.txt
+```
+
+在 `projects/my-pet/` 中创建 `assets/`，放入生成的透明精灵图，并将配置保存为 `projects/my-pet/theme-config.json`。素材路径相对于该项目目录。配置应覆盖全部 17 个角色，并测量每帧真实的鼻尖或标记位置。完整字段说明见 [配置文档](skills/pet-cursor-theme/references/configuration.md)。
+
+```powershell
+python skills/pet-cursor-theme/scripts/build_complete_theme.py --root projects/my-pet --config projects/my-pet/theme-config.json --output output/my-pet
+python skills/pet-cursor-theme/scripts/verify_cursor_motion.py output/my-pet
+# 以下原生检查在 Windows 上运行，不会应用主题：
+python skills/pet-cursor-theme/scripts/verify_complete_theme.py output/my-pet
+```
+
+`--root` 只负责解析项目素材路径。预览模板与安装／恢复脚本自动从 Skill 自身目录读取，独立项目无需复制 `scripts/`。
+
+像素主题建议配置：
+
+```json
+{
+  "pixel_art": true,
+  "native_pixel_size": 48,
+  "pixel_alpha_threshold": 128,
+  "pixel_palette_colors": 16,
+  "states": []
+}
+```
+
+其中 `states` 需要填入全部角色。编译器采用最近邻缩放、二值透明度，以及每个状态所有帧共享的无抖动调色板。单帧状态输出 CUR，多帧状态输出 ANI。
+
+### 每次制作、修改后都检查每一帧
+
+`verify_cursor_motion.py` 会输出全部动画序列、浅色／深色底图、原速／慢放 GIF，以及可疑过渡的相邻帧叠图，覆盖最后一帧回到第一帧的衔接。
+
+随后需要视觉检查 **每个状态的全部过渡**，包括未被自动标记的部分：点击特征是否固定，头部、眼窝、嘴筒和胸背是否突然移动或缩放，单帧是否闪现异常姿态。区分有意的眨眼、飘毛、抬爪、问号缩放和睡姿变化。发现问题后修正源素材或配准点，重新构建并复查。
+
+自动检测提供复查线索，不能单独证明动画稳定。完成视觉复查后，将覆盖范围、判断和剩余问题写入 `motion-review/visual-review.json`。详见 [逐帧检查规范](skills/pet-cursor-theme/references/motion-review.md)。
+
+Windows 原生检查会验证 CUR/ANI 结构、各尺寸、每个嵌入帧的加载与绘制，以及热点坐标。安装入口也支持只预演、不修改系统设置：
+
+```powershell
+& './output/my-pet/应用鼠标主题.cmd' --check
+& './output/my-pet/应用大号鼠标.cmd' --check
+```
+
+已有有效安装备份时，可预演恢复：
+
+```powershell
+& './output/my-pet/恢复原鼠标.cmd' --check
+```
+
+### 示例验证范围
+
+- 两套示例已有 Windows 原生加载、绘制、尺寸与热点检查记录，详情见各自 ZIP 内的 `verification.json`。
+- 金毛主题已有全部 17 个状态、174 帧在 48/96px 下的逐帧视觉复查记录，包含首尾衔接；记录见包内 `motion-review/visual-review.json`。轻微像素轮廓变化仍可能存在。
+- 喜乐蒂主题也已完成17个状态、179帧在48/96px下的逐帧视觉复查，包含首尾衔接；详见其包内记录。
+- 原生检查和安装预演不代表已经替换系统指针。真实桌面点击手感、不同 DPI 和多显示器切换仍需实际试用；部分应用会使用自己的指针。
+
+## 仓库结构
+
+```text
+skills/pet-cursor-theme/    可复用 Skill、脚本和配置／检查规范
+themes/pet-pixel-complete/ 喜乐蒂主题说明
+themes/golden-cream-pixel/ 金毛主题说明
+downloads/                两套可安装 ZIP 与 Skill ZIP
+docs/images/              README 动画预览
+```
+
+主题包保留构建参数、热点、绘图提示词、预览和检查报告。原始宠物照片不随仓库或下载包分发。重新构建同一套图案时，需要配置所引用的源精灵图；仅安装和预览现成主题无需这些源图。
+
+## 运行测试
+
+```powershell
+python -m unittest discover -s skills/pet-cursor-theme/scripts -p "test_*.py"
+powershell -NoProfile -ExecutionPolicy Bypass -File skills/pet-cursor-theme/scripts/test_cursor_backup.ps1
+```
+
+测试覆盖编码、角色和尺寸、跨项目构建、重复ID、动画时序、裁切、逐帧抖动检测，以及Windows双击入口和恢复备份逻辑。
+
+## 许可与素材
+
+代码与文档采用 [MIT License](LICENSE)。宠物照片、参考图、生成图像和主题美术素材的权利需分别确认，不自动继承代码的 MIT 许可；请查看[素材说明](ASSETS.md)和各主题中的说明，并遵守所用图像生成服务的条款。
+
+贡献代码时请附上相关测试结果；贡献或修改动画时，请附上逐帧复查范围和剩余问题，避免只凭帧率或原生加载结果判断质量。

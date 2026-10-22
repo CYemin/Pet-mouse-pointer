@@ -1,0 +1,303 @@
+{
+  "status": "passed",
+  "asset_revision": "adade5e62861",
+  "version": "1.0.1",
+  "reviewed_at_utc": "2026-10-22T06:19:26.574989+00:00",
+  "reviewed_state_ids": [
+    "normal",
+    "help",
+    "working",
+    "wait",
+    "cross",
+    "text",
+    "pen",
+    "unavailable",
+    "size-ns",
+    "size-we",
+    "size-nwse",
+    "size-nesw",
+    "move",
+    "alternate",
+    "link",
+    "pin",
+    "person"
+  ],
+  "sizes_reviewed": [
+    48,
+    96
+  ],
+  "backgrounds": [
+    "light",
+    "dark"
+  ],
+  "native_frames_reviewed": 174,
+  "frame_variants_reviewed": 348,
+  "sequence_edges_reviewed": 348,
+  "loop_closures_reviewed": 34,
+  "exact_integer_scaled_variants_verified": 174,
+  "reviewer": "Codex visual review with independent agent diagnostics and root review of final full-sequence boards",
+  "methods": [
+    "Every displayed frame and loop return on light/dark contact sheets",
+    "Adjacent-frame overlays and translation/scale diagnostics, including unflagged transitions",
+    "Normal-speed and quarter-speed playback; final corrected normal/WE loops rechecked in browser"
+  ],
+  "repairs": [
+    {
+      "id": "normal",
+      "affected_frames": [
+        13,
+        15
+      ],
+      "cause": "Leading-dark-pixel detector mistook the muzzle outline below the nose for the nose click feature.",
+      "before": "Whole head moved vertically2-3 native pixels, especially12->13,13->14,14->15 and15->0.",
+      "change": "Reviewed visible nose-front source landmarks corrected to[43,79] and[41,78].",
+      "result": "Original2-3px abrupt whole-head jumps resolved; all16frames preserved."
+    },
+    {
+      "id": "size-we",
+      "affected_frames": [
+        2,
+        5,
+        8
+      ],
+      "cause": "Third-column generated dog positions shifted right relative to the fixed arrow.",
+      "change": "Targeted image-generation repair aligned the dog positions, then all nine solid arrow centers were remeasured.",
+      "result": "Abrupt horizontal offsets resolved; all9frames preserved."
+    }
+  ],
+  "candidate_decisions": [
+    {
+      "id": "size-nesw",
+      "transition": "5->6",
+      "decision": "Ear/ruff pose change, no severe whole-head translation or uniform scale jump observed."
+    }
+  ],
+  "remaining_limitations": [
+    "Minor pixel-cluster/contour variation and small intentional ear/fur/paw movements remain; this is not a claim of pixel-identical stationary artwork.",
+    "Body-registration measurements are heuristics and may conflate pose changes with translation; the visual review is separate from automatic candidate count.",
+    "Actual desktop installation/click feel and multi-monitor/DPI switching remain outside this motion review."
+  ],
+  "states": [
+    {
+      "id": "normal",
+      "frames_reviewed": 16,
+      "all_sequence_edges_reviewed": 16,
+      "loop_closure_reviewed": true,
+      "status": "no_severe_unintended_jitter_observed",
+      "max_body_registration_estimate_48": 1.0,
+      "evidence": {
+        "full_sequence_contact_sheet": "motion-review/normal-96-full-sequence.png",
+        "normal_playback": "motion-review/normal-96-normal.gif",
+        "slow_playback": "motion-review/normal-96-slow.gif"
+      }
+    },
+    {
+      "id": "help",
+      "frames_reviewed": 16,
+      "all_sequence_edges_reviewed": 16,
+      "loop_closure_reviewed": true,
+      "status": "no_severe_unintended_jitter_observed",
+      "max_body_registration_estimate_48": 0.0,
+      "evidence": {
+        "full_sequence_contact_sheet": "motion-review/help-96-full-sequence.png",
+        "normal_playback": "motion-review/help-96-normal.gif",
+        "slow_playback": "motion-review/help-96-slow.gif"
+      }
+    },
+    {
+      "id": "working",
+      "frames_reviewed": 9,
+      "all_sequence_edges_reviewed": 9,
+      "loop_closure_reviewed": true,
+      "status": "no_severe_unintended_jitter_observed",
+      "max_body_registration_estimate_48": 1.414214,
+      "evidence": {
+        "full_sequence_contact_sheet": "motion-review/working-96-full-sequence.png",
+        "normal_playback": "motion-review/working-96-normal.gif",
+        "slow_playback": "motion-review/working-96-slow.gif"
+      }
+    },
+    {
+      "id": "wait",
+      "frames_reviewed": 16,
+      "all_sequence_edges_reviewed": 16,
+      "loop_closure_reviewed": true,
+      "status": "no_severe_unintended_jitter_observed",
+      "max_body_registration_estimate_48": 0.0,
+      "evidence": {
+        "full_sequence_contact_sheet": "motion-review/wait-96-full-sequence.png",
+        "normal_playback": "motion-review/wait-96-normal.gif",
+        "slow_playback": "motion-review/wait-96-slow.gif"
+      }
+    },
+    {
+      "id": "cross",
+      "frames_reviewed": 9,
+      "all_sequence_edges_reviewed": 9,
+      "loop_closure_reviewed": true,
+      "status": "no_severe_unintended_jitter_observed",
+      "max_body_registration_estimate_48": 0.0,
+      "evidence": {
+        "full_sequence_contact_sheet": "motion-review/cross-96-full-sequence.png",
+        "normal_playback": "motion-review/cross-96-normal.gif",
+        "slow_playback": "motion-review/cross-96-slow.gif"
+      }
+    },
+    {
+      "id": "text",
+      "frames_reviewed": 9,
+      "all_sequence_edges_reviewed": 9,
+      "loop_closure_reviewed": true,
+      "status": "no_severe_unintended_jitter_observed",
+      "max_body_registration_estimate_48": 1.0,
+      "evidence": {
+        "full_sequence_contact_sheet": "motion-review/text-96-full-sequence.png",
+        "normal_playback": "motion-review/text-96-normal.gif",
+        "slow_playback": "motion-review/text-96-slow.gif"
+      }
+    },
+    {
+      "id": "pen",
+      "frames_reviewed": 9,
+      "all_sequence_edges_reviewed": 9,
+      "loop_closure_reviewed": true,
+      "status": "no_severe_unintended_jitter_observed",
+      "max_body_registration_estimate_48": 1.0,
+      "evidence": {
+        "full_sequence_contact_sheet": "motion-review/pen-96-full-sequence.png",
+        "normal_playback": "motion-review/pen-96-normal.gif",
+        "slow_playback": "motion-review/pen-96-slow.gif"
+      }
+    },
+    {
+      "id": "unavailable",
+      "frames_reviewed": 9,
+      "all_sequence_edges_reviewed": 9,
+      "loop_closure_reviewed": true,
+      "status": "no_severe_unintended_jitter_observed",
+      "max_body_registration_estimate_48": 0.0,
+      "evidence": {
+        "full_sequence_contact_sheet": "motion-review/unavailable-96-full-sequence.png",
+        "normal_playback": "motion-review/unavailable-96-normal.gif",
+        "slow_playback": "motion-review/unavailable-96-slow.gif"
+      }
+    },
+    {
+      "id": "size-ns",
+      "frames_reviewed": 9,
+      "all_sequence_edges_reviewed": 9,
+      "loop_closure_reviewed": true,
+      "status": "no_severe_unintended_jitter_observed",
+      "max_body_registration_estimate_48": 1.0,
+      "evidence": {
+        "full_sequence_contact_sheet": "motion-review/size-ns-96-full-sequence.png",
+        "normal_playback": "motion-review/size-ns-96-normal.gif",
+        "slow_playback": "motion-review/size-ns-96-slow.gif"
+      }
+    },
+    {
+      "id": "size-we",
+      "frames_reviewed": 9,
+      "all_sequence_edges_reviewed": 9,
+      "loop_closure_reviewed": true,
+      "status": "no_severe_unintended_jitter_observed",
+      "max_body_registration_estimate_48": 1.0,
+      "evidence": {
+        "full_sequence_contact_sheet": "motion-review/size-we-96-full-sequence.png",
+        "normal_playback": "motion-review/size-we-96-normal.gif",
+        "slow_playback": "motion-review/size-we-96-slow.gif"
+      }
+    },
+    {
+      "id": "size-nwse",
+      "frames_reviewed": 9,
+      "all_sequence_edges_reviewed": 9,
+      "loop_closure_reviewed": true,
+      "status": "no_severe_unintended_jitter_observed",
+      "max_body_registration_estimate_48": 0.0,
+      "evidence": {
+        "full_sequence_contact_sheet": "motion-review/size-nwse-96-full-sequence.png",
+        "normal_playback": "motion-review/size-nwse-96-normal.gif",
+        "slow_playback": "motion-review/size-nwse-96-slow.gif"
+      }
+    },
+    {
+      "id": "size-nesw",
+      "frames_reviewed": 9,
+      "all_sequence_edges_reviewed": 9,
+      "loop_closure_reviewed": true,
+      "status": "no_severe_unintended_jitter_observed",
+      "max_body_registration_estimate_48": 1.414214,
+      "evidence": {
+        "full_sequence_contact_sheet": "motion-review/size-nesw-96-full-sequence.png",
+        "normal_playback": "motion-review/size-nesw-96-normal.gif",
+        "slow_playback": "motion-review/size-nesw-96-slow.gif"
+      }
+    },
+    {
+      "id": "move",
+      "frames_reviewed": 9,
+      "all_sequence_edges_reviewed": 9,
+      "loop_closure_reviewed": true,
+      "status": "no_severe_unintended_jitter_observed",
+      "max_body_registration_estimate_48": 0.0,
+      "evidence": {
+        "full_sequence_contact_sheet": "motion-review/move-96-full-sequence.png",
+        "normal_playback": "motion-review/move-96-normal.gif",
+        "slow_playback": "motion-review/move-96-slow.gif"
+      }
+    },
+    {
+      "id": "alternate",
+      "frames_reviewed": 9,
+      "all_sequence_edges_reviewed": 9,
+      "loop_closure_reviewed": true,
+      "status": "no_severe_unintended_jitter_observed",
+      "max_body_registration_estimate_48": 0.0,
+      "evidence": {
+        "full_sequence_contact_sheet": "motion-review/alternate-96-full-sequence.png",
+        "normal_playback": "motion-review/alternate-96-normal.gif",
+        "slow_playback": "motion-review/alternate-96-slow.gif"
+      }
+    },
+    {
+      "id": "link",
+      "frames_reviewed": 9,
+      "all_sequence_edges_reviewed": 9,
+      "loop_closure_reviewed": true,
+      "status": "no_severe_unintended_jitter_observed",
+      "max_body_registration_estimate_48": 0.0,
+      "evidence": {
+        "full_sequence_contact_sheet": "motion-review/link-96-full-sequence.png",
+        "normal_playback": "motion-review/link-96-normal.gif",
+        "slow_playback": "motion-review/link-96-slow.gif"
+      }
+    },
+    {
+      "id": "pin",
+      "frames_reviewed": 9,
+      "all_sequence_edges_reviewed": 9,
+      "loop_closure_reviewed": true,
+      "status": "no_severe_unintended_jitter_observed",
+      "max_body_registration_estimate_48": 1.0,
+      "evidence": {
+        "full_sequence_contact_sheet": "motion-review/pin-96-full-sequence.png",
+        "normal_playback": "motion-review/pin-96-normal.gif",
+        "slow_playback": "motion-review/pin-96-slow.gif"
+      }
+    },
+    {
+      "id": "person",
+      "frames_reviewed": 9,
+      "all_sequence_edges_reviewed": 9,
+      "loop_closure_reviewed": true,
+      "status": "no_severe_unintended_jitter_observed",
+      "max_body_registration_estimate_48": 0.0,
+      "evidence": {
+        "full_sequence_contact_sheet": "motion-review/person-96-full-sequence.png",
+        "normal_playback": "motion-review/person-96-normal.gif",
+        "slow_playback": "motion-review/person-96-slow.gif"
+      }
+    }
+  ]
+}
