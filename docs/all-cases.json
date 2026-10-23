@@ -1,9 +1,9 @@
 {
-  "case_count": 13,
+  "case_count": 11,
   "pixel_animated_count": 11,
   "collection": "pet-mouse-pointer-all-cases.zip",
-  "collection_bytes": 76588848,
-  "total_roles": 221,
+  "collection_bytes": 67930974,
+  "total_roles": 187,
   "cases": [
     {
       "slug": "pet-pixel-complete",
@@ -125,28 +125,6 @@
       "asset_revision": "6f32e10e308d",
       "native_status": "passed",
       "download": "../downloads/sheltie-red-merle-pixel.zip"
-    },
-    {
-      "slug": "pet-handdrawn-complete",
-      "label": "手绘小狗",
-      "feature": "柔和手绘；5种动画状态、12种静态状态",
-      "states": 17,
-      "animated_states": 5,
-      "frames": 32,
-      "asset_revision": "e13daf395b24",
-      "native_status": "passed",
-      "download": "../downloads/pet-handdrawn-complete.zip"
-    },
-    {
-      "slug": "black-cat-hug",
-      "label": "黑猫抱箭头",
-      "feature": "黑猫、金黄眼睛、奶白功能符号；17种静态状态",
-      "states": 17,
-      "animated_states": 0,
-      "frames": 17,
-      "asset_revision": "00f5bf907530",
-      "native_status": "passed",
-      "download": "../downloads/black-cat-hug.zip"
     }
   ]
 }

@@ -1,8 +1,0 @@
-{
-  "syntax_checks": ["install-theme.ps1", "restore-theme.ps1"],
-  "whatif_checks": ["install 48px", "restore with mock backup", "48px CMD launcher", "96px CMD launcher"],
-  "cursor_registry_unchanged": true,
-  "installation_performed": false,
-  "restore_namespace": "PetCursorThemes/Black-Cat-Hug",
-  "status": "passed"
-}

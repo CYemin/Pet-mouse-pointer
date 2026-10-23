@@ -2,11 +2,11 @@
 
 用自己的宠物照片，制作一套有表情、有动作、可以安装和恢复的 Windows 鼠标指针。
 
-项目包含可复用的 **Pet Cursor Theme Skill**、CUR/ANI 构建与验证脚本，以及13套可直接下载的案例（11套像素全动画主题、手绘小狗和静态黑猫）。Skill 支持根据照片设计新角色，也支持在已批准角色上扩展毛色版本，保留动作、鼻尖点击点与清楚的操作标记。
+项目包含可复用的 **Pet Cursor Theme Skill**、CUR/ANI 构建与验证脚本，以及11套可直接下载的像素全动画主题。Skill 支持根据照片设计新角色，也支持在已批准角色上扩展毛色版本，保留动作、鼻尖点击点与清楚的操作标记。
 
 ## 下载现成主题
 
-**[一键下载全部13套案例合集（ZIP）](downloads/pet-mouse-pointer-all-cases.zip?raw=1)** · [完整案例清单](docs/all-cases.json) · [SHA-256校验](downloads/SHA256SUMS)
+**[一键下载全部11套案例合集（ZIP）](downloads/pet-mouse-pointer-all-cases.zip?raw=1)** · [完整案例清单](docs/all-cases.json) · [SHA-256校验](downloads/SHA256SUMS)
 
 合集为安装版，包含每套指针、预览、安装恢复入口与验证记录；不含大型源精灵图和逐帧复查图/GIF；完整复查媒体可另取单套包。
 
@@ -23,14 +23,12 @@
 | 蓝陨石色喜乐蒂 | 银灰黑斑与白色围脖、无棕色眉颊 | [完整 ZIP](downloads/sheltie-bi-blue-pixel.zip?raw=1) · [说明](themes/sheltie-bi-blue-pixel/README.md) |
 | 浅金毛 | 浅麦金毛发、暖金垂耳、绿色胸背 | [完整 ZIP](downloads/golden-light-pixel.zip?raw=1) · [说明](themes/golden-light-pixel/README.md) |
 | 红陨石喜乐蒂 | 浅金黄色嘴筒、深棕侧毛、白鼻梁与胸毛；17状态全动画 | [完整 ZIP](downloads/sheltie-red-merle-pixel.zip?raw=1) · [说明](themes/sheltie-red-merle-pixel/README.md) |
-| 手绘小狗 | 柔和手绘；5种动画状态、12种静态状态 | [完整 ZIP](downloads/pet-handdrawn-complete.zip?raw=1) · [说明](themes/pet-handdrawn-complete/README.md) |
-| 黑猫抱箭头 | 黑猫、金黄眼睛、奶白功能符号；17种静态状态 | [完整 ZIP](downloads/black-cat-hug.zip?raw=1) · [说明](themes/black-cat-hug/README.md) |
 
 11套像素主题均包含 **17 种动画状态**与 **32 / 48 / 64 / 96 / 128px** 五种尺寸，默认48px。
 
 ### 毛色对照
 
-毛色对照中的11款均已有完整动画主题：7款喜乐蒂、4款金毛。新增红陨石喜乐蒂按确认照片设计，保留浅金黄色嘴筒、较深的棕色侧毛、白色鼻梁与胸毛。另提供手绘小狗和静态黑猫两套案例；所有13套均覆盖17种Windows角色和五种尺寸，动画情况已在表中注明。
+毛色对照中的11款均已有完整动画主题：7款喜乐蒂、4款金毛。新增红陨石喜乐蒂按确认照片设计，保留浅金黄色嘴筒、较深的棕色侧毛、白色鼻梁与胸毛。全部11套均覆盖17种Windows角色和五种尺寸。
 
 ![11款毛色对照](docs/images/coat-colors.png)
 
@@ -58,10 +56,6 @@
 **新增：红陨石喜乐蒂**
 
 ![红陨石喜乐蒂动画](docs/images/sheltie-red-merle-pixel.gif)
-
-| 手绘小狗（5动态、12静态） | 黑猫抱箭头（17静态） |
-|:---:|:---:|
-| ![手绘小狗](docs/images/pet-handdrawn-complete.png) | ![黑猫抱箭头](docs/images/black-cat-hug.png) |
 
 | **深雕色喜乐蒂** | **黑白两色喜乐蒂** |
 |:---:|:---:|
@@ -213,7 +207,7 @@ skills/pet-cursor-theme/    可复用 Skill、脚本和配置／检查规范
 themes/pet-pixel-complete/ 喜乐蒂主题说明
 themes/golden-cream-pixel/ 奶油金毛主题说明
 themes/*-pixel/           其他毛色主题说明与检查记录
-downloads/                13套案例ZIP、全部案例合集与Skill ZIP
+downloads/                11套案例ZIP、全部案例合集与Skill ZIP
 docs/images/              README 动画预览
 ```
 
