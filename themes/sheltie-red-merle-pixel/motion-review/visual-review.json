@@ -1,0 +1,62 @@
+{
+  "status": "passed",
+  "asset_revision": "6f32e10e308d",
+  "reviewed_at": "2026-10-23T05:21:59.705934+00:00",
+  "reviewer": "Codex visual review",
+  "source_manifest": "manifest.json",
+  "source_manifest_sha256": "e8cea7d7fb47c4748e9b4c37612bc06ecee5c8674b3aaf4bb6343b06bca97d90",
+  "reviewed_state_ids": [
+    "normal",
+    "help",
+    "working",
+    "wait",
+    "cross",
+    "text",
+    "pen",
+    "unavailable",
+    "size-ns",
+    "size-we",
+    "size-nwse",
+    "size-nesw",
+    "move",
+    "alternate",
+    "link",
+    "pin",
+    "person"
+  ],
+  "unreviewed_state_ids": [],
+  "sizes_reviewed": [
+    48,
+    96
+  ],
+  "backgrounds_reviewed": [
+    "light",
+    "dark"
+  ],
+  "playback_speeds_reviewed": [
+    "normal",
+    "quarter-speed"
+  ],
+  "coverage": {
+    "exported_frames_per_size": 179,
+    "displayed_transition_edges_per_size_including_wrap": 179,
+    "all_sequence_frames_reviewed": true,
+    "all_adjacent_transitions_and_last_to_first_reviewed": true,
+    "exhaustive_transition_method": "Inspected every 48px/96px full-sequence sheet on light/dark backgrounds including explicit return to frame 0. Reinspected text and pin after final corrections; other source frames unchanged.",
+    "playback_method": "Six browser groups, normal and quarter-speed GIFs at 48/96px, paired light/dark backgrounds. Multiple sampled phases per group; exhaustive transition coverage comes from full-sequence sheets."
+  },
+  "candidate_count": 0,
+  "corrections": [
+    "Regenerated link sheet to remove accidental open mouth in frame 10.",
+    "Thickened text I-beam ivory outline with imagegen for native-size readability.",
+    "Calibrated pin nose contact six source pixels inward to eliminate 32px transparent-edge sampling; native check has no hotspot warnings.",
+    "64-color per-state palette retains pink tongue and blue status dots."
+  ],
+  "remaining_issues": [
+    "Mild pixel-edge/coat texture and thin crosshair detail variation remains between frames; no severe unintended head jumps found."
+  ],
+  "manual_checks_pending": [
+    "Actual Windows desktop install/restore and click feel",
+    "Multiple monitors and DPI switching"
+  ]
+}

@@ -209,6 +209,29 @@
         "status": "passed",
         "states_reviewed": 17
       }
+    },
+    {
+      "slug": "sheltie-red-merle-pixel",
+      "label": "红陨石喜乐蒂",
+      "feature": "浅金黄色嘴筒、深棕侧毛、白鼻梁与胸毛；17状态全动画",
+      "states": 17,
+      "animated_states": 17,
+      "frames": 179,
+      "asset_revision": "6f32e10e308d",
+      "native_status": "passed",
+      "download": "../downloads/sheltie-red-merle-pixel.zip",
+      "native": {
+        "status": "passed",
+        "roles": 17,
+        "files_checked": 102,
+        "embedded_cursor_frames_checked": 1074,
+        "hotspot_warnings": [],
+        "system_settings_modified": false
+      },
+      "motion": {
+        "status": "passed",
+        "states_reviewed": 17
+      }
     }
   ],
   "all_theme_arrows_upgraded": true,

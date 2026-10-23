@@ -112,6 +112,25 @@
       "theme": "sheltie-bi-blue-pixel"
     },
     {
+      "id": "sheltie-red-merle",
+      "label": "红陨石（照片定制）",
+      "breed": "sheltie",
+      "coat": {
+        "base": "honey-gold",
+        "tan_points": false,
+        "white_regions": [
+          "narrow-blaze",
+          "ruff"
+        ],
+        "merle_patches": [
+          "dark forehead patch",
+          "chestnut temple and rear mane"
+        ]
+      },
+      "stage": "complete-theme",
+      "theme": "sheltie-red-merle-pixel"
+    },
+    {
       "id": "golden-cream",
       "label": "奶油白",
       "breed": "golden",

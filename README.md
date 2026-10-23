@@ -2,9 +2,13 @@
 
 用自己的宠物照片，制作一套有表情、有动作、可以安装和恢复的 Windows 鼠标指针。
 
-项目包含可复用的 **Pet Cursor Theme Skill**、CUR/ANI 构建与验证脚本，以及十套可直接下载的像素动画主题。Skill 支持根据照片设计新角色，也支持在已批准角色上扩展毛色版本，保留动作、鼻尖点击点与清楚的操作标记。
+项目包含可复用的 **Pet Cursor Theme Skill**、CUR/ANI 构建与验证脚本，以及13套可直接下载的案例（11套像素全动画主题、手绘小狗和静态黑猫）。Skill 支持根据照片设计新角色，也支持在已批准角色上扩展毛色版本，保留动作、鼻尖点击点与清楚的操作标记。
 
 ## 下载现成主题
+
+**[一键下载全部13套案例合集（ZIP）](downloads/pet-mouse-pointer-all-cases.zip?raw=1)** · [完整案例清单](docs/all-cases.json) · [SHA-256校验](downloads/SHA256SUMS)
+
+合集为安装版，包含每套指针、预览、安装恢复入口与验证记录；不含大型源精灵图和逐帧复查图/GIF；完整复查媒体可另取单套包。
 
 | 主题 | 特征 | 下载 |
 |---|---|---|
@@ -18,20 +22,23 @@
 | 黑白两色喜乐蒂 | 炭黑底毛、白额纹与围脖、无棕色眉颊 | [完整 ZIP](downloads/sheltie-bi-black-pixel.zip?raw=1) · [说明](themes/sheltie-bi-black-pixel/README.md) |
 | 蓝陨石色喜乐蒂 | 银灰黑斑与白色围脖、无棕色眉颊 | [完整 ZIP](downloads/sheltie-bi-blue-pixel.zip?raw=1) · [说明](themes/sheltie-bi-blue-pixel/README.md) |
 | 浅金毛 | 浅麦金毛发、暖金垂耳、绿色胸背 | [完整 ZIP](downloads/golden-light-pixel.zip?raw=1) · [说明](themes/golden-light-pixel/README.md) |
+| 红陨石喜乐蒂 | 浅金黄色嘴筒、深棕侧毛、白鼻梁与胸毛；17状态全动画 | [完整 ZIP](downloads/sheltie-red-merle-pixel.zip?raw=1) · [说明](themes/sheltie-red-merle-pixel/README.md) |
+| 手绘小狗 | 柔和手绘；5种动画状态、12种静态状态 | [完整 ZIP](downloads/pet-handdrawn-complete.zip?raw=1) · [说明](themes/pet-handdrawn-complete/README.md) |
+| 黑猫抱箭头 | 黑猫、金黄眼睛、奶白功能符号；17种静态状态 | [完整 ZIP](downloads/black-cat-hug.zip?raw=1) · [说明](themes/black-cat-hug/README.md) |
 
-十套均包含 **17 种动画状态**与 **32 / 48 / 64 / 96 / 128px** 五种尺寸，默认48px。
+11套像素主题均包含 **17 种动画状态**与 **32 / 48 / 64 / 96 / 128px** 五种尺寸，默认48px。
 
 ### 毛色对照
 
-毛色对照中的10款均已有完整动画主题：6款喜乐蒂、4款金毛。深貂色、黑白、蓝陨石色喜乐蒂和浅金毛现已补齐全部动作，不再仅提供静态母版。
+毛色对照中的11款均已有完整动画主题：7款喜乐蒂、4款金毛。新增红陨石喜乐蒂按确认照片设计，保留浅金黄色嘴筒、较深的棕色侧毛、白色鼻梁与胸毛。另提供手绘小狗和静态黑猫两套案例；所有13套均覆盖17种Windows角色和五种尺寸，动画情况已在表中注明。
 
-![10款毛色对照](docs/images/coat-colors.png)
+![11款毛色对照](docs/images/coat-colors.png)
 
 ### 更清楚的操作箭头
 
-十套主题的上下、左右、两种斜向缩放、移动与候选选择均使用统一的大号像素箭头，并与宠物脸部分开放置。正常选择仍由鼻尖点击；缩放与移动在符号中心定位，候选选择在向上箭头尖定位。
+11套像素主题的上下、左右、两种斜向缩放、移动与候选选择均使用统一的大号像素箭头，并与宠物脸部分开放置。正常选择仍由鼻尖点击；缩放与移动在符号中心定位，候选选择在向上箭头尖定位。
 
-下图展示首六套的箭头升级，新增四套沿用相同符号与尺寸。
+下图展示首六套的箭头升级，其余主题沿用相同符号与尺寸。
 
 ![首六套箭头：旧48px、新48px与3倍放大对照](docs/images/larger-operation-arrows.png)
 
@@ -47,6 +54,14 @@
 照片用于说明毛色、耳型、脸部特征与配饰如何转化为指针角色；其他毛色主题是在这两个案例基础上扩展制作。参考照片不自动适用代码的 MIT 许可，详见[素材说明](ASSETS.md)。
 
 ### 动画预览
+
+**新增：红陨石喜乐蒂**
+
+![红陨石喜乐蒂动画](docs/images/sheltie-red-merle-pixel.gif)
+
+| 手绘小狗（5动态、12静态） | 黑猫抱箭头（17静态） |
+|:---:|:---:|
+| ![手绘小狗](docs/images/pet-handdrawn-complete.png) | ![黑猫抱箭头](docs/images/black-cat-hug.png) |
 
 | **深雕色喜乐蒂** | **黑白两色喜乐蒂** |
 |:---:|:---:|
@@ -180,16 +195,16 @@ Windows 原生检查会验证 CUR/ANI 结构、各尺寸、每个嵌入帧的加
 
 ### 示例验证范围
 
-- 十套主题均有 Windows 原生加载、绘制、尺寸和热点检查，以及48/96px的逐帧视觉复查记录，包括循环接缝。
-- 十套共170个状态、1770张源动作导出帧；六种功能箭头均采用大号符号。轻微像素轮廓与毛发纹理变化仍可能存在。
-- 自动检测只提供可疑过渡线索，视觉结论见各包内 `motion-review/visual-review.json`。十套汇总见 [验证记录](docs/coat-release-validation.json)。
+- 11套像素主题均有 Windows 原生加载、绘制、尺寸和热点检查，以及48/96px的逐帧视觉复查记录，包括循环接缝。
+- 11套像素主题共187个状态、1949张源动作导出帧；六种功能箭头均采用大号符号。轻微像素轮廓与毛发纹理变化仍可能存在。
+- 自动检测只提供可疑过渡线索，视觉结论见各包内 `motion-review/visual-review.json`。11套像素主题汇总见 [验证记录](docs/coat-release-validation.json)。
 - 三个双击入口经过预演检查；原生检查与预演不代表实际替换了系统指针。真实桌面手感、不同DPI和多显示器仍需实际试用。
 
 ### 扩展其他毛色
 
 先选择或生成毛色母版，再逐状态编辑源精灵图，保护眼睛、鼻子、舌头、胸背配饰与功能符号。蓝陨等斑块需固定在对应身体部位，逐帧检查花纹连续性。
 可复用的注册脚本会把旧的测量点映射到新图，并保留动作时序；它不能代替视觉验收。流程、毛色选项与命令见 [毛色扩展说明](skills/pet-cursor-theme/references/coat-variants.md)。
-色板数量可按角色调整，彩色胸背和粉色舌头等细节较多时可用32–48色，避免被严格16色量化吞掉。
+色板数量可按角色调整，彩色胸背和粉色舌头等细节较多时可用32–64色，避免被严格16色量化吞掉。
 
 ## 仓库结构
 
@@ -198,7 +213,7 @@ skills/pet-cursor-theme/    可复用 Skill、脚本和配置／检查规范
 themes/pet-pixel-complete/ 喜乐蒂主题说明
 themes/golden-cream-pixel/ 奶油金毛主题说明
 themes/*-pixel/           其他毛色主题说明与检查记录
-downloads/                十套可安装 ZIP 与 Skill ZIP
+downloads/                13套案例ZIP、全部案例合集与Skill ZIP
 docs/images/              README 动画预览
 ```
 

@@ -1,0 +1,1330 @@
+{
+  "status": "passed",
+  "roles": 17,
+  "files_checked": 102,
+  "embedded_cursor_frames_checked": 192,
+  "all_native_loads_and_draws_passed": true,
+  "hotspot_warnings": [],
+  "system_settings_modified": false,
+  "manual_checks_pending": [
+    "Windows desktop scheme installation and restoration",
+    "multiple monitors and DPI switching",
+    "user evaluation of likeness and click feel"
+  ],
+  "checks": [
+    {
+      "file": "32\\normal.ani",
+      "role": "Arrow",
+      "size": 32,
+      "hotspot": [
+        2,
+        5
+      ],
+      "native_frame_hashes": [
+        "a791abaa7720dae0",
+        "c41a34b97b7c14ab",
+        "05abaf9ff8a5ba76",
+        "c41a34b97b7c14ab"
+      ]
+    },
+    {
+      "file": "48\\normal.ani",
+      "role": "Arrow",
+      "size": 48,
+      "hotspot": [
+        3,
+        7
+      ],
+      "native_frame_hashes": [
+        "d2872d03e6f505df",
+        "4c79127508ab915f",
+        "2741df82738fddc9",
+        "4c79127508ab915f"
+      ]
+    },
+    {
+      "file": "64\\normal.ani",
+      "role": "Arrow",
+      "size": 64,
+      "hotspot": [
+        4,
+        10
+      ],
+      "native_frame_hashes": [
+        "4ec016aecaf85052",
+        "57fd2cd0724552bd",
+        "a05336be8575ff33",
+        "57fd2cd0724552bd"
+      ]
+    },
+    {
+      "file": "96\\normal.ani",
+      "role": "Arrow",
+      "size": 96,
+      "hotspot": [
+        7,
+        15
+      ],
+      "native_frame_hashes": [
+        "0125e62ed6359f7b",
+        "70a40df621359c30",
+        "1539dbb6a7f8c1f2",
+        "70a40df621359c30"
+      ]
+    },
+    {
+      "file": "128\\normal.ani",
+      "role": "Arrow",
+      "size": 128,
+      "hotspot": [
+        9,
+        20
+      ],
+      "native_frame_hashes": [
+        "b7156f89ea8ae54c",
+        "235d9f8ed276cd71",
+        "2cc884ba56b79b4e",
+        "235d9f8ed276cd71"
+      ]
+    },
+    {
+      "file": "normal.ani",
+      "role": "Arrow",
+      "size": 48,
+      "hotspot": [
+        3,
+        7
+      ],
+      "native_frame_hashes": [
+        "d2872d03e6f505df",
+        "4c79127508ab915f",
+        "2741df82738fddc9",
+        "4c79127508ab915f"
+      ]
+    },
+    {
+      "file": "32\\help.ani",
+      "role": "Help",
+      "size": 32,
+      "hotspot": [
+        3,
+        9
+      ],
+      "native_frame_hashes": [
+        "b4ffe7a22c337b85",
+        "a9c4bca35206bc1c",
+        "d4c531d1b5caf7a6",
+        "a9c4bca35206bc1c"
+      ]
+    },
+    {
+      "file": "48\\help.ani",
+      "role": "Help",
+      "size": 48,
+      "hotspot": [
+        4,
+        13
+      ],
+      "native_frame_hashes": [
+        "fbe1b06729bb5f65",
+        "1253dae173a6210b",
+        "9af573effa9dd615",
+        "1253dae173a6210b"
+      ]
+    },
+    {
+      "file": "64\\help.ani",
+      "role": "Help",
+      "size": 64,
+      "hotspot": [
+        6,
+        18
+      ],
+      "native_frame_hashes": [
+        "895555d35c094c62",
+        "16c707c1e94c8900",
+        "b1bac66487cd67e9",
+        "16c707c1e94c8900"
+      ]
+    },
+    {
+      "file": "96\\help.ani",
+      "role": "Help",
+      "size": 96,
+      "hotspot": [
+        8,
+        26
+      ],
+      "native_frame_hashes": [
+        "66ebbe030cc9a6c5",
+        "133047a4ada9bdd8",
+        "3dfdf459e02fd7f4",
+        "133047a4ada9bdd8"
+      ]
+    },
+    {
+      "file": "128\\help.ani",
+      "role": "Help",
+      "size": 128,
+      "hotspot": [
+        11,
+        35
+      ],
+      "native_frame_hashes": [
+        "dde44876b2f911c1",
+        "9ebd452dd30a0013",
+        "aba826c0bc021bbb",
+        "9ebd452dd30a0013"
+      ]
+    },
+    {
+      "file": "help.ani",
+      "role": "Help",
+      "size": 48,
+      "hotspot": [
+        4,
+        13
+      ],
+      "native_frame_hashes": [
+        "fbe1b06729bb5f65",
+        "1253dae173a6210b",
+        "9af573effa9dd615",
+        "1253dae173a6210b"
+      ]
+    },
+    {
+      "file": "32\\working.ani",
+      "role": "AppStarting",
+      "size": 32,
+      "hotspot": [
+        2,
+        9
+      ],
+      "native_frame_hashes": [
+        "d49ff56aff9614d7",
+        "eaf8f7a7b3874b1b",
+        "f3cf16b0061e1ff1",
+        "c6644d7e7693fa7b"
+      ]
+    },
+    {
+      "file": "48\\working.ani",
+      "role": "AppStarting",
+      "size": 48,
+      "hotspot": [
+        3,
+        14
+      ],
+      "native_frame_hashes": [
+        "ef15a54e3d05d87f",
+        "1a072e16f91f37b0",
+        "f0f465b80fe2214a",
+        "12df9024f2cfd206"
+      ]
+    },
+    {
+      "file": "64\\working.ani",
+      "role": "AppStarting",
+      "size": 64,
+      "hotspot": [
+        4,
+        19
+      ],
+      "native_frame_hashes": [
+        "87e88bbaaf15a46b",
+        "65acff7582d7aaea",
+        "73b36cf695325035",
+        "e8a3bbd25e5c2ab1"
+      ]
+    },
+    {
+      "file": "96\\working.ani",
+      "role": "AppStarting",
+      "size": 96,
+      "hotspot": [
+        7,
+        28
+      ],
+      "native_frame_hashes": [
+        "ba5f08711ca4fdd4",
+        "d524510b32c56831",
+        "f1c2f945c13093f2",
+        "79246d443063688e"
+      ]
+    },
+    {
+      "file": "128\\working.ani",
+      "role": "AppStarting",
+      "size": 128,
+      "hotspot": [
+        9,
+        37
+      ],
+      "native_frame_hashes": [
+        "31f6386ed66ed074",
+        "372fd71769d98bb3",
+        "0f537c86df3f4843",
+        "e521bab17497bd4b"
+      ]
+    },
+    {
+      "file": "working.ani",
+      "role": "AppStarting",
+      "size": 48,
+      "hotspot": [
+        3,
+        14
+      ],
+      "native_frame_hashes": [
+        "ef15a54e3d05d87f",
+        "1a072e16f91f37b0",
+        "f0f465b80fe2214a",
+        "12df9024f2cfd206"
+      ]
+    },
+    {
+      "file": "32\\wait.ani",
+      "role": "Wait",
+      "size": 32,
+      "hotspot": [
+        2,
+        13
+      ],
+      "native_frame_hashes": [
+        "0e33bba0cfc9abf1",
+        "bdb22280c4dcc237",
+        "0e92dfaf9147856f",
+        "bdb22280c4dcc237"
+      ]
+    },
+    {
+      "file": "48\\wait.ani",
+      "role": "Wait",
+      "size": 48,
+      "hotspot": [
+        3,
+        20
+      ],
+      "native_frame_hashes": [
+        "cc7a6eaf2a6cab56",
+        "6f8456a55cf282d4",
+        "3733edd194fe0d94",
+        "6f8456a55cf282d4"
+      ]
+    },
+    {
+      "file": "64\\wait.ani",
+      "role": "Wait",
+      "size": 64,
+      "hotspot": [
+        4,
+        26
+      ],
+      "native_frame_hashes": [
+        "323cffeb9f1293a9",
+        "e2ab109b111114eb",
+        "7c06135ecc2d53a1",
+        "e2ab109b111114eb"
+      ]
+    },
+    {
+      "file": "96\\wait.ani",
+      "role": "Wait",
+      "size": 96,
+      "hotspot": [
+        6,
+        40
+      ],
+      "native_frame_hashes": [
+        "7d9ba8bc68419b54",
+        "6061f474ffa855fd",
+        "6669f0ce15ac7d54",
+        "6061f474ffa855fd"
+      ]
+    },
+    {
+      "file": "128\\wait.ani",
+      "role": "Wait",
+      "size": 128,
+      "hotspot": [
+        8,
+        53
+      ],
+      "native_frame_hashes": [
+        "f08c6ff552cbf18e",
+        "c0b333256509cf4d",
+        "d1e69758c41596ca",
+        "c0b333256509cf4d"
+      ]
+    },
+    {
+      "file": "wait.ani",
+      "role": "Wait",
+      "size": 48,
+      "hotspot": [
+        3,
+        20
+      ],
+      "native_frame_hashes": [
+        "cc7a6eaf2a6cab56",
+        "6f8456a55cf282d4",
+        "3733edd194fe0d94",
+        "6f8456a55cf282d4"
+      ]
+    },
+    {
+      "file": "32\\cross.cur",
+      "role": "Crosshair",
+      "size": 32,
+      "hotspot": [
+        12,
+        14
+      ],
+      "native_frame_hashes": [
+        "8502f09239002540"
+      ]
+    },
+    {
+      "file": "48\\cross.cur",
+      "role": "Crosshair",
+      "size": 48,
+      "hotspot": [
+        18,
+        20
+      ],
+      "native_frame_hashes": [
+        "fe249bdeb1157055"
+      ]
+    },
+    {
+      "file": "64\\cross.cur",
+      "role": "Crosshair",
+      "size": 64,
+      "hotspot": [
+        24,
+        27
+      ],
+      "native_frame_hashes": [
+        "0bd2581d5a373205"
+      ]
+    },
+    {
+      "file": "96\\cross.cur",
+      "role": "Crosshair",
+      "size": 96,
+      "hotspot": [
+        36,
+        41
+      ],
+      "native_frame_hashes": [
+        "843e5aec1d4069d7"
+      ]
+    },
+    {
+      "file": "128\\cross.cur",
+      "role": "Crosshair",
+      "size": 128,
+      "hotspot": [
+        48,
+        55
+      ],
+      "native_frame_hashes": [
+        "4244e618adddd890"
+      ]
+    },
+    {
+      "file": "cross.cur",
+      "role": "Crosshair",
+      "size": 48,
+      "hotspot": [
+        18,
+        20
+      ],
+      "native_frame_hashes": [
+        "fe249bdeb1157055"
+      ]
+    },
+    {
+      "file": "32\\text.cur",
+      "role": "IBeam",
+      "size": 32,
+      "hotspot": [
+        11,
+        16
+      ],
+      "native_frame_hashes": [
+        "d274e8efe1485378"
+      ]
+    },
+    {
+      "file": "48\\text.cur",
+      "role": "IBeam",
+      "size": 48,
+      "hotspot": [
+        16,
+        24
+      ],
+      "native_frame_hashes": [
+        "9b4647fd46b05fe7"
+      ]
+    },
+    {
+      "file": "64\\text.cur",
+      "role": "IBeam",
+      "size": 64,
+      "hotspot": [
+        21,
+        32
+      ],
+      "native_frame_hashes": [
+        "7b73ad5e3d276b3a"
+      ]
+    },
+    {
+      "file": "96\\text.cur",
+      "role": "IBeam",
+      "size": 96,
+      "hotspot": [
+        32,
+        48
+      ],
+      "native_frame_hashes": [
+        "76f7a2cf70f8f847"
+      ]
+    },
+    {
+      "file": "128\\text.cur",
+      "role": "IBeam",
+      "size": 128,
+      "hotspot": [
+        42,
+        64
+      ],
+      "native_frame_hashes": [
+        "cb4e49dcbddad368"
+      ]
+    },
+    {
+      "file": "text.cur",
+      "role": "IBeam",
+      "size": 48,
+      "hotspot": [
+        16,
+        24
+      ],
+      "native_frame_hashes": [
+        "9b4647fd46b05fe7"
+      ]
+    },
+    {
+      "file": "32\\pen.cur",
+      "role": "NWPen",
+      "size": 32,
+      "hotspot": [
+        2,
+        5
+      ],
+      "native_frame_hashes": [
+        "b197cecc30099241"
+      ]
+    },
+    {
+      "file": "48\\pen.cur",
+      "role": "NWPen",
+      "size": 48,
+      "hotspot": [
+        3,
+        8
+      ],
+      "native_frame_hashes": [
+        "c5f5058e1378a6db"
+      ]
+    },
+    {
+      "file": "64\\pen.cur",
+      "role": "NWPen",
+      "size": 64,
+      "hotspot": [
+        4,
+        11
+      ],
+      "native_frame_hashes": [
+        "137c00573c5e03aa"
+      ]
+    },
+    {
+      "file": "96\\pen.cur",
+      "role": "NWPen",
+      "size": 96,
+      "hotspot": [
+        6,
+        16
+      ],
+      "native_frame_hashes": [
+        "689c8f66a5cb6cb5"
+      ]
+    },
+    {
+      "file": "128\\pen.cur",
+      "role": "NWPen",
+      "size": 128,
+      "hotspot": [
+        8,
+        21
+      ],
+      "native_frame_hashes": [
+        "a4a8706c62efd94e"
+      ]
+    },
+    {
+      "file": "pen.cur",
+      "role": "NWPen",
+      "size": 48,
+      "hotspot": [
+        3,
+        8
+      ],
+      "native_frame_hashes": [
+        "c5f5058e1378a6db"
+      ]
+    },
+    {
+      "file": "32\\unavailable.cur",
+      "role": "No",
+      "size": 32,
+      "hotspot": [
+        9,
+        9
+      ],
+      "native_frame_hashes": [
+        "5d5502a65cf135e3"
+      ]
+    },
+    {
+      "file": "48\\unavailable.cur",
+      "role": "No",
+      "size": 48,
+      "hotspot": [
+        14,
+        14
+      ],
+      "native_frame_hashes": [
+        "648cbaa21e4e3aeb"
+      ]
+    },
+    {
+      "file": "64\\unavailable.cur",
+      "role": "No",
+      "size": 64,
+      "hotspot": [
+        18,
+        19
+      ],
+      "native_frame_hashes": [
+        "912293d020e5090d"
+      ]
+    },
+    {
+      "file": "96\\unavailable.cur",
+      "role": "No",
+      "size": 96,
+      "hotspot": [
+        28,
+        28
+      ],
+      "native_frame_hashes": [
+        "946f1e8a63d36a93"
+      ]
+    },
+    {
+      "file": "128\\unavailable.cur",
+      "role": "No",
+      "size": 128,
+      "hotspot": [
+        37,
+        37
+      ],
+      "native_frame_hashes": [
+        "adcc356fbd3762f9"
+      ]
+    },
+    {
+      "file": "unavailable.cur",
+      "role": "No",
+      "size": 48,
+      "hotspot": [
+        14,
+        14
+      ],
+      "native_frame_hashes": [
+        "648cbaa21e4e3aeb"
+      ]
+    },
+    {
+      "file": "32\\size-ns.cur",
+      "role": "SizeNS",
+      "size": 32,
+      "hotspot": [
+        8,
+        16
+      ],
+      "native_frame_hashes": [
+        "a2492a3e014929c7"
+      ]
+    },
+    {
+      "file": "48\\size-ns.cur",
+      "role": "SizeNS",
+      "size": 48,
+      "hotspot": [
+        12,
+        24
+      ],
+      "native_frame_hashes": [
+        "456f17089ddbe2f7"
+      ]
+    },
+    {
+      "file": "64\\size-ns.cur",
+      "role": "SizeNS",
+      "size": 64,
+      "hotspot": [
+        16,
+        32
+      ],
+      "native_frame_hashes": [
+        "9377383305ea588d"
+      ]
+    },
+    {
+      "file": "96\\size-ns.cur",
+      "role": "SizeNS",
+      "size": 96,
+      "hotspot": [
+        24,
+        48
+      ],
+      "native_frame_hashes": [
+        "ab2553b228e4f4a4"
+      ]
+    },
+    {
+      "file": "128\\size-ns.cur",
+      "role": "SizeNS",
+      "size": 128,
+      "hotspot": [
+        32,
+        64
+      ],
+      "native_frame_hashes": [
+        "36bfbdcb9c3c5eb6"
+      ]
+    },
+    {
+      "file": "size-ns.cur",
+      "role": "SizeNS",
+      "size": 48,
+      "hotspot": [
+        12,
+        24
+      ],
+      "native_frame_hashes": [
+        "456f17089ddbe2f7"
+      ]
+    },
+    {
+      "file": "32\\size-we.cur",
+      "role": "SizeWE",
+      "size": 32,
+      "hotspot": [
+        16,
+        11
+      ],
+      "native_frame_hashes": [
+        "d0092a48cafd9a21"
+      ]
+    },
+    {
+      "file": "48\\size-we.cur",
+      "role": "SizeWE",
+      "size": 48,
+      "hotspot": [
+        24,
+        16
+      ],
+      "native_frame_hashes": [
+        "efcdb629cf53cbe1"
+      ]
+    },
+    {
+      "file": "64\\size-we.cur",
+      "role": "SizeWE",
+      "size": 64,
+      "hotspot": [
+        31,
+        21
+      ],
+      "native_frame_hashes": [
+        "fc568b04cae62221"
+      ]
+    },
+    {
+      "file": "96\\size-we.cur",
+      "role": "SizeWE",
+      "size": 96,
+      "hotspot": [
+        47,
+        32
+      ],
+      "native_frame_hashes": [
+        "5fca306121ac294c"
+      ]
+    },
+    {
+      "file": "128\\size-we.cur",
+      "role": "SizeWE",
+      "size": 128,
+      "hotspot": [
+        63,
+        42
+      ],
+      "native_frame_hashes": [
+        "8c192befc5281bb3"
+      ]
+    },
+    {
+      "file": "size-we.cur",
+      "role": "SizeWE",
+      "size": 48,
+      "hotspot": [
+        24,
+        16
+      ],
+      "native_frame_hashes": [
+        "efcdb629cf53cbe1"
+      ]
+    },
+    {
+      "file": "32\\size-nwse.cur",
+      "role": "SizeNWSE",
+      "size": 32,
+      "hotspot": [
+        15,
+        16
+      ],
+      "native_frame_hashes": [
+        "ef1173073a6d7dbe"
+      ]
+    },
+    {
+      "file": "48\\size-nwse.cur",
+      "role": "SizeNWSE",
+      "size": 48,
+      "hotspot": [
+        23,
+        24
+      ],
+      "native_frame_hashes": [
+        "079a9aa737928699"
+      ]
+    },
+    {
+      "file": "64\\size-nwse.cur",
+      "role": "SizeNWSE",
+      "size": 64,
+      "hotspot": [
+        31,
+        32
+      ],
+      "native_frame_hashes": [
+        "a045f7629c71d974"
+      ]
+    },
+    {
+      "file": "96\\size-nwse.cur",
+      "role": "SizeNWSE",
+      "size": 96,
+      "hotspot": [
+        46,
+        48
+      ],
+      "native_frame_hashes": [
+        "1f4896cea682ecac"
+      ]
+    },
+    {
+      "file": "128\\size-nwse.cur",
+      "role": "SizeNWSE",
+      "size": 128,
+      "hotspot": [
+        62,
+        64
+      ],
+      "native_frame_hashes": [
+        "810587205c982ae0"
+      ]
+    },
+    {
+      "file": "size-nwse.cur",
+      "role": "SizeNWSE",
+      "size": 48,
+      "hotspot": [
+        23,
+        24
+      ],
+      "native_frame_hashes": [
+        "079a9aa737928699"
+      ]
+    },
+    {
+      "file": "32\\size-nesw.cur",
+      "role": "SizeNESW",
+      "size": 32,
+      "hotspot": [
+        16,
+        16
+      ],
+      "native_frame_hashes": [
+        "9e1474bd5540bf90"
+      ]
+    },
+    {
+      "file": "48\\size-nesw.cur",
+      "role": "SizeNESW",
+      "size": 48,
+      "hotspot": [
+        24,
+        24
+      ],
+      "native_frame_hashes": [
+        "756c2b286fd9b7b1"
+      ]
+    },
+    {
+      "file": "64\\size-nesw.cur",
+      "role": "SizeNESW",
+      "size": 64,
+      "hotspot": [
+        32,
+        32
+      ],
+      "native_frame_hashes": [
+        "701d6c04b761c512"
+      ]
+    },
+    {
+      "file": "96\\size-nesw.cur",
+      "role": "SizeNESW",
+      "size": 96,
+      "hotspot": [
+        47,
+        48
+      ],
+      "native_frame_hashes": [
+        "7cba9faf2cb2da85"
+      ]
+    },
+    {
+      "file": "128\\size-nesw.cur",
+      "role": "SizeNESW",
+      "size": 128,
+      "hotspot": [
+        63,
+        64
+      ],
+      "native_frame_hashes": [
+        "bfbc6a994024a5e4"
+      ]
+    },
+    {
+      "file": "size-nesw.cur",
+      "role": "SizeNESW",
+      "size": 48,
+      "hotspot": [
+        24,
+        24
+      ],
+      "native_frame_hashes": [
+        "756c2b286fd9b7b1"
+      ]
+    },
+    {
+      "file": "32\\move.cur",
+      "role": "SizeAll",
+      "size": 32,
+      "hotspot": [
+        13,
+        17
+      ],
+      "native_frame_hashes": [
+        "7e9db9fe0677b8ed"
+      ]
+    },
+    {
+      "file": "48\\move.cur",
+      "role": "SizeAll",
+      "size": 48,
+      "hotspot": [
+        19,
+        25
+      ],
+      "native_frame_hashes": [
+        "eeaa00597947491d"
+      ]
+    },
+    {
+      "file": "64\\move.cur",
+      "role": "SizeAll",
+      "size": 64,
+      "hotspot": [
+        25,
+        33
+      ],
+      "native_frame_hashes": [
+        "9ca0ad98994cf20a"
+      ]
+    },
+    {
+      "file": "96\\move.cur",
+      "role": "SizeAll",
+      "size": 96,
+      "hotspot": [
+        38,
+        50
+      ],
+      "native_frame_hashes": [
+        "6efab82aca3272fc"
+      ]
+    },
+    {
+      "file": "128\\move.cur",
+      "role": "SizeAll",
+      "size": 128,
+      "hotspot": [
+        51,
+        67
+      ],
+      "native_frame_hashes": [
+        "65e772fd53151429"
+      ]
+    },
+    {
+      "file": "move.cur",
+      "role": "SizeAll",
+      "size": 48,
+      "hotspot": [
+        19,
+        25
+      ],
+      "native_frame_hashes": [
+        "eeaa00597947491d"
+      ]
+    },
+    {
+      "file": "32\\alternate.cur",
+      "role": "UpArrow",
+      "size": 32,
+      "hotspot": [
+        7,
+        2
+      ],
+      "native_frame_hashes": [
+        "fe08a46cc3941285"
+      ]
+    },
+    {
+      "file": "48\\alternate.cur",
+      "role": "UpArrow",
+      "size": 48,
+      "hotspot": [
+        11,
+        3
+      ],
+      "native_frame_hashes": [
+        "8f4f6c75d02b6317"
+      ]
+    },
+    {
+      "file": "64\\alternate.cur",
+      "role": "UpArrow",
+      "size": 64,
+      "hotspot": [
+        15,
+        4
+      ],
+      "native_frame_hashes": [
+        "c10a72f519c4fb38"
+      ]
+    },
+    {
+      "file": "96\\alternate.cur",
+      "role": "UpArrow",
+      "size": 96,
+      "hotspot": [
+        22,
+        6
+      ],
+      "native_frame_hashes": [
+        "c25f019fdc190059"
+      ]
+    },
+    {
+      "file": "128\\alternate.cur",
+      "role": "UpArrow",
+      "size": 128,
+      "hotspot": [
+        30,
+        8
+      ],
+      "native_frame_hashes": [
+        "c9690cc2674c679d"
+      ]
+    },
+    {
+      "file": "alternate.cur",
+      "role": "UpArrow",
+      "size": 48,
+      "hotspot": [
+        11,
+        3
+      ],
+      "native_frame_hashes": [
+        "8f4f6c75d02b6317"
+      ]
+    },
+    {
+      "file": "32\\link.ani",
+      "role": "Hand",
+      "size": 32,
+      "hotspot": [
+        2,
+        5
+      ],
+      "native_frame_hashes": [
+        "f941b9f166f98029",
+        "1ba3226e227f2ada",
+        "113e3fcade04c90c",
+        "1ba3226e227f2ada"
+      ]
+    },
+    {
+      "file": "48\\link.ani",
+      "role": "Hand",
+      "size": 48,
+      "hotspot": [
+        3,
+        7
+      ],
+      "native_frame_hashes": [
+        "e86708cb811b8754",
+        "ab9a7d6b4e2e99b5",
+        "8f076c235e442dc2",
+        "ab9a7d6b4e2e99b5"
+      ]
+    },
+    {
+      "file": "64\\link.ani",
+      "role": "Hand",
+      "size": 64,
+      "hotspot": [
+        4,
+        10
+      ],
+      "native_frame_hashes": [
+        "89ab11c3868f9f8c",
+        "0fdc7e72aef01d3a",
+        "fea4bf94f06c7ed4",
+        "0fdc7e72aef01d3a"
+      ]
+    },
+    {
+      "file": "96\\link.ani",
+      "role": "Hand",
+      "size": 96,
+      "hotspot": [
+        7,
+        15
+      ],
+      "native_frame_hashes": [
+        "1f6d41e5293086aa",
+        "5e790bd96d227590",
+        "a76e6be51793e04c",
+        "5e790bd96d227590"
+      ]
+    },
+    {
+      "file": "128\\link.ani",
+      "role": "Hand",
+      "size": 128,
+      "hotspot": [
+        9,
+        20
+      ],
+      "native_frame_hashes": [
+        "cb6216d508213acd",
+        "71c3f44bb185cef9",
+        "186a31b6df34a4f4",
+        "71c3f44bb185cef9"
+      ]
+    },
+    {
+      "file": "link.ani",
+      "role": "Hand",
+      "size": 48,
+      "hotspot": [
+        3,
+        7
+      ],
+      "native_frame_hashes": [
+        "e86708cb811b8754",
+        "ab9a7d6b4e2e99b5",
+        "8f076c235e442dc2",
+        "ab9a7d6b4e2e99b5"
+      ]
+    },
+    {
+      "file": "32\\pin.cur",
+      "role": "Pin",
+      "size": 32,
+      "hotspot": [
+        2,
+        6
+      ],
+      "native_frame_hashes": [
+        "ee3a22688111e6e1"
+      ]
+    },
+    {
+      "file": "48\\pin.cur",
+      "role": "Pin",
+      "size": 48,
+      "hotspot": [
+        3,
+        8
+      ],
+      "native_frame_hashes": [
+        "3b399df6b323b58d"
+      ]
+    },
+    {
+      "file": "64\\pin.cur",
+      "role": "Pin",
+      "size": 64,
+      "hotspot": [
+        4,
+        11
+      ],
+      "native_frame_hashes": [
+        "32fa1b1f30f0f249"
+      ]
+    },
+    {
+      "file": "96\\pin.cur",
+      "role": "Pin",
+      "size": 96,
+      "hotspot": [
+        6,
+        17
+      ],
+      "native_frame_hashes": [
+        "f426d27373194299"
+      ]
+    },
+    {
+      "file": "128\\pin.cur",
+      "role": "Pin",
+      "size": 128,
+      "hotspot": [
+        8,
+        23
+      ],
+      "native_frame_hashes": [
+        "4c8acd103723d921"
+      ]
+    },
+    {
+      "file": "pin.cur",
+      "role": "Pin",
+      "size": 48,
+      "hotspot": [
+        3,
+        8
+      ],
+      "native_frame_hashes": [
+        "3b399df6b323b58d"
+      ]
+    },
+    {
+      "file": "32\\person.cur",
+      "role": "Person",
+      "size": 32,
+      "hotspot": [
+        2,
+        7
+      ],
+      "native_frame_hashes": [
+        "4b240833d41dc9fd"
+      ]
+    },
+    {
+      "file": "48\\person.cur",
+      "role": "Person",
+      "size": 48,
+      "hotspot": [
+        3,
+        10
+      ],
+      "native_frame_hashes": [
+        "ec441e541866c8c0"
+      ]
+    },
+    {
+      "file": "64\\person.cur",
+      "role": "Person",
+      "size": 64,
+      "hotspot": [
+        5,
+        13
+      ],
+      "native_frame_hashes": [
+        "54f9c10b3c1b3f4a"
+      ]
+    },
+    {
+      "file": "96\\person.cur",
+      "role": "Person",
+      "size": 96,
+      "hotspot": [
+        7,
+        20
+      ],
+      "native_frame_hashes": [
+        "3ae27075e9525a9a"
+      ]
+    },
+    {
+      "file": "128\\person.cur",
+      "role": "Person",
+      "size": 128,
+      "hotspot": [
+        9,
+        27
+      ],
+      "native_frame_hashes": [
+        "00299a03258ca9b3"
+      ]
+    },
+    {
+      "file": "person.cur",
+      "role": "Person",
+      "size": 48,
+      "hotspot": [
+        3,
+        10
+      ],
+      "native_frame_hashes": [
+        "ec441e541866c8c0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "case_count": 13,
+  "pixel_animated_count": 11,
+  "collection": "pet-mouse-pointer-all-cases.zip",
+  "collection_bytes": 76588848,
+  "total_roles": 221,
+  "cases": [
+    {
+      "slug": "pet-pixel-complete",
+      "label": "雕色喜乐蒂",
+      "feature": "金棕毛色、白额纹与长嘴筒",
+      "states": 17,
+      "animated_states": 17,
+      "frames": 179,
+      "asset_revision": "527bfb601858",
+      "native_status": "passed",
+      "download": "../downloads/pet-pixel-complete.zip"
+    },
+    {
+      "slug": "golden-cream-pixel",
+      "label": "奶油白金毛",
+      "feature": "奶油宽脸、垂耳与绿色胸背",
+      "states": 17,
+      "animated_states": 17,
+      "frames": 174,
+      "asset_revision": "fc7b7831043b",
+      "native_status": "passed",
+      "download": "../downloads/golden-cream-pixel.zip"
+    },
+    {
+      "slug": "sheltie-tricolor-pixel",
+      "label": "黑白三色喜乐蒂",
+      "feature": "黑色底毛、棕色眉颊、白色围脖",
+      "states": 17,
+      "animated_states": 17,
+      "frames": 179,
+      "asset_revision": "846e532c82d7",
+      "native_status": "passed",
+      "download": "../downloads/sheltie-tricolor-pixel.zip"
+    },
+    {
+      "slug": "sheltie-blue-merle-pixel",
+      "label": "三色陨石喜乐蒂",
+      "feature": "银灰黑斑、棕色眉颊、白色围脖",
+      "states": 17,
+      "animated_states": 17,
+      "frames": 179,
+      "asset_revision": "6b4db5ecbb57",
+      "native_status": "passed",
+      "download": "../downloads/sheltie-blue-merle-pixel.zip"
+    },
+    {
+      "slug": "golden-standard-pixel",
+      "label": "标准金毛",
+      "feature": "蜂蜜金毛发、粉褐鼻、绿色胸背",
+      "states": 17,
+      "animated_states": 17,
+      "frames": 174,
+      "asset_revision": "755722013048",
+      "native_status": "passed",
+      "download": "../downloads/golden-standard-pixel.zip"
+    },
+    {
+      "slug": "golden-dark-pixel",
+      "label": "深金毛",
+      "feature": "铜金毛发、较深垂耳、绿色胸背",
+      "states": 17,
+      "animated_states": 17,
+      "frames": 174,
+      "asset_revision": "1edf84d4be0d",
+      "native_status": "passed",
+      "download": "../downloads/golden-dark-pixel.zip"
+    },
+    {
+      "slug": "sheltie-dark-sable-pixel",
+      "label": "深雕色喜乐蒂",
+      "feature": "深棕耳冠与后鬃、暖棕脸颊、白色围脖",
+      "states": 17,
+      "animated_states": 17,
+      "frames": 179,
+      "asset_revision": "00a6ae070aa0",
+      "native_status": "passed",
+      "download": "../downloads/sheltie-dark-sable-pixel.zip"
+    },
+    {
+      "slug": "sheltie-bi-black-pixel",
+      "label": "黑白两色喜乐蒂",
+      "feature": "炭黑底毛、白额纹与围脖、无棕色眉颊",
+      "states": 17,
+      "animated_states": 17,
+      "frames": 179,
+      "asset_revision": "27f9a974a52b",
+      "native_status": "passed",
+      "download": "../downloads/sheltie-bi-black-pixel.zip"
+    },
+    {
+      "slug": "sheltie-bi-blue-pixel",
+      "label": "蓝陨石色喜乐蒂",
+      "feature": "银灰黑斑与白色围脖、无棕色眉颊",
+      "states": 17,
+      "animated_states": 17,
+      "frames": 179,
+      "asset_revision": "3d0b58310976",
+      "native_status": "passed",
+      "download": "../downloads/sheltie-bi-blue-pixel.zip"
+    },
+    {
+      "slug": "golden-light-pixel",
+      "label": "浅金毛",
+      "feature": "浅麦金毛发、暖金垂耳、绿色胸背",
+      "states": 17,
+      "animated_states": 17,
+      "frames": 174,
+      "asset_revision": "205c05bf637b",
+      "native_status": "passed",
+      "download": "../downloads/golden-light-pixel.zip"
+    },
+    {
+      "slug": "sheltie-red-merle-pixel",
+      "label": "红陨石喜乐蒂",
+      "feature": "浅金黄色嘴筒、深棕侧毛、白鼻梁与胸毛；17状态全动画",
+      "states": 17,
+      "animated_states": 17,
+      "frames": 179,
+      "asset_revision": "6f32e10e308d",
+      "native_status": "passed",
+      "download": "../downloads/sheltie-red-merle-pixel.zip"
+    },
+    {
+      "slug": "pet-handdrawn-complete",
+      "label": "手绘小狗",
+      "feature": "柔和手绘；5种动画状态、12种静态状态",
+      "states": 17,
+      "animated_states": 5,
+      "frames": 32,
+      "asset_revision": "e13daf395b24",
+      "native_status": "passed",
+      "download": "../downloads/pet-handdrawn-complete.zip"
+    },
+    {
+      "slug": "black-cat-hug",
+      "label": "黑猫抱箭头",
+      "feature": "黑猫、金黄眼睛、奶白功能符号；17种静态状态",
+      "states": 17,
+      "animated_states": 0,
+      "frames": 17,
+      "asset_revision": "00f5bf907530",
+      "native_status": "passed",
+      "download": "../downloads/black-cat-hug.zip"
+    }
+  ]
+}

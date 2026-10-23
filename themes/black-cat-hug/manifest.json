@@ -1,0 +1,1752 @@
+{
+  "name": "Black Cat Hug · 黑猫抱箭头",
+  "version": "1.0.0",
+  "asset_revision": "00f5bf907530",
+  "sizes": [
+    32,
+    48,
+    64,
+    96,
+    128
+  ],
+  "states": [
+    {
+      "id": "normal",
+      "role": "Arrow",
+      "label": "正常选择",
+      "idea": "黑猫抱住奶白箭头",
+      "file": "normal.cur",
+      "variants": {
+        "32": "32/normal.cur",
+        "48": "48/normal.cur",
+        "64": "64/normal.cur",
+        "96": "96/normal.cur",
+        "128": "128/normal.cur"
+      },
+      "hotspots": {
+        "32": [
+          2,
+          2
+        ],
+        "48": [
+          3,
+          4
+        ],
+        "64": [
+          5,
+          5
+        ],
+        "96": [
+          7,
+          7
+        ],
+        "128": [
+          9,
+          10
+        ]
+      },
+      "animated": false,
+      "frame_count": 1,
+      "sequence": [
+        0
+      ],
+      "ticks": [
+        12
+      ],
+      "source": "assets/black-cat-hug/normal.png",
+      "landmarks": [
+        [
+          0.058214,
+          0.052632
+        ]
+      ],
+      "unique_frame_count": 1,
+      "animation_fps": 0,
+      "visual_fps": 0.0,
+      "peak_fps": 0,
+      "cycle_ms": 200.0,
+      "pixel_art": false,
+      "unique_frame_counts": {
+        "32": 1,
+        "48": 1,
+        "64": 1,
+        "96": 1,
+        "128": 1
+      },
+      "animation_stats_by_size": {
+        "32": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "48": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "64": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "96": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "128": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        }
+      }
+    },
+    {
+      "id": "help",
+      "role": "Help",
+      "label": "帮助选择",
+      "idea": "歪头抱箭头，旁边小问号",
+      "file": "help.cur",
+      "variants": {
+        "32": "32/help.cur",
+        "48": "48/help.cur",
+        "64": "64/help.cur",
+        "96": "96/help.cur",
+        "128": "128/help.cur"
+      },
+      "hotspots": {
+        "32": [
+          2,
+          3
+        ],
+        "48": [
+          4,
+          4
+        ],
+        "64": [
+          5,
+          6
+        ],
+        "96": [
+          7,
+          8
+        ],
+        "128": [
+          9,
+          11
+        ]
+      },
+      "animated": false,
+      "frame_count": 1,
+      "sequence": [
+        0
+      ],
+      "ticks": [
+        12
+      ],
+      "source": "assets/black-cat-hug/help.png",
+      "landmarks": [
+        [
+          0.055024,
+          0.062201
+        ]
+      ],
+      "unique_frame_count": 1,
+      "animation_fps": 0,
+      "visual_fps": 0.0,
+      "peak_fps": 0,
+      "cycle_ms": 200.0,
+      "pixel_art": false,
+      "unique_frame_counts": {
+        "32": 1,
+        "48": 1,
+        "64": 1,
+        "96": 1,
+        "128": 1
+      },
+      "animation_stats_by_size": {
+        "32": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "48": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "64": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "96": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "128": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        }
+      }
+    },
+    {
+      "id": "working",
+      "role": "AppStarting",
+      "label": "后台运行",
+      "idea": "抱着箭头，看着等待圆环",
+      "file": "working.cur",
+      "variants": {
+        "32": "32/working.cur",
+        "48": "48/working.cur",
+        "64": "64/working.cur",
+        "96": "96/working.cur",
+        "128": "128/working.cur"
+      },
+      "hotspots": {
+        "32": [
+          2,
+          3
+        ],
+        "48": [
+          3,
+          4
+        ],
+        "64": [
+          5,
+          6
+        ],
+        "96": [
+          7,
+          8
+        ],
+        "128": [
+          9,
+          11
+        ]
+      },
+      "animated": false,
+      "frame_count": 1,
+      "sequence": [
+        0
+      ],
+      "ticks": [
+        12
+      ],
+      "source": "assets/black-cat-hug/working.png",
+      "landmarks": [
+        [
+          0.055821,
+          0.061404
+        ]
+      ],
+      "unique_frame_count": 1,
+      "animation_fps": 0,
+      "visual_fps": 0.0,
+      "peak_fps": 0,
+      "cycle_ms": 200.0,
+      "pixel_art": false,
+      "unique_frame_counts": {
+        "32": 1,
+        "48": 1,
+        "64": 1,
+        "96": 1,
+        "128": 1
+      },
+      "animation_stats_by_size": {
+        "32": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "48": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "64": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "96": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "128": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        }
+      }
+    },
+    {
+      "id": "wait",
+      "role": "Wait",
+      "label": "忙碌等待",
+      "idea": "蜷成团，抱着小沙漏",
+      "file": "wait.cur",
+      "variants": {
+        "32": "32/wait.cur",
+        "48": "48/wait.cur",
+        "64": "64/wait.cur",
+        "96": "96/wait.cur",
+        "128": "128/wait.cur"
+      },
+      "hotspots": {
+        "32": [
+          9,
+          20
+        ],
+        "48": [
+          13,
+          30
+        ],
+        "64": [
+          18,
+          40
+        ],
+        "96": [
+          26,
+          60
+        ],
+        "128": [
+          35,
+          79
+        ]
+      },
+      "animated": false,
+      "frame_count": 1,
+      "sequence": [
+        0
+      ],
+      "ticks": [
+        12
+      ],
+      "source": "assets/black-cat-hug/wait.png",
+      "landmarks": [
+        [
+          0.272,
+          0.612
+        ]
+      ],
+      "unique_frame_count": 1,
+      "animation_fps": 0,
+      "visual_fps": 0.0,
+      "peak_fps": 0,
+      "cycle_ms": 200.0,
+      "pixel_art": false,
+      "unique_frame_counts": {
+        "32": 1,
+        "48": 1,
+        "64": 1,
+        "96": 1,
+        "128": 1
+      },
+      "animation_stats_by_size": {
+        "32": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "48": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "64": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "96": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "128": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        }
+      }
+    },
+    {
+      "id": "cross",
+      "role": "Crosshair",
+      "label": "精确选择",
+      "idea": "专注地扶住十字准星",
+      "file": "cross.cur",
+      "variants": {
+        "32": "32/cross.cur",
+        "48": "48/cross.cur",
+        "64": "64/cross.cur",
+        "96": "96/cross.cur",
+        "128": "128/cross.cur"
+      },
+      "hotspots": {
+        "32": [
+          10,
+          17
+        ],
+        "48": [
+          15,
+          26
+        ],
+        "64": [
+          20,
+          35
+        ],
+        "96": [
+          31,
+          52
+        ],
+        "128": [
+          41,
+          70
+        ]
+      },
+      "animated": false,
+      "frame_count": 1,
+      "sequence": [
+        0
+      ],
+      "ticks": [
+        12
+      ],
+      "source": "assets/black-cat-hug/cross.png",
+      "landmarks": [
+        [
+          0.3325,
+          0.5431
+        ]
+      ],
+      "unique_frame_count": 1,
+      "animation_fps": 0,
+      "visual_fps": 0.0,
+      "peak_fps": 0,
+      "cycle_ms": 200.0,
+      "pixel_art": false,
+      "unique_frame_counts": {
+        "32": 1,
+        "48": 1,
+        "64": 1,
+        "96": 1,
+        "128": 1
+      },
+      "animation_stats_by_size": {
+        "32": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "48": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "64": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "96": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "128": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        }
+      }
+    },
+    {
+      "id": "text",
+      "role": "IBeam",
+      "label": "文本选择",
+      "idea": "趴着抱住文字光标",
+      "file": "text.cur",
+      "variants": {
+        "32": "32/text.cur",
+        "48": "48/text.cur",
+        "64": "64/text.cur",
+        "96": "96/text.cur",
+        "128": "128/text.cur"
+      },
+      "hotspots": {
+        "32": [
+          10,
+          16
+        ],
+        "48": [
+          15,
+          24
+        ],
+        "64": [
+          20,
+          32
+        ],
+        "96": [
+          29,
+          48
+        ],
+        "128": [
+          39,
+          64
+        ]
+      },
+      "animated": false,
+      "frame_count": 1,
+      "sequence": [
+        0
+      ],
+      "ticks": [
+        12
+      ],
+      "source": "assets/black-cat-hug/text.png",
+      "landmarks": [
+        [
+          0.316,
+          0.5
+        ]
+      ],
+      "unique_frame_count": 1,
+      "animation_fps": 0,
+      "visual_fps": 0.0,
+      "peak_fps": 0,
+      "cycle_ms": 200.0,
+      "pixel_art": false,
+      "unique_frame_counts": {
+        "32": 1,
+        "48": 1,
+        "64": 1,
+        "96": 1,
+        "128": 1
+      },
+      "animation_stats_by_size": {
+        "32": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "48": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "64": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "96": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "128": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        }
+      }
+    },
+    {
+      "id": "pen",
+      "role": "NWPen",
+      "label": "手写",
+      "idea": "两只爪子抱住铅笔",
+      "file": "pen.cur",
+      "variants": {
+        "32": "32/pen.cur",
+        "48": "48/pen.cur",
+        "64": "64/pen.cur",
+        "96": "96/pen.cur",
+        "128": "128/pen.cur"
+      },
+      "hotspots": {
+        "32": [
+          2,
+          3
+        ],
+        "48": [
+          3,
+          4
+        ],
+        "64": [
+          5,
+          5
+        ],
+        "96": [
+          7,
+          8
+        ],
+        "128": [
+          9,
+          10
+        ]
+      },
+      "animated": false,
+      "frame_count": 1,
+      "sequence": [
+        0
+      ],
+      "ticks": [
+        12
+      ],
+      "source": "assets/black-cat-hug/pen.png",
+      "landmarks": [
+        [
+          0.053429,
+          0.047847
+        ]
+      ],
+      "unique_frame_count": 1,
+      "animation_fps": 0,
+      "visual_fps": 0.0,
+      "peak_fps": 0,
+      "cycle_ms": 200.0,
+      "pixel_art": false,
+      "unique_frame_counts": {
+        "32": 1,
+        "48": 1,
+        "64": 1,
+        "96": 1,
+        "128": 1
+      },
+      "animation_stats_by_size": {
+        "32": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "48": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "64": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "96": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "128": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        }
+      }
+    },
+    {
+      "id": "unavailable",
+      "role": "No",
+      "label": "不可用",
+      "idea": "耳朵后压，抱住禁止符号",
+      "file": "unavailable.cur",
+      "variants": {
+        "32": "32/unavailable.cur",
+        "48": "48/unavailable.cur",
+        "64": "64/unavailable.cur",
+        "96": "96/unavailable.cur",
+        "128": "128/unavailable.cur"
+      },
+      "hotspots": {
+        "32": [
+          10,
+          17
+        ],
+        "48": [
+          16,
+          26
+        ],
+        "64": [
+          21,
+          35
+        ],
+        "96": [
+          31,
+          52
+        ],
+        "128": [
+          42,
+          69
+        ]
+      },
+      "animated": false,
+      "frame_count": 1,
+      "sequence": [
+        0
+      ],
+      "ticks": [
+        12
+      ],
+      "source": "assets/black-cat-hug/unavailable.png",
+      "landmarks": [
+        [
+          0.328,
+          0.53
+        ]
+      ],
+      "unique_frame_count": 1,
+      "animation_fps": 0,
+      "visual_fps": 0.0,
+      "peak_fps": 0,
+      "cycle_ms": 200.0,
+      "pixel_art": false,
+      "unique_frame_counts": {
+        "32": 1,
+        "48": 1,
+        "64": 1,
+        "96": 1,
+        "128": 1
+      },
+      "animation_stats_by_size": {
+        "32": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "48": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "64": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "96": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "128": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        }
+      }
+    },
+    {
+      "id": "size-ns",
+      "role": "SizeNS",
+      "label": "垂直调整",
+      "idea": "抱住上下双向箭头",
+      "file": "size-ns.cur",
+      "variants": {
+        "32": "32/size-ns.cur",
+        "48": "48/size-ns.cur",
+        "64": "64/size-ns.cur",
+        "96": "96/size-ns.cur",
+        "128": "128/size-ns.cur"
+      },
+      "hotspots": {
+        "32": [
+          9,
+          16
+        ],
+        "48": [
+          13,
+          24
+        ],
+        "64": [
+          18,
+          32
+        ],
+        "96": [
+          27,
+          48
+        ],
+        "128": [
+          36,
+          64
+        ]
+      },
+      "animated": false,
+      "frame_count": 1,
+      "sequence": [
+        0
+      ],
+      "ticks": [
+        12
+      ],
+      "source": "assets/black-cat-hug/size-ns.png",
+      "landmarks": [
+        [
+          0.2855,
+          0.4864
+        ]
+      ],
+      "unique_frame_count": 1,
+      "animation_fps": 0,
+      "visual_fps": 0.0,
+      "peak_fps": 0,
+      "cycle_ms": 200.0,
+      "pixel_art": false,
+      "unique_frame_counts": {
+        "32": 1,
+        "48": 1,
+        "64": 1,
+        "96": 1,
+        "128": 1
+      },
+      "animation_stats_by_size": {
+        "32": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "48": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "64": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "96": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "128": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        }
+      }
+    },
+    {
+      "id": "size-we",
+      "role": "SizeWE",
+      "label": "水平调整",
+      "idea": "趴在左右双向箭头上",
+      "file": "size-we.cur",
+      "variants": {
+        "32": "32/size-we.cur",
+        "48": "48/size-we.cur",
+        "64": "64/size-we.cur",
+        "96": "96/size-we.cur",
+        "128": "128/size-we.cur"
+      },
+      "hotspots": {
+        "32": [
+          16,
+          20
+        ],
+        "48": [
+          24,
+          30
+        ],
+        "64": [
+          32,
+          40
+        ],
+        "96": [
+          48,
+          59
+        ],
+        "128": [
+          64,
+          79
+        ]
+      },
+      "animated": false,
+      "frame_count": 1,
+      "sequence": [
+        0
+      ],
+      "ticks": [
+        12
+      ],
+      "source": "assets/black-cat-hug/size-we.png",
+      "landmarks": [
+        [
+          0.5,
+          0.626
+        ]
+      ],
+      "unique_frame_count": 1,
+      "animation_fps": 0,
+      "visual_fps": 0.0,
+      "peak_fps": 0,
+      "cycle_ms": 200.0,
+      "pixel_art": false,
+      "unique_frame_counts": {
+        "32": 1,
+        "48": 1,
+        "64": 1,
+        "96": 1,
+        "128": 1
+      },
+      "animation_stats_by_size": {
+        "32": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "48": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "64": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "96": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "128": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        }
+      }
+    },
+    {
+      "id": "size-nwse",
+      "role": "SizeNWSE",
+      "label": "沿左上右下调整",
+      "idea": "抱着斜向双向箭头",
+      "file": "size-nwse.cur",
+      "variants": {
+        "32": "32/size-nwse.cur",
+        "48": "48/size-nwse.cur",
+        "64": "64/size-nwse.cur",
+        "96": "96/size-nwse.cur",
+        "128": "128/size-nwse.cur"
+      },
+      "hotspots": {
+        "32": [
+          16,
+          16
+        ],
+        "48": [
+          24,
+          24
+        ],
+        "64": [
+          31,
+          32
+        ],
+        "96": [
+          47,
+          49
+        ],
+        "128": [
+          63,
+          65
+        ]
+      },
+      "animated": false,
+      "frame_count": 1,
+      "sequence": [
+        0
+      ],
+      "ticks": [
+        12
+      ],
+      "source": "assets/black-cat-hug/size-nwse.png",
+      "landmarks": [
+        [
+          0.48,
+          0.52
+        ]
+      ],
+      "unique_frame_count": 1,
+      "animation_fps": 0,
+      "visual_fps": 0.0,
+      "peak_fps": 0,
+      "cycle_ms": 200.0,
+      "pixel_art": false,
+      "unique_frame_counts": {
+        "32": 1,
+        "48": 1,
+        "64": 1,
+        "96": 1,
+        "128": 1
+      },
+      "animation_stats_by_size": {
+        "32": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "48": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "64": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "96": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "128": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        }
+      }
+    },
+    {
+      "id": "size-nesw",
+      "role": "SizeNESW",
+      "label": "沿右上左下调整",
+      "idea": "抱着反斜向双向箭头",
+      "file": "size-nesw.cur",
+      "variants": {
+        "32": "32/size-nesw.cur",
+        "48": "48/size-nesw.cur",
+        "64": "64/size-nesw.cur",
+        "96": "96/size-nesw.cur",
+        "128": "128/size-nesw.cur"
+      },
+      "hotspots": {
+        "32": [
+          16,
+          16
+        ],
+        "48": [
+          24,
+          24
+        ],
+        "64": [
+          31,
+          32
+        ],
+        "96": [
+          47,
+          48
+        ],
+        "128": [
+          63,
+          63
+        ]
+      },
+      "animated": false,
+      "frame_count": 1,
+      "sequence": [
+        0
+      ],
+      "ticks": [
+        12
+      ],
+      "source": "assets/black-cat-hug/size-nesw.png",
+      "landmarks": [
+        [
+          0.5,
+          0.5
+        ]
+      ],
+      "unique_frame_count": 1,
+      "animation_fps": 0,
+      "visual_fps": 0.0,
+      "peak_fps": 0,
+      "cycle_ms": 200.0,
+      "pixel_art": false,
+      "unique_frame_counts": {
+        "32": 1,
+        "48": 1,
+        "64": 1,
+        "96": 1,
+        "128": 1
+      },
+      "animation_stats_by_size": {
+        "32": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "48": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "64": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "96": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "128": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        }
+      }
+    },
+    {
+      "id": "move",
+      "role": "SizeAll",
+      "label": "移动",
+      "idea": "抓住四向箭头",
+      "file": "move.cur",
+      "variants": {
+        "32": "32/move.cur",
+        "48": "48/move.cur",
+        "64": "64/move.cur",
+        "96": "96/move.cur",
+        "128": "128/move.cur"
+      },
+      "hotspots": {
+        "32": [
+          13,
+          17
+        ],
+        "48": [
+          20,
+          25
+        ],
+        "64": [
+          27,
+          33
+        ],
+        "96": [
+          40,
+          50
+        ],
+        "128": [
+          54,
+          66
+        ]
+      },
+      "animated": false,
+      "frame_count": 1,
+      "sequence": [
+        0
+      ],
+      "ticks": [
+        12
+      ],
+      "source": "assets/black-cat-hug/move.png",
+      "landmarks": [
+        [
+          0.4242,
+          0.5183
+        ]
+      ],
+      "unique_frame_count": 1,
+      "animation_fps": 0,
+      "visual_fps": 0.0,
+      "peak_fps": 0,
+      "cycle_ms": 200.0,
+      "pixel_art": false,
+      "unique_frame_counts": {
+        "32": 1,
+        "48": 1,
+        "64": 1,
+        "96": 1,
+        "128": 1
+      },
+      "animation_stats_by_size": {
+        "32": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "48": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "64": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "96": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "128": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        }
+      }
+    },
+    {
+      "id": "alternate",
+      "role": "UpArrow",
+      "label": "候选选择",
+      "idea": "抱着向上箭头",
+      "file": "alternate.cur",
+      "variants": {
+        "32": "32/alternate.cur",
+        "48": "48/alternate.cur",
+        "64": "64/alternate.cur",
+        "96": "96/alternate.cur",
+        "128": "128/alternate.cur"
+      },
+      "hotspots": {
+        "32": [
+          10,
+          2
+        ],
+        "48": [
+          16,
+          3
+        ],
+        "64": [
+          21,
+          4
+        ],
+        "96": [
+          31,
+          6
+        ],
+        "128": [
+          41,
+          8
+        ]
+      },
+      "animated": false,
+      "frame_count": 1,
+      "sequence": [
+        0
+      ],
+      "ticks": [
+        12
+      ],
+      "source": "assets/black-cat-hug/alternate.png",
+      "landmarks": [
+        [
+          0.319777,
+          0.047049
+        ]
+      ],
+      "unique_frame_count": 1,
+      "animation_fps": 0,
+      "visual_fps": 0.0,
+      "peak_fps": 0,
+      "cycle_ms": 200.0,
+      "pixel_art": false,
+      "unique_frame_counts": {
+        "32": 1,
+        "48": 1,
+        "64": 1,
+        "96": 1,
+        "128": 1
+      },
+      "animation_stats_by_size": {
+        "32": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "48": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "64": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "96": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "128": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        }
+      }
+    },
+    {
+      "id": "link",
+      "role": "Hand",
+      "label": "链接选择",
+      "idea": "伸出猫爪，扶住手形",
+      "file": "link.cur",
+      "variants": {
+        "32": "32/link.cur",
+        "48": "48/link.cur",
+        "64": "64/link.cur",
+        "96": "96/link.cur",
+        "128": "128/link.cur"
+      },
+      "hotspots": {
+        "32": [
+          9,
+          3
+        ],
+        "48": [
+          14,
+          5
+        ],
+        "64": [
+          18,
+          7
+        ],
+        "96": [
+          27,
+          10
+        ],
+        "128": [
+          36,
+          13
+        ]
+      },
+      "animated": false,
+      "frame_count": 1,
+      "sequence": [
+        0
+      ],
+      "ticks": [
+        12
+      ],
+      "source": "assets/black-cat-hug/link.png",
+      "landmarks": [
+        [
+          0.288676,
+          0.096491
+        ]
+      ],
+      "unique_frame_count": 1,
+      "animation_fps": 0,
+      "visual_fps": 0.0,
+      "peak_fps": 0,
+      "cycle_ms": 200.0,
+      "pixel_art": false,
+      "unique_frame_counts": {
+        "32": 1,
+        "48": 1,
+        "64": 1,
+        "96": 1,
+        "128": 1
+      },
+      "animation_stats_by_size": {
+        "32": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "48": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "64": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "96": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "128": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        }
+      }
+    },
+    {
+      "id": "pin",
+      "role": "Pin",
+      "label": "位置选择",
+      "idea": "抱箭头，尾边一个位置标记",
+      "file": "pin.cur",
+      "variants": {
+        "32": "32/pin.cur",
+        "48": "48/pin.cur",
+        "64": "64/pin.cur",
+        "96": "96/pin.cur",
+        "128": "128/pin.cur"
+      },
+      "hotspots": {
+        "32": [
+          2,
+          4
+        ],
+        "48": [
+          4,
+          6
+        ],
+        "64": [
+          5,
+          7
+        ],
+        "96": [
+          7,
+          11
+        ],
+        "128": [
+          10,
+          15
+        ]
+      },
+      "animated": false,
+      "frame_count": 1,
+      "sequence": [
+        0
+      ],
+      "ticks": [
+        12
+      ],
+      "source": "assets/black-cat-hug/pin.png",
+      "landmarks": [
+        [
+          0.068581,
+          0.106858
+        ]
+      ],
+      "unique_frame_count": 1,
+      "animation_fps": 0,
+      "visual_fps": 0.0,
+      "peak_fps": 0,
+      "cycle_ms": 200.0,
+      "pixel_art": false,
+      "unique_frame_counts": {
+        "32": 1,
+        "48": 1,
+        "64": 1,
+        "96": 1,
+        "128": 1
+      },
+      "animation_stats_by_size": {
+        "32": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "48": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "64": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "96": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "128": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        }
+      }
+    },
+    {
+      "id": "person",
+      "role": "Person",
+      "label": "人员选择",
+      "idea": "抱箭头，旁边一个人形标记",
+      "file": "person.cur",
+      "variants": {
+        "32": "32/person.cur",
+        "48": "48/person.cur",
+        "64": "64/person.cur",
+        "96": "96/person.cur",
+        "128": "128/person.cur"
+      },
+      "hotspots": {
+        "32": [
+          2,
+          3
+        ],
+        "48": [
+          4,
+          4
+        ],
+        "64": [
+          5,
+          5
+        ],
+        "96": [
+          7,
+          8
+        ],
+        "128": [
+          9,
+          11
+        ]
+      },
+      "animated": false,
+      "frame_count": 1,
+      "sequence": [
+        0
+      ],
+      "ticks": [
+        12
+      ],
+      "source": "assets/black-cat-hug/person.png",
+      "landmarks": [
+        [
+          0.055024,
+          0.054226
+        ]
+      ],
+      "unique_frame_count": 1,
+      "animation_fps": 0,
+      "visual_fps": 0.0,
+      "peak_fps": 0,
+      "cycle_ms": 200.0,
+      "pixel_art": false,
+      "unique_frame_counts": {
+        "32": 1,
+        "48": 1,
+        "64": 1,
+        "96": 1,
+        "128": 1
+      },
+      "animation_stats_by_size": {
+        "32": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "48": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "64": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "96": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        },
+        "128": {
+          "unique_frame_count": 1,
+          "animation_fps": 0,
+          "visual_fps": 0.0,
+          "peak_fps": 0,
+          "cycle_ms": 200.0
+        }
+      }
+    }
+  ],
+  "scheme_order": [
+    "Arrow",
+    "Help",
+    "AppStarting",
+    "Wait",
+    "Crosshair",
+    "IBeam",
+    "NWPen",
+    "No",
+    "SizeNS",
+    "SizeWE",
+    "SizeNWSE",
+    "SizeNESW",
+    "SizeAll",
+    "UpArrow",
+    "Hand",
+    "Pin",
+    "Person"
+  ],
+  "system_settings_modified": false,
+  "pixel_art": false
+}
