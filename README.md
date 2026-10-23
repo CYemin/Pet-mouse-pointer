@@ -8,13 +8,13 @@
 
 | 主题 | 特征 | 下载 |
 |---|---|---|
-| 金貂喜乐蒂 | 金棕毛色、白额纹与长嘴筒 | [完整 ZIP](downloads/pet-pixel-complete.zip?raw=1) · [说明](themes/pet-pixel-complete/README.md) |
+| 黄白喜乐蒂（貂色） | 金棕毛色、白额纹与长嘴筒 | [完整 ZIP](downloads/pet-pixel-complete.zip?raw=1) · [说明](themes/pet-pixel-complete/README.md) |
 | 奶油白金毛 | 奶油宽脸、垂耳与绿色胸背 | [完整 ZIP](downloads/golden-cream-pixel.zip?raw=1) · [说明](themes/golden-cream-pixel/README.md) |
 | 三色喜乐蒂 | 黑色底毛、棕色眉颊、白色围脖 | [完整 ZIP](downloads/sheltie-tricolor-pixel.zip?raw=1) · [说明](themes/sheltie-tricolor-pixel/README.md) |
-| 蓝陨喜乐蒂 | 银灰黑斑、棕色眉颊、白色围脖 | [完整 ZIP](downloads/sheltie-blue-merle-pixel.zip?raw=1) · [说明](themes/sheltie-blue-merle-pixel/README.md) |
+| 蓝陨石喜乐蒂 | 银灰黑斑、棕色眉颊、白色围脖 | [完整 ZIP](downloads/sheltie-blue-merle-pixel.zip?raw=1) · [说明](themes/sheltie-blue-merle-pixel/README.md) |
 | 标准金毛 | 蜂蜜金毛发、粉褐鼻、绿色胸背 | [完整 ZIP](downloads/golden-standard-pixel.zip?raw=1) · [说明](themes/golden-standard-pixel/README.md) |
 | 深金毛 | 铜金毛发、较深垂耳、绿色胸背 | [完整 ZIP](downloads/golden-dark-pixel.zip?raw=1) · [说明](themes/golden-dark-pixel/README.md) |
-| 深貂色喜乐蒂 | 深棕耳冠与后鬃、暖棕脸颊、白色围脖 | [完整 ZIP](downloads/sheltie-dark-sable-pixel.zip?raw=1) · [说明](themes/sheltie-dark-sable-pixel/README.md) |
+| 黄白喜乐蒂（深貂色） | 深棕耳冠与后鬃、暖棕脸颊、白色围脖 | [完整 ZIP](downloads/sheltie-dark-sable-pixel.zip?raw=1) · [说明](themes/sheltie-dark-sable-pixel/README.md) |
 | 黑白喜乐蒂 | 炭黑底毛、白额纹与围脖、无棕色眉颊 | [完整 ZIP](downloads/sheltie-bi-black-pixel.zip?raw=1) · [说明](themes/sheltie-bi-black-pixel/README.md) |
 | 双色蓝喜乐蒂 | 银灰黑斑与白色围脖、无棕色眉颊 | [完整 ZIP](downloads/sheltie-bi-blue-pixel.zip?raw=1) · [说明](themes/sheltie-bi-blue-pixel/README.md) |
 | 浅金毛 | 浅麦金毛发、暖金垂耳、绿色胸背 | [完整 ZIP](downloads/golden-light-pixel.zip?raw=1) · [说明](themes/golden-light-pixel/README.md) |
@@ -37,18 +37,18 @@
 
 ### 动画预览
 
-| 深貂色喜乐蒂 | 黑白喜乐蒂 |
-|---|---|
+| **黄白喜乐蒂（深貂色）** | **黑白喜乐蒂** |
+|:---:|:---:|
 | ![深貂动作](docs/images/sheltie-dark-sable-pixel.gif) | ![黑白动作](docs/images/sheltie-bi-black-pixel.gif) |
-| 双色蓝喜乐蒂 | 金貂喜乐蒂 |
-| ![双色蓝动作](docs/images/sheltie-bi-blue-pixel.gif) | ![金貂动作](docs/images/pet-pixel-complete.gif) |
+| **双色蓝喜乐蒂** | **黄白喜乐蒂（貂色）** |
+| ![双色蓝动作](docs/images/sheltie-bi-blue-pixel.gif) | ![黄白动作](docs/images/pet-pixel-complete.gif) |
 
-| 三色喜乐蒂 | 蓝陨喜乐蒂 |
-|---|---|
+| **三色喜乐蒂** | **蓝陨石喜乐蒂** |
+|:---:|:---:|
 | ![三色动作](docs/images/sheltie-tricolor-pixel.gif) | ![蓝陨动作](docs/images/sheltie-blue-merle-pixel.gif) |
-| 标准金毛 | 深金毛 |
+| **标准金毛** | **深金毛** |
 | ![标准金动作](docs/images/golden-standard-pixel.gif) | ![深金动作](docs/images/golden-dark-pixel.gif) |
-| 浅金毛 | 奶油白金毛 |
+| **浅金毛** | **奶油白金毛** |
 | ![浅金动作](docs/images/golden-light-pixel.gif) | ![奶油白动作](docs/images/golden-cream-pixel.gif) |
 
 预览展示正常、帮助、等待、链接等动作。完整17状态、热点与实际尺寸请打开对应包内的 `preview.html`。
