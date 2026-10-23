@@ -5,6 +5,9 @@ LAUNCHERS=(
     ('应用鼠标主题.cmd','install-theme.ps1',48,'应用鼠标主题（48px）'),
     ('应用大号鼠标.cmd','install-theme.ps1',96,'应用大号鼠标（96px）'),
     ('恢复原鼠标.cmd','restore-theme.ps1',None,'恢复原鼠标'),
+    ('应用小号鼠标32px.cmd','install-theme.ps1',32,'应用小号鼠标（32px）'),
+    ('应用鼠标64px.cmd','install-theme.ps1',64,'应用鼠标（64px）'),
+    ('应用特大鼠标128px.cmd','install-theme.ps1',128,'应用特大鼠标（128px）'),
 )
 
 def launcher_text(script,size,title):

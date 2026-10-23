@@ -33,10 +33,10 @@ class CursorLauncherTests(unittest.TestCase):
         roles=['Arrow','Help','AppStarting','Wait','Crosshair','IBeam','NWPen','No',
                'SizeNS','SizeWE','SizeNWSE','SizeNESW','SizeAll','UpArrow','Hand','Pin','Person']
         states=[]
-        for size in (48,96):
+        for size in (32,48,64,96,128):
             (self.scripts/str(size)).mkdir()
             (self.scripts/str(size)/'fixture.ani').write_bytes(b'dry-run path fixture')
-        for role in roles:states.append({'role':role,'variants':{str(n):f'{n}/fixture.ani' for n in (48,96)}})
+        for role in roles:states.append({'role':role,'variants':{str(n):f'{n}/fixture.ani' for n in (32,48,64,96,128)}})
         (self.scripts/'manifest.json').write_text(json.dumps({'states':states}),encoding='utf-8')
         self.launchers=write_launchers(self.scripts)
         self.env=os.environ.copy();self.env['LOCALAPPDATA']=str(self.folder/'appdata')

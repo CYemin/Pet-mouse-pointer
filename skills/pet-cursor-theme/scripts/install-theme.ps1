@@ -1,4 +1,4 @@
-[CmdletBinding(SupportsShouldProcess)]
+﻿[CmdletBinding(SupportsShouldProcess)]
 param([ValidateSet(32,48,64,96,128)][int]$Size = 48)
 $ErrorActionPreference = 'Stop'
 function Select-CursorRestoreBackupPath {
@@ -28,6 +28,17 @@ function Select-CursorRestoreBackupPath {
         }
         return $PreviousBackupPath
     } catch { return $CurrentBackupPath }
+}
+function Get-CursorSchemeValue {
+    param([hashtable]$Paths)
+    # Windows Pointers UI uses this fixed order, independent of manifest order.
+    $roles = @('Arrow','Help','AppStarting','Wait','Crosshair','IBeam','NWPen','No','SizeNS','SizeWE','SizeNWSE','SizeNESW','SizeAll','UpArrow','Hand','Pin','Person')
+    $values = foreach ($role in $roles) {
+        if (-not $Paths.ContainsKey($role) -or [string]::IsNullOrWhiteSpace($Paths[$role])) { throw "Missing cursor role: $role" }
+        if ($Paths[$role].Contains(',')) { throw "Cursor scheme paths cannot contain commas: $($Paths[$role])" }
+        $Paths[$role]
+    }
+    return ($values -join ',')
 }
 $manifestPath = Join-Path $PSScriptRoot 'manifest.json'
 $manifest = Get-Content -LiteralPath $manifestPath -Raw -Encoding UTF8 | ConvertFrom-Json
@@ -65,21 +76,20 @@ $restoreBackupPath = Select-CursorRestoreBackupPath -CurrentRecords $records -Th
 # Make recovery discoverable before any cursor value changes, including when
 # copying a file or refreshing the Windows cursor cache subsequently fails.
 $restoreBackupPath | Set-Content -LiteralPath $latestBackupPath -Encoding UTF8
-try {
-    foreach ($state in $manifest.states) {
-        $source = $sourceFiles[$state.role]
-        $target = Join-Path $installPath ([IO.Path]::GetFileName($source))
-        Copy-Item -LiteralPath $source -Destination $target
-        $key.SetValue($state.role,$target,[Microsoft.Win32.RegistryValueKind]::ExpandString)
-    }
-    $key.SetValue('',"$($manifest.name) $Size",[Microsoft.Win32.RegistryValueKind]::String)
-} catch {
-    foreach ($record in $records) {
-        if ($record.exists) { $kind=[Enum]::Parse([Microsoft.Win32.RegistryValueKind],[string]$record.kind); $key.SetValue($record.name,$record.value,$kind) }
-        else { $key.DeleteValue($record.name,$false) }
-    }
-    throw
-} finally { $key.Close() }
+# Prepare every file before changing any active cursor or saved scheme.
+$installedFiles = @{}
+foreach ($state in $manifest.states) {
+    $target = Join-Path $installPath ([IO.Path]::GetFileName($sourceFiles[$state.role]))
+    Copy-Item -LiteralPath $sourceFiles[$state.role] -Destination $target -Force
+    $installedFiles[$state.role] = $target
+}
+$schemeValue = Get-CursorSchemeValue $installedFiles
+$schemeName = "$($manifest.name) $Size"
+$schemesKey = [Microsoft.Win32.Registry]::CurrentUser.CreateSubKey('Control Panel\Cursors\Schemes')
+if ($null -eq $schemesKey) { $key.Close(); throw 'Unable to open saved cursor schemes' }
+$schemeExists = $schemesKey.GetValueNames() -contains $schemeName
+$oldScheme = $schemesKey.GetValue($schemeName,$null,[Microsoft.Win32.RegistryValueOptions]::DoNotExpandEnvironmentNames)
+$oldSchemeKind = if ($schemeExists) { $schemesKey.GetValueKind($schemeName) } else { [Microsoft.Win32.RegistryValueKind]::String }
 $refreshSource = @'
 using System;
 using System.Runtime.InteropServices;
@@ -89,5 +99,24 @@ public static class PetCursorRefresh {
 }
 '@
 if (-not ('PetCursorRefresh' -as [type])) { Add-Type -TypeDefinition $refreshSource }
-if (-not [PetCursorRefresh]::SystemParametersInfo(0x57,0,[IntPtr]::Zero,0)) { throw "Cursor refresh failed. Backup: $restoreBackupPath" }
+try {
+    $schemesKey.SetValue($schemeName,$schemeValue,[Microsoft.Win32.RegistryValueKind]::String)
+    foreach ($state in $manifest.states) {
+        $source = $sourceFiles[$state.role]
+        $target = Join-Path $installPath ([IO.Path]::GetFileName($source))
+        $key.SetValue($state.role,$target,[Microsoft.Win32.RegistryValueKind]::ExpandString)
+    }
+    $key.SetValue('',"$($manifest.name) $Size",[Microsoft.Win32.RegistryValueKind]::String)
+    if (-not [PetCursorRefresh]::SystemParametersInfo(0x57,0,[IntPtr]::Zero,0)) { throw "Cursor refresh failed. Backup: $restoreBackupPath" }
+} catch {
+    if ($schemeExists) { $schemesKey.SetValue($schemeName,$oldScheme,$oldSchemeKind) }
+    else { $schemesKey.DeleteValue($schemeName,$false) }
+    foreach ($record in $records) {
+        if ($record.exists) { $kind=[Enum]::Parse([Microsoft.Win32.RegistryValueKind],[string]$record.kind); $key.SetValue($record.name,$record.value,$kind) }
+        else { $key.DeleteValue($record.name,$false) }
+    }
+    [PetCursorRefresh]::SystemParametersInfo(0x57,0,[IntPtr]::Zero,0) | Out-Null
+    throw
+} finally { $key.Close(); $schemesKey.Close() }
+Write-Output "Saved selectable Windows cursor scheme: $schemeName"
 Write-Output "Applied $Size px theme. Restore backup: $restoreBackupPath"

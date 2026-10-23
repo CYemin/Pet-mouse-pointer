@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "public_themes": 11,
+  "packaged_size_dry_runs": 55,
+  "sizes": [
+    32,
+    48,
+    64,
+    96,
+    128
+  ],
+  "scheme_validation_cases": 3,
+  "backup_checks": 16,
+  "launcher_integration_tests": 5,
+  "transaction_simulations": [
+    "success",
+    "scheme_write_failure",
+    "cursor_write_failure",
+    "refresh_failure"
+  ],
+  "zip_integrity_checks": "passed",
+  "sha256_checks": "passed",
+  "system_cursors_modified": false,
+  "windows_accessibility_slider_live_test": false,
+  "limitation": "Use theme size launchers; Windows accessibility size controls may overwrite custom cursors. Reapply a saved scheme when needed."
+}
