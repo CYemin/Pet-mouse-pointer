@@ -40,16 +40,16 @@
 | 深貂色喜乐蒂 | 黑白喜乐蒂 |
 |---|---|
 | ![深貂动作](docs/images/sheltie-dark-sable-pixel.gif) | ![黑白动作](docs/images/sheltie-bi-black-pixel.gif) |
-| 双色蓝喜乐蒂 | 浅金毛 |
-| ![双色蓝动作](docs/images/sheltie-bi-blue-pixel.gif) | ![浅金动作](docs/images/golden-light-pixel.gif) |
+| 双色蓝喜乐蒂 | 金貂喜乐蒂 |
+| ![双色蓝动作](docs/images/sheltie-bi-blue-pixel.gif) | ![金貂动作](docs/images/pet-pixel-complete.gif) |
 
 | 三色喜乐蒂 | 蓝陨喜乐蒂 |
 |---|---|
 | ![三色动作](docs/images/sheltie-tricolor-pixel.gif) | ![蓝陨动作](docs/images/sheltie-blue-merle-pixel.gif) |
 | 标准金毛 | 深金毛 |
 | ![标准金动作](docs/images/golden-standard-pixel.gif) | ![深金动作](docs/images/golden-dark-pixel.gif) |
-| 金貂喜乐蒂 | 奶油白金毛 |
-| ![金貂动作](docs/images/pet-pixel-complete.gif) | ![奶油白动作](docs/images/golden-cream-pixel.gif) |
+| 浅金毛 | 奶油白金毛 |
+| ![浅金动作](docs/images/golden-light-pixel.gif) | ![奶油白动作](docs/images/golden-cream-pixel.gif) |
 
 预览展示正常、帮助、等待、链接等动作。完整17状态、热点与实际尺寸请打开对应包内的 `preview.html`。
 
