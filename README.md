@@ -44,14 +44,14 @@
 
 ### 从参考照片到鼠标指针
 
-以下是维护者提供并授权在本项目展示的两张案例参考照片，分别对应雕色喜乐蒂与奶油白金毛主题。
+以下是维护者提供并授权在本项目展示的两张案例参考照片，分别对应红陨石喜乐蒂与奶油白金毛主题。
 
-| 喜乐蒂参考照片 | 金毛参考照片 |
+| 红陨石喜乐蒂参考照片 | 奶油白金毛参考照片 |
 |:---:|:---:|
-| <img src="docs/images/references/sheltie-reference.png" width="280" alt="喜乐蒂案例参考照片"> | <img src="docs/images/references/golden-reference.png" width="280" alt="金毛案例参考照片"> |
-| ![喜乐蒂动画指针](docs/images/pet-pixel-complete.gif) | ![金毛动画指针](docs/images/golden-cream-pixel.gif) |
+| <img src="docs/images/references/sheltie-reference.png" width="280" alt="红陨石喜乐蒂案例参考照片"> | <img src="docs/images/references/golden-reference.png" width="280" alt="金毛案例参考照片"> |
+| ![红陨石喜乐蒂动画指针](docs/images/sheltie-red-merle-pixel.gif) | ![金毛动画指针](docs/images/golden-cream-pixel.gif) |
 
-照片用于说明毛色、耳型、脸部特征与配饰如何转化为指针角色；其他毛色主题是在这两个案例基础上扩展制作。参考照片不自动适用代码的 MIT 许可，详见[素材说明](ASSETS.md)。
+照片用于说明毛色、耳型、脸部特征与配饰如何转化为指针角色。红陨石版本按左侧照片调整了黄色嘴筒、较深的侧毛，以及白色鼻梁和胸毛。参考照片不自动适用代码的 MIT 许可，详见[素材说明](ASSETS.md)。
 
 ### 动画预览
 
