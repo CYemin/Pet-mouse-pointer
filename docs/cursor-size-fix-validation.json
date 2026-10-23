@@ -1,7 +1,12 @@
 {
-  "status": "passed",
   "public_themes": 11,
   "packaged_size_dry_runs": 55,
+  "packaged_cmd_dry_runs": 22,
+  "native_cursor_files_loaded": 935,
+  "zip_integrity_checks": "passed",
+  "unchanged_member_sha256_checks": "passed",
+  "sha256_checks": "passed",
+  "status": "passed",
   "sizes": [
     32,
     48,
@@ -9,18 +14,76 @@
     96,
     128
   ],
+  "launcher_integration_tests": 6,
+  "backup_checks": 18,
   "scheme_validation_cases": 3,
-  "backup_checks": 16,
-  "launcher_integration_tests": 5,
   "transaction_simulations": [
     "success",
     "scheme_write_failure",
     "cursor_write_failure",
-    "refresh_failure"
+    "metadata_write_failure",
+    "refresh_failure",
+    "native_apply_failure"
   ],
-  "zip_integrity_checks": "passed",
-  "sha256_checks": "passed",
-  "system_cursors_modified": false,
+  "desktop_installation": {
+    "restoration": "passed",
+    "sizes": [
+      {
+        "roles_matched": 17,
+        "size": 32
+      },
+      {
+        "roles_matched": 17,
+        "size": 48
+      },
+      {
+        "roles_matched": 17,
+        "size": 64
+      },
+      {
+        "roles_matched": 17,
+        "size": 96
+      },
+      {
+        "roles_matched": 17,
+        "size": 128
+      }
+    ],
+    "theme": "golden-light-pixel"
+  },
+  "active_native_comparisons": 85,
+  "active_comparison_fields": [
+    "first-frame pixels",
+    "hotspot",
+    "actual width and height"
+  ],
+  "original_registry_values_and_types_restored": true,
+  "original_native_cursor_images_restored": true,
+  "system_cursors_modified_during_test": true,
+  "system_cursors_left_changed": false,
   "windows_accessibility_slider_live_test": false,
-  "limitation": "Use theme size launchers; Windows accessibility size controls may overwrite custom cursors. Reapply a saved scheme when needed."
+  "multi_monitor_dpi_live_test": false,
+  "default_installation": {
+    "size": 48,
+    "size_prompt": false,
+    "opens_mouse_properties": true,
+    "opens_settings": false,
+    "pauses_on_success": false,
+    "launcher_contract_test": "passed",
+    "opens_pointer_page_after_install": true
+  },
+  "requested_settings_integration": {
+    "status": "not_implemented_no_documented_extension_point",
+    "windows_build": "22621.2134",
+    "installed_theme_picker_in_accessibility_page": false,
+    "native_slider_theme_preservation": "not_verified",
+    "independent_settings_panel": "declined_by_user"
+  },
+  "limitation": "Windows Accessibility color/size controls can replace custom themes. Run the installer again to reapply default 48px. This package cannot add custom theme cards to the current Windows Accessibility page; the requested native-page theme picker plus sizing is not fulfilled.",
+  "sources": [
+    "https://support.microsoft.com/en-us/windows/hardware/input-devices/change-mouse-settings",
+    "https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-setsystemcursor",
+    "https://support.microsoft.com/en-us/accessibility/windows/make-your-mouse-keyboard-and-other-input-devices-easier-to-use",
+    "https://learn.microsoft.com/en-us/windows/win32/shell/extending-system-control-panel-items"
+  ]
 }

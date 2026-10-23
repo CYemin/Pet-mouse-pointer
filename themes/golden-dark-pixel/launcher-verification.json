@@ -1,12 +1,7 @@
 {
   "launchers": [
     {
-      "launcher": "应用鼠标主题.cmd",
-      "exit_code": 0,
-      "dry_run": true
-    },
-    {
-      "launcher": "应用大号鼠标.cmd",
+      "launcher": "安装鼠标主题.cmd",
       "exit_code": 0,
       "dry_run": true
     },
@@ -17,5 +12,6 @@
     }
   ],
   "cursor_registry_unchanged": true,
-  "restore_backup": "isolated test fixture; real user backup untouched"
+  "restore_backup": "isolated fixture",
+  "native_cursor_files_loaded": 85
 }

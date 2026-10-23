@@ -6,7 +6,7 @@ import shutil
 import subprocess
 import unittest
 import uuid
-from cursor_launchers import LAUNCHERS,write_launchers
+from cursor_launchers import LAUNCHERS,LEGACY_LAUNCHERS,write_launchers
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -61,7 +61,8 @@ class CursorLauncherTests(unittest.TestCase):
                               input=input_text,
                               creationflags=subprocess.CREATE_NO_WINDOW,timeout=30)
 
-    def test_all_three_real_cmd_paths_and_powershell_dry_runs(self):
+    def test_both_real_cmd_paths_and_powershell_dry_runs(self):
+        self.assertEqual(len(self.launchers),2)
         for path in self.launchers:
             with self.subTest(name=path.name):
                 result=self.run_launcher(path)
@@ -91,17 +92,31 @@ class CursorLauncherTests(unittest.TestCase):
 
     def test_normal_success_window_message_using_safe_stub_only(self):
         # Exercise the non-check branch without ever applying system settings.
-        (self.scripts/'install-theme.ps1').write_text("Write-Output 'Safe launcher fixture'; exit 0\n",encoding='ascii')
+        (self.scripts/'install-theme.ps1').write_text(
+            "param([int]$Size=0,[switch]$Interactive,[switch]$OpenSettings)\n"
+            "if($Size -ne 48 -or $Interactive -or $OpenSettings){exit 42}\n"
+            "Write-Output 'Default 48px; no prompts or settings window'; exit 0\n",encoding='ascii')
         result=self.run_launcher(self.launchers[0],check=False,input_text='\n')
         self.assertEqual(result.returncode,0,result.stdout+'\n'+result.stderr)
-        self.assertIn('应用鼠标主题（48px）成功。',result.stdout)
+        self.assertIn('安装鼠标主题成功。',result.stdout)
         self.assertNotIn('预演检查完成',result.stdout)
+        self.assertIn('Default 48px; no prompts or settings window',result.stdout)
 
     def test_restore_without_backup_reports_failure(self):
         (self.folder/'appdata/PetCursorThemes/Sable-Handdrawn/latest-backup.txt').unlink()
-        result=self.run_launcher(self.launchers[2])
+        result=self.run_launcher(self.launchers[1])
         self.assertNotEqual(result.returncode,0)
         self.assertIn('操作未完成',result.stdout)
         self.assertNotIn('成功。',result.stdout)
+
+    def test_upgrade_retires_only_known_generated_shortcuts(self):
+        for name in LEGACY_LAUNCHERS:
+            (self.scripts/name).write_text('old generated launcher',encoding='utf-8')
+        unrelated=self.scripts/'user-tool.cmd'
+        unrelated.write_text('@echo custom',encoding='ascii')
+        write_launchers(self.scripts)
+        self.assertTrue(unrelated.exists())
+        self.assertEqual({p.name for p in self.scripts.glob('*.cmd')},
+                         {name for name,_,_,_ in LAUNCHERS}|{'user-tool.cmd'})
 
 if __name__=='__main__':unittest.main()

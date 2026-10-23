@@ -66,7 +66,7 @@ try {
     $invalid = Join-Path $testRoot 'invalid.json'
     'not json' | Set-Content -LiteralPath $invalid -Encoding UTF8
     Assert-Selected 'malformed prior JSON' $own48 $invalid $currentBackup
-    Write-FixtureBackup $invalid $external 2
+    Write-FixtureBackup $invalid $external 3
     Assert-Selected 'unsupported prior version' $own48 $invalid $currentBackup
     Write-FixtureBackup $invalid $external[0..16]
     Assert-Selected 'incomplete prior records' $own48 $invalid $currentBackup
@@ -82,6 +82,13 @@ try {
     $badFlag[1].exists = 'true'
     Write-FixtureBackup $invalid $badFlag
     Assert-Selected 'invalid prior existence flag' $own48 $invalid $currentBackup
+
+    $metadata=@([pscustomobject]@{name='Scheme Source';exists=$true;kind='DWord';value=2},
+                [pscustomobject]@{name='CursorBaseSize';exists=$true;kind='DWord';value=32})
+    Write-FixtureBackup $invalid ($external+$metadata) 2
+    Assert-Selected 'version 2 baseline with metadata' ($own48+$metadata) $invalid $invalid
+    Write-FixtureBackup $invalid ($external+$metadata[0]) 2
+    Assert-Selected 'incomplete version 2 metadata' ($own48+$metadata) $invalid $currentBackup
 
     $pointerWrites = @($ast.FindAll({ param($node)
         $node -is [System.Management.Automation.Language.CommandAst] -and

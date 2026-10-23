@@ -229,7 +229,7 @@ def build():
     preview=(TOOL_DIR/'theme-preview.html').read_text(encoding='utf-8')
     preview=preview.replace('__MANIFEST__',json.dumps(manifest,ensure_ascii=False).replace('</','<\\/'))
     (OUT/'preview.html').write_text(preview,encoding='utf-8')
-    for script in ('install-theme.ps1','restore-theme.ps1'):
+    for script in ('install-theme.ps1','restore-theme.ps1','cursor-size-sync.ps1','cursor-size-sync.cs'):
         shutil.copy2(TOOL_DIR/script,OUT/script)
     write_launchers(OUT)
     print(json.dumps({'states':len(manifest['states']),'animated':sum(s['animated'] for s in manifest['states']),

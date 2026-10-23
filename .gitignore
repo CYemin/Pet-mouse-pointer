@@ -10,3 +10,4 @@ projects/
 private-inputs/
 Thumbs.db
 .DS_Store
+downloads/*/

@@ -35,10 +35,21 @@ When extending an approved theme into other coat colors, preserve its actions an
 
 If animation feels choppy, increase meaningful intermediate drawings as well as playback cadence. Twelve distinct frames with3-tick ANI transitions give20fps action segments, while intentional resting holds remain longer. Report real unique-frame counts and distinguish active transition peaks from whole-loop average visual FPS; duplicating a few pictures does not create smoother animation. Inspect native-size motion for jitter and keep the nose anchored across every frame.
 
+## Collections and switching
+
+`install-collection.ps1` installs every style of one breed in sequence
+(`-Collection sheltie|golden`), or one style with `-Index N`. It exists because
+Windows applies a saved cursor scheme through `SPI_SETCURSORS`, which loads each
+cursor at `SM_CXCURSOR` (32 px) regardless of the ANI frame size: picking another
+theme in Mouse Properties therefore yields a 32 px pointer. Only an explicit
+`SetSystemCursor(LoadImage(path, N, N))` produces native pixel sizes, so a
+switcher must re-install the chosen theme rather than select it from the schemes
+list. Every theme still registers exactly one scheme.
+
 ## Compile and verify
 
 1. Save a config with reviewed per-frame landmarks. Landmarks refer to the source cell before compiler alignment; do not assume the generator obeyed requested coordinates.
-2. Run `python PATH_TO_SKILL/scripts/build_complete_theme.py --config CONFIG --output OUTPUT --root PROJECT_ROOT`. It compiles five sizes, per-role CUR or ANI files, a 17-state overview, an interactive preview, reversible installation scripts and three double-click CMD launchers (48px, 96px, restore). `PROJECT_ROOT` resolves the config's relative source image paths. Templates and installation helpers are loaded from the skill's own scripts directory, so an independent project does not need to copy them.
+2. Run `python PATH_TO_SKILL/scripts/build_complete_theme.py --config CONFIG --output OUTPUT --root PROJECT_ROOT`. It compiles five sizes, per-role CUR or ANI files, a 17-state overview, an interactive preview, reversible installation scripts and exactly two double-click CMD launchers (install at 48px without prompting then open Mouse Properties on the pointer page, restore). The installer still accepts an explicit `-Size` argument for advanced use. `PROJECT_ROOT` resolves the config's relative source image paths. Templates and installation helpers are loaded from the skill's own scripts directory, so an independent project does not need to copy them.
 3. Inspect the overview at real cursor sizes on light and dark backgrounds. Correct missing directions, indistinguishable states, clipped artwork and vague click points. Adjust incorrect source landmarks and rebuild; do not shift the actual clicking point arbitrarily to accommodate a bad picture.
    If palette quantization merges a pink tongue, a green harness or a small eye glint into the coat, increase the palette budget and recheck actual48px output.16colors is a starting point, not a reason to erase identifying details. `verify_pixel_quality.py OUTPUT` checks the configured per-state budget, binary alpha and the complete animated example's independent frames and cadence.
 4. After every build or revision, inspect **every displayed animation transition, including last-to-first**, for severe jitter or offsets before packaging. Run `python scripts/verify_cursor_motion.py OUTPUT` to produce review candidates and overlays, then visually review all states at their real native size and an integer enlargement, at normal and slowed playback. Check the visible nose/operation mark and stable head, eye-socket and chest features; an opaque fixed hotspot alone does not establish stable artwork. Distinguish intended blinking, fur/ear movement, question-mark scaling and sleep poses from accidental translation, scale jumps or one-frame pops. Correct bad registration at the source landmarks; redraw incoherent artwork when needed. Rebuild and repeat the affected motion checks plus native validation. Record actual reviewed states, transitions and unresolved limitations in `motion-review/visual-review.json`; never present the automatic heuristic report alone as a passed visual review. See [motion review](references/motion-review.md).

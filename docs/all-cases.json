@@ -2,7 +2,7 @@
   "case_count": 11,
   "pixel_animated_count": 11,
   "collection": "pet-mouse-pointer-all-cases.zip",
-  "collection_bytes": 67930974,
+  "collection_bytes": 43795567,
   "total_roles": 187,
   "cases": [
     {
@@ -126,5 +126,17 @@
       "native_status": "passed",
       "download": "../downloads/sheltie-red-merle-pixel.zip"
     }
-  ]
+  ],
+  "breed_collections": {
+    "sheltie": {
+      "path": "../downloads/pet-mouse-pointer-sheltie.zip",
+      "themes": 7,
+      "bytes": 27205371
+    },
+    "golden": {
+      "path": "../downloads/pet-mouse-pointer-golden.zip",
+      "themes": 4,
+      "bytes": 16552405
+    }
+  }
 }
