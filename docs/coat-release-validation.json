@@ -214,5 +214,6 @@
   "all_theme_arrows_upgraded": true,
   "system_settings_modified": false,
   "motion_review_required": true,
-  "original_pet_photos_included": false
+  "original_pet_photos_included": true,
+  "reference_photos_scope": "Two maintainer-authorized example photos in docs/images/references; theme ZIP archives unchanged."
 }
