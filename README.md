@@ -1,10 +1,22 @@
 # Pet Mouse Pointer · 宠物鼠标指针
 
-用自己的宠物照片，制作一套有表情、有动作、可以安装和恢复的 Windows 鼠标指针。
+用自己的宠物照片，制作一套有表情、有动作、可以安装和恢复的 Windows 鼠标指针。另提供 macOS Mousecape 测试版。
 
 项目包含可复用的 **Pet Cursor Theme Skill**、CUR/ANI 构建与验证脚本，以及11套可直接下载的像素全动画主题。Skill 支持根据照片设计新角色，也支持在已批准角色上扩展毛色版本，保留动作、鼻尖点击点与清楚的操作标记。
 
 ## 下载现成主题
+
+### macOS 测试版
+
+**[下载全部11套 Mac 主题（ZIP，约31MB）](downloads/pet-mouse-pointer-macos-test.zip?raw=1)** · [安装与恢复说明](docs/macOS.md) · [验证记录](docs/macos-validation.json) · [SHA-256校验](downloads/SHA256SUMS)
+
+先安装 [Mousecape](https://github.com/alexzielenski/Mousecape/releases)，完整解压后双击喜欢的 `.cape` 导入，再在 Mousecape 中应用。每套提供常规32pt和大号48pt，均含1×/2×图像、离线动画预览、点击热点和转换记录。
+
+13种对应动作映射为17个Mac指针条目。受 Mousecape 等时帧和24帧上限影响，部分动画经过时间采样，循环总时长保留。**格式、素材和压缩包检查通过，尚未在 Mac 实机导入或应用；系统版本、Intel/Apple Silicon、多屏和实际点击体验待测。**
+
+导出与验证脚本位于 [`scripts/`](scripts/)，使用方式见 [Mac说明](docs/macOS.md#重新导出)。
+
+### Windows 版
 
 **[一键下载全部11套案例合集（ZIP）](downloads/pet-mouse-pointer-all-cases.zip?raw=1)** · [完整案例清单](docs/all-cases.json) · [SHA-256校验](downloads/SHA256SUMS)
 

@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "native_macos_tested": false,
+  "themes": 11,
+  "cape_files": 22,
+  "cursor_entries": 374,
+  "png_strips": 748,
+  "embedded_frames": 14300,
+  "unit_tests_passed": 8,
+  "download": "downloads/pet-mouse-pointer-macos-test.zip",
+  "download_bytes": 30716846,
+  "sha256": "3afd413dfd952661997b5716f29f2c43615f61a426f4a27e2398b8ef444bdb4d"
+}
