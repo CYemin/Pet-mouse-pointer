@@ -263,3 +263,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File skills/pet-cursor-theme/scri
 代码与文档采用 [MIT License](LICENSE)。宠物照片、参考图、生成图像和主题美术素材的权利需分别确认，不自动继承代码的 MIT 许可；请查看[素材说明](ASSETS.md)和各主题中的说明，并遵守所用图像生成服务的条款。
 
 贡献代码时请附上相关测试结果；贡献或修改动画时，请附上逐帧复查范围和剩余问题，避免只凭帧率或原生加载结果判断质量。
+
+## 致谢
+
+感谢 🍠 不要芋泥要啵啵 的反馈。
