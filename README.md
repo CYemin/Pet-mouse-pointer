@@ -8,7 +8,7 @@
 
 ### macOS 测试版
 
-**[下载全部11套 Mac 主题（ZIP，约31MB）](downloads/pet-mouse-pointer-macos-test.zip?raw=1)** · [安装与恢复说明](docs/macOS.md) · [验证记录](docs/macos-validation.json) · [SHA-256校验](downloads/SHA256SUMS)
+**[下载全部11套 Mac 主题（ZIP，约31MB）](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/downloads/pet-mouse-pointer-macos-test.zip)** · [安装与恢复说明](docs/macOS.md) · [验证记录](docs/macos-validation.json) · [SHA-256校验](downloads/SHA256SUMS)
 
 先安装 [Mousecape](https://github.com/alexzielenski/Mousecape/releases)，完整解压后双击喜欢的 `.cape` 导入，再在 Mousecape 中应用。每套提供常规32pt和大号48pt，均含1×/2×图像、离线动画预览、点击热点和转换记录。
 
@@ -18,29 +18,29 @@
 
 ### Windows 版
 
-**[一键下载全部11套案例合集（ZIP）](downloads/pet-mouse-pointer-all-cases.zip?raw=1)** · [完整案例清单](docs/all-cases.json) · [SHA-256校验](downloads/SHA256SUMS)
+**[一键下载全部11套案例合集（ZIP）](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/downloads/pet-mouse-pointer-all-cases.zip)** · [完整案例清单](docs/all-cases.json) · [SHA-256校验](downloads/SHA256SUMS)
 
 合集为安装版，包含每套指针、预览、安装恢复入口与验证记录；不含大型源精灵图和逐帧复查图/GIF；完整复查媒体可另取单套包。
 
 | 主题 | 特征 | 下载 |
 |---|---|---|
-| 雕色喜乐蒂 | 金棕毛色、白额纹与长嘴筒 | [完整 ZIP](downloads/pet-pixel-complete.zip?raw=1) · [说明](themes/pet-pixel-complete/README.md) |
-| 奶油白金毛 | 奶油宽脸、垂耳与绿色胸背 | [完整 ZIP](downloads/golden-cream-pixel.zip?raw=1) · [说明](themes/golden-cream-pixel/README.md) |
-| 黑白三色喜乐蒂 | 黑色底毛、棕色眉颊、白色围脖 | [完整 ZIP](downloads/sheltie-tricolor-pixel.zip?raw=1) · [说明](themes/sheltie-tricolor-pixel/README.md) |
-| 三色陨石喜乐蒂 | 银灰黑斑、棕色眉颊、白色围脖 | [完整 ZIP](downloads/sheltie-blue-merle-pixel.zip?raw=1) · [说明](themes/sheltie-blue-merle-pixel/README.md) |
-| 标准金毛 | 蜂蜜金毛发、粉褐鼻、绿色胸背 | [完整 ZIP](downloads/golden-standard-pixel.zip?raw=1) · [说明](themes/golden-standard-pixel/README.md) |
-| 深金毛 | 铜金毛发、较深垂耳、绿色胸背 | [完整 ZIP](downloads/golden-dark-pixel.zip?raw=1) · [说明](themes/golden-dark-pixel/README.md) |
-| 深雕色喜乐蒂 | 深棕耳冠与后鬃、暖棕脸颊、白色围脖 | [完整 ZIP](downloads/sheltie-dark-sable-pixel.zip?raw=1) · [说明](themes/sheltie-dark-sable-pixel/README.md) |
-| 黑白两色喜乐蒂 | 炭黑底毛、白额纹与围脖、无棕色眉颊 | [完整 ZIP](downloads/sheltie-bi-black-pixel.zip?raw=1) · [说明](themes/sheltie-bi-black-pixel/README.md) |
-| 蓝陨石色喜乐蒂 | 银灰黑斑与白色围脖、无棕色眉颊 | [完整 ZIP](downloads/sheltie-bi-blue-pixel.zip?raw=1) · [说明](themes/sheltie-bi-blue-pixel/README.md) |
-| 浅金毛 | 浅麦金毛发、暖金垂耳、绿色胸背 | [完整 ZIP](downloads/golden-light-pixel.zip?raw=1) · [说明](themes/golden-light-pixel/README.md) |
-| 红陨石喜乐蒂 | 浅金黄色嘴筒、深棕侧毛、白鼻梁与胸毛；17状态全动画 | [完整 ZIP](downloads/sheltie-red-merle-pixel.zip?raw=1) · [说明](themes/sheltie-red-merle-pixel/README.md) |
+| 雕色喜乐蒂 | 金棕毛色、白额纹与长嘴筒 | [完整 ZIP](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/downloads/pet-pixel-complete.zip) · [说明](themes/pet-pixel-complete/README.md) |
+| 奶油白金毛 | 奶油宽脸、垂耳与绿色胸背 | [完整 ZIP](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/downloads/golden-cream-pixel.zip) · [说明](themes/golden-cream-pixel/README.md) |
+| 黑白三色喜乐蒂 | 黑色底毛、棕色眉颊、白色围脖 | [完整 ZIP](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/downloads/sheltie-tricolor-pixel.zip) · [说明](themes/sheltie-tricolor-pixel/README.md) |
+| 三色陨石喜乐蒂 | 银灰黑斑、棕色眉颊、白色围脖 | [完整 ZIP](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/downloads/sheltie-blue-merle-pixel.zip) · [说明](themes/sheltie-blue-merle-pixel/README.md) |
+| 标准金毛 | 蜂蜜金毛发、粉褐鼻、绿色胸背 | [完整 ZIP](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/downloads/golden-standard-pixel.zip) · [说明](themes/golden-standard-pixel/README.md) |
+| 深金毛 | 铜金毛发、较深垂耳、绿色胸背 | [完整 ZIP](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/downloads/golden-dark-pixel.zip) · [说明](themes/golden-dark-pixel/README.md) |
+| 深雕色喜乐蒂 | 深棕耳冠与后鬃、暖棕脸颊、白色围脖 | [完整 ZIP](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/downloads/sheltie-dark-sable-pixel.zip) · [说明](themes/sheltie-dark-sable-pixel/README.md) |
+| 黑白两色喜乐蒂 | 炭黑底毛、白额纹与围脖、无棕色眉颊 | [完整 ZIP](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/downloads/sheltie-bi-black-pixel.zip) · [说明](themes/sheltie-bi-black-pixel/README.md) |
+| 蓝陨石色喜乐蒂 | 银灰黑斑与白色围脖、无棕色眉颊 | [完整 ZIP](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/downloads/sheltie-bi-blue-pixel.zip) · [说明](themes/sheltie-bi-blue-pixel/README.md) |
+| 浅金毛 | 浅麦金毛发、暖金垂耳、绿色胸背 | [完整 ZIP](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/downloads/golden-light-pixel.zip) · [说明](themes/golden-light-pixel/README.md) |
+| 红陨石喜乐蒂 | 浅金黄色嘴筒、深棕侧毛、白鼻梁与胸毛；17状态全动画 | [完整 ZIP](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/downloads/sheltie-red-merle-pixel.zip) · [说明](themes/sheltie-red-merle-pixel/README.md) |
 
 11套像素主题均包含 **17 种动画状态**与 **32 / 48 / 64 / 96 / 128px** 五种尺寸，默认48px。
 
 ### 品种合集（一键安装同一品种的全部风格）
 
-**[喜乐蒂合集（7 套）](downloads/pet-mouse-pointer-sheltie.zip?raw=1)** · **[金毛合集（4 套）](downloads/pet-mouse-pointer-golden.zip?raw=1)**
+**[喜乐蒂合集（7 套）](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/downloads/pet-mouse-pointer-sheltie.zip)** · **[金毛合集（4 套）](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/downloads/pet-mouse-pointer-golden.zip)**
 
 解压后在合集根目录双击：
 
@@ -130,7 +130,7 @@
 
 ### 安装 Skill
 
-下载 [Skill ZIP](downloads/pet-cursor-skill.zip?raw=1)，或取出仓库的 [`skills/pet-cursor-theme/`](skills/pet-cursor-theme/) 文件夹。将整个文件夹放入支持 `SKILL.md` 的客户端技能目录，再按客户端的方式启用。请保留其中的 `scripts/`、`references/`、`assets/` 与 `requirements.txt`。
+下载 [Skill ZIP](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/downloads/pet-cursor-skill.zip)，或取出仓库的 [`skills/pet-cursor-theme/`](skills/pet-cursor-theme/) 文件夹。将整个文件夹放入支持 `SKILL.md` 的客户端技能目录，再按客户端的方式启用。请保留其中的 `scripts/`、`references/`、`assets/` 与 `requirements.txt`。
 
 Skill 需要宿主提供可用的图像生成工具。本项目不包含图像模型、API 密钥，也不会自行把照片发送给某个固定服务；图像生成的可用性和使用条件取决于宿主及所选服务。
 

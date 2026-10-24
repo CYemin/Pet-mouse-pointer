@@ -53,7 +53,7 @@
 
 代码许可见`LICENSE`；主题美术说明见`ASSETS.md`。
 
-[下载完整ZIP](../../downloads/sheltie-dark-sable-pixel.zip?raw=1)
+[下载完整ZIP](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/downloads/sheltie-dark-sable-pixel.zip)
 
 ![动作预览](../../docs/images/sheltie-dark-sable-pixel.gif)
 

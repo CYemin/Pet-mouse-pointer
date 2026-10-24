@@ -53,7 +53,7 @@
 
 代码许可见`LICENSE`；主题美术说明见`ASSETS.md`。
 
-[下载完整ZIP](../../downloads/golden-cream-pixel.zip?raw=1)
+[下载完整ZIP](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/downloads/golden-cream-pixel.zip)
 
 ![动作预览](../../docs/images/golden-cream-pixel.gif)
 

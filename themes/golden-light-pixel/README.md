@@ -53,7 +53,7 @@
 
 代码许可见`LICENSE`；主题美术说明见`ASSETS.md`。
 
-[下载完整ZIP](../../downloads/golden-light-pixel.zip?raw=1)
+[下载完整ZIP](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/downloads/golden-light-pixel.zip)
 
 ![动作预览](../../docs/images/golden-light-pixel.gif)
 

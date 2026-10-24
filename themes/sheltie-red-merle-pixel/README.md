@@ -45,6 +45,6 @@ Windows 原生检查通过：102 个文件、1074 个嵌入帧。
 
 保留轻微像素边缘、毛纹和细准星细节变化；未发现严重头部跳动。实际桌面安装、点击手感及多显示器/DPI切换未实测。
 
-[下载完整ZIP](../../downloads/sheltie-red-merle-pixel.zip?raw=1)
+[下载完整ZIP](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/downloads/sheltie-red-merle-pixel.zip)
 
 本安装包不能在系统辅助功能的四个颜色按钮中注册宠物主题；修改系统颜色或大小滑块可能覆盖宠物光标。双击安装可重新应用默认48px。高级尺寸调整见“鼠标大小调整说明.txt”。
