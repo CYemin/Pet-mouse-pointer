@@ -19,7 +19,7 @@ SCRIPTS=ROOT/'skills/pet-cursor-theme/scripts'
 sys.path.insert(0,str(SCRIPTS))
 from cursor_launchers import (LAUNCHERS, LEGACY_LAUNCHERS, USAGE_TEXT, launcher_text,
                               COLLECTIONS, COLLECTION_USAGE_TEXT,
-                              collection_install_text, collection_switch_text, collection_readme as breed_readme)
+                              collection_install_text, collection_readme as breed_readme)
 
 def _resilient_write_bytes(self, data):
     """OneDrive or antivirus can briefly lock a file this builder just replaced."""
@@ -46,6 +46,21 @@ def _resilient_write_text(self, data, encoding=None, errors=None, newline=None):
             time.sleep(0.3 * (attempt + 1))
 
 
+_original_replace = Path.replace
+
+
+def _resilient_replace(self, target):
+    """Antivirus / indexers can hold a freshly written archive for a moment."""
+    for attempt in range(6):
+        try:
+            return _original_replace(self, target)
+        except OSError:
+            if attempt == 5:
+                raise
+            time.sleep(0.5 * (attempt + 1))
+
+
+Path.replace = _resilient_replace
 Path.write_bytes = _resilient_write_bytes
 Path.write_text = _resilient_write_text
 
@@ -120,7 +135,6 @@ def main():
     for breed in ('sheltie','golden'):
         label=COLLECTIONS[breed][0]
         collection_payload[f'一键安装所有{label}.cmd']=collection_install_text(breed).encode('utf-8')
-        collection_payload[f'切换{label}风格.cmd']=collection_switch_text(breed).encode('utf-8')
     collection_payload['恢复原鼠标.cmd']=launcher_text('restore-theme.ps1',None,'恢复原鼠标').encode('utf-8')
     collection_payload['install-collection.ps1']=(SCRIPTS/'install-collection.ps1').read_bytes()
     collection_payload['restore-theme.ps1']=(SCRIPTS/'restore-theme.ps1').read_bytes()
@@ -130,6 +144,9 @@ def main():
     collection_payload['合集入口说明.txt']=COLLECTION_USAGE_TEXT.encode('utf-8-sig')
     for name,data in collection_payload.items():
         bundle_replacements[collection_root+'/'+name]=data
+    # Older builds shipped a numbered style switcher; remove it if present.
+    for stale in ('sheltie','golden'):
+        bundle_removed.add(collection_root+'/切换'+COLLECTIONS[stale][0]+'风格.cmd')
     user=c.WinDLL('user32',use_last_error=True)
     user.LoadImageW.argtypes=[w.HINSTANCE,w.LPCWSTR,w.UINT,c.c_int,c.c_int,w.UINT]; user.LoadImageW.restype=w.HANDLE
     user.DestroyCursor.argtypes=[w.HANDLE]; user.DestroyCursor.restype=w.BOOL

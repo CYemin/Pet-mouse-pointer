@@ -95,12 +95,17 @@ COLLECTIONS = {
 COLLECTION_USAGE_TEXT = r"""合集入口说明
 
 1. 「一键安装所有X.cmd」：依次安装该品种的全部风格，最后一套为当前生效。
-   全部风格都会注册到「鼠标属性 → 指针 → 方案」，可在列表里查看缩略图。
-2. 「切换X风格.cmd」：输入编号即可切换到对应风格，得到真正的原生像素尺寸。
-3. 「恢复原鼠标.cmd」：恢复到首次安装前的指针设置。
+   全部风格都会注册到「鼠标属性 → 指针 → 方案」，可在下拉列表里查看缩略图。
+2. 「恢复原鼠标.cmd」：恢复到首次安装前的指针设置。
 
-重要：在「方案」下拉里直接选其它风格只会得到32px（Windows 限制）；
-真正切换请使用「切换X风格.cmd」。
+切换风格：打开「鼠标属性 → 指针 → 方案」，选另一套后点「应用」；
+也可以双击那一套主题目录里的「安装鼠标主题.cmd」重新安装。
+
+调整大小：
+  1) 双击「一键安装所有X.cmd」，自动弹出的「鼠标属性」窗口先别关；
+  2) 打开「设置 → 辅助功能 → 鼠标指针和触控」，拖动「大小」滑块；
+  3) 回到该窗口，「方案」先选「Windows 默认」点「应用」；
+  4) 再选回宠物方案点「应用」，此时按新大小生效。
 
 无需管理员权限或Python。安装器会备份原设置，失败时回滚。
 """
@@ -141,59 +146,15 @@ def collection_install_text(collection):
     ]) + '\r\n'
 
 
-def collection_switch_text(collection):
-    """CMD body for the numbered style switcher."""
-    label, themes = COLLECTIONS[collection]
-    last = len(themes)
-    lines = [
-        '@echo off',
-        'setlocal DisableDelayedExpansion',
-        'chcp 65001 >nul',
-        f'title 切换{label}风格',
-        'echo.',
-        f'echo   {label}风格（共 {last} 套）',
-        'echo   ----------------------------------',
-    ]
-    for index, (_, name) in enumerate(themes, start=1):
-        lines.append(f'echo    {index}. {name}')
-    lines += [
-        'echo   ----------------------------------',
-        'set "PICK="',
-        'set /p "PICK=输入编号后回车（直接回车取消）："',
-        'if not defined PICK goto cancel',
-        f'echo %PICK%| findstr /r /c:"^[1-{last}]$" >nul || goto bad',
-        'echo.',
-        f'{_PWSH} "%~dp0install-collection.ps1" -Collection {collection} -Index %PICK% -OpenPointerSettings',
-        'set "PET_CURSOR_EXIT=%ERRORLEVEL%"',
-        'echo.',
-        'if "%PET_CURSOR_EXIT%"=="0" (',
-        '  echo 切换完成，请查看刚打开的「鼠标属性 → 指针」。',
-        ') else (',
-        '  echo 切换未完成，请保留上方错误信息。',
-        ')',
-        'echo.',
-        'pause',
-        'exit /b %PET_CURSOR_EXIT%',
-        ':bad',
-        f'echo 请输入 1 到 {last} 之间的编号。',
-        'timeout /t 3 >nul',
-        'exit /b 1',
-        ':cancel',
-        'echo 已取消，未修改任何设置。',
-        'timeout /t 2 >nul',
-        'exit /b 0',
-    ]
-    return '\r\n'.join(lines) + '\r\n'
 
 
 def write_collection_launchers(output, collection):
-    """Write the three collection entry points plus their usage note."""
+    """Write the collection install entry point plus its usage note."""
     output = Path(output)
     output.mkdir(parents=True, exist_ok=True)
     label = COLLECTIONS[collection][0]
     files = {
         f'一键安装所有{label}.cmd': collection_install_text(collection),
-        f'切换{label}风格.cmd': collection_switch_text(collection),
     }
     written = []
     for name, text in files.items():
@@ -218,24 +179,26 @@ COLLECTION_README = """# {label}鼠标指针合集（{count} 套）
 
 ## 切换风格
 
-双击 `切换{label}风格.cmd`，按编号选择：
+打开「鼠标属性 → 指针 → 方案」，选另一套后点「应用」即可。
+也可以在那一套的主题目录里双击 `安装鼠标主题.cmd` 重新安装。
 
-{menu}
+## 调整大小
 
-**重要**：在「方案」下拉里直接选其它风格只会得到 32px 小指针 —— Windows 应用方案时固定按系统 32px 加载，这是系统限制。要真正切换，请使用 `切换{label}风格.cmd`。
+| 步骤 | 操作 |
+|---|---|
+| 1 | 双击 `一键安装所有{label}.cmd`，**自动弹出的「鼠标属性」窗口先别关** |
+| 2 | 打开「设置 → 辅助功能 → 鼠标指针和触控」，拖动「大小」滑块 |
+| 3 | 回到该窗口，「方案」先选「Windows 默认」，点「应用」 |
+| 4 | 再选回宠物方案，点「应用」 |
+
+Windows 记下新大小后不会主动重画当前光标，所以需要切走再切回一次才会生效。
 
 ## 恢复
 
 双击 `恢复原鼠标.cmd`，恢复到首次安装前的指针设置。
 
-## 单独安装某一套
-
-每个主题目录内仍有自己的 `安装鼠标主题.cmd` 和 `恢复原鼠标.cmd`，用法与合集中一致。
-
 ## 风格清单
 
-| 编号 | 名称 | 目录 |
-|---|---|---|
 {table}
 
 详见 `合集入口说明.txt`。图片预览可打开各主题目录内的 `preview.html`（需保留旁边的 `frames/`）。
@@ -247,4 +210,4 @@ def collection_readme(collection):
     menu = '\n'.join(f'{i}. {name}' for i, (_, name) in enumerate(themes, start=1))
     table = '\n'.join(f'| {i} | {name} | `{slug}/` |'
                       for i, (slug, name) in enumerate(themes, start=1))
-    return COLLECTION_README.format(label=label, count=len(themes), menu=menu, table=table)
+    return COLLECTION_README.format(label=label, count=len(themes), table=table)

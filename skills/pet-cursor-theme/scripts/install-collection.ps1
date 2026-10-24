@@ -115,7 +115,7 @@ if ($problems.Count -gt 0) {
 Write-Output ''
 Write-Output "已完成 $done 套$label 主题。"
 Write-Output '全部风格都已注册到「鼠标属性 → 指针 → 方案」，可直接在方案列表里查看缩略图。'
-Write-Output '注意：在方案下拉里直接选其它风格会退回32px；要真正切换，请使用同目录的「切换风格」入口。'
+Write-Output '切换风格：打开「鼠标属性 → 指针 → 方案」，选另一套点「应用」即可。'
 
 if ($OpenPointerSettings) {
     try {
