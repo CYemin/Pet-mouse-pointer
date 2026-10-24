@@ -93,14 +93,14 @@ class CursorLauncherTests(unittest.TestCase):
     def test_normal_success_window_message_using_safe_stub_only(self):
         # Exercise the non-check branch without ever applying system settings.
         (self.scripts/'install-theme.ps1').write_text(
-            "param([int]$Size=0,[switch]$Interactive,[switch]$OpenSettings)\n"
-            "if($Size -ne 48 -or $Interactive -or $OpenSettings){exit 42}\n"
-            "Write-Output 'Default 48px; no prompts or settings window'; exit 0\n",encoding='ascii')
+            "param([int]$Size=0,[switch]$Interactive,[switch]$OpenPointerSettings)\n"
+            "if($Size -ne 32 -or $Interactive -or -not $OpenPointerSettings){exit 42}\n"
+            "Write-Output 'Default 32px; opens Mouse Properties'; exit 0\n",encoding='ascii')
         result=self.run_launcher(self.launchers[0],check=False,input_text='\n')
         self.assertEqual(result.returncode,0,result.stdout+'\n'+result.stderr)
         self.assertIn('安装鼠标主题成功。',result.stdout)
         self.assertNotIn('预演检查完成',result.stdout)
-        self.assertIn('Default 48px; no prompts or settings window',result.stdout)
+        self.assertIn('Default 32px; opens Mouse Properties',result.stdout)
 
     def test_restore_without_backup_reports_failure(self):
         (self.folder/'appdata/PetCursorThemes/Sable-Handdrawn/latest-backup.txt').unlink()

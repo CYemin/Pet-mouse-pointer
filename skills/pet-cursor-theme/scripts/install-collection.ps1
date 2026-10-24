@@ -65,7 +65,7 @@ foreach ($theme in $targets) {
     Write-Output ''
     Write-Output "—— 安装 $($theme.name) ——"
     $installer = Join-Path $directory 'install-theme.ps1'
-    & $installer -Size 48
+    & $installer -Size 32
     if (-not $?) { throw "$($theme.name) 安装失败，已停止。已安装的 $done 套保留不变。" }
     $done++
 }
@@ -77,7 +77,7 @@ foreach ($theme in $targets) {
 $lastTheme = $targets[$targets.Count - 1]
 $lastDirectory = Resolve-ThemeDirectory $lastTheme.slug
 $lastManifest = Get-Content -LiteralPath (Join-Path $lastDirectory 'manifest.json') -Raw -Encoding UTF8 | ConvertFrom-Json
-$expectedScheme = "$($lastManifest.name) 48"
+$expectedScheme = "$($lastManifest.name) 32"
 $problems = @()
 
 $cursorKey = [Microsoft.Win32.Registry]::CurrentUser.OpenSubKey('Control Panel\Cursors')

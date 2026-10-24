@@ -64,7 +64,7 @@
   "windows_accessibility_slider_live_test": false,
   "multi_monitor_dpi_live_test": false,
   "default_installation": {
-    "size": 48,
+    "size": 32,
     "size_prompt": false,
     "opens_mouse_properties": true,
     "opens_settings": false,
