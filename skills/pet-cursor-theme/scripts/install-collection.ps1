@@ -70,6 +70,48 @@ foreach ($theme in $targets) {
     $done++
 }
 
+# --- End-of-run self check -------------------------------------------------
+# A batch run registers one scheme per theme and restarts the helper each time,
+# so confirm the final registry state matches the LAST installed theme instead
+# of silently leaving a scheme name / file path mismatch behind.
+$lastTheme = $targets[$targets.Count - 1]
+$lastDirectory = Resolve-ThemeDirectory $lastTheme.slug
+$lastManifest = Get-Content -LiteralPath (Join-Path $lastDirectory 'manifest.json') -Raw -Encoding UTF8 | ConvertFrom-Json
+$expectedScheme = "$($lastManifest.name) 48"
+$problems = @()
+
+$cursorKey = [Microsoft.Win32.Registry]::CurrentUser.OpenSubKey('Control Panel\Cursors')
+try {
+    $activeScheme = $cursorKey.GetValue('')
+    if ($activeScheme -ne $expectedScheme) {
+        $problems += "当前方案名是「$activeScheme」，应为「$expectedScheme」"
+    }
+    $stray = 0
+    foreach ($state in $lastManifest.states) {
+        $value = $cursorKey.GetValue($state.role)
+        if (-not $value -or -not ([string]$value).Contains('PetCursorThemes')) { $stray++ }
+    }
+    if ($stray -gt 0) { $problems += "$stray 个光标角色没有指向已安装主题" }
+} finally { $cursorKey.Close() }
+
+$latestFile = Join-Path $env:LOCALAPPDATA 'PetCursorThemes\Sable-Handdrawn\latest-backup.txt'
+if (Test-Path -LiteralPath $latestFile -PathType Leaf) {
+    $backupFile = (Get-Content -LiteralPath $latestFile -Raw -Encoding UTF8).Trim()
+    if (-not $backupFile -or -not (Test-Path -LiteralPath $backupFile -PathType Leaf)) {
+        $problems += '恢复备份指针失效（latest-backup.txt 指向的文件不存在）'
+    }
+} else {
+    $problems += '缺少 latest-backup.txt，恢复入口不可用'
+}
+
+if ($problems.Count -gt 0) {
+    Write-Warning '安装已完成，但状态自检发现问题：'
+    foreach ($item in $problems) { Write-Warning "  - $item" }
+    Write-Output '可以先双击「恢复原鼠标.cmd」回到安装前状态，再重新运行本入口。'
+} else {
+    Write-Output "状态自检通过：方案名、17 个光标角色和恢复备份均指向「$($lastTheme.name)」。"
+}
+
 Write-Output ''
 Write-Output "已完成 $done 套$label 主题。"
 Write-Output '全部风格都已注册到「鼠标属性 → 指针 → 方案」，可直接在方案列表里查看缩略图。'
