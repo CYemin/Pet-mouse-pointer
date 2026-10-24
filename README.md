@@ -10,7 +10,7 @@
 
 **[下载全部11套 Mac 主题（ZIP，约31MB）](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/downloads/pet-mouse-pointer-macos-test.zip)** · [安装与恢复说明](docs/macOS.md) · [验证记录](docs/macos-validation.json) · [SHA-256校验](downloads/SHA256SUMS)
 
-先安装 [Mousecape](https://github.com/alexzielenski/Mousecape/releases)，完整解压后双击喜欢的 `.cape` 导入，再在 Mousecape 中应用。每套提供常规32pt和大号48pt，均含1×/2×图像、离线动画预览、点击热点和转换记录。
+先安装 [Mousecape](https://github.com/alexzielenski/Mousecape/releases)，完整解压后双击喜欢的 `.cape` **导入**，再在 Mousecape 里选中该主题点 **Apply** 才真正生效——**双击只导入、不会自动应用**。macOS 版也没有 Windows 那种「一键安装所有风格 / 切换风格」入口，两边机制不同，详见[安装说明](docs/macOS.md#先看这里macos-版和-windows-版不一样)。每套提供常规32pt和大号48pt，均含1×/2×图像、离线动画预览、点击热点和转换记录。
 
 13种对应动作映射为17个Mac指针条目。受 Mousecape 等时帧和24帧上限影响，部分动画经过时间采样，循环总时长保留。**格式、素材和压缩包检查通过，尚未在 Mac 实机导入或应用；系统版本、Intel/Apple Silicon、多屏和实际点击体验待测。**
 
