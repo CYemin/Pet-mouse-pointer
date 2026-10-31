@@ -2,10 +2,10 @@
 
 ## 全部犬种：7种狗狗，26款配色
 
-| 泰迪 | 比熊 | 柯基 | 二哈 | 瑞牧 | 喜乐蒂 | 金毛 |
+| 喜乐蒂 | 金毛 | 比熊 | 泰迪 | 柯基 | 瑞牧 | 二哈 |
 |---|---|---|---|---|---|---|
-| <img src="playground/assets/teddy-profile-v6/avatar.png" width="80" alt="泰迪像素指针"> | <img src="playground/assets/bichon-photo-v3/avatar.png" width="80" alt="比熊像素指针"> | <img src="playground/assets/corgi-photo-v3/avatar.png" width="80" alt="柯基像素指针"> | <img src="playground/assets/husky-profile-v6/avatar.png" width="80" alt="二哈像素指针"> | <img src="playground/assets/swiss-profile-v6/avatar.png" width="80" alt="瑞牧像素指针"> | <img src="playground/assets/pet-pixel-complete/avatar.png" width="80" alt="喜乐蒂像素指针"> | <img src="playground/assets/golden-cream-pixel/avatar.png" width="80" alt="金毛像素指针"> |
-| 3款配色 | 3款配色 | 3款配色 | 3款配色 | 3款配色 | 7款配色 | 4款配色 |
+| <img src="playground/assets/pet-pixel-complete/avatar.png" width="80" alt="喜乐蒂像素指针"> | <img src="playground/assets/golden-cream-pixel/avatar.png" width="80" alt="金毛像素指针"> | <img src="playground/assets/bichon-photo-v3/avatar.png" width="80" alt="比熊像素指针"> | <img src="playground/assets/teddy-profile-v6/avatar.png" width="80" alt="泰迪像素指针"> | <img src="playground/assets/corgi-photo-v3/avatar.png" width="80" alt="柯基像素指针"> | <img src="playground/assets/swiss-profile-v6/avatar.png" width="80" alt="瑞牧像素指针"> | <img src="playground/assets/husky-profile-v6/avatar.png" width="80" alt="二哈像素指针"> |
+| 7款配色 | 4款配色 | 3款配色 | 3款配色 | 3款配色 | 3款配色 | 3款配色 |
 
 ![全部26款像素主题总览](docs/images/all-26-themes-v6.png)
 
@@ -33,19 +33,19 @@ python -m http.server 8766 --directory playground
 
 | 伙伴 | 原色 | 配色一 | 配色二 |
 |---|---|---|---|
-| 泰迪 | [杏棕粉蓝](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/playground/downloads/teddy-profile-v6.zip) | [奶油杏](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/playground/downloads/teddy-cream-profile-v6.zip) | [巧克力棕](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/playground/downloads/teddy-chocolate-profile-v6.zip) |
 | 比熊 | [雪白蓝胸背](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/playground/downloads/bichon-photo-v3.zip) | [奶油珊瑚](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/playground/downloads/bichon-cream-coral-v5.zip) | [冰白丁香](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/playground/downloads/bichon-ice-lilac-v5.zip) |
+| 泰迪 | [杏棕粉蓝](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/playground/downloads/teddy-profile-v6.zip) | [奶油杏](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/playground/downloads/teddy-cream-profile-v6.zip) | [巧克力棕](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/playground/downloads/teddy-chocolate-profile-v6.zip) |
 | 柯基 | [赤金白](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/playground/downloads/corgi-photo-v3.zip) | [黑头三色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/playground/downloads/corgi-tricolor-v5.zip) | [奶油黄白](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/playground/downloads/corgi-cream-v5.zip) |
-| 二哈 | [黑白棕瞳侧面](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/playground/downloads/husky-profile-v6.zip) | [银灰白](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/playground/downloads/husky-silver-profile-v6.zip) | [红棕白](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/playground/downloads/husky-red-profile-v6.zip) |
 | 瑞牧 | [雪白](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/playground/downloads/swiss-profile-v6.zip) | [暖米白](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/playground/downloads/swiss-ivory-profile-v6.zip) | [冰银白](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/playground/downloads/swiss-ice-profile-v6.zip) |
+| 二哈 | [黑白棕瞳侧面](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/playground/downloads/husky-profile-v6.zip) | [银灰白](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/playground/downloads/husky-silver-profile-v6.zip) | [红棕白](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/playground/downloads/husky-red-profile-v6.zip) |
 
 ### 侧面鼻尖 v6
 
 泰迪、二哈、瑞牧及各自配色已按喜乐蒂的粗像素风格重绘为侧面，保留短圆嘴与垂耳、黑白面罩、白色长围脖等各自特征。点选类以突出且可见的鼻尖定位，眨眼、动耳和抬爪时保持接触点稳定。文字、精确定位、手写、缩放和移动使用相应操作标记。
 
-| 泰迪 | 二哈 | 瑞牧 |
+| 泰迪 | 瑞牧 | 二哈 |
 |:---:|:---:|:---:|
-| <img src="playground/assets/teddy-profile-v6/avatar.png" width="96" alt="侧面泰迪鼻尖指针"> | <img src="playground/assets/husky-profile-v6/avatar.png" width="96" alt="侧面二哈鼻尖指针"> | <img src="playground/assets/swiss-profile-v6/avatar.png" width="96" alt="侧面瑞牧鼻尖指针"> |
+| <img src="playground/assets/teddy-profile-v6/avatar.png" width="96" alt="侧面泰迪鼻尖指针"> | <img src="playground/assets/swiss-profile-v6/avatar.png" width="96" alt="侧面瑞牧鼻尖指针"> | <img src="playground/assets/husky-profile-v6/avatar.png" width="96" alt="侧面二哈鼻尖指针"> |
 
 九款重绘主题共153张逐状态动画图。已完成原生加载/绘制、逐帧及正常/慢速播放复查和安装器预演；网页校验30,145个无损图集单元及5,040个鼻缘接触点。比熊、柯基和经典主题沿用已有成果。手绘小狗、黑猫抱箭头及被退回的正面头像方案不在当前体验页中。
 
