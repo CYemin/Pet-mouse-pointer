@@ -46,15 +46,15 @@
 
 | 范围 | 款数 | Windows 一键安装包 | macOS Mousecape 测试包 |
 |---|---:|---|---|
-| 全部狗狗 | 27 | [全部安装](downloads/windows-all.zip?raw=1) | [全部导入](downloads/macos-all.zip?raw=1) |
-| 喜乐蒂 | 7 | [安装该犬种所有配色](downloads/windows-sheltie.zip?raw=1) | [导入该犬种所有配色](downloads/macos-sheltie.zip?raw=1) |
-| 金毛 | 4 | [安装该犬种所有配色](downloads/windows-golden.zip?raw=1) | [导入该犬种所有配色](downloads/macos-golden.zip?raw=1) |
-| 比熊 | 3 | [安装该犬种所有配色](downloads/windows-bichon.zip?raw=1) | [导入该犬种所有配色](downloads/macos-bichon.zip?raw=1) |
-| 泰迪 | 3 | [安装该犬种所有配色](downloads/windows-teddy.zip?raw=1) | [导入该犬种所有配色](downloads/macos-teddy.zip?raw=1) |
-| 柯基 | 3 | [安装该犬种所有配色](downloads/windows-corgi.zip?raw=1) | [导入该犬种所有配色](downloads/macos-corgi.zip?raw=1) |
-| 瑞牧 | 3 | [安装该犬种所有配色](downloads/windows-swiss.zip?raw=1) | [导入该犬种所有配色](downloads/macos-swiss.zip?raw=1) |
-| 二哈 | 3 | [安装该犬种所有配色](downloads/windows-husky.zip?raw=1) | [导入该犬种所有配色](downloads/macos-husky.zip?raw=1) |
-| 西高地 | 1 | [安装该犬种所有配色](downloads/windows-westie.zip?raw=1) | [导入该犬种所有配色](downloads/macos-westie.zip?raw=1) |
+| 全部狗狗 | 27 | [全部安装](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/windows-all.zip) | [全部导入](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/macos-all.zip) |
+| 喜乐蒂 | 7 | [安装该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/windows-sheltie.zip) | [导入该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/macos-sheltie.zip) |
+| 金毛 | 4 | [安装该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/windows-golden.zip) | [导入该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/macos-golden.zip) |
+| 比熊 | 3 | [安装该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/windows-bichon.zip) | [导入该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/macos-bichon.zip) |
+| 泰迪 | 3 | [安装该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/windows-teddy.zip) | [导入该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/macos-teddy.zip) |
+| 柯基 | 3 | [安装该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/windows-corgi.zip) | [导入该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/macos-corgi.zip) |
+| 瑞牧 | 3 | [安装该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/windows-swiss.zip) | [导入该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/macos-swiss.zip) |
+| 二哈 | 3 | [安装该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/windows-husky.zip) | [导入该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/macos-husky.zip) |
+| 西高地 | 1 | [安装该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/windows-westie.zip) | [导入该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/macos-westie.zip) |
 
 ### Windows：一键安装与恢复
 
@@ -65,7 +65,7 @@
 
 主题方案名统一为中文 `品种 · 颜色`，例如 `喜乐蒂 · 红陨石`、`金毛 · 奶油金`；不附加像素、动作描述或尺寸后缀。重新下载并安装后，新方案使用此名称；旧安装已保存的名称不会仅因下载更新而自动改变。
 
-已经解压过全部合集，可下载[大小调整工具](downloads/pet-cursor-size-tools.zip?raw=1)，将里面7个文件复制到原合集根目录，再双击所需尺寸；无需重新下载指针图案。工具不能脱离完整合集单独运行。
+已经解压过全部合集，可下载[大小调整工具](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/pet-cursor-size-tools.zip)，将里面7个文件复制到原合集根目录，再双击所需尺寸；无需重新下载指针图案。工具不能脱离完整合集单独运行。
 
 **双击调整大小：** 全部合集解压后，双击 `全部狗狗改为48px.cmd`，即可把27款一起改成48px；单犬种包中是 `全部喜乐蒂改为48px.cmd` 等入口。当前款式能被识别时会保留；当前方案不在包内或名称无法识别时，最后一款生效。单款目录中的 `改为48px.cmd` 只调整该款。另附32、64、96、128px入口，随时切换。
 
@@ -92,14 +92,14 @@ powershell -NoProfile -ExecutionPolicy Bypass -File ./install-catalog.ps1 -Colle
 
 | 犬种 | 配色 · Windows ZIP |
 |---|---|
-| 喜乐蒂 | [貂色](downloads/themes/pet-pixel-complete.zip?raw=1) · [深貂色](downloads/themes/sheltie-dark-sable-pixel.zip?raw=1) · [三色](downloads/themes/sheltie-tricolor-pixel.zip?raw=1) · [蓝陨石](downloads/themes/sheltie-blue-merle-pixel.zip?raw=1) · [红陨石](downloads/themes/sheltie-red-merle-pixel.zip?raw=1) · [黑白](downloads/themes/sheltie-bi-black-pixel.zip?raw=1) · [双色蓝陨石](downloads/themes/sheltie-bi-blue-pixel.zip?raw=1) |
-| 金毛 | [奶油金](downloads/themes/golden-cream-pixel.zip?raw=1) · [标准金](downloads/themes/golden-standard-pixel.zip?raw=1) · [浅金](downloads/themes/golden-light-pixel.zip?raw=1) · [深金](downloads/themes/golden-dark-pixel.zip?raw=1) |
-| 比熊 | [雪白蓝胸背](downloads/themes/bichon-photo-v3.zip?raw=1) · [奶油珊瑚](downloads/themes/bichon-cream-coral-v5.zip?raw=1) · [冰白丁香](downloads/themes/bichon-ice-lilac-v5.zip?raw=1) |
-| 泰迪 | [杏棕粉蓝](downloads/themes/teddy-profile-v6.zip?raw=1) · [奶油杏](downloads/themes/teddy-cream-profile-v6.zip?raw=1) · [巧克力棕](downloads/themes/teddy-chocolate-profile-v6.zip?raw=1) |
-| 柯基 | [赤金白](downloads/themes/corgi-photo-v3.zip?raw=1) · [黑头三色](downloads/themes/corgi-tricolor-v5.zip?raw=1) · [奶油黄白](downloads/themes/corgi-cream-v5.zip?raw=1) |
-| 瑞牧 | [雪白](downloads/themes/swiss-profile-v6.zip?raw=1) · [暖米白](downloads/themes/swiss-ivory-profile-v6.zip?raw=1) · [冰银白](downloads/themes/swiss-ice-profile-v6.zip?raw=1) |
-| 二哈 | [黑白棕瞳侧面](downloads/themes/husky-profile-v6.zip?raw=1) · [银灰白](downloads/themes/husky-silver-profile-v6.zip?raw=1) · [红棕白](downloads/themes/husky-red-profile-v6.zip?raw=1) |
-| 西高地 | [雪白](downloads/themes/westie-profile-v1.zip?raw=1) |
+| 喜乐蒂 | [貂色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/pet-pixel-complete.zip) · [深貂色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/sheltie-dark-sable-pixel.zip) · [三色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/sheltie-tricolor-pixel.zip) · [蓝陨石](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/sheltie-blue-merle-pixel.zip) · [红陨石](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/sheltie-red-merle-pixel.zip) · [黑白](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/sheltie-bi-black-pixel.zip) · [双色蓝陨石](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/sheltie-bi-blue-pixel.zip) |
+| 金毛 | [奶油金](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/golden-cream-pixel.zip) · [标准金](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/golden-standard-pixel.zip) · [浅金](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/golden-light-pixel.zip) · [深金](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/golden-dark-pixel.zip) |
+| 比熊 | [雪白蓝胸背](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/bichon-photo-v3.zip) · [奶油珊瑚](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/bichon-cream-coral-v5.zip) · [冰白丁香](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/bichon-ice-lilac-v5.zip) |
+| 泰迪 | [杏棕粉蓝](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/teddy-profile-v6.zip) · [奶油杏](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/teddy-cream-profile-v6.zip) · [巧克力棕](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/teddy-chocolate-profile-v6.zip) |
+| 柯基 | [赤金白](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/corgi-photo-v3.zip) · [黑头三色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/corgi-tricolor-v5.zip) · [奶油黄白](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/corgi-cream-v5.zip) |
+| 瑞牧 | [雪白](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/swiss-profile-v6.zip) · [暖米白](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/swiss-ivory-profile-v6.zip) · [冰银白](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/swiss-ice-profile-v6.zip) |
+| 二哈 | [黑白棕瞳侧面](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/husky-profile-v6.zip) · [银灰白](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/husky-silver-profile-v6.zip) · [红棕白](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/husky-red-profile-v6.zip) |
+| 西高地 | [雪白](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/westie-profile-v1.zip) |
 
 ## 动作、鼻尖与验证
 
@@ -109,7 +109,7 @@ Windows每款含17种动画状态：正常、帮助、后台工作、等待、�
 
 ## 用 Skill 制作自己的宠物
 
-[下载 Skill](downloads/pet-cursor-skill.zip?raw=1) · [Skill 源文件](skills/pet-cursor-theme/SKILL.md)
+[下载 Skill](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/pet-cursor-skill.zip) · [Skill 源文件](skills/pet-cursor-theme/SKILL.md)
 
 将 `pet-cursor-theme` 文件夹放入客户端技能目录，保留 scripts、references 和 assets。提供宠物照片与风格要求，先确定普通指针侧面造型、可见鼻尖，再扩展17状态和配色。Python只负责分帧、配准和编码，美术由宿主图像生成工具制作；不包含模型或API密钥。
 

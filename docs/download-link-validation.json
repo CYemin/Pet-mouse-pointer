@@ -1,0 +1,242 @@
+{
+  "status": "passed",
+  "links_checked": 47,
+  "method": "HTTP HEAD: status, ZIP content type and length against packaged file",
+  "checks": [
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/macos-all.zip",
+      "status": 200,
+      "bytes": 65241217
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/macos-bichon.zip",
+      "status": 200,
+      "bytes": 5923507
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/macos-corgi.zip",
+      "status": 200,
+      "bytes": 7297159
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/macos-golden.zip",
+      "status": 200,
+      "bytes": 13110110
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/macos-husky.zip",
+      "status": 200,
+      "bytes": 6754450
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/macos-sheltie.zip",
+      "status": 200,
+      "bytes": 17604190
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/macos-swiss.zip",
+      "status": 200,
+      "bytes": 5867177
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/macos-teddy.zip",
+      "status": 200,
+      "bytes": 6447167
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/macos-westie.zip",
+      "status": 200,
+      "bytes": 2270282
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/pet-cursor-size-tools.zip",
+      "status": 200,
+      "bytes": 5455
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/pet-cursor-skill.zip",
+      "status": 200,
+      "bytes": 120243
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/bichon-cream-coral-v5.zip",
+      "status": 200,
+      "bytes": 1324431
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/bichon-ice-lilac-v5.zip",
+      "status": 200,
+      "bytes": 1347248
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/bichon-photo-v3.zip",
+      "status": 200,
+      "bytes": 1344162
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/corgi-cream-v5.zip",
+      "status": 200,
+      "bytes": 1425769
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/corgi-photo-v3.zip",
+      "status": 200,
+      "bytes": 1534089
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/corgi-tricolor-v5.zip",
+      "status": 200,
+      "bytes": 1504167
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/golden-cream-pixel.zip",
+      "status": 200,
+      "bytes": 1228991
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/golden-dark-pixel.zip",
+      "status": 200,
+      "bytes": 1518859
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/golden-light-pixel.zip",
+      "status": 200,
+      "bytes": 1485480
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/golden-standard-pixel.zip",
+      "status": 200,
+      "bytes": 1474186
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/husky-profile-v6.zip",
+      "status": 200,
+      "bytes": 1509275
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/husky-red-profile-v6.zip",
+      "status": 200,
+      "bytes": 1516539
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/husky-silver-profile-v6.zip",
+      "status": 200,
+      "bytes": 1520464
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/pet-pixel-complete.zip",
+      "status": 200,
+      "bytes": 1076021
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/sheltie-bi-black-pixel.zip",
+      "status": 200,
+      "bytes": 1344104
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/sheltie-bi-blue-pixel.zip",
+      "status": 200,
+      "bytes": 1245302
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/sheltie-blue-merle-pixel.zip",
+      "status": 200,
+      "bytes": 1051389
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/sheltie-dark-sable-pixel.zip",
+      "status": 200,
+      "bytes": 1236487
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/sheltie-red-merle-pixel.zip",
+      "status": 200,
+      "bytes": 1481053
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/sheltie-tricolor-pixel.zip",
+      "status": 200,
+      "bytes": 1081203
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/swiss-ice-profile-v6.zip",
+      "status": 200,
+      "bytes": 1452839
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/swiss-ivory-profile-v6.zip",
+      "status": 200,
+      "bytes": 1471678
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/swiss-profile-v6.zip",
+      "status": 200,
+      "bytes": 1484750
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/teddy-chocolate-profile-v6.zip",
+      "status": 200,
+      "bytes": 1498688
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/teddy-cream-profile-v6.zip",
+      "status": 200,
+      "bytes": 1536421
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/teddy-profile-v6.zip",
+      "status": 200,
+      "bytes": 1499425
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/westie-profile-v1.zip",
+      "status": 200,
+      "bytes": 1608836
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/windows-all.zip",
+      "status": 200,
+      "bytes": 37899095
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/windows-bichon.zip",
+      "status": 200,
+      "bytes": 4044778
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/windows-corgi.zip",
+      "status": 200,
+      "bytes": 4492213
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/windows-golden.zip",
+      "status": 200,
+      "bytes": 5739922
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/windows-husky.zip",
+      "status": 200,
+      "bytes": 4574456
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/windows-sheltie.zip",
+      "status": 200,
+      "bytes": 8560208
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/windows-swiss.zip",
+      "status": 200,
+      "bytes": 4437438
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/windows-teddy.zip",
+      "status": 200,
+      "bytes": 4562723
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/windows-westie.zip",
+      "status": 200,
+      "bytes": 1630770
+    }
+  ]
+}
