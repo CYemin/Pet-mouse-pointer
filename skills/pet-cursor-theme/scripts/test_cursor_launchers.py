@@ -39,6 +39,8 @@ class CursorLauncherTests(unittest.TestCase):
         for role in roles:states.append({'role':role,'variants':{str(n):f'{n}/fixture.ani' for n in (32,48,64,96,128)}})
         (self.scripts/'manifest.json').write_text(json.dumps({'states':states}),encoding='utf-8')
         self.launchers=write_launchers(self.scripts)
+        # Launcher tests isolate the resize selector; its real behavior has separate fixture tests.
+        (self.scripts/'resize-current.ps1').write_text("[CmdletBinding(SupportsShouldProcess)]param($Size)\n& (Join-Path $PSScriptRoot 'install-theme.ps1') -Size $Size -WhatIf\n",encoding='ascii')
         self.env=os.environ.copy();self.env['LOCALAPPDATA']=str(self.folder/'appdata')
         backup_folder=self.folder/'appdata/PetCursorThemes/Sable-Handdrawn'
         backup_folder.mkdir(parents=True)
@@ -94,13 +96,13 @@ class CursorLauncherTests(unittest.TestCase):
         # Exercise the non-check branch without ever applying system settings.
         (self.scripts/'install-theme.ps1').write_text(
             "param([int]$Size=0,[switch]$Interactive,[switch]$OpenPointerSettings)\n"
-            "if($Size -ne 32 -or $Interactive -or -not $OpenPointerSettings){exit 42}\n"
-            "Write-Output 'Default 32px; opens Mouse Properties'; exit 0\n",encoding='ascii')
+            "if($Size -ne 48 -or $Interactive -or -not $OpenPointerSettings){exit 42}\n"
+            "Write-Output 'Default 48px; opens Mouse Properties'; exit 0\n",encoding='ascii')
         result=self.run_launcher(self.launchers[0],check=False,input_text='\n')
         self.assertEqual(result.returncode,0,result.stdout+'\n'+result.stderr)
         self.assertIn('安装鼠标主题成功。',result.stdout)
         self.assertNotIn('预演检查完成',result.stdout)
-        self.assertIn('Default 32px; opens Mouse Properties',result.stdout)
+        self.assertIn('Default 48px; opens Mouse Properties',result.stdout)
 
     def test_restore_without_backup_reports_failure(self):
         (self.folder/'appdata/PetCursorThemes/Sable-Handdrawn/latest-backup.txt').unlink()

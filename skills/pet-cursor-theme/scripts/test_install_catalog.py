@@ -13,7 +13,7 @@ class CatalogTests(unittest.TestCase):
         for slug,family in [('one','a'),('two','a'),('three','b')]:
             items.append(dict(id=slug,name=slug,family=family));p=self.root/slug;p.mkdir()
             (p/'cursor.ani').write_bytes(b'fixture')
-            (p/'manifest.json').write_text(json.dumps(dict(states=[dict(role=r,variants={'32':'cursor.ani'}) for r in roles])),encoding='utf8')
+            (p/'manifest.json').write_text(json.dumps(dict(states=[dict(role=r,variants={'32':'cursor.ani','48':'cursor.ani'}) for r in roles])),encoding='utf8')
             (p/'install-theme.ps1').write_text("param($Size)\nAdd-Content -LiteralPath (Join-Path (Split-Path $PSScriptRoot) 'trace.txt') -Value (Split-Path -Leaf $PSScriptRoot)\n",encoding='utf8')
         (self.root/'catalog.json').write_text(json.dumps(items),encoding='utf8')
     def tearDown(self):

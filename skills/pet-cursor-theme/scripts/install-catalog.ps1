@@ -1,5 +1,5 @@
 [CmdletBinding(SupportsShouldProcess)]
-param([string]$Collection = 'all', [ValidateSet(32,48,64,96,128)][int]$Size = 32,
+param([string]$Collection = 'all', [ValidateSet(32,48,64,96,128)][int]$Size = 48,
       [switch]$OpenPointerSettings, [switch]$PreserveActiveTheme)
 $ErrorActionPreference = 'Stop'
 $catalog = Get-Content -LiteralPath (Join-Path $PSScriptRoot 'catalog.json') -Raw -Encoding UTF8 | ConvertFrom-Json

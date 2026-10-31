@@ -65,7 +65,7 @@ foreach ($theme in $targets) {
     Write-Output ''
     Write-Output "—— 安装 $($theme.name) ——"
     $installer = Join-Path $directory 'install-theme.ps1'
-    & $installer -Size 32
+    & $installer -Size 48
     if (-not $?) { throw "$($theme.name) 安装失败，已停止。已安装的 $done 套保留不变。" }
     $done++
 }

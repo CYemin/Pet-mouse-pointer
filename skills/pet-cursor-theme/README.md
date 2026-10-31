@@ -17,7 +17,7 @@
 
 每次制作或修改后，运行 `python scripts/verify_cursor_motion.py OUTPUT`，结合正常速度、慢放及相邻帧叠图检查严重抖动、热点漂移和突然缩放。自动检测只提供复查线索，交付前须完成[逐帧视觉检查](references/motion-review.md)并保存报告。
 
-编译后的主题包提供 `安装鼠标主题.cmd`（默认32px，完成后打开指针方案页）和 `恢复原鼠标.cmd`。高级尺寸通过install-theme.ps1指定。完整解压后双击使用，无需Python或管理员权限。合集先检查全部目标，再保存各款方案，最后一套生效。macOS入口仅批量导入.cape，需在Mousecape选择主题后Apply；格式和像素已验证，Mac真机兼容性仍待测。
+编译后的主题包提供 `安装鼠标主题.cmd`（默认48px，完成后打开指针方案页）和 `恢复原鼠标.cmd`。高级尺寸通过install-theme.ps1指定。完整解压后双击使用，无需Python或管理员权限。合集先检查全部目标，再保存各款方案，最后一套生效。macOS入口仅批量导入.cape，需在Mousecape选择主题后Apply；格式和像素已验证，Mac真机兼容性仍待测。
 
 ## 许可与隐私
 

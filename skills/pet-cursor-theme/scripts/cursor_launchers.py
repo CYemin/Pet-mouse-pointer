@@ -2,26 +2,27 @@
 from pathlib import Path
 
 LAUNCHERS=(
-    ('安装鼠标主题.cmd','install-theme.ps1',32,'安装鼠标主题'),
+    ('安装鼠标主题.cmd','install-theme.ps1',48,'安装鼠标主题'),
     ('恢复原鼠标.cmd','restore-theme.ps1',None,'恢复原鼠标'),
-    ('改为32px.cmd','install-theme.ps1',32,'改为32px'),
-    ('改为48px.cmd','install-theme.ps1',48,'改为48px'),
-    ('改为64px.cmd','install-theme.ps1',64,'改为64px'),
-    ('改为96px.cmd','install-theme.ps1',96,'改为96px'),
-    ('改为128px.cmd','install-theme.ps1',128,'改为128px'),
+    ('当前指针改为32px.cmd','resize-current.ps1',32,'当前指针改为32px'),
+    ('当前指针改为48px.cmd','resize-current.ps1',48,'当前指针改为48px'),
+    ('当前指针改为64px.cmd','resize-current.ps1',64,'当前指针改为64px'),
+    ('当前指针改为96px.cmd','resize-current.ps1',96,'当前指针改为96px'),
+    ('当前指针改为128px.cmd','resize-current.ps1',128,'当前指针改为128px'),
 )
 LEGACY_LAUNCHERS=('应用鼠标主题.cmd','应用大号鼠标.cmd','应用小号鼠标32px.cmd',
-                  '应用鼠标64px.cmd','应用特大鼠标128px.cmd')
+                  '应用鼠标64px.cmd','应用特大鼠标128px.cmd',
+                  '改为32px.cmd','改为48px.cmd','改为64px.cmd','改为96px.cmd','改为128px.cmd')
 USAGE_TEXT=r'''安装与恢复
 
 1. 完整解压后，双击“安装鼠标主题.cmd”。
-2. 自动应用默认32px，不询问尺寸；安装成功后自动打开“鼠标属性 → 指针”，可直接看到已保存的方案。
+2. 自动应用默认48px，不询问尺寸；安装成功后自动打开“鼠标属性 → 指针”，可直接看到已保存的方案。
 3. 双击“恢复原鼠标.cmd”恢复安装前设置。
 
 辅助功能里的四个颜色按钮是系统内置样式，不会新增宠物卡片。
 修改那些按钮或系统大小滑块可能覆盖宠物光标；本安装包不能在该页面注册主题。
-再次双击安装入口可重新应用默认32px。无需管理员权限或Python。
-双击“改为48px.cmd”可直接放大当前款式，另附32、64、96、128px入口。
+再次双击安装入口可重新应用默认48px。无需管理员权限或Python。
+双击“当前指针改为48px.cmd”只调整当前款式，另附32、64、96、128px入口；无法识别时停止。
 高级用法：powershell -NoProfile -ExecutionPolicy Bypass -File .\install-theme.ps1 -Size 96
 支持的尺寸为32、48、64、96、128。该命令需在主题文件夹运行。
 
@@ -174,7 +175,7 @@ def write_collection_launchers(output, collection):
 
 COLLECTION_README = """# {label}鼠标指针合集（{count} 套）
 
-本包含 {count} 种{label}风格，每套 17 种动画状态、32/48/64/96/128px 五种尺寸，默认 32px。
+本包含 {count} 种{label}风格，每套 17 种动画状态、32/48/64/96/128px 五种尺寸，默认 48px。
 
 ## 一键安装全部
 
