@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "breed": "哈士奇",
+  "text_files_updated": 53,
+  "archives_updated": [
+    "downloads/macos-all.zip",
+    "downloads/macos-husky.zip",
+    "downloads/themes/husky-profile-v6.zip",
+    "downloads/themes/husky-red-profile-v6.zip",
+    "downloads/themes/husky-silver-profile-v6.zip",
+    "downloads/windows-all.zip",
+    "downloads/windows-husky.zip"
+  ],
+  "artwork_and_cursor_bytes_preserved": true,
+  "internal_husky_ids_unchanged": true,
+  "public_text_files_checked": 144,
+  "zip_archives_checked": 62,
+  "mac_cape_names_and_hashes_checked": 130
+}

@@ -4,9 +4,9 @@
 
 ## 先认识八位伙伴
 
-| 喜乐蒂 | 金毛 | 比熊 | 泰迪 | 柯基 | 瑞牧 | 二哈 | 西高地 |
+| 喜乐蒂 | 金毛 | 比熊 | 泰迪 | 柯基 | 瑞牧 | 哈士奇 | 西高地 |
 |---|---|---|---|---|---|---|---|
-| <img src="docs/images/sheltie-red-merle-pixel-icon.png" width="96" alt="喜乐蒂"> | <img src="docs/images/golden-cream-pixel-icon.png" width="96" alt="金毛"> | <img src="docs/images/bichon-photo-v3-icon.png" width="96" alt="比熊"> | <img src="docs/images/teddy-profile-v6-icon.png" width="96" alt="泰迪"> | <img src="docs/images/corgi-photo-v3-icon.png" width="96" alt="柯基"> | <img src="docs/images/swiss-profile-v6-icon.png" width="96" alt="瑞牧"> | <img src="docs/images/husky-profile-v6-icon.png" width="96" alt="二哈"> | <img src="docs/images/westie-profile-v1-icon.png" width="96" alt="西高地"> |
+| <img src="docs/images/sheltie-red-merle-pixel-icon.png" width="96" alt="喜乐蒂"> | <img src="docs/images/golden-cream-pixel-icon.png" width="96" alt="金毛"> | <img src="docs/images/bichon-photo-v3-icon.png" width="96" alt="比熊"> | <img src="docs/images/teddy-profile-v6-icon.png" width="96" alt="泰迪"> | <img src="docs/images/corgi-photo-v3-icon.png" width="96" alt="柯基"> | <img src="docs/images/swiss-profile-v6-icon.png" width="96" alt="瑞牧"> | <img src="docs/images/husky-profile-v6-icon.png" width="96" alt="哈士奇"> | <img src="docs/images/westie-profile-v1-icon.png" width="96" alt="西高地"> |
 
 ## 全部颜色 · 每行一个犬种
 
@@ -24,7 +24,7 @@
 | 泰迪 | <img src="docs/images/teddy-profile-v6-normal.gif" width="90" alt="泰迪 杏棕粉蓝"><br>杏棕粉蓝 | <img src="docs/images/teddy-cream-profile-v6-normal.gif" width="90" alt="泰迪 奶油杏"><br>奶油杏 | <img src="docs/images/teddy-chocolate-profile-v6-normal.gif" width="90" alt="泰迪 巧克力棕"><br>巧克力棕 |  |  |  |  |
 | 柯基 | <img src="docs/images/corgi-photo-v3-normal.gif" width="90" alt="柯基 赤金白"><br>赤金白 | <img src="docs/images/corgi-tricolor-v5-normal.gif" width="90" alt="柯基 黑头三色"><br>黑头三色 | <img src="docs/images/corgi-cream-v5-normal.gif" width="90" alt="柯基 奶油黄白"><br>奶油黄白 |  |  |  |  |
 | 瑞牧 | <img src="docs/images/swiss-profile-v6-normal.gif" width="90" alt="瑞牧 雪白"><br>雪白 | <img src="docs/images/swiss-ivory-profile-v6-normal.gif" width="90" alt="瑞牧 暖米白"><br>暖米白 | <img src="docs/images/swiss-ice-profile-v6-normal.gif" width="90" alt="瑞牧 冰银白"><br>冰银白 |  |  |  |  |
-| 二哈 | <img src="docs/images/husky-profile-v6-normal.gif" width="90" alt="二哈 黑白棕瞳侧面"><br>黑白棕瞳侧面 | <img src="docs/images/husky-silver-profile-v6-normal.gif" width="90" alt="二哈 银灰白"><br>银灰白 | <img src="docs/images/husky-red-profile-v6-normal.gif" width="90" alt="二哈 红棕白"><br>红棕白 |  |  |  |  |
+| 哈士奇 | <img src="docs/images/husky-profile-v6-normal.gif" width="90" alt="哈士奇 黑白棕瞳侧面"><br>黑白棕瞳侧面 | <img src="docs/images/husky-silver-profile-v6-normal.gif" width="90" alt="哈士奇 银灰白"><br>银灰白 | <img src="docs/images/husky-red-profile-v6-normal.gif" width="90" alt="哈士奇 红棕白"><br>红棕白 |  |  |  |  |
 | 西高地 | <img src="docs/images/westie-profile-v1-normal.gif" width="90" alt="西高地 雪白"><br>雪白 |  |  |  |  |  |  |
 
 ### 更多状态 · 每个品种的动态示意
@@ -39,7 +39,7 @@
 | 泰迪 · 杏棕粉蓝 | <img src="docs/images/teddy-profile-v6-help-state.gif" width="50" alt="泰迪 帮助选择"> | <img src="docs/images/teddy-profile-v6-wait-state.gif" width="50" alt="泰迪 忙碌等待"> | <img src="docs/images/teddy-profile-v6-text-state.gif" width="50" alt="泰迪 文本选择"> | <img src="docs/images/teddy-profile-v6-pen-state.gif" width="50" alt="泰迪 手写"> | <img src="docs/images/teddy-profile-v6-move-state.gif" width="50" alt="泰迪 移动"> |
 | 柯基 · 赤金白 | <img src="docs/images/corgi-photo-v3-help-state.gif" width="50" alt="柯基 帮助选择"> | <img src="docs/images/corgi-photo-v3-wait-state.gif" width="50" alt="柯基 忙碌等待"> | <img src="docs/images/corgi-photo-v3-text-state.gif" width="50" alt="柯基 文本选择"> | <img src="docs/images/corgi-photo-v3-pen-state.gif" width="50" alt="柯基 手写"> | <img src="docs/images/corgi-photo-v3-move-state.gif" width="50" alt="柯基 移动"> |
 | 瑞牧 · 雪白 | <img src="docs/images/swiss-profile-v6-help-state.gif" width="50" alt="瑞牧 帮助选择"> | <img src="docs/images/swiss-profile-v6-wait-state.gif" width="50" alt="瑞牧 忙碌等待"> | <img src="docs/images/swiss-profile-v6-text-state.gif" width="50" alt="瑞牧 文本选择"> | <img src="docs/images/swiss-profile-v6-pen-state.gif" width="50" alt="瑞牧 手写"> | <img src="docs/images/swiss-profile-v6-move-state.gif" width="50" alt="瑞牧 移动"> |
-| 二哈 · 黑白棕瞳侧面 | <img src="docs/images/husky-profile-v6-help-state.gif" width="50" alt="二哈 帮助选择"> | <img src="docs/images/husky-profile-v6-wait-state.gif" width="50" alt="二哈 忙碌等待"> | <img src="docs/images/husky-profile-v6-text-state.gif" width="50" alt="二哈 文本选择"> | <img src="docs/images/husky-profile-v6-pen-state.gif" width="50" alt="二哈 手写"> | <img src="docs/images/husky-profile-v6-move-state.gif" width="50" alt="二哈 移动"> |
+| 哈士奇 · 黑白棕瞳侧面 | <img src="docs/images/husky-profile-v6-help-state.gif" width="50" alt="哈士奇 帮助选择"> | <img src="docs/images/husky-profile-v6-wait-state.gif" width="50" alt="哈士奇 忙碌等待"> | <img src="docs/images/husky-profile-v6-text-state.gif" width="50" alt="哈士奇 文本选择"> | <img src="docs/images/husky-profile-v6-pen-state.gif" width="50" alt="哈士奇 手写"> | <img src="docs/images/husky-profile-v6-move-state.gif" width="50" alt="哈士奇 移动"> |
 | 西高地 · 雪白 | <img src="docs/images/westie-profile-v1-help-state.gif" width="50" alt="西高地 帮助选择"> | <img src="docs/images/westie-profile-v1-wait-state.gif" width="50" alt="西高地 忙碌等待"> | <img src="docs/images/westie-profile-v1-text-state.gif" width="50" alt="西高地 文本选择"> | <img src="docs/images/westie-profile-v1-pen-state.gif" width="50" alt="西高地 手写"> | <img src="docs/images/westie-profile-v1-move-state.gif" width="50" alt="西高地 移动"> |
 
 ## 下载现成安装包
@@ -53,7 +53,7 @@
 | 泰迪 | 3 | [安装该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/windows-teddy.zip) | [导入该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/macos-teddy.zip) |
 | 柯基 | 3 | [安装该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/windows-corgi.zip) | [导入该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/macos-corgi.zip) |
 | 瑞牧 | 3 | [安装该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/windows-swiss.zip) | [导入该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/macos-swiss.zip) |
-| 二哈 | 3 | [安装该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/windows-husky.zip) | [导入该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/macos-husky.zip) |
+| 哈士奇 | 3 | [安装该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/windows-husky.zip) | [导入该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/macos-husky.zip) |
 | 西高地 | 1 | [安装该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/windows-westie.zip) | [导入该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/macos-westie.zip) |
 
 ### Windows：一键安装与恢复
@@ -100,7 +100,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File ./resize-current.ps1 -Size 9
 | 泰迪 | [杏棕粉蓝](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/teddy-profile-v6.zip) · [奶油杏](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/teddy-cream-profile-v6.zip) · [巧克力棕](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/teddy-chocolate-profile-v6.zip) |
 | 柯基 | [赤金白](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/corgi-photo-v3.zip) · [黑头三色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/corgi-tricolor-v5.zip) · [奶油黄白](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/corgi-cream-v5.zip) |
 | 瑞牧 | [雪白](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/swiss-profile-v6.zip) · [暖米白](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/swiss-ivory-profile-v6.zip) · [冰银白](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/swiss-ice-profile-v6.zip) |
-| 二哈 | [黑白棕瞳侧面](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/husky-profile-v6.zip) · [银灰白](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/husky-silver-profile-v6.zip) · [红棕白](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/husky-red-profile-v6.zip) |
+| 哈士奇 | [黑白棕瞳侧面](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/husky-profile-v6.zip) · [银灰白](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/husky-silver-profile-v6.zip) · [红棕白](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/husky-red-profile-v6.zip) |
 | 西高地 | [雪白](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/westie-profile-v1.zip) |
 
 ## 动作、鼻尖与验证
