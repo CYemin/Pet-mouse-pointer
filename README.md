@@ -7,7 +7,7 @@
 | <img src="playground/assets/pet-pixel-complete/avatar.png" width="80" alt="喜乐蒂像素指针"> | <img src="playground/assets/golden-cream-pixel/avatar.png" width="80" alt="金毛像素指针"> | <img src="playground/assets/bichon-photo-v3/avatar.png" width="80" alt="比熊像素指针"> | <img src="playground/assets/teddy-profile-v6/avatar.png" width="80" alt="泰迪像素指针"> | <img src="playground/assets/corgi-photo-v3/avatar.png" width="80" alt="柯基像素指针"> | <img src="playground/assets/swiss-profile-v6/avatar.png" width="80" alt="瑞牧像素指针"> | <img src="playground/assets/husky-profile-v6/avatar.png" width="80" alt="二哈像素指针"> |
 | 7款配色 | 4款配色 | 3款配色 | 3款配色 | 3款配色 | 3款配色 | 3款配色 |
 
-![全部26款像素主题总览](docs/images/all-26-themes-v6.png)
+![全部26款像素主题总览](docs/images/all-26-themes-v6-rows.png)
 
 26套像素动画主题，每套包含17种动作和32 / 48 / 64 / 96 / 128px五种尺寸。可以先在体验网页中比较配色、试点鼻尖，再选择Windows主题；仓库也提供制作自家宠物指针的Skill，以及11套经典主题的macOS Mousecape测试版。
 
