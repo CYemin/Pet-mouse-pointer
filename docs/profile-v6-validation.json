@@ -1,0 +1,213 @@
+{
+  "status": "passed",
+  "themes": 26,
+  "complete_themes": 26,
+  "normal_previews": 0,
+  "new_families": 5,
+  "new_color_designs": 15,
+  "states": 442,
+  "lossless_atlas_frame_cells": 30145,
+  "checks": [
+    {
+      "theme": "teddy-profile-v6",
+      "states": 17,
+      "lossless": true,
+      "complete": true,
+      "zip_crc": true
+    },
+    {
+      "theme": "teddy-cream-profile-v6",
+      "states": 17,
+      "lossless": true,
+      "complete": true,
+      "zip_crc": true
+    },
+    {
+      "theme": "teddy-chocolate-profile-v6",
+      "states": 17,
+      "lossless": true,
+      "complete": true,
+      "zip_crc": true
+    },
+    {
+      "theme": "bichon-photo-v3",
+      "states": 17,
+      "lossless": true,
+      "complete": true,
+      "zip_crc": true
+    },
+    {
+      "theme": "bichon-cream-coral-v5",
+      "states": 17,
+      "lossless": true,
+      "complete": true,
+      "zip_crc": true
+    },
+    {
+      "theme": "bichon-ice-lilac-v5",
+      "states": 17,
+      "lossless": true,
+      "complete": true,
+      "zip_crc": true
+    },
+    {
+      "theme": "corgi-photo-v3",
+      "states": 17,
+      "lossless": true,
+      "complete": true,
+      "zip_crc": true
+    },
+    {
+      "theme": "corgi-tricolor-v5",
+      "states": 17,
+      "lossless": true,
+      "complete": true,
+      "zip_crc": true
+    },
+    {
+      "theme": "corgi-cream-v5",
+      "states": 17,
+      "lossless": true,
+      "complete": true,
+      "zip_crc": true
+    },
+    {
+      "theme": "husky-profile-v6",
+      "states": 17,
+      "lossless": true,
+      "complete": true,
+      "zip_crc": true
+    },
+    {
+      "theme": "husky-silver-profile-v6",
+      "states": 17,
+      "lossless": true,
+      "complete": true,
+      "zip_crc": true
+    },
+    {
+      "theme": "husky-red-profile-v6",
+      "states": 17,
+      "lossless": true,
+      "complete": true,
+      "zip_crc": true
+    },
+    {
+      "theme": "swiss-profile-v6",
+      "states": 17,
+      "lossless": true,
+      "complete": true,
+      "zip_crc": true
+    },
+    {
+      "theme": "swiss-ivory-profile-v6",
+      "states": 17,
+      "lossless": true,
+      "complete": true,
+      "zip_crc": true
+    },
+    {
+      "theme": "swiss-ice-profile-v6",
+      "states": 17,
+      "lossless": true,
+      "complete": true,
+      "zip_crc": true
+    },
+    {
+      "theme": "pet-pixel-complete",
+      "states": 17,
+      "lossless": true,
+      "complete": true,
+      "zip_crc": true
+    },
+    {
+      "theme": "golden-cream-pixel",
+      "states": 17,
+      "lossless": true,
+      "complete": true,
+      "zip_crc": true
+    },
+    {
+      "theme": "golden-standard-pixel",
+      "states": 17,
+      "lossless": true,
+      "complete": true,
+      "zip_crc": true
+    },
+    {
+      "theme": "golden-light-pixel",
+      "states": 17,
+      "lossless": true,
+      "complete": true,
+      "zip_crc": true
+    },
+    {
+      "theme": "golden-dark-pixel",
+      "states": 17,
+      "lossless": true,
+      "complete": true,
+      "zip_crc": true
+    },
+    {
+      "theme": "sheltie-dark-sable-pixel",
+      "states": 17,
+      "lossless": true,
+      "complete": true,
+      "zip_crc": true
+    },
+    {
+      "theme": "sheltie-tricolor-pixel",
+      "states": 17,
+      "lossless": true,
+      "complete": true,
+      "zip_crc": true
+    },
+    {
+      "theme": "sheltie-blue-merle-pixel",
+      "states": 17,
+      "lossless": true,
+      "complete": true,
+      "zip_crc": true
+    },
+    {
+      "theme": "sheltie-red-merle-pixel",
+      "states": 17,
+      "lossless": true,
+      "complete": true,
+      "zip_crc": true
+    },
+    {
+      "theme": "sheltie-bi-black-pixel",
+      "states": 17,
+      "lossless": true,
+      "complete": true,
+      "zip_crc": true
+    },
+    {
+      "theme": "sheltie-bi-blue-pixel",
+      "states": 17,
+      "lossless": true,
+      "complete": true,
+      "zip_crc": true
+    }
+  ],
+  "limits": [
+    "All colourways complete.",
+    "Desktop application and multi-monitor DPI behaviour require actual user testing."
+  ],
+  "system_cursor_settings_modified": false,
+  "profile_version": 6,
+  "profile_themes": 9,
+  "nasal_frame_contacts_checked": 5040,
+  "nasal_contact_edge_depths": {
+    "teddy-profile-v6": 0,
+    "teddy-cream-profile-v6": 0,
+    "teddy-chocolate-profile-v6": 0,
+    "husky-profile-v6": 0,
+    "husky-silver-profile-v6": 0,
+    "husky-red-profile-v6": 0,
+    "swiss-profile-v6": 0,
+    "swiss-ivory-profile-v6": 0,
+    "swiss-ice-profile-v6": 0
+  }
+}
