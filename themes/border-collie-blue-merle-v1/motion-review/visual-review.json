@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "asset_revision": "99a9a76c9bae",
+  "reviewed_at": "2026-10-31T12:32:24.729627+00:00",
+  "reviewer": "Codex visual inspection of full frame boards and local playback",
+  "states_reviewed": [
+    "normal",
+    "help",
+    "working",
+    "wait",
+    "cross",
+    "text",
+    "pen",
+    "unavailable",
+    "size-ns",
+    "size-we",
+    "size-nwse",
+    "size-nesw",
+    "move",
+    "alternate",
+    "link",
+    "pin",
+    "person"
+  ],
+  "frames_reviewed": 544,
+  "sequence_edges_reviewed": 544,
+  "loop_closures_reviewed": 34,
+  "sizes": [
+    48,
+    96
+  ],
+  "playback_speeds": [
+    1,
+    0.25
+  ],
+  "backgrounds": [
+    "light",
+    "dark"
+  ],
+  "evidence": [
+    "assets/border-collie-blue-merle-v1/frame-registration-review.png",
+    "motion-review/*-48-normal.gif",
+    "motion-review/*-96-normal.gif",
+    "motion-review/*-48-slow.gif",
+    "motion-review/*-96-slow.gif"
+  ],
+  "automatic_candidate_count": 0,
+  "scope": "complete theme",
+  "findings": "Reviewed all17 state boards, every pose and closure, actual48/96 light/dark normal/quarter playback. Large merle cheek/crown/ear markings remain attached to anatomy. Source-reviewed upper-muzzle ROI corrects raised-paw registration in move; corrected transitions and closure are stable. Single-eye folded-ear side profile uses visible nose for clicking, no leash/clothes/collar. Minor local fur texture changes remain.",
+  "limits": [
+    "Minor local fur/colour-cluster texture variation remains.",
+    "No system cursor scheme was applied; desktop click feel and DPI switching remain user tests."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "cursor_registry_unchanged": true,
+  "launchers": [
+    {
+      "file": "安装鼠标主题.cmd",
+      "exit_code": 0,
+      "dry_run": true
+    },
+    {
+      "file": "恢复原鼠标.cmd",
+      "exit_code": 0,
+      "dry_run": true
+    }
+  ],
+  "current_only_size_shortcuts_checked": 5,
+  "default_size": 48
+}

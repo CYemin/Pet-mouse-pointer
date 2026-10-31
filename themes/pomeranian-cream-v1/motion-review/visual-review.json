@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "asset_revision": "a3188ddabec0",
+  "reviewed_at": "2026-10-31T12:26:15.856725+00:00",
+  "reviewer": "Codex visual inspection of full frame boards and local playback",
+  "states_reviewed": [
+    "normal",
+    "help",
+    "working",
+    "wait",
+    "cross",
+    "text",
+    "pen",
+    "unavailable",
+    "size-ns",
+    "size-we",
+    "size-nwse",
+    "size-nesw",
+    "move",
+    "alternate",
+    "link",
+    "pin",
+    "person"
+  ],
+  "frames_reviewed": 544,
+  "sequence_edges_reviewed": 544,
+  "loop_closures_reviewed": 34,
+  "sizes": [
+    48,
+    96
+  ],
+  "playback_speeds": [
+    1,
+    0.25
+  ],
+  "backgrounds": [
+    "light",
+    "dark"
+  ],
+  "evidence": [
+    "assets/pomeranian-cream-v1/frame-registration-review.png",
+    "motion-review/*-48-normal.gif",
+    "motion-review/*-96-normal.gif",
+    "motion-review/*-48-slow.gif",
+    "motion-review/*-96-slow.gif"
+  ],
+  "automatic_candidate_count": 0,
+  "scope": "complete theme",
+  "findings": "Reviewed all17 state boards and actual48/96 light/dark normal/quarter playback, including newly completed pin/person frames and loop closures. Single-eye compact Pomeranian silhouette and nose contacts stay readable; no head jumps or accessories. Minor local fur texture changes remain.",
+  "limits": [
+    "Minor local fur/colour-cluster texture variation remains.",
+    "No system cursor scheme was applied; desktop click feel and DPI switching remain user tests."
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "status": "format-and-pixels-passed",
+  "native_macos_tested": false,
+  "themes": [
+    {
+      "theme": "pet-pixel-complete",
+      "cape_files": 2,
+      "cursor_entries": 34,
+      "png_strips": 68,
+      "embedded_frames": 1332
+    },
+    {
+      "theme": "sheltie-dark-sable-pixel",
+      "cape_files": 2,
+      "cursor_entries": 34,
+      "png_strips": 68,
+      "embedded_frames": 1332
+    },
+    {
+      "theme": "sheltie-tricolor-pixel",
+      "cape_files": 2,
+      "cursor_entries": 34,
+      "png_strips": 68,
+      "embedded_frames": 1332
+    },
+    {
+      "theme": "sheltie-blue-merle-pixel",
+      "cape_files": 2,
+      "cursor_entries": 34,
+      "png_strips": 68,
+      "embedded_frames": 1332
+    },
+    {
+      "theme": "sheltie-red-merle-pixel",
+      "cape_files": 2,
+      "cursor_entries": 34,
+      "png_strips": 68,
+      "embedded_frames": 1332
+    },
+    {
+      "theme": "sheltie-bi-black-pixel",
+      "cape_files": 2,
+      "cursor_entries": 34,
+      "png_strips": 68,
+      "embedded_frames": 1332
+    },
+    {
+      "theme": "sheltie-bi-blue-pixel",
+      "cape_files": 2,
+      "cursor_entries": 34,
+      "png_strips": 68,
+      "embedded_frames": 1332
+    },
+    {
+      "theme": "golden-cream-pixel",
+      "cape_files": 2,
+      "cursor_entries": 34,
+      "png_strips": 68,
+      "embedded_frames": 1244
+    },
+    {
+      "theme": "golden-standard-pixel",
+      "cape_files": 2,
+      "cursor_entries": 34,
+      "png_strips": 68,
+      "embedded_frames": 1244
+    },
+    {
+      "theme": "golden-light-pixel",
+      "cape_files": 2,
+      "cursor_entries": 34,
+      "png_strips": 68,
+      "embedded_frames": 1244
+    },
+    {
+      "theme": "golden-dark-pixel",
+      "cape_files": 2,
+      "cursor_entries": 34,
+      "png_strips": 68,
+      "embedded_frames": 1244
+    },
+    {
+      "theme": "bichon-photo-v3",
+      "cape_files": 2,
+      "cursor_entries": 34,
+      "png_strips": 68,
+      "embedded_frames": 1360
+    },
+    {
+      "theme": "bichon-cream-coral-v5",
+      "cape_files": 2,
+      "cursor_entries": 34,
+      "png_strips": 68,
+      "embedded_frames": 1360
+    },
+    {
+      "theme": "bichon-ice-lilac-v5",
+      "cape_files": 2,
+      "cursor_entries": 34,
+      "png_strips": 68,
+      "embedded_frames": 1360
+    },
+    {
+      "theme": "teddy-profile-v6",
+      "cape_files": 2,
+      "cursor_entries": 34,
+      "png_strips": 68,
+      "embedded_frames": 1120
+    },
+    {
+      "theme": "teddy-cream-profile-v6",
+      "cape_files": 2,
+      "cursor_entries": 34,
+      "png_strips": 68,
+      "embedded_frames": 1120
+    },
+    {
+      "theme": "teddy-chocolate-profile-v6",
+      "cape_files": 2,
+      "cursor_entries": 34,
+      "png_strips": 68,
+      "embedded_frames": 1120
+    },
+    {
+      "theme": "corgi-photo-v3",
+      "cape_files": 2,
+      "cursor_entries": 34,
+      "png_strips": 68,
+      "embedded_frames": 1360
+    },
+    {
+      "theme": "corgi-tricolor-v5",
+      "cape_files": 2,
+      "cursor_entries": 34,
+      "png_strips": 68,
+      "embedded_frames": 1360
+    },
+    {
+      "theme": "corgi-cream-v5",
+      "cape_files": 2,
+      "cursor_entries": 34,
+      "png_strips": 68,
+      "embedded_frames": 1360
+    },
+    {
+      "theme": "swiss-profile-v6",
+      "cape_files": 2,
+      "cursor_entries": 34,
+      "png_strips": 68,
+      "embedded_frames": 1120
+    },
+    {
+      "theme": "swiss-ivory-profile-v6",
+      "cape_files": 2,
+      "cursor_entries": 34,
+      "png_strips": 68,
+      "embedded_frames": 1120
+    },
+    {
+      "theme": "swiss-ice-profile-v6",
+      "cape_files": 2,
+      "cursor_entries": 34,
+      "png_strips": 68,
+      "embedded_frames": 1120
+    },
+    {
+      "theme": "husky-profile-v6",
+      "cape_files": 2,
+      "cursor_entries": 34,
+      "png_strips": 68,
+      "embedded_frames": 1120
+    },
+    {
+      "theme": "husky-silver-profile-v6",
+      "cape_files": 2,
+      "cursor_entries": 34,
+      "png_strips": 68,
+      "embedded_frames": 1120
+    },
+    {
+      "theme": "husky-red-profile-v6",
+      "cape_files": 2,
+      "cursor_entries": 34,
+      "png_strips": 68,
+      "embedded_frames": 1120
+    },
+    {
+      "theme": "westie-profile-v1",
+      "cape_files": 2,
+      "cursor_entries": 34,
+      "png_strips": 68,
+      "embedded_frames": 1120
+    },
+    {
+      "theme": "pomeranian-orange-v1",
+      "cape_files": 2,
+      "cursor_entries": 34,
+      "png_strips": 68,
+      "embedded_frames": 1120
+    },
+    {
+      "theme": "pomeranian-cream-v1",
+      "cape_files": 2,
+      "cursor_entries": 34,
+      "png_strips": 68,
+      "embedded_frames": 1120
+    },
+    {
+      "theme": "pomeranian-black-tan-v1",
+      "cape_files": 2,
+      "cursor_entries": 34,
+      "png_strips": 68,
+      "embedded_frames": 1120
+    },
+    {
+      "theme": "border-collie-black-white-v1",
+      "cape_files": 2,
+      "cursor_entries": 34,
+      "png_strips": 68,
+      "embedded_frames": 1120
+    },
+    {
+      "theme": "border-collie-brown-white-v1",
+      "cape_files": 2,
+      "cursor_entries": 34,
+      "png_strips": 68,
+      "embedded_frames": 1120
+    },
+    {
+      "theme": "border-collie-blue-merle-v1",
+      "cape_files": 2,
+      "cursor_entries": 34,
+      "png_strips": 68,
+      "embedded_frames": 1120
+    }
+  ]
+}

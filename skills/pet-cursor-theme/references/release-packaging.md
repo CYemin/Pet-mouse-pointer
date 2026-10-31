@@ -4,7 +4,7 @@ Use one catalog for gallery order, color names, download lists, collection selec
 
 ## This repository's gallery convention
 
-For Pet-mouse-pointer, show eight breeds at the beginning of README, in this order: 喜乐蒂 / 金毛 / 比熊 / 泰迪 / 柯基 / 瑞牧 / 哈士奇 / 西高地. Use one representative color each. Follow with all coat colors, one breed per row, then animated examples covering every breed and color. This is a project-specific convention; preserve a different user's requested ordering elsewhere. Derive pictures from the actual exported frames, preserve nearest-neighbor scaling and original timing, and verify every local image/download target.
+For Pet-mouse-pointer, show ten breeds at the beginning of README, in this order: 喜乐蒂 / 金毛 / 比熊 / 泰迪 / 柯基 / 瑞牧 / 哈士奇 / 西高地 / 博美 / 边牧. Use one representative color each. Follow with all coat colors, one breed per row, then animated examples covering every breed and color. This is a project-specific convention; preserve a different user's requested ordering elsewhere. Derive pictures from the actual exported frames, preserve nearest-neighbor scaling and original timing, and verify every local image/download target.
 
 ## Windows
 

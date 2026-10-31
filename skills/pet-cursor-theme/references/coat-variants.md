@@ -4,7 +4,7 @@ Use this workflow when the user wants the same pet character and actions in anot
 
 ## Color catalog
 
-The repository's `themes/` and download table identify which variants are complete. The color comparison is a static design overview; a static sample alone does not establish that an installable theme exists. The current ten-color catalog has ten complete animated packages.
+The repository's release catalog, `themes/` and download table identify which variants are complete. The color comparison is a static design overview; a static sample alone does not establish that an installable theme exists. Derive the current theme count from the release catalog rather than retaining an old fixed count in this workflow.
 
 | Breed | Coat choices | Distinguishing markings |
 |---|---|---|
@@ -14,6 +14,8 @@ The repository's `themes/` and download table identify which variants are comple
 | Sheltie | blue merle | Silver-grey/black patches, white regions, tan eyebrows and cheeks |
 | Sheltie | bi-blue | Silver-grey/black patches and white, no tan points |
 | Golden retriever | cream, light golden, golden, dark golden | Continuous golden shading with lighter feathering; retain the photographed nose and accessory colors |
+| Pomeranian | orange brown, cream white, black and tan | Compact rounded head and ruff, tiny triangular ears and short muzzle; stable tan cheek/eyebrow regions for black and tan |
+| Border Collie | black and white, brown and white, blue merle | Semi-upright folded ears, fixed white blaze/muzzle/chest; a few stable charcoal patches for blue merle |
 
 These are character-design choices. Do not infer a photographed dog's pedigree or genetics from color alone. See [ASSA's Sheltie colors](https://www.americanshetlandsheepdogassociation.org/sheltie-colors/) and [GRCA's breed study guide](https://grca.org/wp-content/uploads/2017/09/GRCA-Study-Guide-2017pdf.pdf) when checking breed references.
 

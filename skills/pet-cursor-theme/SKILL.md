@@ -53,6 +53,8 @@ For platform exports, whole-catalog or breed collections, and repository documen
 
 Measure short-muzzled breeds independently: a terrier nose can sit below the upper 45% of a round face. A shepherd-specific height fallback can crop the muzzle away. Inspect the selected nose cluster and raised paws in every frame; do not reuse an anatomical threshold blindly.
 
+Nose color and pose also matter: a chocolate nose may fail an achromatic dark-pixel mask, and a lifted dark paw pad may be selected ahead of the real nose. Inspect the affected source cells, use a source-specific muzzle region or annotated landmarks, and retain the rule for unaffected art. Rebuild and review all affected transitions and loop closure at native sizes; an opaque hotspot alone does not prove stable registration.
+
 Provide the complete theme ZIP, a readable preview, installation/recovery instructions, source prompts and the validation report. Distinguish structural/native checks from actual desktop installation, click feel and multi-monitor testing. Be explicit about any visible animation texture drift or untested compatibility. Do not publish, push to a remote repository, or change system cursors merely because a local package is ready.
 
 Dependencies: Python 3.10+, Pillow12.3+; Windows is required for native validation and applying the scheme. Image generation depends on the host's available tool and any associated service conditions; this skill does not bundle a model or API credentials.

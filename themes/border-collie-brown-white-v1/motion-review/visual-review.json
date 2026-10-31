@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "asset_revision": "6ddec54b9047",
+  "reviewed_at": "2026-10-31T12:30:05.671457+00:00",
+  "reviewer": "Codex visual inspection of full frame boards and local playback",
+  "states_reviewed": [
+    "normal",
+    "help",
+    "working",
+    "wait",
+    "cross",
+    "text",
+    "pen",
+    "unavailable",
+    "size-ns",
+    "size-we",
+    "size-nwse",
+    "size-nesw",
+    "move",
+    "alternate",
+    "link",
+    "pin",
+    "person"
+  ],
+  "frames_reviewed": 544,
+  "sequence_edges_reviewed": 544,
+  "loop_closures_reviewed": 34,
+  "sizes": [
+    48,
+    96
+  ],
+  "playback_speeds": [
+    1,
+    0.25
+  ],
+  "backgrounds": [
+    "light",
+    "dark"
+  ],
+  "evidence": [
+    "assets/border-collie-brown-white-v1/frame-registration-review.png",
+    "motion-review/*-48-normal.gif",
+    "motion-review/*-96-normal.gif",
+    "motion-review/*-48-slow.gif",
+    "motion-review/*-96-slow.gif"
+  ],
+  "automatic_candidate_count": 0,
+  "scope": "complete theme",
+  "findings": "Reviewed all17 state boards, all16 poses and closures, and actual48/96 light/dark normal/quarter playback. Sleeping dark-brown nose uses a source-reviewed warm mask; nose/head do not jump. White blaze, muzzle and chest stay clean; single-eye folded-ear profile has no clothes, leash or collar. Minor local fur texture variation remains.",
+  "limits": [
+    "Minor local fur/colour-cluster texture variation remains.",
+    "No system cursor scheme was applied; desktop click feel and DPI switching remain user tests."
+  ]
+}
