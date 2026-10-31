@@ -195,7 +195,7 @@
     lastRole = ''; if (id === 'write') requestAnimationFrame(setupDrawing); hideCursor();
   }
   $$('[data-scene]').forEach(b => b.onclick = () => switchScene(b.dataset.scene));
-  $('#scene-tabs').onkeydown = e => { const tabs=$$('[data-scene]').filter(t=>!t.disabled),i=tabs.indexOf(document.activeElement); if(i<0)return; const next=e.key==='ArrowRight'?(i+1)%tabs.length:e.key==='ArrowLeft'?(i+tabs.length-1)%tabs.length:e.key==='Home'?0:e.key==='End'?tabs.length-1:-1; if(next>=0){e.preventDefault();switchScene(tabs[next].dataset.scene);tabs[next].focus();} }; 
+  $('#scene-tabs').onkeydown = e => { const tabs=$$('[data-scene]').filter(t=>!t.disabled),i=tabs.indexOf(document.activeElement); if(i<0)return; const next=e.key==='ArrowRight'?(i+1)%tabs.length:e.key==='ArrowLeft'?(i+tabs.length-1)%tabs.length:e.key==='Home'?0:e.key==='End'?tabs.length-1:-1; if(next>=0){e.preventDefault();switchScene(tabs[next].dataset.scene);tabs[next].focus();} };
 
   function drawSprite(canvas, s, frame, sourceImage, sourceSize, displaySize, marks = false) {
     const dpr = Math.min(devicePixelRatio || 1, 3), pixels = Math.round(displaySize * dpr);
