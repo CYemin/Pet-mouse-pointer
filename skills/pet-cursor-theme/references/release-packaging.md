@@ -14,6 +14,8 @@ Package each theme and collections containing all themes or one breed. A batch l
 
 Current packaged launchers default to 32px and open the Windows Pointers page. Advanced installation supports 32/48/64/96/128px. Follow the actual shipped helper behavior when writing instructions.
 
+Also ship double-click size shortcuts for 32/48/64/96/128px. Single-theme shortcuts call the existing installer with the chosen size. Whole-catalog and breed shortcuts update every style in that package via `install-catalog.ps1 -Size N -PreserveActiveTheme`; if the current scheme name uniquely matches a catalog entry, install it last to keep it active. For an unrecognized or out-of-collection scheme, report the fallback to the final catalog entry instead of guessing. Keep `--check` support and validate every selected theme before any setting changes.
+
 The current project uses Chinese scheme names in the exact form `品种 · 颜色`, including Sheltie and Golden Retriever. Do not append Pixel, animation/profile descriptions or a size number. Sizes remain installer options and file metadata. macOS CapeName follows the same label; identifiers and filenames may retain stable internal slugs. Changing package metadata does not rename schemes already installed on a user's machine.
 
 ## macOS

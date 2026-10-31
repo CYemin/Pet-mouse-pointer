@@ -4,6 +4,11 @@ from pathlib import Path
 LAUNCHERS=(
     ('安装鼠标主题.cmd','install-theme.ps1',32,'安装鼠标主题'),
     ('恢复原鼠标.cmd','restore-theme.ps1',None,'恢复原鼠标'),
+    ('改为32px.cmd','install-theme.ps1',32,'改为32px'),
+    ('改为48px.cmd','install-theme.ps1',48,'改为48px'),
+    ('改为64px.cmd','install-theme.ps1',64,'改为64px'),
+    ('改为96px.cmd','install-theme.ps1',96,'改为96px'),
+    ('改为128px.cmd','install-theme.ps1',128,'改为128px'),
 )
 LEGACY_LAUNCHERS=('应用鼠标主题.cmd','应用大号鼠标.cmd','应用小号鼠标32px.cmd',
                   '应用鼠标64px.cmd','应用特大鼠标128px.cmd')
@@ -16,6 +21,7 @@ USAGE_TEXT=r'''安装与恢复
 辅助功能里的四个颜色按钮是系统内置样式，不会新增宠物卡片。
 修改那些按钮或系统大小滑块可能覆盖宠物光标；本安装包不能在该页面注册主题。
 再次双击安装入口可重新应用默认32px。无需管理员权限或Python。
+双击“改为48px.cmd”可直接放大当前款式，另附32、64、96、128px入口。
 高级用法：powershell -NoProfile -ExecutionPolicy Bypass -File .\install-theme.ps1 -Size 96
 支持的尺寸为32、48、64、96、128。该命令需在主题文件夹运行。
 

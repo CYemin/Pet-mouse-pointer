@@ -1,10 +1,28 @@
 [CmdletBinding(SupportsShouldProcess)]
 param([string]$Collection = 'all', [ValidateSet(32,48,64,96,128)][int]$Size = 32,
-      [switch]$OpenPointerSettings)
+      [switch]$OpenPointerSettings, [switch]$PreserveActiveTheme)
 $ErrorActionPreference = 'Stop'
 $catalog = Get-Content -LiteralPath (Join-Path $PSScriptRoot 'catalog.json') -Raw -Encoding UTF8 | ConvertFrom-Json
 $targets = @($catalog | Where-Object { $Collection -eq 'all' -or $_.family -eq $Collection })
 if ($targets.Count -eq 0) { throw "Unknown or empty collection: $Collection" }
+function Get-CatalogInstallOrder {
+    param([object[]]$Themes,[string]$ActiveScheme)
+    $selected = @($Themes | Where-Object { $_.name -ceq $ActiveScheme })
+    if ($selected.Count -ne 1) { return $Themes }
+    # Install the current style last so resizing the collection keeps it active.
+    @($Themes | Where-Object { $_.id -ne $selected[0].id }) + $selected
+}
+if ($PreserveActiveTheme) {
+    $key = [Microsoft.Win32.Registry]::CurrentUser.OpenSubKey('Control Panel\Cursors')
+    $activeScheme = ''
+    if ($null -ne $key) {
+        try { $activeScheme = [string]$key.GetValue('') } finally { $key.Close() }
+    }
+    if (-not @($targets | Where-Object { $_.name -ceq $activeScheme }).Count) {
+        Write-Output 'The current scheme is not recognized in this collection; the last listed theme will become active.'
+    }
+    $targets = @(Get-CatalogInstallOrder -Themes $targets -ActiveScheme $activeScheme)
+}
 # Validate the complete selection before any installer can change settings.
 $roles = @('Arrow','Help','AppStarting','Wait','Crosshair','IBeam','NWPen','No','SizeNS','SizeWE','SizeNWSE','SizeNESW','SizeAll','UpArrow','Hand','Pin','Person')
 foreach ($theme in $targets) {

@@ -62,7 +62,7 @@ class CursorLauncherTests(unittest.TestCase):
                               creationflags=subprocess.CREATE_NO_WINDOW,timeout=30)
 
     def test_both_real_cmd_paths_and_powershell_dry_runs(self):
-        self.assertEqual(len(self.launchers),2)
+        self.assertEqual(len(self.launchers),7)
         for path in self.launchers:
             with self.subTest(name=path.name):
                 result=self.run_launcher(path)

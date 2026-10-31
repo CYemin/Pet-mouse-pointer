@@ -28,4 +28,10 @@ class CatalogTests(unittest.TestCase):
     def test_invalid_selection_and_whatif_never_install(self):
         self.assertNotEqual(self.run_batch('-Collection','unknown').returncode,0)
         result=self.run_batch('-WhatIf');self.assertEqual(result.returncode,0,result.stderr.decode(errors='replace'));self.assertFalse(self.trace.exists())
+    def test_resize_keeps_known_active_style_last_without_guessing_unknown(self):
+        # Load just the pure ordering function; never read or write the registry.
+        code = "$t=$null;$e=$null;$a=[System.Management.Automation.Language.Parser]::ParseFile($args[0],[ref]$t,[ref]$e);$f=$a.Find({param($n) $n -is [System.Management.Automation.Language.FunctionDefinitionAst] -and $n.Name -eq 'Get-CatalogInstallOrder'},$true);. ([scriptblock]::Create($f.Extent.Text));$themes=@(@{id='one';name='one'},@{id='two';name='two'},@{id='three';name='three'});$x=@(Get-CatalogInstallOrder $themes 'two');if(($x.id -join ',') -ne 'one,three,two'){throw 'Lost current style'};$x=@(Get-CatalogInstallOrder $themes 'unknown');if(($x.id -join ',') -ne 'one,two,three'){throw 'Guessed unknown style'};$x=@(Get-CatalogInstallOrder @($themes[0]) 'one');if($x.Count -ne 1){throw 'Single-theme case failed'}"
+        p=self.root/'order-test.ps1';p.write_text(code,encoding='utf8')
+        r=subprocess.run(['powershell','-NoProfile','-ExecutionPolicy','Bypass','-File',str(p),str(self.root/'install-catalog.ps1')],capture_output=True,timeout=30)
+        self.assertEqual(r.returncode,0,r.stderr.decode(errors='replace'))
 if __name__=='__main__':unittest.main()
