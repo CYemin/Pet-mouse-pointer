@@ -67,7 +67,7 @@
       rail.append(button);
     }
   }
-  for (const label of ['全部', '泰迪', '比熊', '柯基', '二哈', '瑞牧', '金毛', '喜乐蒂']) {
+  for (const label of ['全部', '泰迪', '比熊', '柯基', '二哈', '瑞牧', '西高地', '金毛', '喜乐蒂']) {
     const b = document.createElement('button'); b.textContent = label; b.setAttribute('aria-pressed', String(label === '全部'));
     b.onclick = () => {
       $$('#filters button').forEach(x => x.setAttribute('aria-pressed', String(x === b)));renderThemes(label);

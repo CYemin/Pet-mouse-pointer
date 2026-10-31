@@ -1,336 +1,119 @@
 # Pet Mouse Pointer · 宠物鼠标指针
 
-## 全部犬种：7种狗狗，26款配色
+8种狗狗，27款配色。粗像素动画，把每一次点击变成一点陪伴。
 
-| 喜乐蒂 | 金毛 | 比熊 | 泰迪 | 柯基 | 瑞牧 | 二哈 |
-|---|---|---|---|---|---|---|
-| <img src="playground/assets/pet-pixel-complete/avatar.png" width="80" alt="喜乐蒂像素指针"> | <img src="playground/assets/golden-cream-pixel/avatar.png" width="80" alt="金毛像素指针"> | <img src="playground/assets/bichon-photo-v3/avatar.png" width="80" alt="比熊像素指针"> | <img src="playground/assets/teddy-profile-v6/avatar.png" width="80" alt="泰迪像素指针"> | <img src="playground/assets/corgi-photo-v3/avatar.png" width="80" alt="柯基像素指针"> | <img src="playground/assets/swiss-profile-v6/avatar.png" width="80" alt="瑞牧像素指针"> | <img src="playground/assets/husky-profile-v6/avatar.png" width="80" alt="二哈像素指针"> |
-| 7款配色 | 4款配色 | 3款配色 | 3款配色 | 3款配色 | 3款配色 | 3款配色 |
+## 先认识八位伙伴
 
-![全部26款像素主题总览](docs/images/all-26-themes-v6-rows.png)
+| 喜乐蒂 | 金毛 | 比熊 | 泰迪 | 柯基 | 瑞牧 | 二哈 | 西高地 |
+|---|---|---|---|---|---|---|---|
+| <img src="docs/images/pet-pixel-complete-icon.png" width="96" alt="喜乐蒂"> | <img src="docs/images/golden-cream-pixel-icon.png" width="96" alt="金毛"> | <img src="docs/images/bichon-photo-v3-icon.png" width="96" alt="比熊"> | <img src="docs/images/teddy-profile-v6-icon.png" width="96" alt="泰迪"> | <img src="docs/images/corgi-photo-v3-icon.png" width="96" alt="柯基"> | <img src="docs/images/swiss-profile-v6-icon.png" width="96" alt="瑞牧"> | <img src="docs/images/husky-profile-v6-icon.png" width="96" alt="二哈"> | <img src="docs/images/westie-profile-v1-icon.png" width="96" alt="西高地"> |
 
-26套像素动画主题，每套包含17种动作和32 / 48 / 64 / 96 / 128px五种尺寸。可以先在体验网页中比较配色、试点鼻尖，再选择Windows主题；仓库也提供制作自家宠物指针的Skill，以及11套经典主题的macOS Mousecape测试版。
+## 全部颜色 · 每行一个犬种
 
-**[下载完整离线体验网页（约64MB）](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/downloads/pet-cursor-playground-profile-v6.zip)** · [网页源码](playground/) · [v6验证记录](docs/profile-v6-validation.json) · [SHA-256校验](downloads/SHA256SUMS)
+![八种狗狗的27款完整配色](docs/images/all-27-colors-rows.png)
 
-## 先体验，再下载
+## 鼠标动画 · 每个犬种、每款颜色
 
-1. 下载并完整解压离线网页包，打开其中的 `index.html`。
-2. 选择宠物和配色，将鼠标移入游乐场，体验点击、文字、拖动和缩放。
-3. 可锁定全部17种动作，切换尺寸、深浅背景、暂停或慢放，并开启“显示点击点”。选择喜欢的款式后，点击“带它回桌面”获取对应Windows主题。
+下列动画均取自实际指针导出帧，展示正常选择的眨眼、耳毛与表情循环；完整17种动作可在体验页中锁定查看。每行一个犬种，列顺序与上方配色一致。
 
-网页体验不会更改系统鼠标。下载整个仓库后，也可在仓库根目录启动本地预览：
+| 犬种 | 配色1 | 配色2 | 配色3 | 配色4 | 配色5 | 配色6 | 配色7 |
+|---|---|---|---|---|---|---|---|
+| 喜乐蒂 | <img src="docs/images/pet-pixel-complete-normal.gif" width="90" alt="喜乐蒂 貂色"><br>貂色 | <img src="docs/images/sheltie-dark-sable-pixel-normal.gif" width="90" alt="喜乐蒂 深貂色"><br>深貂色 | <img src="docs/images/sheltie-tricolor-pixel-normal.gif" width="90" alt="喜乐蒂 三色"><br>三色 | <img src="docs/images/sheltie-blue-merle-pixel-normal.gif" width="90" alt="喜乐蒂 蓝陨石"><br>蓝陨石 | <img src="docs/images/sheltie-red-merle-pixel-normal.gif" width="90" alt="喜乐蒂 红陨石"><br>红陨石 | <img src="docs/images/sheltie-bi-black-pixel-normal.gif" width="90" alt="喜乐蒂 黑白"><br>黑白 | <img src="docs/images/sheltie-bi-blue-pixel-normal.gif" width="90" alt="喜乐蒂 双色蓝陨石"><br>双色蓝陨石 |
+| 金毛 | <img src="docs/images/golden-cream-pixel-normal.gif" width="90" alt="金毛 奶油金"><br>奶油金 | <img src="docs/images/golden-standard-pixel-normal.gif" width="90" alt="金毛 标准金"><br>标准金 | <img src="docs/images/golden-light-pixel-normal.gif" width="90" alt="金毛 浅金"><br>浅金 | <img src="docs/images/golden-dark-pixel-normal.gif" width="90" alt="金毛 深金"><br>深金 |  |  |  |
+| 比熊 | <img src="docs/images/bichon-photo-v3-normal.gif" width="90" alt="比熊 雪白蓝胸背"><br>雪白蓝胸背 | <img src="docs/images/bichon-cream-coral-v5-normal.gif" width="90" alt="比熊 奶油珊瑚"><br>奶油珊瑚 | <img src="docs/images/bichon-ice-lilac-v5-normal.gif" width="90" alt="比熊 冰白丁香"><br>冰白丁香 |  |  |  |  |
+| 泰迪 | <img src="docs/images/teddy-profile-v6-normal.gif" width="90" alt="泰迪 杏棕粉蓝"><br>杏棕粉蓝 | <img src="docs/images/teddy-cream-profile-v6-normal.gif" width="90" alt="泰迪 奶油杏"><br>奶油杏 | <img src="docs/images/teddy-chocolate-profile-v6-normal.gif" width="90" alt="泰迪 巧克力棕"><br>巧克力棕 |  |  |  |  |
+| 柯基 | <img src="docs/images/corgi-photo-v3-normal.gif" width="90" alt="柯基 赤金白"><br>赤金白 | <img src="docs/images/corgi-tricolor-v5-normal.gif" width="90" alt="柯基 黑头三色"><br>黑头三色 | <img src="docs/images/corgi-cream-v5-normal.gif" width="90" alt="柯基 奶油黄白"><br>奶油黄白 |  |  |  |  |
+| 瑞牧 | <img src="docs/images/swiss-profile-v6-normal.gif" width="90" alt="瑞牧 雪白"><br>雪白 | <img src="docs/images/swiss-ivory-profile-v6-normal.gif" width="90" alt="瑞牧 暖米白"><br>暖米白 | <img src="docs/images/swiss-ice-profile-v6-normal.gif" width="90" alt="瑞牧 冰银白"><br>冰银白 |  |  |  |  |
+| 二哈 | <img src="docs/images/husky-profile-v6-normal.gif" width="90" alt="二哈 黑白棕瞳侧面"><br>黑白棕瞳侧面 | <img src="docs/images/husky-silver-profile-v6-normal.gif" width="90" alt="二哈 银灰白"><br>银灰白 | <img src="docs/images/husky-red-profile-v6-normal.gif" width="90" alt="二哈 红棕白"><br>红棕白 |  |  |  |  |
+| 西高地 | <img src="docs/images/westie-profile-v1-normal.gif" width="90" alt="西高地 雪白"><br>雪白 |  |  |  |  |  |  |
+
+## 先体验，再安装
+
+**[下载完整离线体验页](downloads/pet-cursor-playground-27.zip?raw=1)**：完整解压后打开 `index.html`，无需Python。支持全部27款、五档尺寸、深浅背景、慢放、点击点，以及点选、文字、拖动和缩放体验。网页不会更改系统指针。
+
+下载仓库后也可以在根目录运行：
 
 ```powershell
 python -m http.server 8766 --directory playground
 ```
 
-然后在浏览器打开 `http://127.0.0.1:8766/`。GitHub中的HTML文件是源码视图，需要下载打开或启动上述本地服务。
+再打开 <http://127.0.0.1:8766/>。GitHub 中的 HTML 是源码视图，需要下载后打开或启动本地服务。
 
-## 五种伙伴，各三款配色
+## 下载现成安装包
 
-新增15款与11款经典主题合计26款，均有完整17种动画状态。下表链接直接下载单套Windows运行包；全部款式也包含在离线网页的 `downloads/` 文件夹中。
+| 范围 | 款数 | Windows 一键安装包 | macOS Mousecape 测试包 |
+|---|---:|---|---|
+| 全部狗狗 | 27 | [全部安装](downloads/windows-all.zip?raw=1) | [全部导入](downloads/macos-all.zip?raw=1) |
+| 喜乐蒂 | 7 | [安装该犬种所有配色](downloads/windows-sheltie.zip?raw=1) | [导入该犬种所有配色](downloads/macos-sheltie.zip?raw=1) |
+| 金毛 | 4 | [安装该犬种所有配色](downloads/windows-golden.zip?raw=1) | [导入该犬种所有配色](downloads/macos-golden.zip?raw=1) |
+| 比熊 | 3 | [安装该犬种所有配色](downloads/windows-bichon.zip?raw=1) | [导入该犬种所有配色](downloads/macos-bichon.zip?raw=1) |
+| 泰迪 | 3 | [安装该犬种所有配色](downloads/windows-teddy.zip?raw=1) | [导入该犬种所有配色](downloads/macos-teddy.zip?raw=1) |
+| 柯基 | 3 | [安装该犬种所有配色](downloads/windows-corgi.zip?raw=1) | [导入该犬种所有配色](downloads/macos-corgi.zip?raw=1) |
+| 瑞牧 | 3 | [安装该犬种所有配色](downloads/windows-swiss.zip?raw=1) | [导入该犬种所有配色](downloads/macos-swiss.zip?raw=1) |
+| 二哈 | 3 | [安装该犬种所有配色](downloads/windows-husky.zip?raw=1) | [导入该犬种所有配色](downloads/macos-husky.zip?raw=1) |
+| 西高地 | 1 | [安装该犬种所有配色](downloads/windows-westie.zip?raw=1) | [导入该犬种所有配色](downloads/macos-westie.zip?raw=1) |
 
-| 伙伴 | 原色 | 配色一 | 配色二 |
-|---|---|---|---|
-| 比熊 | [雪白蓝胸背](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/playground/downloads/bichon-photo-v3.zip) | [奶油珊瑚](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/playground/downloads/bichon-cream-coral-v5.zip) | [冰白丁香](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/playground/downloads/bichon-ice-lilac-v5.zip) |
-| 泰迪 | [杏棕粉蓝](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/playground/downloads/teddy-profile-v6.zip) | [奶油杏](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/playground/downloads/teddy-cream-profile-v6.zip) | [巧克力棕](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/playground/downloads/teddy-chocolate-profile-v6.zip) |
-| 柯基 | [赤金白](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/playground/downloads/corgi-photo-v3.zip) | [黑头三色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/playground/downloads/corgi-tricolor-v5.zip) | [奶油黄白](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/playground/downloads/corgi-cream-v5.zip) |
-| 瑞牧 | [雪白](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/playground/downloads/swiss-profile-v6.zip) | [暖米白](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/playground/downloads/swiss-ivory-profile-v6.zip) | [冰银白](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/playground/downloads/swiss-ice-profile-v6.zip) |
-| 二哈 | [黑白棕瞳侧面](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/playground/downloads/husky-profile-v6.zip) | [银灰白](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/playground/downloads/husky-silver-profile-v6.zip) | [红棕白](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/playground/downloads/husky-red-profile-v6.zip) |
+### Windows：一键安装与恢复
 
-### 侧面鼻尖 v6
+1. 完整解压ZIP，双击 `一键安装所有狗狗.cmd`，或 `一键安装所有喜乐蒂.cmd` 等单犬种入口。无需管理员权限或Python。
+2. 默认32px，按顺序安装并保存每款方案；**最后安装的一套当前生效**。安装成功后打开“鼠标属性 → 指针”，可在方案列表里选择其他款式并应用。
+3. 只想安装一款：进入对应主题文件夹，双击 `安装鼠标主题.cmd`。
+4. 双击 `恢复原鼠标.cmd` 恢复首次安装前的基线。恢复保留备份、已装文件和已保存的方案。
 
-泰迪、二哈、瑞牧及各自配色已按喜乐蒂的粗像素风格重绘为侧面，保留短圆嘴与垂耳、黑白面罩、白色长围脖等各自特征。点选类以突出且可见的鼻尖定位，眨眼、动耳和抬爪时保持接触点稳定。文字、精确定位、手写、缩放和移动使用相应操作标记。
+五档尺寸为32/48/64/96/128px。高级用法在合集目录运行：
 
-| 泰迪 | 瑞牧 | 二哈 |
-|:---:|:---:|:---:|
-| <img src="playground/assets/teddy-profile-v6/avatar.png" width="96" alt="侧面泰迪鼻尖指针"> | <img src="playground/assets/swiss-profile-v6/avatar.png" width="96" alt="侧面瑞牧鼻尖指针"> | <img src="playground/assets/husky-profile-v6/avatar.png" width="96" alt="侧面二哈鼻尖指针"> |
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File ./install-catalog.ps1 -Collection all -Size 96
+```
 
-九款重绘主题共153张逐状态动画图。已完成原生加载/绘制、逐帧及正常/慢速播放复查和安装器预演；网页校验30,145个无损图集单元及5,040个鼻缘接触点。比熊、柯基和经典主题沿用已有成果。手绘小狗、黑猫抱箭头及被退回的正面头像方案不在当前体验页中。
+单主题目录用 `install-theme.ps1 -Size 96`。给CMD追加 `--check` 可只做预演。批量安装先检查全部目标，中途失败即停止，已成功项保留。系统辅助功能里的四个颜色按钮不会新增狗狗卡片；调整系统颜色或大小可能覆盖宠物光标，重新运行安装入口可恢复。
 
-新主题包完整解压后，运行 `应用鼠标主题.cmd` 使用48px，其他尺寸有对应入口；`恢复原鼠标.cmd` 用于恢复备份。下方经典安装合集使用更新后的 `安装鼠标主题.cmd`，默认32px；请按各下载包内的说明操作。实际桌面手感、多显示器和DPI切换仍需试用，局部毛簇可能有轻微纹理变化。
+### macOS：一键导入与应用
 
-本次新增内容不包含原始宠物参考照片、私人路径或本机知识库。下方原有经典安装器修复、品种合集和Mac测试版资料继续适用于相应下载包。
+1. 先安装 [Mousecape 官方版本](https://github.com/alexzielenski/Mousecape/releases)，本项目不捆绑第三方程序。
+2. 解压Mac合集，双击 `一键导入全部主题-32pt.command`；大号使用48pt入口。也可直接双击 `.cape` 文件逐一导入。
+3. 在Mousecape中选中喜欢的一套，然后 **Apply**。批量入口负责导入，不能同时应用多套。
+4. 用 `Capes → Restore Defaults` 恢复默认指针。
 
-## 经典主题安装合集（11套）
+所有27款均提供32pt/48pt、1×/2×素材。13种源动作对应17个Mac条目，Windows手写、候选、位置和人员状态不直接导出；Mac额外状态保留系统默认。[Mousecape动画格式](https://github.com/alexzielenski/Mousecape/blob/master/Mousecape/mousecloak/apply.m)最多24个等时帧，部分Windows停留节奏需采样；转换记录随包提供。
 
-### Windows 版
+**Mac版已完成格式、热点、时长及全部嵌入像素校验，尚未在Mac真机导入、应用或测试Retina与多屏。** 双击脚本还可能受本机执行权限限制，可改用直接打开.cape；不需要绕过系统安全提示。详见[macOS说明](docs/macOS.md)与[27款转换校验](docs/macos-27-validation.json)。
 
-**[一键下载全部11套案例合集（ZIP）](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/downloads/pet-mouse-pointer-all-cases.zip)** · [完整案例清单](docs/all-cases.json) · [SHA-256校验](downloads/SHA256SUMS)
+## 单款下载
 
-合集为安装版，包含每套指针、预览、安装恢复入口与验证记录；不含大型源精灵图和逐帧复查图/GIF；完整复查媒体可另取单套包。
-
-#### 三步用起来
-
-| 步骤 | 操作 | 会看到什么 |
-|---|---|---|
-| **1. 解压** | 完整解压 ZIP（不要在压缩包里直接双击），进入主题文件夹 | `安装鼠标主题.cmd`、`恢复原鼠标.cmd`、`preview.html` |
-| **2. 双击安装** | 双击 `安装鼠标主题.cmd` | 指针立刻变成宠物，并自动弹出「鼠标属性 · 指针」窗口 |
-| **3. 确认** | 在弹出的窗口看「方案」下拉，应显示「主题名 32」；点「确定」关闭 | 安装完成，随时可以换风格或恢复 |
-
-换风格：双击另一套主题的安装入口。
-恢复：双击 `恢复原鼠标.cmd`。
-
-#### 调整宠物指针大小
-
-Windows 只在「切换方案」时才重新加载光标，所以拖完大小滑块，还要再切一次方案才会生效。完整流程：
-
-| 步骤 | 操作 | 说明 |
-|---|---|---|
-| **1** | 双击 `安装鼠标主题.cmd`（或 `一键安装所有X.cmd`） | **自动弹出的「鼠标属性」窗口先别关** |
-| **2** | 打开「设置 → 辅助功能 → 鼠标指针和触控」，拖动「大小」滑块到想要的档位 | 这是 Windows 的全局指针大小 |
-| **3** | 回到没关的「鼠标属性」窗口：「方案」下拉先选 **Windows 默认**，点「应用」 | 先切走，让系统卸下宠物光标 |
-| **4** | 再在同一处选回宠物方案（如「喜乐蒂 · 像素指针 32」），点「应用」 | 切回来，这次会按新大小加载 |
-| **5** | 关闭窗口 | 宠物指针就是你刚才调的大小 |
-
-**为什么要切两次**：Windows 已经记下新的大小，但不会主动重画当前光标，必须靠一次方案切换触发重新加载。
-
-切换风格时，直接用「鼠标属性 → 指针 → 方案」下拉选另一套即可，切换后的尺寸与你调整过的大小一致。
-
-#### 经典主题清单
-
-| 主题 | 特征 | 下载 |
-|---|---|---|
-| 貂色喜乐蒂 | 金棕毛色、白额纹与长嘴筒 | [完整 ZIP](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/downloads/pet-pixel-complete.zip) · [说明](themes/pet-pixel-complete/README.md) |
-| 奶油白金毛 | 奶油宽脸、垂耳与绿色胸背 | [完整 ZIP](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/downloads/golden-cream-pixel.zip) · [说明](themes/golden-cream-pixel/README.md) |
-| 黑白三色喜乐蒂 | 黑色底毛、棕色眉颊、白色围脖 | [完整 ZIP](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/downloads/sheltie-tricolor-pixel.zip) · [说明](themes/sheltie-tricolor-pixel/README.md) |
-| 三色陨石喜乐蒂 | 银灰黑斑、棕色眉颊、白色围脖 | [完整 ZIP](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/downloads/sheltie-blue-merle-pixel.zip) · [说明](themes/sheltie-blue-merle-pixel/README.md) |
-| 标准金毛 | 蜂蜜金毛发、粉褐鼻、绿色胸背 | [完整 ZIP](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/downloads/golden-standard-pixel.zip) · [说明](themes/golden-standard-pixel/README.md) |
-| 深金毛 | 铜金毛发、较深垂耳、绿色胸背 | [完整 ZIP](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/downloads/golden-dark-pixel.zip) · [说明](themes/golden-dark-pixel/README.md) |
-| 深貂色喜乐蒂 | 深棕耳冠与后鬃、暖棕脸颊、白色围脖 | [完整 ZIP](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/downloads/sheltie-dark-sable-pixel.zip) · [说明](themes/sheltie-dark-sable-pixel/README.md) |
-| 黑白两色喜乐蒂 | 炭黑底毛、白额纹与围脖、无棕色眉颊 | [完整 ZIP](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/downloads/sheltie-bi-black-pixel.zip) · [说明](themes/sheltie-bi-black-pixel/README.md) |
-| 蓝陨石色喜乐蒂 | 银灰黑斑与白色围脖、无棕色眉颊 | [完整 ZIP](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/downloads/sheltie-bi-blue-pixel.zip) · [说明](themes/sheltie-bi-blue-pixel/README.md) |
-| 浅金毛 | 浅麦金毛发、暖金垂耳、绿色胸背 | [完整 ZIP](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/downloads/golden-light-pixel.zip) · [说明](themes/golden-light-pixel/README.md) |
-| 红陨石喜乐蒂 | 浅金黄色嘴筒、深棕侧毛、白鼻梁与胸毛；17状态全动画 | [完整 ZIP](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/downloads/sheltie-red-merle-pixel.zip) · [说明](themes/sheltie-red-merle-pixel/README.md) |
-
-11套像素主题均包含 **17 种动画状态**与 **32 / 48 / 64 / 96 / 128px** 五种尺寸，默认 32px。
-
-每个主题只有两个 CMD：`安装鼠标主题.cmd` 和 `恢复原鼠标.cmd`。安装成功会自动打开「鼠标属性 → 指针」，出错时保留窗口和错误信息。安装写入或刷新失败会回滚本次指针及同名方案；`恢复原鼠标.cmd` 恢复安装前设置，并保留已保存的宠物方案。高级用法可在主题目录运行 `powershell -NoProfile -ExecutionPolicy Bypass -File .\install-theme.ps1 -Size 96`（支持32/48/64/96/128px）。
-
-**本安装包不能在辅助功能页面的四个颜色按钮里注册宠物主题**，修改那里的颜色会覆盖宠物光标，重新双击安装即可恢复。
-
-[修复验证记录](docs/cursor-size-fix-validation.json)：浅金毛主题完成五种尺寸的实机安装，逐项比对85个活动光标的图像、热点及尺寸，恢复后与测试前设置和光标图像一致；系统辅助功能滑块、多显示器和DPI切换未做交互测试。
-
-### 品种合集（一键安装同一品种的全部风格）
-
-**[喜乐蒂合集（7 套）](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/downloads/pet-mouse-pointer-sheltie.zip)** · **[金毛合集（4 套）](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/downloads/pet-mouse-pointer-golden.zip)**
-
-解压后在合集根目录双击：
-
-| 双击文件 | 作用 |
+| 犬种 | 配色 · Windows ZIP |
 |---|---|
-| `一键安装所有喜乐蒂.cmd` / `一键安装所有金毛.cmd` | 依次安装该品种全部风格，最后一套为当前生效；全部风格都会注册到「鼠标属性 → 指针 → 方案」 |
-| `恢复原鼠标.cmd` | 恢复到首次安装前的指针设置 |
+| 喜乐蒂 | [貂色](playground/downloads/pet-pixel-complete.zip?raw=1) · [深貂色](playground/downloads/sheltie-dark-sable-pixel.zip?raw=1) · [三色](playground/downloads/sheltie-tricolor-pixel.zip?raw=1) · [蓝陨石](playground/downloads/sheltie-blue-merle-pixel.zip?raw=1) · [红陨石](playground/downloads/sheltie-red-merle-pixel.zip?raw=1) · [黑白](playground/downloads/sheltie-bi-black-pixel.zip?raw=1) · [双色蓝陨石](playground/downloads/sheltie-bi-blue-pixel.zip?raw=1) |
+| 金毛 | [奶油金](playground/downloads/golden-cream-pixel.zip?raw=1) · [标准金](playground/downloads/golden-standard-pixel.zip?raw=1) · [浅金](playground/downloads/golden-light-pixel.zip?raw=1) · [深金](playground/downloads/golden-dark-pixel.zip?raw=1) |
+| 比熊 | [雪白蓝胸背](playground/downloads/bichon-photo-v3.zip?raw=1) · [奶油珊瑚](playground/downloads/bichon-cream-coral-v5.zip?raw=1) · [冰白丁香](playground/downloads/bichon-ice-lilac-v5.zip?raw=1) |
+| 泰迪 | [杏棕粉蓝](playground/downloads/teddy-profile-v6.zip?raw=1) · [奶油杏](playground/downloads/teddy-cream-profile-v6.zip?raw=1) · [巧克力棕](playground/downloads/teddy-chocolate-profile-v6.zip?raw=1) |
+| 柯基 | [赤金白](playground/downloads/corgi-photo-v3.zip?raw=1) · [黑头三色](playground/downloads/corgi-tricolor-v5.zip?raw=1) · [奶油黄白](playground/downloads/corgi-cream-v5.zip?raw=1) |
+| 瑞牧 | [雪白](playground/downloads/swiss-profile-v6.zip?raw=1) · [暖米白](playground/downloads/swiss-ivory-profile-v6.zip?raw=1) · [冰银白](playground/downloads/swiss-ice-profile-v6.zip?raw=1) |
+| 二哈 | [黑白棕瞳侧面](playground/downloads/husky-profile-v6.zip?raw=1) · [银灰白](playground/downloads/husky-silver-profile-v6.zip?raw=1) · [红棕白](playground/downloads/husky-red-profile-v6.zip?raw=1) |
+| 西高地 | [雪白](playground/downloads/westie-profile-v1.zip?raw=1) |
 
-**切换风格**：打开「鼠标属性 → 指针 → 方案」，选另一套后点「应用」；也可以双击那一套主题目录里的 `安装鼠标主题.cmd` 重新安装。两种方式得到的都是 32px 原生像素，效果一致。
+## 动作、鼻尖与验证
 
-11 套合集包（`pet-mouse-pointer-all-cases.zip`）根目录同样提供这几个入口，另含两套品种说明。
+Windows每款含17种动画状态：正常、帮助、后台工作、等待、精确定位、文本、手写、不可用、四向缩放、移动、候选、链接、位置和人员选择。点选类使用可见鼻尖；文字用插入线，手写用笔尖，定位及缩放用操作符号接触点。侧面造型保留品种的耳朵、口鼻和毛色特征。
 
-### macOS 测试版
+27款沿用已复查的源动作，提供Windows原生加载/绘制、各尺寸与热点检查记录；本次更新安装器经过预演，未在制作机应用主题。实际桌面点击手感、不同DPI与多显示器仍需试用；局部毛发纹理变化可能存在。自动检测不能替代逐帧视觉检查。见[发布目录与验证](docs/release-27.json)及各主题包内报告。
 
-**[下载全部11套 Mac 主题（ZIP，约31MB）](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/downloads/pet-mouse-pointer-macos-test.zip)** · [安装与恢复说明](docs/macOS.md) · [验证记录](docs/macos-validation.json) · [SHA-256校验](downloads/SHA256SUMS)
+## 用 Skill 制作自己的宠物
 
-先安装 [Mousecape](https://github.com/alexzielenski/Mousecape/releases)，完整解压后双击喜欢的 `.cape` **导入**，再在 Mousecape 里选中该主题点 **Apply** 才真正生效——**双击只导入、不会自动应用**。macOS 版也没有 Windows 那种「一键安装所有风格」入口，两边机制不同，详见[安装说明](docs/macOS.md#先看这里macos-版和-windows-版不一样)。每套提供常规32pt和大号48pt，均含1×/2×图像、离线动画预览、点击热点和转换记录。
+[下载 Skill](downloads/pet-cursor-skill.zip?raw=1) · [Skill 源文件](skills/pet-cursor-theme/SKILL.md)
 
-13种对应动作映射为17个Mac指针条目。受 Mousecape 等时帧和24帧上限影响，部分动画经过时间采样，循环总时长保留。**格式、素材和压缩包检查通过，尚未在 Mac 实机导入或应用；系统版本、Intel/Apple Silicon、多屏和实际点击体验待测。**
+将 `pet-cursor-theme` 文件夹放入客户端技能目录，保留 scripts、references 和 assets。提供宠物照片与风格要求，先确定普通指针侧面造型、可见鼻尖，再扩展17状态和配色。Python只负责分帧、配准和编码，美术由宿主图像生成工具制作；不包含模型或API密钥。
 
-导出与验证脚本位于 [`scripts/`](scripts/)，使用方式见 [Mac说明](docs/macOS.md#重新导出)。
-
-### 毛色对照
-
-毛色对照中的11款均已有完整动画主题：7款喜乐蒂、4款金毛。新增红陨石喜乐蒂按确认照片设计，保留浅金黄色嘴筒、较深的棕色侧毛、白色鼻梁与胸毛。全部11套均覆盖17种Windows角色和五种尺寸。
-
-![11款毛色对照](docs/images/coat-colors.png)
-
-### 更清楚的操作箭头
-
-11套像素主题的上下、左右、两种斜向缩放、移动与候选选择均使用统一的大号像素箭头，并与宠物脸部分开放置。正常选择仍由鼻尖点击；缩放与移动在符号中心定位，候选选择在向上箭头尖定位。
-
-下图展示首六套的箭头升级，其余主题沿用相同符号与尺寸。
-
-![首六套箭头：旧48px、新48px与3倍放大对照](docs/images/larger-operation-arrows.png)
-
-### 从参考照片到鼠标指针
-
-以下是维护者提供并授权在本项目展示的两张案例参考照片，分别对应红陨石喜乐蒂与奶油白金毛主题。
-
-| 红陨石喜乐蒂参考照片 | 奶油白金毛参考照片 |
-|:---:|:---:|
-| <img src="docs/images/references/sheltie-reference.png" width="280" alt="红陨石喜乐蒂案例参考照片"> | <img src="docs/images/references/golden-reference.png" width="280" alt="金毛案例参考照片"> |
-| ![红陨石喜乐蒂动画指针](docs/images/sheltie-red-merle-pixel.gif) | ![金毛动画指针](docs/images/golden-cream-pixel.gif) |
-
-照片用于说明毛色、耳型、脸部特征与配饰如何转化为指针角色。红陨石版本按左侧照片调整了黄色嘴筒、较深的侧毛，以及白色鼻梁和胸毛。参考照片不自动适用代码的 MIT 许可，详见[素材说明](ASSETS.md)。
-
-### 动画预览
-
-**新增：红陨石喜乐蒂**
-
-![红陨石喜乐蒂动画](docs/images/sheltie-red-merle-pixel.gif)
-
-| **深貂色喜乐蒂** | **黑白两色喜乐蒂** |
-|:---:|:---:|
-| ![深貂动作](docs/images/sheltie-dark-sable-pixel.gif) | ![黑白动作](docs/images/sheltie-bi-black-pixel.gif) |
-| **蓝陨石色喜乐蒂** | **貂色喜乐蒂** |
-| ![双色蓝动作](docs/images/sheltie-bi-blue-pixel.gif) | ![黄白动作](docs/images/pet-pixel-complete.gif) |
-
-| **黑白三色喜乐蒂** | **三色陨石喜乐蒂** |
-|:---:|:---:|
-| ![三色动作](docs/images/sheltie-tricolor-pixel.gif) | ![蓝陨动作](docs/images/sheltie-blue-merle-pixel.gif) |
-| **标准金毛** | **深金毛** |
-| ![标准金动作](docs/images/golden-standard-pixel.gif) | ![深金动作](docs/images/golden-dark-pixel.gif) |
-| **浅金毛** | **奶油白金毛** |
-| ![浅金动作](docs/images/golden-light-pixel.gif) | ![奶油白动作](docs/images/golden-cream-pixel.gif) |
-
-预览展示正常、帮助、等待、链接等动作。完整17状态、热点与实际尺寸请打开对应包内的 `preview.html`。
-
-## 补充：预览与手动安装
-
-`preview.html` 可以直接打开，请保留旁边的 `frames/` 文件夹。预览支持尺寸、深浅背景、热点标记和点击试用；网页显示 PNG 动画，Windows 实际使用 ANI 文件。
-
-如果系统策略阻止脚本运行，可按 `Win + R` 输入 `main.cpl`，在「指针」页手动分配主题内的文件，并先另存原方案；手动分配后应保留这些 ANI 文件的路径。
-
-安装前会自动备份当前指针设置，并把系统需要的文件复制到用户目录。连续应用本项目主题或切换尺寸时，只要当前完整方案仍属于本项目且原备份有效，就会保留最初的恢复基线；恢复操作保留备份文件。
-
-## 用自己的宠物制作
-
-### 安装 Skill
-
-下载 [Skill ZIP](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/downloads/pet-cursor-skill.zip)，或取出仓库的 [`skills/pet-cursor-theme/`](skills/pet-cursor-theme/) 文件夹。将整个文件夹放入支持 `SKILL.md` 的客户端技能目录，再按客户端的方式启用。请保留其中的 `scripts/`、`references/`、`assets/` 与 `requirements.txt`。
-
-Skill 需要宿主提供可用的图像生成工具。本项目不包含图像模型、API 密钥，也不会自行把照片发送给某个固定服务；图像生成的可用性和使用条件取决于宿主及所选服务。
-
-### 提供照片和要求
-
-启用后，附上清楚的宠物照片，例如：
-
-> 使用 pet-cursor-theme Skill，根据这张照片制作完整的 Windows 鼠标指针主题。采用清晰的像素风格，保留宠物自己的毛色、耳型和配饰。正常选择用侧脸鼻尖定位，毛发持续轻动；帮助选择做疑问表情，问号弹出再缩回；等待时睡着、冒出 ZZZ、再醒来。17 种状态都要有动画，操作标记保持清楚。每次制作或修改后，逐帧检查所有过渡与首尾衔接，修复严重抖动、偏移和突然缩放，交付预览、安装包和检查记录。
-
-流程包括观察宠物特征、确定造型、生成各状态素材、测量每帧点击点、编译五种尺寸、逐帧复查和 Windows 验证。新宠物需要重新设计脸型和动作；示例中的犬种特征不会直接套用到新照片上。像素风是当前示例采用的方向，编译器也支持非像素素材。
-
-## 17 种状态与点击点
-
-| Windows 角色 | 中文状态 | 点击位置 |
-|---|---|---|
-| `Arrow` | 正常选择 | 鼻尖 |
-| `Help` | 帮助选择 | 鼻尖 |
-| `AppStarting` | 后台工作 | 鼻尖 |
-| `Wait` | 忙碌等待 | 睡姿中明确、固定的接触点 |
-| `Crosshair` | 精确选择 | 准星中心 |
-| `IBeam` | 文本选择 | 插入线中心 |
-| `NWPen` | 手写 | 笔尖 |
-| `No` | 不可用 | 禁止标记中心 |
-| `SizeNS` | 垂直缩放 | 双向箭头中心 |
-| `SizeWE` | 水平缩放 | 双向箭头中心 |
-| `SizeNWSE` | 左上右下缩放 | 双向箭头中心 |
-| `SizeNESW` | 右上左下缩放 | 双向箭头中心 |
-| `SizeAll` | 移动 | 四向箭头交点 |
-| `UpArrow` | 候选选择 | 向上箭头尖 |
-| `Hand` | 链接选择 | 鼻尖 |
-| `Pin` | 位置选择 | 鼻尖或明确设计的接触点 |
-| `Person` | 人员选择 | 鼻尖或明确设计的接触点 |
-
-动画中让眼睛、耳朵、毛发或爪子动起来，点击点与操作标记保持稳定。正常选择、疑问、嗅闻、专注和睡眠可以有不同表情与姿态。
-
-动作过渡通常使用 3 个 ANI 时基单位，即每帧 1/20 秒。睡眠、表情和休息会有意停留，因此完整循环的平均变化率可能低于 20 FPS。预览与清单分别记录实际独立帧数、动作峰值、循环平均变化率和时长；重复同一张图不会增加真实动作细节。
-
-## 开发者：构建与检查
-
-需要 Python 3.10+ 和 Pillow 12.3+。编译可在非 Windows 环境完成；原生验证与应用主题需要 Windows。
-
-在仓库根目录运行：
-
-```powershell
-python -m pip install -r requirements.txt
-```
-
-在 `projects/my-pet/` 中创建 `assets/`，放入生成的透明精灵图，并将配置保存为 `projects/my-pet/theme-config.json`。素材路径相对于该项目目录。配置应覆盖全部 17 个角色，并测量每帧真实的鼻尖或标记位置。完整字段说明见 [配置文档](skills/pet-cursor-theme/references/configuration.md)。
-
-```powershell
-python skills/pet-cursor-theme/scripts/build_complete_theme.py --root projects/my-pet --config projects/my-pet/theme-config.json --output output/my-pet
-python skills/pet-cursor-theme/scripts/verify_cursor_motion.py output/my-pet
-# 以下原生检查在 Windows 上运行，不会应用主题：
-python skills/pet-cursor-theme/scripts/verify_complete_theme.py output/my-pet
-```
-
-`--root` 只负责解析项目素材路径。预览模板与安装／恢复脚本自动从 Skill 自身目录读取，独立项目无需复制 `scripts/`。
-
-像素主题建议配置：
-
-```json
-{
-  "pixel_art": true,
-  "native_pixel_size": 48,
-  "pixel_alpha_threshold": 128,
-  "pixel_palette_colors": 16,
-  "states": []
-}
-```
-
-其中 `states` 需要填入全部角色。编译器采用最近邻缩放、二值透明度，以及每个状态所有帧共享的无抖动调色板。单帧状态输出 CUR，多帧状态输出 ANI。
-
-### 每次制作、修改后都检查每一帧
-
-`verify_cursor_motion.py` 会输出全部动画序列、浅色／深色底图、原速／慢放 GIF，以及可疑过渡的相邻帧叠图，覆盖最后一帧回到第一帧的衔接。
-
-随后需要视觉检查 **每个状态的全部过渡**，包括未被自动标记的部分：点击特征是否固定，头部、眼窝、嘴筒和胸背是否突然移动或缩放，单帧是否闪现异常姿态。区分有意的眨眼、飘毛、抬爪、问号缩放和睡姿变化。发现问题后修正源素材或配准点，重新构建并复查。
-
-自动检测提供复查线索，不能单独证明动画稳定。完成视觉复查后，将覆盖范围、判断和剩余问题写入 `motion-review/visual-review.json`。详见 [逐帧检查规范](skills/pet-cursor-theme/references/motion-review.md)。
-
-Windows 原生检查会验证 CUR/ANI 结构、各尺寸、每个嵌入帧的加载与绘制，以及热点坐标。安装入口也支持只预演、不修改系统设置：
-
-```powershell
-& './output/my-pet/安装鼠标主题.cmd' --check
-```
-
-已有有效安装备份时，可预演恢复：
-
-```powershell
-& './output/my-pet/恢复原鼠标.cmd' --check
-```
-
-### 经典主题验证范围
-
-- 11套像素主题均有 Windows 原生加载、绘制、尺寸和热点检查，以及48/96px的逐帧视觉复查记录，包括循环接缝。
-- 11套像素主题共187个状态、1949张源动作导出帧；六种功能箭头均采用大号符号。轻微像素轮廓与毛发纹理变化仍可能存在。
-- 自动检测只提供可疑过渡线索，视觉结论见各包内 `motion-review/visual-review.json`。11套像素主题汇总见 [验证记录](docs/coat-release-validation.json)。
-- 两个双击入口经过预演检查；浅金毛另做五种尺寸的实际安装及恢复检查。桌面点击手感、不同DPI和多显示器仍需实际试用。
-
-### 扩展其他毛色
-
-先选择或生成毛色母版，再逐状态编辑源精灵图，保护眼睛、鼻子、舌头、胸背配饰与功能符号。蓝陨等斑块需固定在对应身体部位，逐帧检查花纹连续性。
-可复用的注册脚本会把旧的测量点映射到新图，并保留动作时序；它不能代替视觉验收。流程、毛色选项与命令见 [毛色扩展说明](skills/pet-cursor-theme/references/coat-variants.md)。
-色板数量可按角色调整，彩色胸背和粉色舌头等细节较多时可用32–64色，避免被严格16色量化吞掉。
-
-## 仓库结构
-
-```text
-skills/pet-cursor-theme/    可复用 Skill、脚本和配置／检查规范
-themes/pet-pixel-complete/ 喜乐蒂主题说明
-themes/golden-cream-pixel/ 奶油金毛主题说明
-themes/*-pixel/           其他毛色主题说明与检查记录
-playground/               26套主题体验页、图集与运行包
-downloads/                离线体验页、经典合集与Skill ZIP
-docs/images/              README 动画预览
-```
-
-主题包保留构建参数、热点、绘图提示词、预览和检查报告。仓库仅公开上述两张经维护者授权展示的案例参考照片，主题 ZIP 不新增照片；其他私人照片不随仓库或下载包分发。重新构建同一套图案时，需要配置所引用的源精灵图；仅安装和预览现成主题无需这些源图。
-
-## 运行测试
+支持Windows CUR/ANI编译、macOS Mousecape转换、可恢复安装、逐帧检查，以及整套/单犬种打包。开发依赖Python3.10+与Pillow，见[Skill说明](skills/pet-cursor-theme/README.md)。Skill不会因本地包完成而自行发布或应用系统鼠标。
 
 ```powershell
 python -m unittest discover -s skills/pet-cursor-theme/scripts -p "test_*.py"
-powershell -NoProfile -ExecutionPolicy Bypass -File skills/pet-cursor-theme/scripts/test_cursor_backup.ps1
 ```
 
-测试覆盖编码、角色和尺寸、跨项目构建、重复ID、动画时序、裁切、逐帧抖动检测，以及Windows双击入口和恢复备份逻辑。
+## 文件与许可
 
-## 许可与素材
+`playground/` 为完整体验页；`downloads/` 为平台与犬种合集；`skills/` 为可复用制作工具；`docs/` 为图鉴、动画和检查记录。旧版下载保留供溯源，当前推荐入口均以上方27款为准。下载完整性见 [SHA-256](downloads/SHA256SUMS)。
 
-代码与文档采用 [MIT License](LICENSE)。宠物照片、参考图、生成图像和主题美术素材的权利需分别确认，不自动继承代码的 MIT 许可；请查看[素材说明](ASSETS.md)和各主题中的说明，并遵守所用图像生成服务的条款。
-
-贡献代码时请附上相关测试结果；贡献或修改动画时，请附上逐帧复查范围和剩余问题，避免只凭帧率或原生加载结果判断质量。
-
-## 致谢
+代码与文档采用 [MIT](LICENSE)；宠物照片、参考图及生成美术的权利单独确认，见[素材说明](ASSETS.md)。本次新增主题和合集不附私人参考照片、密钥或本机路径。
 
 感谢 🍠 不要芋泥要啵啵 的反馈。

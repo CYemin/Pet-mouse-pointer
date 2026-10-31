@@ -1,12 +1,12 @@
 {
   "status": "passed",
-  "themes": 26,
-  "complete_themes": 26,
+  "themes": 27,
+  "complete_themes": 27,
   "normal_previews": 0,
-  "new_families": 5,
-  "new_color_designs": 15,
-  "states": 442,
-  "lossless_atlas_frame_cells": 30145,
+  "new_families": 6,
+  "new_color_designs": 16,
+  "states": 459,
+  "lossless_atlas_frame_cells": 31505,
   "checks": [
     {
       "theme": "teddy-profile-v6",
@@ -189,6 +189,13 @@
       "lossless": true,
       "complete": true,
       "zip_crc": true
+    },
+    {
+      "theme": "westie-profile-v1",
+      "states": 17,
+      "lossless": true,
+      "complete": true,
+      "zip_crc": true
     }
   ],
   "limits": [
@@ -198,7 +205,7 @@
   "system_cursor_settings_modified": false,
   "profile_version": 6,
   "profile_themes": 9,
-  "nasal_frame_contacts_checked": 5040,
+  "nasal_frame_contacts_checked": 5600,
   "nasal_contact_edge_depths": {
     "teddy-profile-v6": 0,
     "teddy-cream-profile-v6": 0,

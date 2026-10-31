@@ -199,7 +199,10 @@ def build_theme(source, target):
 def build_collection(sources, output):
     output = Path(output)
     reports = [build_theme(source, output / Path(source).name) for source in sources]
-    shutil.copy2(ROOT / 'docs/macOS.md', output / 'macOS.md')
+    guide = ROOT / 'docs/macOS.md'
+    if not guide.is_file():
+        guide = ROOT / 'references/macOS.md'
+    shutil.copy2(guide, output / 'macOS.md')
     public_repo = ROOT if (ROOT / 'LICENSE').is_file() else ROOT / '.publish/Pet-mouse-pointer'
     for name in ('LICENSE', 'ASSETS.md'):
         if (public_repo / name).is_file():

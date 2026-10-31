@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "cmd_dry_runs": 52,
+  "system_settings_modified": false,
+  "zip_crc_checked": 20,
+  "readme_local_links": "passed",
+  "packages": [
+    "macos-all.zip",
+    "macos-bichon.zip",
+    "macos-corgi.zip",
+    "macos-golden.zip",
+    "macos-husky.zip",
+    "macos-sheltie.zip",
+    "macos-swiss.zip",
+    "macos-teddy.zip",
+    "macos-westie.zip",
+    "pet-cursor-playground-27.zip",
+    "pet-cursor-skill.zip",
+    "windows-all.zip",
+    "windows-bichon.zip",
+    "windows-corgi.zip",
+    "windows-golden.zip",
+    "windows-husky.zip",
+    "windows-sheltie.zip",
+    "windows-swiss.zip",
+    "windows-teddy.zip",
+    "windows-westie.zip"
+  ]
+}
