@@ -1,0 +1,91 @@
+{
+  "status": "passed",
+  "date": "2026-11-01",
+  "upstream": "https://github.com/alexzielenski/Mousecape/pull/308",
+  "observed": "Pet cursor on links; stock arrow on ordinary page regions in supplied video.",
+  "package_root_cause": "Legacy-only Arrow/IBeam names omit macOS26+ ArrowS/IBeamS.",
+  "compatibility_aliases": {
+    "com.apple.coregraphics.ArrowS": "com.apple.coregraphics.Arrow",
+    "com.apple.coregraphics.IBeamS": "com.apple.coregraphics.IBeam"
+  },
+  "themes": 33,
+  "cape_files": 66,
+  "unit_tests_passed": 10,
+  "archives": [
+    {
+      "archive": "macos-all.zip",
+      "cape_files": 66,
+      "unchanged_legacy_cursor_definitions": 1122,
+      "bytes": 84358428
+    },
+    {
+      "archive": "macos-bichon.zip",
+      "cape_files": 6,
+      "unchanged_legacy_cursor_definitions": 102,
+      "bytes": 6245812
+    },
+    {
+      "archive": "macos-border-collie.zip",
+      "cape_files": 6,
+      "unchanged_legacy_cursor_definitions": 102,
+      "bytes": 7501052
+    },
+    {
+      "archive": "macos-corgi.zip",
+      "cape_files": 6,
+      "unchanged_legacy_cursor_definitions": 102,
+      "bytes": 7787872
+    },
+    {
+      "archive": "macos-golden.zip",
+      "cape_files": 8,
+      "unchanged_legacy_cursor_definitions": 136,
+      "bytes": 14052338
+    },
+    {
+      "archive": "macos-husky.zip",
+      "cape_files": 6,
+      "unchanged_legacy_cursor_definitions": 102,
+      "bytes": 7192975
+    },
+    {
+      "archive": "macos-pomeranian.zip",
+      "cape_files": 6,
+      "unchanged_legacy_cursor_definitions": 102,
+      "bytes": 7371006
+    },
+    {
+      "archive": "macos-sheltie.zip",
+      "cape_files": 14,
+      "unchanged_legacy_cursor_definitions": 238,
+      "bytes": 18715836
+    },
+    {
+      "archive": "macos-swiss.zip",
+      "cape_files": 6,
+      "unchanged_legacy_cursor_definitions": 102,
+      "bytes": 6193842
+    },
+    {
+      "archive": "macos-teddy.zip",
+      "cape_files": 6,
+      "unchanged_legacy_cursor_definitions": 102,
+      "bytes": 6912192
+    },
+    {
+      "archive": "macos-westie.zip",
+      "cape_files": 2,
+      "unchanged_legacy_cursor_definitions": 34,
+      "bytes": 2435283
+    },
+    {
+      "archive": "pet-mouse-pointer-macos-test.zip",
+      "cape_files": 22,
+      "unchanged_legacy_cursor_definitions": 374,
+      "bytes": 32769181
+    }
+  ],
+  "native_macos_retest_pending": true,
+  "system_settings_modified": false,
+  "video_not_published": true
+}

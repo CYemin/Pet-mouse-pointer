@@ -106,6 +106,34 @@ class MacThemeTests(unittest.TestCase):
                 build_theme(source, target)
             self.assertFalse(target.exists())
 
+    def test_modern_arrow_and_ibeam_use_the_same_art_and_hotspots_as_legacy(self):
+        # macOS26+ draws these named families instead of the legacy names.
+        # Use literal platform keys so a truncated ROLE_MAP cannot bless itself.
+        with temporary_folder() as temp:
+            source=self.fixture(Path(temp));target=Path(temp)/'export'
+            report=build_theme(source,target)
+            for size in (32,48):
+                cape=plistlib.loads((target/f'{source.name}-{size}pt.cape').read_bytes())
+                self.assertEqual(cape['CapeVersion'],2.0)
+                for legacy,modern in [('Arrow','ArrowS'),('IBeam','IBeamS')]:
+                    with self.subTest(size=size,family=modern):
+                        self.assertIn('com.apple.coregraphics.'+modern,set(cape['Cursors']))
+                        self.assertEqual(cape['Cursors']['com.apple.coregraphics.'+modern],cape['Cursors']['com.apple.coregraphics.'+legacy])
+            self.assertEqual(report['mac_cursor_entries'],19)
+
+    def test_verifier_rejects_missing_modern_arrow_even_with_matching_hash(self):
+        with temporary_folder() as temp:
+            source=self.fixture(Path(temp));target=Path(temp)/'export'
+            build_theme(source,target)
+            path=target/f'{source.name}-32pt.cape';cape=plistlib.loads(path.read_bytes())
+            cape['Cursors'].pop('com.apple.coregraphics.ArrowS',None)
+            path.write_bytes(plistlib.dumps(cape))
+            report_path=target/'verification.json';report=json.loads(report_path.read_text(encoding='utf8'))
+            report['sha256'][path.name]=hashlib.sha256(path.read_bytes()).hexdigest()
+            report_path.write_text(json.dumps(report),encoding='utf8')
+            with self.assertRaisesRegex(ValueError,'Mac cursor keys'):
+                verify_theme(target,source)
+
     def test_unsafe_identifier_is_rejected(self):
         with temporary_folder() as temp:
             source = self.fixture(Path(temp))

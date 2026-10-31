@@ -3,11 +3,15 @@
   "native_macos_tested": false,
   "themes": 11,
   "cape_files": 22,
-  "cursor_entries": 374,
-  "png_strips": 748,
-  "embedded_frames": 14300,
-  "unit_tests_passed": 8,
+  "cursor_entries": 418,
+  "png_strips": 836,
+  "embedded_frames": 15824,
+  "unit_tests_passed": 10,
   "download": "downloads/pet-mouse-pointer-macos-test.zip",
-  "download_bytes": 30716846,
-  "sha256": "3afd413dfd952661997b5716f29f2c43615f61a426f4a27e2398b8ef444bdb4d"
+  "download_bytes": 32769181,
+  "sha256": "23676890cfa79157ddb1d4e207d7a1f71b0f4511b068d64e9f8b8cae55ab95f9",
+  "compatibility_aliases": {
+    "com.apple.coregraphics.ArrowS": "com.apple.coregraphics.Arrow",
+    "com.apple.coregraphics.IBeamS": "com.apple.coregraphics.IBeam"
+  }
 }

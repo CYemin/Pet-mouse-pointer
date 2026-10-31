@@ -21,12 +21,14 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
 ROLE_MAP = {
-    'Arrow': ('com.apple.coregraphics.Arrow',),
+    # macOS26+ draws ArrowS/IBeamS; keep legacy names for earlier macOS.
+    # https://github.com/alexzielenski/Mousecape/pull/308
+    'Arrow': ('com.apple.coregraphics.Arrow', 'com.apple.coregraphics.ArrowS'),
     'Help': ('com.apple.cursor.40',),
     'AppStarting': ('com.apple.cursor.4',),
     'Wait': ('com.apple.coregraphics.Wait',),
     'Crosshair': ('com.apple.cursor.7', 'com.apple.cursor.8'),
-    'IBeam': ('com.apple.coregraphics.IBeam',),
+    'IBeam': ('com.apple.coregraphics.IBeam', 'com.apple.coregraphics.IBeamS'),
     'No': ('com.apple.cursor.3',),
     'SizeNS': ('com.apple.cursor.23', 'com.apple.cursor.32'),
     'SizeWE': ('com.apple.cursor.19', 'com.apple.cursor.28'),
@@ -158,7 +160,7 @@ def build_theme(source, target):
                 timings.append(timing)
         variants[size] = entries
         cape = dict(Author='CYemin', CapeName=name,
-                    CapeVersion=1.0, Cloud=False, Cursors=cursors, HiDPI=True,
+                    CapeVersion=2.0, Cloud=False, Cursors=cursors, HiDPI=True,
                     Identifier=f'io.github.cyemin.pet-cursors.{slug}.{size}pt',
                     MinimumVersion=2.0, Version=2.0)
         files[f'{slug}-{size}pt.cape'] = plistlib.dumps(cape, fmt=plistlib.FMT_XML)
@@ -167,6 +169,7 @@ def build_theme(source, target):
                   source_asset_revision=manifest.get('asset_revision'),
                   sizes_points=list(SIZES), scales=[1, 2], source_roles_exported=len(ROLE_MAP),
                   mac_cursor_entries=len(cursors),
+                  compatibility_aliases={key:ROLE_MAP[role][0] for role in ('Arrow','IBeam') for key in ROLE_MAP[role][1:]},
                   omitted_windows_roles=[r for r in roles if r not in ROLE_MAP],
                   retina_method='2x derived from base frame to preserve hotspot geometry',
                   timing=timings,
@@ -184,10 +187,11 @@ def build_theme(source, target):
         '2. 在 Mousecape 主题列表中选中导入的主题，使用 Apply 应用。大号请选择 `48pt.cape` 结尾的文件。\n'
         '3. 恢复时使用 Mousecape 菜单 `Capes → Restore Defaults`；恢复后再删除本主题。\n'
         '4. 打开 `preview.html` 检查转换后的动画和点击点，无需 Python。\n\n'
-        '包含13种对应动作、17个Mac指针条目，常规32pt和大号48pt，每种含1×/2×图像。'
+        '包含13种对应动作、19个Mac指针条目，含macOS26及更新系统的ArrowS／IBeamS兼容条目；常规32pt和大号48pt，每种含1×/2×图像。'
         '32pt在Retina上使用64像素图像，48pt使用96像素图像；图像从同一基准帧缩放以保持热点一致。\n\n'
         'Windows 的手写、候选、位置和人员选择没有直接对应条目，不导出。Mac额外的复制、别名、抓手、缩放等状态保留系统默认。'
         '具体App自绘指针可能不受主题影响。\n\n'
+        '从旧版升级：先在Mousecape恢复默认并移除旧的同款主题，再重新导入本包.cape并Apply；不必移除其他品种。Mousecape可能将重复导入保留为同名副本；只下载ZIP不会更新已导入的主题。新版CapeVersion为2.0，包含19个条目。新条目与旧条目共用完整动画及热点。\n\n'
         'Mousecape最多接受24个等时帧：能精确展开的停留保持原节奏，其余按时间采样到24帧，总循环时长保持一致，部分短促动作可能被简化。'
         '每个状态的转换记录见 `verification.json`。\n\n'
         '**验证范围：** 已完成plist、PNG、帧顺序、尺寸、透明度、热点、时长与压缩包检查。'

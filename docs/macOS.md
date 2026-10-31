@@ -12,6 +12,16 @@
 
 先在不重要的窗口中试用点击、文本插入、窗口边缘缩放、链接和忙碌指针。确认基础应用稳定后，再考虑通过 Mousecape 自带的 helper 功能保持登录后生效。当前合集不安装 helper，不改系统设置。
 
+## 2026-11-01：普通区域变回默认箭头的修复
+
+视频反馈显示链接处有宠物、普通区域却回退系统箭头；这与[Mousecape上游记录的macOS26新命名问题](https://github.com/alexzielenski/Mousecape/pull/308)一致。旧包只含Arrow／IBeam，现已同时提供ArrowS／IBeamS。该修复覆盖全部33款和各犬种合集；旧11款Mac下载入口也已补丁。
+
+从旧版升级：先在Mousecape恢复默认并移除旧的同款主题，再重新导入新版.cape并Apply；无需移除其他品种。重复导入可能保留同名副本，请确认所选版本为2.0、共19个条目。仅下载或解压ZIP不会更新已导入主题。
+
+这次已对全部新旧条目、PNG、帧序、时长与热点完成离线校验；用户机器的修复效果仍需重新导入后确认。若仍回退，请记录macOS及Mousecape版本、应用和触发位置，区分系统命名问题与应用自绘指针。
+
+旧Mousecape的恢复逻辑也有上游已知兼容问题；如“Restore Defaults”无效，应先取消登录helper并退出Mousecape，再注销或重启回到系统初始化状态。本文不安装helper或修改系统设置。
+
 ## 恢复
 
 使用 Mousecape 菜单 `Capes → Restore Defaults` 恢复默认指针，再删除导入的宠物主题；若安装了登录 helper，也请通过 Mousecape 取消。菜单名称依据官方 MainMenu.xib；不同分支或语言可能不同。为方便退出测试，先确认自己使用的版本中恢复功能的位置和行为，再应用主题。
@@ -20,12 +30,12 @@
 
 | 宠物动作 | Mousecape 条目 |
 |---|---|
-| 正常选择 | Arrow |
+| 正常选择 | Arrow / ArrowS |
 | 帮助选择 | Help |
 | 后台工作 | Busy |
 | 忙碌等待 | Wait |
 | 精确选择 | Crosshair / Crosshair 2 |
-| 文本选择 | IBeam |
+| 文本选择 | IBeam / IBeamS |
 | 不可用 | Forbidden |
 | 垂直缩放 | Resize N-S / Window N-S |
 | 水平缩放 | Resize W-E / Window E-W |
@@ -34,7 +44,7 @@
 | 移动 | Move |
 | 链接选择 | Link / Pointing |
 
-13种源动作映射为17个 Mac 条目。Windows 的手写、候选、位置和人员选择不导出。Mac 的复制、别名、单向缩放、抓手、放大缩小等额外条目使用系统默认；应用自绘指针可能不受主题影响。条目名称和编号依据 [Mousecape MCDefs.m](https://github.com/alexzielenski/Mousecape/blob/master/Mousecape/mousecloak/MCDefs.m)。
+13种源动作映射为19个 Mac 条目。ArrowS与IBeamS兼容条目和旧Arrow／IBeam的动画、时长、热点完全一致。Windows 的手写、候选、位置和人员选择不导出。Mac 的复制、别名、单向缩放、抓手、放大缩小等额外条目使用系统默认；应用自绘指针可能不受主题影响。条目名称和编号依据 [Mousecape MCDefs.m](https://github.com/alexzielenski/Mousecape/blob/master/Mousecape/mousecloak/MCDefs.m)。
 
 ## 动画与 Retina
 
@@ -65,6 +75,6 @@ python scripts/build_macos_theme.py
 python scripts/verify_macos_theme.py
 ```
 
-默认导出 `output/` 中已有 `manifest.json` 和 `frames/` 的13套主题。指定单套可运行 `python scripts/build_macos_theme.py output/golden-cream-pixel --output output/macos-cream-test`。输出包括 `.cape`、离线预览、说明、转换记录、ZIP 和 SHA-256；不会应用指针。
+默认扫描 `output/` 中已有 `manifest.json` 和 `frames/` 的主题；当前发布品种与配色以catalog.json为准。指定单套可运行 `python scripts/build_macos_theme.py output/golden-cream-pixel --output output/macos-cream-test`。输出包括 `.cape`、离线预览、说明、转换记录、ZIP 和 SHA-256；不会应用指针。
 
 素材授权说明见随包 `ASSETS.md`，代码许可见 `LICENSE`。原始宠物照片不包含在 Mac 包中。

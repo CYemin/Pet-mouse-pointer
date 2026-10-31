@@ -18,7 +18,7 @@
         2
       ],
       "source_roles_exported": 13,
-      "mac_cursor_entries": 17,
+      "mac_cursor_entries": 19,
       "omitted_windows_roles": [
         "NWPen",
         "UpArrow",
@@ -54,7 +54,8 @@
             14
           ],
           "mac_identifiers": [
-            "com.apple.coregraphics.Arrow"
+            "com.apple.coregraphics.Arrow",
+            "com.apple.coregraphics.ArrowS"
           ]
         },
         {
@@ -230,7 +231,8 @@
             8
           ],
           "mac_identifiers": [
-            "com.apple.coregraphics.IBeam"
+            "com.apple.coregraphics.IBeam",
+            "com.apple.coregraphics.IBeamS"
           ]
         },
         {
@@ -482,8 +484,12 @@
         }
       ],
       "sha256": {
-        "pet-pixel-complete-32pt.cape": "b617835c0cdf48a4f36004c9da22e1835afd51a3d54592fad92431f0217bd1fd",
-        "pet-pixel-complete-48pt.cape": "17d5b3fa81bc08c758ed130797aa3213748ca3b1447496ec181b5eeaeccb4ccf"
+        "pet-pixel-complete-32pt.cape": "ec03977080a96a6f405aa09b9a39d0da1485bd80b056fb0f45bc141387f210c6",
+        "pet-pixel-complete-48pt.cape": "2459768fd3c23d7033b7117f1823b5af8f61ba6ecdf4b92cbeebf722f32169b6"
+      },
+      "compatibility_aliases": {
+        "com.apple.coregraphics.ArrowS": "com.apple.coregraphics.Arrow",
+        "com.apple.coregraphics.IBeamS": "com.apple.coregraphics.IBeam"
       }
     },
     {
@@ -502,7 +508,7 @@
         2
       ],
       "source_roles_exported": 13,
-      "mac_cursor_entries": 17,
+      "mac_cursor_entries": 19,
       "omitted_windows_roles": [
         "NWPen",
         "UpArrow",
@@ -539,7 +545,8 @@
             15
           ],
           "mac_identifiers": [
-            "com.apple.coregraphics.Arrow"
+            "com.apple.coregraphics.Arrow",
+            "com.apple.coregraphics.ArrowS"
           ]
         },
         {
@@ -708,7 +715,8 @@
             8
           ],
           "mac_identifiers": [
-            "com.apple.coregraphics.IBeam"
+            "com.apple.coregraphics.IBeam",
+            "com.apple.coregraphics.IBeamS"
           ]
         },
         {
@@ -949,8 +957,12 @@
         }
       ],
       "sha256": {
-        "golden-cream-pixel-32pt.cape": "27f72eacecc22bb56fa1fce91b1ad457fa5eb9fef3ae3d341eb2dd1e6145aac0",
-        "golden-cream-pixel-48pt.cape": "8af0e393db71e2442b833d2edb6ca442b428a6acb229bbe13505b823045e1210"
+        "golden-cream-pixel-32pt.cape": "8749d8e56a9b4a6f0ab8722a6d8b90e5bb73474b893b496d4f64b904efb8a701",
+        "golden-cream-pixel-48pt.cape": "d21f19338b0031c6178567c4c0966f2f5f51fa92f31c03fb43ae1b45972164a5"
+      },
+      "compatibility_aliases": {
+        "com.apple.coregraphics.ArrowS": "com.apple.coregraphics.Arrow",
+        "com.apple.coregraphics.IBeamS": "com.apple.coregraphics.IBeam"
       }
     },
     {
@@ -969,7 +981,7 @@
         2
       ],
       "source_roles_exported": 13,
-      "mac_cursor_entries": 17,
+      "mac_cursor_entries": 19,
       "omitted_windows_roles": [
         "NWPen",
         "UpArrow",
@@ -1005,7 +1017,8 @@
             14
           ],
           "mac_identifiers": [
-            "com.apple.coregraphics.Arrow"
+            "com.apple.coregraphics.Arrow",
+            "com.apple.coregraphics.ArrowS"
           ]
         },
         {
@@ -1181,7 +1194,8 @@
             8
           ],
           "mac_identifiers": [
-            "com.apple.coregraphics.IBeam"
+            "com.apple.coregraphics.IBeam",
+            "com.apple.coregraphics.IBeamS"
           ]
         },
         {
@@ -1433,8 +1447,12 @@
         }
       ],
       "sha256": {
-        "sheltie-tricolor-pixel-32pt.cape": "d993197cc6da2eda249e76eac431ce18c9b03955602515879828d0cdaa7e7a3d",
-        "sheltie-tricolor-pixel-48pt.cape": "6dcc2b33a4de07c276452f9d40c249777acb1e9068473eb454b06ab51f1da9e9"
+        "sheltie-tricolor-pixel-32pt.cape": "b91c3ded83990ddd6f039d2920905f020e3e74ee37c96bae35d5e4091bb09ac0",
+        "sheltie-tricolor-pixel-48pt.cape": "213da921d48bafc7636ad13381692bd107dd4130cd42d1aae3994d8f375d9bff"
+      },
+      "compatibility_aliases": {
+        "com.apple.coregraphics.ArrowS": "com.apple.coregraphics.Arrow",
+        "com.apple.coregraphics.IBeamS": "com.apple.coregraphics.IBeam"
       }
     },
     {
@@ -1453,7 +1471,7 @@
         2
       ],
       "source_roles_exported": 13,
-      "mac_cursor_entries": 17,
+      "mac_cursor_entries": 19,
       "omitted_windows_roles": [
         "NWPen",
         "UpArrow",
@@ -1489,7 +1507,8 @@
             14
           ],
           "mac_identifiers": [
-            "com.apple.coregraphics.Arrow"
+            "com.apple.coregraphics.Arrow",
+            "com.apple.coregraphics.ArrowS"
           ]
         },
         {
@@ -1665,7 +1684,8 @@
             8
           ],
           "mac_identifiers": [
-            "com.apple.coregraphics.IBeam"
+            "com.apple.coregraphics.IBeam",
+            "com.apple.coregraphics.IBeamS"
           ]
         },
         {
@@ -1917,8 +1937,12 @@
         }
       ],
       "sha256": {
-        "sheltie-blue-merle-pixel-32pt.cape": "821991659cf7bafcd8aaa062be828e4fd899c63d175f107bd7f6fcf676e6b88b",
-        "sheltie-blue-merle-pixel-48pt.cape": "796669cbefaf9b9613e7bf04a0eb3afe763a47e3475a3b7b47021897bdbca272"
+        "sheltie-blue-merle-pixel-32pt.cape": "eb83cf025a685b1e5ea44bbcb4f4581876faf9f56f409900da808e53229fb333",
+        "sheltie-blue-merle-pixel-48pt.cape": "fa4e7c4c87ebed899e8ff3843abf19a5349680c710fc735e194550e85e50de20"
+      },
+      "compatibility_aliases": {
+        "com.apple.coregraphics.ArrowS": "com.apple.coregraphics.Arrow",
+        "com.apple.coregraphics.IBeamS": "com.apple.coregraphics.IBeam"
       }
     },
     {
@@ -1937,7 +1961,7 @@
         2
       ],
       "source_roles_exported": 13,
-      "mac_cursor_entries": 17,
+      "mac_cursor_entries": 19,
       "omitted_windows_roles": [
         "NWPen",
         "UpArrow",
@@ -1974,7 +1998,8 @@
             15
           ],
           "mac_identifiers": [
-            "com.apple.coregraphics.Arrow"
+            "com.apple.coregraphics.Arrow",
+            "com.apple.coregraphics.ArrowS"
           ]
         },
         {
@@ -2143,7 +2168,8 @@
             8
           ],
           "mac_identifiers": [
-            "com.apple.coregraphics.IBeam"
+            "com.apple.coregraphics.IBeam",
+            "com.apple.coregraphics.IBeamS"
           ]
         },
         {
@@ -2384,8 +2410,12 @@
         }
       ],
       "sha256": {
-        "golden-standard-pixel-32pt.cape": "d1f8de7bf131ef6a8f627a297dd9f307cc1236bdb80d29bdd8b222f89d4069e7",
-        "golden-standard-pixel-48pt.cape": "e08f1b752a855fb5b26e36a89d47c853506814667e14b53e97d1bba534e095cf"
+        "golden-standard-pixel-32pt.cape": "5d389820a71c29c79d4b640494fe408373130ec9b43db089d9dbeb2145c011f9",
+        "golden-standard-pixel-48pt.cape": "279c41b621c933c0130ada9b433abcfb5b3c3b82d4e138055737408eaacbfc22"
+      },
+      "compatibility_aliases": {
+        "com.apple.coregraphics.ArrowS": "com.apple.coregraphics.Arrow",
+        "com.apple.coregraphics.IBeamS": "com.apple.coregraphics.IBeam"
       }
     },
     {
@@ -2404,7 +2434,7 @@
         2
       ],
       "source_roles_exported": 13,
-      "mac_cursor_entries": 17,
+      "mac_cursor_entries": 19,
       "omitted_windows_roles": [
         "NWPen",
         "UpArrow",
@@ -2441,7 +2471,8 @@
             15
           ],
           "mac_identifiers": [
-            "com.apple.coregraphics.Arrow"
+            "com.apple.coregraphics.Arrow",
+            "com.apple.coregraphics.ArrowS"
           ]
         },
         {
@@ -2610,7 +2641,8 @@
             8
           ],
           "mac_identifiers": [
-            "com.apple.coregraphics.IBeam"
+            "com.apple.coregraphics.IBeam",
+            "com.apple.coregraphics.IBeamS"
           ]
         },
         {
@@ -2851,8 +2883,12 @@
         }
       ],
       "sha256": {
-        "golden-dark-pixel-32pt.cape": "03c271dd4ee7539b1f035cfd573cc075dfb7ec6229a318f165e374cbe040138d",
-        "golden-dark-pixel-48pt.cape": "51d68d958da90899965ecbc8a7837e9d080233e858c7ff535324807d7afff5df"
+        "golden-dark-pixel-32pt.cape": "7d30e99b63b057beba960883f7bf5de928851731ec7e01747d4c51066b860589",
+        "golden-dark-pixel-48pt.cape": "fe9cd2a774912f02f11d1517355b1a62e3b9633162a002a89a8e708a7ab3d04b"
+      },
+      "compatibility_aliases": {
+        "com.apple.coregraphics.ArrowS": "com.apple.coregraphics.Arrow",
+        "com.apple.coregraphics.IBeamS": "com.apple.coregraphics.IBeam"
       }
     },
     {
@@ -2871,7 +2907,7 @@
         2
       ],
       "source_roles_exported": 13,
-      "mac_cursor_entries": 17,
+      "mac_cursor_entries": 19,
       "omitted_windows_roles": [
         "NWPen",
         "UpArrow",
@@ -2907,7 +2943,8 @@
             14
           ],
           "mac_identifiers": [
-            "com.apple.coregraphics.Arrow"
+            "com.apple.coregraphics.Arrow",
+            "com.apple.coregraphics.ArrowS"
           ]
         },
         {
@@ -3083,7 +3120,8 @@
             8
           ],
           "mac_identifiers": [
-            "com.apple.coregraphics.IBeam"
+            "com.apple.coregraphics.IBeam",
+            "com.apple.coregraphics.IBeamS"
           ]
         },
         {
@@ -3335,8 +3373,12 @@
         }
       ],
       "sha256": {
-        "sheltie-dark-sable-pixel-32pt.cape": "a9ef27817db9d42aeedfb6e68be672e9159e16ded75d29696c5c461a43926605",
-        "sheltie-dark-sable-pixel-48pt.cape": "c35fbd231b5f34e905a7307f188635762080a303ebe6ca8164727d8d622834a0"
+        "sheltie-dark-sable-pixel-32pt.cape": "0951ff783cb2d9d88a59539b44a3266a07a86f16b49ff94bdb171b7ac9cc6a23",
+        "sheltie-dark-sable-pixel-48pt.cape": "18c756d376d1eedb6543d041f90bc7d1177362a7b8daa379d2af021828f146be"
+      },
+      "compatibility_aliases": {
+        "com.apple.coregraphics.ArrowS": "com.apple.coregraphics.Arrow",
+        "com.apple.coregraphics.IBeamS": "com.apple.coregraphics.IBeam"
       }
     },
     {
@@ -3355,7 +3397,7 @@
         2
       ],
       "source_roles_exported": 13,
-      "mac_cursor_entries": 17,
+      "mac_cursor_entries": 19,
       "omitted_windows_roles": [
         "NWPen",
         "UpArrow",
@@ -3391,7 +3433,8 @@
             14
           ],
           "mac_identifiers": [
-            "com.apple.coregraphics.Arrow"
+            "com.apple.coregraphics.Arrow",
+            "com.apple.coregraphics.ArrowS"
           ]
         },
         {
@@ -3567,7 +3610,8 @@
             8
           ],
           "mac_identifiers": [
-            "com.apple.coregraphics.IBeam"
+            "com.apple.coregraphics.IBeam",
+            "com.apple.coregraphics.IBeamS"
           ]
         },
         {
@@ -3819,8 +3863,12 @@
         }
       ],
       "sha256": {
-        "sheltie-bi-black-pixel-32pt.cape": "d5e6f567ebe91da98fc68fba4e5b53608df6b7fe5f3e9d13b530bb153cd9742d",
-        "sheltie-bi-black-pixel-48pt.cape": "215e4548c3429e517e4295d46f359bf514fbbe3c8eb9ca5952c81e91e206806e"
+        "sheltie-bi-black-pixel-32pt.cape": "a1d003cb6622666921a7e0c96cda996d1a6113f01bc02e16f02823385cf04886",
+        "sheltie-bi-black-pixel-48pt.cape": "b9b883c2fc68ca3ee17aca4e8c0737d4b7400ba55a759958212c43d268669fdd"
+      },
+      "compatibility_aliases": {
+        "com.apple.coregraphics.ArrowS": "com.apple.coregraphics.Arrow",
+        "com.apple.coregraphics.IBeamS": "com.apple.coregraphics.IBeam"
       }
     },
     {
@@ -3839,7 +3887,7 @@
         2
       ],
       "source_roles_exported": 13,
-      "mac_cursor_entries": 17,
+      "mac_cursor_entries": 19,
       "omitted_windows_roles": [
         "NWPen",
         "UpArrow",
@@ -3875,7 +3923,8 @@
             14
           ],
           "mac_identifiers": [
-            "com.apple.coregraphics.Arrow"
+            "com.apple.coregraphics.Arrow",
+            "com.apple.coregraphics.ArrowS"
           ]
         },
         {
@@ -4051,7 +4100,8 @@
             8
           ],
           "mac_identifiers": [
-            "com.apple.coregraphics.IBeam"
+            "com.apple.coregraphics.IBeam",
+            "com.apple.coregraphics.IBeamS"
           ]
         },
         {
@@ -4303,8 +4353,12 @@
         }
       ],
       "sha256": {
-        "sheltie-bi-blue-pixel-32pt.cape": "50e29ed413f78c31f83954cb13ba4639d772743fc21020a6b1ea85600ae28b27",
-        "sheltie-bi-blue-pixel-48pt.cape": "d45102f97b1acfb2df280e0819485ac844ba3fbe5db1e4e58d70ca0a6282b074"
+        "sheltie-bi-blue-pixel-32pt.cape": "f70d5eb103a0b86ccc4423b37174ac46a76dbffbd5152bb565ccb9fc84c5a1ae",
+        "sheltie-bi-blue-pixel-48pt.cape": "bfab7d1e9e2c2b4112fb3af4ac7e5ad6931ced13b81a21b7cf1bc57c92439d3d"
+      },
+      "compatibility_aliases": {
+        "com.apple.coregraphics.ArrowS": "com.apple.coregraphics.Arrow",
+        "com.apple.coregraphics.IBeamS": "com.apple.coregraphics.IBeam"
       }
     },
     {
@@ -4323,7 +4377,7 @@
         2
       ],
       "source_roles_exported": 13,
-      "mac_cursor_entries": 17,
+      "mac_cursor_entries": 19,
       "omitted_windows_roles": [
         "NWPen",
         "UpArrow",
@@ -4360,7 +4414,8 @@
             15
           ],
           "mac_identifiers": [
-            "com.apple.coregraphics.Arrow"
+            "com.apple.coregraphics.Arrow",
+            "com.apple.coregraphics.ArrowS"
           ]
         },
         {
@@ -4529,7 +4584,8 @@
             8
           ],
           "mac_identifiers": [
-            "com.apple.coregraphics.IBeam"
+            "com.apple.coregraphics.IBeam",
+            "com.apple.coregraphics.IBeamS"
           ]
         },
         {
@@ -4770,8 +4826,12 @@
         }
       ],
       "sha256": {
-        "golden-light-pixel-32pt.cape": "1cd49baac2a241d38c1ea21a6dd0f0e41ef5e8a5e65cb53bf38de0ceb234ab37",
-        "golden-light-pixel-48pt.cape": "a215e9166b26c0f9db55e00114f4c0e19c3e84f1d440474adcd2e4d71979c2cc"
+        "golden-light-pixel-32pt.cape": "5f869eda2a60f54deb6a4cc5cbd18d79dde30414c14628250c876577e58c1a0c",
+        "golden-light-pixel-48pt.cape": "2617eea8cc464cb19df1f03efa62bab9bf4a915bbbbc459353c6520c0bf2d695"
+      },
+      "compatibility_aliases": {
+        "com.apple.coregraphics.ArrowS": "com.apple.coregraphics.Arrow",
+        "com.apple.coregraphics.IBeamS": "com.apple.coregraphics.IBeam"
       }
     },
     {
@@ -4790,7 +4850,7 @@
         2
       ],
       "source_roles_exported": 13,
-      "mac_cursor_entries": 17,
+      "mac_cursor_entries": 19,
       "omitted_windows_roles": [
         "NWPen",
         "UpArrow",
@@ -4826,7 +4886,8 @@
             14
           ],
           "mac_identifiers": [
-            "com.apple.coregraphics.Arrow"
+            "com.apple.coregraphics.Arrow",
+            "com.apple.coregraphics.ArrowS"
           ]
         },
         {
@@ -5002,7 +5063,8 @@
             8
           ],
           "mac_identifiers": [
-            "com.apple.coregraphics.IBeam"
+            "com.apple.coregraphics.IBeam",
+            "com.apple.coregraphics.IBeamS"
           ]
         },
         {
@@ -5254,8 +5316,12 @@
         }
       ],
       "sha256": {
-        "sheltie-red-merle-pixel-32pt.cape": "4d88fbd13e14e73f5f38d333468c45ae9e8092637cce752a0b37d33aea2c3b1a",
-        "sheltie-red-merle-pixel-48pt.cape": "05aa740e811c044ba8636cfdb48243e179836ba75d9fe316ffa2d29b5b030b48"
+        "sheltie-red-merle-pixel-32pt.cape": "bfa440d9106a1d074c30d491e2554aeb3a43f22e434b21b5b8aea1df532326e4",
+        "sheltie-red-merle-pixel-48pt.cape": "a72657b6c01c5818138147634e83cb2592d31d8dfda65ab8ceab0bef1e39efd6"
+      },
+      "compatibility_aliases": {
+        "com.apple.coregraphics.ArrowS": "com.apple.coregraphics.Arrow",
+        "com.apple.coregraphics.IBeamS": "com.apple.coregraphics.IBeam"
       }
     }
   ]

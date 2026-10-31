@@ -87,14 +87,16 @@ powershell -NoProfile -ExecutionPolicy Bypass -File ./resize-current.ps1 -Size 9
 
 ### macOS：一键导入与应用
 
+**2026-11-01兼容修复：** 已为全部33款补上macOS26及更新系统使用的普通箭头、文本指针名称。若旧版出现“链接有小狗、普通区域却是默认箭头”，请重新下载Mac包，并在Mousecape恢复默认、移除旧同款后重新导入、Apply。重复导入可能保留同名副本；新版为2.0、19个条目。[原因与验证](docs/macos-compatibility-validation.json)。
+
 1. 先安装 [Mousecape 官方版本](https://github.com/alexzielenski/Mousecape/releases)，本项目不捆绑第三方程序。
 2. 解压Mac合集，双击 `一键导入全部主题-32pt.command`；大号使用48pt入口。也可直接双击 `.cape` 文件逐一导入。
 3. 在Mousecape中选中喜欢的一套，然后 **Apply**。批量入口负责导入，不能同时应用多套。
 4. 用 `Capes → Restore Defaults` 恢复默认指针。
 
-所有33款均提供32pt/48pt、1×/2×素材。13种源动作对应17个Mac条目，Windows手写、候选、位置和人员状态不直接导出；Mac额外状态保留系统默认。[Mousecape动画格式](https://github.com/alexzielenski/Mousecape/blob/master/Mousecape/mousecloak/apply.m)最多24个等时帧，部分Windows停留节奏需采样；转换记录随包提供。
+所有33款均提供32pt/48pt、1×/2×素材。13种源动作对应19个Mac条目（含ArrowS／IBeamS兼容条目），Windows手写、候选、位置和人员状态不直接导出；Mac额外状态保留系统默认。[Mousecape动画格式](https://github.com/alexzielenski/Mousecape/blob/master/Mousecape/mousecloak/apply.m)最多24个等时帧，部分Windows停留节奏需采样；转换记录随包提供。
 
-**Mac版已完成格式、热点、时长及全部嵌入像素校验，尚未在Mac真机导入、应用或测试Retina与多屏。** 双击脚本还可能受本机执行权限限制，可改用直接打开.cape；不需要绕过系统安全提示。详见[macOS说明](docs/macOS.md)与[33款转换校验](docs/macos-33-validation.json)。
+**Mac版已完成格式、热点、时长及全部嵌入像素校验，本次兼容补丁尚未在Mac真机复测，Retina与多屏仍待确认。** 双击脚本还可能受本机执行权限限制，可改用直接打开.cape；不需要绕过系统安全提示。详见[macOS说明](docs/macOS.md)与[33款转换校验](docs/macos-33-validation.json)。
 
 ## 单款下载
 
@@ -115,7 +117,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File ./resize-current.ps1 -Size 9
 
 Windows每款含17种动画状态：正常、帮助、后台工作、等待、精确定位、文本、手写、不可用、四向缩放、移动、候选、链接、位置和人员选择。点选类使用可见鼻尖；文字用插入线，手写用笔尖，定位及缩放用操作符号接触点。侧面造型保留品种的耳朵、口鼻和毛色特征。
 
-33款沿用已复查的源动作，提供Windows原生加载/绘制、各尺寸与热点检查记录；本次更新安装器经过预演，未在制作机应用主题。实际桌面点击手感、不同DPI与多显示器仍需试用；局部毛发纹理变化可能存在。自动检测不能替代逐帧视觉检查。见[发布目录](docs/release-33.json)、[本次打包验证](docs/release-33-validation.json)及各主题包内报告。
+33款沿用已复查的源动作，提供Windows原生加载/绘制、各尺寸与热点检查记录；安装器经过预演，未在制作机应用主题。实际桌面点击手感、不同DPI与多显示器仍需试用；局部毛发纹理变化可能存在。自动检测不能替代逐帧视觉检查。见[发布目录](docs/release-33.json)、[33款扩展打包验证（2026-10-31）](docs/release-33-validation.json)、[Mac兼容修复验证（2026-11-01）](docs/macos-compatibility-validation.json)及各主题包内报告。
 
 ## 用 Skill 制作自己的宠物
 

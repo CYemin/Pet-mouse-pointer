@@ -20,9 +20,11 @@ The current project uses Chinese scheme names in the exact form `品种 · 颜�
 
 ## macOS
 
-Use `scripts/build_macos_theme.py` with built Windows theme directories that include `frames/` and manifests, then `scripts/verify_macos_theme.py`. Read [macOS format and testing limits](macOS.md). The exporter provides 32pt/48pt capes with 1x/2x strips, maps 13 source actions to 17 Mac entries and records omitted Windows roles. Mousecape accepts at most 24 equally timed frames; record exact timing expansion versus sampling. Test every embedded pixel, frame order, alpha, hotspot and loop duration against the reviewed source.
+Use `scripts/build_macos_theme.py` with built Windows theme directories that include `frames/` and manifests, then `scripts/verify_macos_theme.py`. Read [macOS format and testing limits](macOS.md). The exporter provides 32pt/48pt capes with 1x/2x strips, maps 13 source actions to 19 Mac entries and records omitted Windows roles. Mousecape accepts at most 24 equally timed frames; record exact timing expansion versus sampling. Test every embedded pixel, frame order, alpha, hotspot and loop duration against the reviewed source.
 
 Offer whole-catalog and per-breed Mac archives. A double-click `.command` may batch-open capes in an already installed Mousecape; clearly call this **import**, and instruct the user to select a cape and Apply. Do not claim it installs Mousecape or applies multiple themes simultaneously. Verify command syntax and preserve the executable ZIP mode. Do not bypass Gatekeeper or modify login helpers. When working on Windows, mark Mac import/application and Retina/multi-monitor behavior as pending real-device testing.
+
+Include both legacy Arrow/IBeam and macOS26+ ArrowS/IBeamS names with identical image strips, frame timing and hotspots. A valid plist containing only legacy keys can still show stock arrows on a newer Mac. Test literal platform keys independently of the exporter mapping, and reject missing aliases even when archive hashes match. Distinguish package verification from a real Mac retest; repeated imports may create same-name copies, so document removal of the old matching theme before import/Apply.
 
 ## Publication
 
