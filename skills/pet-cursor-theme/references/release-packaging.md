@@ -14,6 +14,8 @@ Package each theme and collections containing all themes or one breed. A batch l
 
 Current packaged launchers default to 32px and open the Windows Pointers page. Advanced installation supports 32/48/64/96/128px. Follow the actual shipped helper behavior when writing instructions.
 
+The current project uses Chinese scheme names in the exact form `品种 · 颜色`, including Sheltie and Golden Retriever. Do not append Pixel, animation/profile descriptions or a size number. Sizes remain installer options and file metadata. macOS CapeName follows the same label; identifiers and filenames may retain stable internal slugs. Changing package metadata does not rename schemes already installed on a user's machine.
+
 ## macOS
 
 Use `scripts/build_macos_theme.py` with built Windows theme directories that include `frames/` and manifests, then `scripts/verify_macos_theme.py`. Read [macOS format and testing limits](macOS.md). The exporter provides 32pt/48pt capes with 1x/2x strips, maps 13 source actions to 17 Mac entries and records omitted Windows roles. Mousecape accepts at most 24 equally timed frames; record exact timing expansion versus sampling. Test every embedded pixel, frame order, alpha, hotspot and loop duration against the reviewed source.

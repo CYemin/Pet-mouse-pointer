@@ -1,0 +1,280 @@
+{
+  "status": "passed",
+  "names": {
+    "pet-pixel-complete": "喜乐蒂 · 貂色",
+    "sheltie-dark-sable-pixel": "喜乐蒂 · 深貂色",
+    "sheltie-tricolor-pixel": "喜乐蒂 · 三色",
+    "sheltie-blue-merle-pixel": "喜乐蒂 · 蓝陨石",
+    "sheltie-red-merle-pixel": "喜乐蒂 · 红陨石",
+    "sheltie-bi-black-pixel": "喜乐蒂 · 黑白",
+    "sheltie-bi-blue-pixel": "喜乐蒂 · 双色蓝陨石",
+    "golden-cream-pixel": "金毛 · 奶油金",
+    "golden-standard-pixel": "金毛 · 标准金",
+    "golden-light-pixel": "金毛 · 浅金",
+    "golden-dark-pixel": "金毛 · 深金",
+    "bichon-photo-v3": "比熊 · 雪白蓝胸背",
+    "bichon-cream-coral-v5": "比熊 · 奶油珊瑚",
+    "bichon-ice-lilac-v5": "比熊 · 冰白丁香",
+    "teddy-profile-v6": "泰迪 · 杏棕粉蓝",
+    "teddy-cream-profile-v6": "泰迪 · 奶油杏",
+    "teddy-chocolate-profile-v6": "泰迪 · 巧克力棕",
+    "corgi-photo-v3": "柯基 · 赤金白",
+    "corgi-tricolor-v5": "柯基 · 黑头三色",
+    "corgi-cream-v5": "柯基 · 奶油黄白",
+    "swiss-profile-v6": "瑞牧 · 雪白",
+    "swiss-ivory-profile-v6": "瑞牧 · 暖米白",
+    "swiss-ice-profile-v6": "瑞牧 · 冰银白",
+    "husky-profile-v6": "二哈 · 黑白棕瞳",
+    "husky-silver-profile-v6": "二哈 · 银灰白",
+    "husky-red-profile-v6": "二哈 · 红棕白",
+    "westie-profile-v1": "西高地 · 雪白"
+  },
+  "archives": [
+    {
+      "package": "downloads/golden-cream-pixel.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/golden-dark-pixel.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/golden-light-pixel.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/golden-standard-pixel.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/macos-all.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/macos-bichon.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/macos-corgi.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/macos-golden.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/macos-husky.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/macos-sheltie.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/macos-swiss.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/macos-teddy.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/macos-westie.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/pet-mouse-pointer-all-cases.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/pet-mouse-pointer-golden.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/pet-mouse-pointer-macos-test.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/pet-mouse-pointer-sheltie.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/pet-pixel-complete.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/sheltie-bi-black-pixel.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/sheltie-bi-blue-pixel.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/sheltie-blue-merle-pixel.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/sheltie-dark-sable-pixel.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/sheltie-red-merle-pixel.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/sheltie-tricolor-pixel.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/themes/bichon-cream-coral-v5.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/themes/bichon-ice-lilac-v5.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/themes/bichon-photo-v3.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/themes/corgi-cream-v5.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/themes/corgi-photo-v3.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/themes/corgi-tricolor-v5.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/themes/golden-cream-pixel.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/themes/golden-dark-pixel.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/themes/golden-light-pixel.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/themes/golden-standard-pixel.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/themes/husky-profile-v6.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/themes/husky-red-profile-v6.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/themes/husky-silver-profile-v6.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/themes/pet-pixel-complete.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/themes/sheltie-bi-black-pixel.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/themes/sheltie-bi-blue-pixel.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/themes/sheltie-blue-merle-pixel.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/themes/sheltie-dark-sable-pixel.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/themes/sheltie-red-merle-pixel.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/themes/sheltie-tricolor-pixel.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/themes/swiss-ice-profile-v6.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/themes/swiss-ivory-profile-v6.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/themes/swiss-profile-v6.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/themes/teddy-chocolate-profile-v6.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/themes/teddy-cream-profile-v6.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/themes/teddy-profile-v6.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/themes/westie-profile-v1.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/windows-all.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/windows-bichon.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/windows-corgi.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/windows-golden.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/windows-husky.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/windows-sheltie.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/windows-swiss.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/windows-teddy.zip",
+      "cursor_pixels_unchanged": true
+    },
+    {
+      "package": "downloads/windows-westie.zip",
+      "cursor_pixels_unchanged": true
+    }
+  ],
+  "system_settings_modified": false,
+  "theme_dry_runs": 54,
+  "mac_cape_names_checked": 54,
+  "backup_fixture_checks": 18,
+  "transaction_fixture_cases": 7,
+  "unit_tests": 53
+}

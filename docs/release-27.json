@@ -6,80 +6,80 @@
   "catalog": [
     {
       "id": "pet-pixel-complete",
-      "name": "貂色喜乐蒂",
+      "name": "喜乐蒂 · 貂色",
       "family": "sheltie",
       "breed": "喜乐蒂",
       "color": "貂色"
     },
     {
       "id": "sheltie-dark-sable-pixel",
-      "name": "深貂色喜乐蒂",
+      "name": "喜乐蒂 · 深貂色",
       "family": "sheltie",
       "breed": "喜乐蒂",
       "color": "深貂色"
     },
     {
       "id": "sheltie-tricolor-pixel",
-      "name": "三色喜乐蒂",
+      "name": "喜乐蒂 · 三色",
       "family": "sheltie",
       "breed": "喜乐蒂",
       "color": "三色"
     },
     {
       "id": "sheltie-blue-merle-pixel",
-      "name": "蓝陨石喜乐蒂",
+      "name": "喜乐蒂 · 蓝陨石",
       "family": "sheltie",
       "breed": "喜乐蒂",
       "color": "蓝陨石"
     },
     {
       "id": "sheltie-red-merle-pixel",
-      "name": "红陨石喜乐蒂",
+      "name": "喜乐蒂 · 红陨石",
       "family": "sheltie",
       "breed": "喜乐蒂",
       "color": "红陨石"
     },
     {
       "id": "sheltie-bi-black-pixel",
-      "name": "黑白喜乐蒂",
+      "name": "喜乐蒂 · 黑白",
       "family": "sheltie",
       "breed": "喜乐蒂",
       "color": "黑白"
     },
     {
       "id": "sheltie-bi-blue-pixel",
-      "name": "双色蓝陨石",
+      "name": "喜乐蒂 · 双色蓝陨石",
       "family": "sheltie",
       "breed": "喜乐蒂",
       "color": "双色蓝陨石"
     },
     {
       "id": "golden-cream-pixel",
-      "name": "奶油金毛",
+      "name": "金毛 · 奶油金",
       "family": "golden",
       "breed": "金毛",
-      "color": "奶油"
+      "color": "奶油金"
     },
     {
       "id": "golden-standard-pixel",
-      "name": "标准金毛",
+      "name": "金毛 · 标准金",
       "family": "golden",
       "breed": "金毛",
-      "color": "标准"
+      "color": "标准金"
     },
     {
       "id": "golden-light-pixel",
-      "name": "浅金毛",
+      "name": "金毛 · 浅金",
       "family": "golden",
       "breed": "金毛",
-      "color": "浅"
+      "color": "浅金"
     },
     {
       "id": "golden-dark-pixel",
-      "name": "深金毛",
+      "name": "金毛 · 深金",
       "family": "golden",
       "breed": "金毛",
-      "color": "深"
+      "color": "深金"
     },
     {
       "id": "bichon-photo-v3",
@@ -167,10 +167,10 @@
     },
     {
       "id": "husky-profile-v6",
-      "name": "二哈 · 黑白棕瞳侧面",
+      "name": "二哈 · 黑白棕瞳",
       "family": "husky",
       "breed": "二哈",
-      "color": "黑白棕瞳侧面"
+      "color": "黑白棕瞳"
     },
     {
       "id": "husky-silver-profile-v6",

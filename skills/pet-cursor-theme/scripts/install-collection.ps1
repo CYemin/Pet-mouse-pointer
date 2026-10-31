@@ -1,4 +1,4 @@
-﻿[CmdletBinding(SupportsShouldProcess)]
+[CmdletBinding(SupportsShouldProcess)]
 param(
     [Parameter(Mandatory=$true)][ValidateSet('sheltie','golden')][string]$Collection,
     # 0 = install every style in the collection; N = install only style N (the switcher).
@@ -77,7 +77,7 @@ foreach ($theme in $targets) {
 $lastTheme = $targets[$targets.Count - 1]
 $lastDirectory = Resolve-ThemeDirectory $lastTheme.slug
 $lastManifest = Get-Content -LiteralPath (Join-Path $lastDirectory 'manifest.json') -Raw -Encoding UTF8 | ConvertFrom-Json
-$expectedScheme = "$($lastManifest.name) 32"
+$expectedScheme = [string]$lastManifest.name
 $problems = @()
 
 $cursorKey = [Microsoft.Win32.Registry]::CurrentUser.OpenSubKey('Control Panel\Cursors')

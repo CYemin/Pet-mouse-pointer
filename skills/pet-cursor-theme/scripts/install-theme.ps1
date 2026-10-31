@@ -111,7 +111,7 @@ foreach ($state in $manifest.states) {
     $installedFiles[$state.role] = $target
 }
 $schemeValue = Get-CursorSchemeValue $installedFiles
-$schemeName = "$($manifest.name) $Size"
+$schemeName = [string]$manifest.name
 $schemesKey = [Microsoft.Win32.Registry]::CurrentUser.CreateSubKey('Control Panel\Cursors\Schemes')
 if ($null -eq $schemesKey) { $key.Close(); throw 'Unable to open saved cursor schemes' }
 $schemeExists = $schemesKey.GetValueNames() -contains $schemeName
@@ -160,7 +160,7 @@ try {
         $target = Join-Path $installPath ([IO.Path]::GetFileName($source))
         $key.SetValue($state.role,$target,[Microsoft.Win32.RegistryValueKind]::ExpandString)
     }
-    $key.SetValue('',"$($manifest.name) $Size",[Microsoft.Win32.RegistryValueKind]::String)
+    $key.SetValue('',$schemeName,[Microsoft.Win32.RegistryValueKind]::String)
     $key.SetValue('Scheme Source',1,[Microsoft.Win32.RegistryValueKind]::DWord)
     $key.SetValue('CursorBaseSize',$Size,[Microsoft.Win32.RegistryValueKind]::DWord)
     $key.Flush()

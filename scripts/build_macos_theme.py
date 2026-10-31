@@ -157,7 +157,7 @@ def build_theme(source, target):
             if size == SIZES[0]:
                 timings.append(timing)
         variants[size] = entries
-        cape = dict(Author='CYemin', CapeName=f'{name} · Mac {size}pt (Test)',
+        cape = dict(Author='CYemin', CapeName=name,
                     CapeVersion=1.0, Cloud=False, Cursors=cursors, HiDPI=True,
                     Identifier=f'io.github.cyemin.pet-cursors.{slug}.{size}pt',
                     MinimumVersion=2.0, Version=2.0)

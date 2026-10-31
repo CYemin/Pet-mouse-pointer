@@ -66,8 +66,8 @@ function Restore-CursorSizeSyncState { param($State,[switch]$Restart) [Fixture]:
   foreach($r in (@('')+$roles)) { [Fixture]::Current.SetValue($r,'original-'+$r,[Microsoft.Win32.RegistryValueKind]::String) }
   [Fixture]::Current.SetValue('Scheme Source',2,[Microsoft.Win32.RegistryValueKind]::DWord)
   [Fixture]::Current.SetValue('CursorBaseSize',32,[Microsoft.Win32.RegistryValueKind]::DWord)
-  [Fixture]::Schemes.SetValue('Fixture 64','previous scheme',[Microsoft.Win32.RegistryValueKind]::ExpandString)
-  if($mode -eq 'scheme') { [Fixture]::Fail='Fixture 64' }
+  [Fixture]::Schemes.SetValue('Fixture','previous scheme',[Microsoft.Win32.RegistryValueKind]::ExpandString)
+  if($mode -eq 'scheme') { [Fixture]::Fail='Fixture' }
   if($mode -eq 'role') { [Fixture]::Fail='Wait' }
   if($mode -eq 'metadata') { [Fixture]::Fail='CursorBaseSize' }
   if($mode -eq 'refresh') { [Fixture]::FailRefresh=$true }
@@ -81,16 +81,17 @@ function Restore-CursorSizeSyncState { param($State,[switch]$Restart) [Fixture]:
    foreach($r in (@('')+$roles)) {
     if([Fixture]::Current.values[$r] -ne ('original-'+$r)) { throw "Cursor not rolled back: $r" }
    }
-   if([Fixture]::Schemes.values['Fixture 64'] -ne 'previous scheme' -or [Fixture]::Schemes.kinds['Fixture 64'] -ne [Microsoft.Win32.RegistryValueKind]::ExpandString) { throw 'Scheme not rolled back' }
+   if([Fixture]::Schemes.values['Fixture'] -ne 'previous scheme' -or [Fixture]::Schemes.kinds['Fixture'] -ne [Microsoft.Win32.RegistryValueKind]::ExpandString) { throw 'Scheme not rolled back' }
    if([Fixture]::Current.values['Scheme Source'] -ne 2 -or [Fixture]::Current.values['CursorBaseSize'] -ne 32) { throw 'Metadata not rolled back' }
   } else {
    if(-not [Fixture]::SyncEnabled) { throw 'Sync not enabled' }
-   $paths=([string][Fixture]::Schemes.values['Fixture 64']).Split(',')
+   if([Fixture]::Current.values[''] -ne 'Fixture') { throw 'Active scheme name contains a size or description suffix' }
+   $paths=([string][Fixture]::Schemes.values['Fixture']).Split(',')
    if($paths.Count -ne 17) { throw 'Expected 17 scheme paths' }
    for($i=0;$i -lt 17;$i++) {
     if($paths[$i] -ne [Fixture]::Current.values[$roles[$i]] -or -not (Test-Path -LiteralPath $paths[$i])) { throw 'Saved and active cursor mismatch' }
    }
-   if([Fixture]::Schemes.kinds['Fixture 64'] -ne [Microsoft.Win32.RegistryValueKind]::String) { throw 'Incorrect scheme type' }
+   if([Fixture]::Schemes.kinds['Fixture'] -ne [Microsoft.Win32.RegistryValueKind]::String) { throw 'Incorrect scheme type' }
    if([Fixture]::Current.values['Scheme Source'] -ne 1 -or [Fixture]::Current.values['CursorBaseSize'] -ne 64) { throw 'Incorrect active scheme metadata' }
    $backup=Get-Content -LiteralPath ((Get-Content -LiteralPath (Join-Path $env:LOCALAPPDATA 'PetCursorThemes/Sable-Handdrawn/latest-backup.txt') -Raw).Trim()) -Raw | ConvertFrom-Json
    if($backup.version -ne 2 -or @($backup.records).Count -ne 20) { throw 'Missing metadata backup' }
