@@ -6,7 +6,7 @@
 
 | 喜乐蒂 | 金毛 | 比熊 | 泰迪 | 柯基 | 瑞牧 | 二哈 | 西高地 |
 |---|---|---|---|---|---|---|---|
-| <img src="docs/images/pet-pixel-complete-icon.png" width="96" alt="喜乐蒂"> | <img src="docs/images/golden-cream-pixel-icon.png" width="96" alt="金毛"> | <img src="docs/images/bichon-photo-v3-icon.png" width="96" alt="比熊"> | <img src="docs/images/teddy-profile-v6-icon.png" width="96" alt="泰迪"> | <img src="docs/images/corgi-photo-v3-icon.png" width="96" alt="柯基"> | <img src="docs/images/swiss-profile-v6-icon.png" width="96" alt="瑞牧"> | <img src="docs/images/husky-profile-v6-icon.png" width="96" alt="二哈"> | <img src="docs/images/westie-profile-v1-icon.png" width="96" alt="西高地"> |
+| <img src="docs/images/sheltie-red-merle-pixel-icon.png" width="96" alt="喜乐蒂"> | <img src="docs/images/golden-cream-pixel-icon.png" width="96" alt="金毛"> | <img src="docs/images/bichon-photo-v3-icon.png" width="96" alt="比熊"> | <img src="docs/images/teddy-profile-v6-icon.png" width="96" alt="泰迪"> | <img src="docs/images/corgi-photo-v3-icon.png" width="96" alt="柯基"> | <img src="docs/images/swiss-profile-v6-icon.png" width="96" alt="瑞牧"> | <img src="docs/images/husky-profile-v6-icon.png" width="96" alt="二哈"> | <img src="docs/images/westie-profile-v1-icon.png" width="96" alt="西高地"> |
 
 ## 全部颜色 · 每行一个犬种
 
@@ -14,7 +14,7 @@
 
 ## 鼠标动画 · 每个犬种、每款颜色
 
-下列动画均取自实际指针导出帧，展示正常选择的眨眼、耳毛与表情循环；完整17种动作可在体验页中锁定查看。每行一个犬种，列顺序与上方配色一致。
+下列动画均取自实际指针导出帧，展示正常选择的眨眼、耳毛与表情循环；下面另列每个品种的帮助、等待、文本、手写与移动状态。每行一个犬种，列顺序与上方配色一致。
 
 | 犬种 | 配色1 | 配色2 | 配色3 | 配色4 | 配色5 | 配色6 | 配色7 |
 |---|---|---|---|---|---|---|---|
@@ -27,17 +27,20 @@
 | 二哈 | <img src="docs/images/husky-profile-v6-normal.gif" width="90" alt="二哈 黑白棕瞳侧面"><br>黑白棕瞳侧面 | <img src="docs/images/husky-silver-profile-v6-normal.gif" width="90" alt="二哈 银灰白"><br>银灰白 | <img src="docs/images/husky-red-profile-v6-normal.gif" width="90" alt="二哈 红棕白"><br>红棕白 |  |  |  |  |
 | 西高地 | <img src="docs/images/westie-profile-v1-normal.gif" width="90" alt="西高地 雪白"><br>雪白 |  |  |  |  |  |  |
 
-## 先体验，再安装
+### 更多状态 · 每个品种的动态示意
 
-**[下载完整离线体验页](downloads/pet-cursor-playground-27.zip?raw=1)**：完整解压后打开 `index.html`，无需Python。支持全部27款、五档尺寸、深浅背景、慢放、点击点，以及点选、文字、拖动和缩放体验。网页不会更改系统指针。
+喜乐蒂使用红陨石配色；其他品种使用开头展示的代表色。下列 GIF 直接使用对应状态的实际导出帧与动作时序。
 
-下载仓库后也可以在根目录运行：
-
-```powershell
-python -m http.server 8766 --directory playground
-```
-
-再打开 <http://127.0.0.1:8766/>。GitHub 中的 HTML 是源码视图，需要下载后打开或启动本地服务。
+| 品种 · 配色 | 帮助选择 | 忙碌等待 | 文本选择 | 手写 | 移动 |
+|---|---|---|---|---|---|
+| 喜乐蒂 · 红陨石 | <img src="docs/images/sheltie-red-merle-pixel-help-state.gif" width="100" alt="喜乐蒂 帮助选择"> | <img src="docs/images/sheltie-red-merle-pixel-wait-state.gif" width="100" alt="喜乐蒂 忙碌等待"> | <img src="docs/images/sheltie-red-merle-pixel-text-state.gif" width="100" alt="喜乐蒂 文本选择"> | <img src="docs/images/sheltie-red-merle-pixel-pen-state.gif" width="100" alt="喜乐蒂 手写"> | <img src="docs/images/sheltie-red-merle-pixel-move-state.gif" width="100" alt="喜乐蒂 移动"> |
+| 金毛 · 奶油金 | <img src="docs/images/golden-cream-pixel-help-state.gif" width="100" alt="金毛 帮助选择"> | <img src="docs/images/golden-cream-pixel-wait-state.gif" width="100" alt="金毛 忙碌等待"> | <img src="docs/images/golden-cream-pixel-text-state.gif" width="100" alt="金毛 文本选择"> | <img src="docs/images/golden-cream-pixel-pen-state.gif" width="100" alt="金毛 手写"> | <img src="docs/images/golden-cream-pixel-move-state.gif" width="100" alt="金毛 移动"> |
+| 比熊 · 雪白蓝胸背 | <img src="docs/images/bichon-photo-v3-help-state.gif" width="100" alt="比熊 帮助选择"> | <img src="docs/images/bichon-photo-v3-wait-state.gif" width="100" alt="比熊 忙碌等待"> | <img src="docs/images/bichon-photo-v3-text-state.gif" width="100" alt="比熊 文本选择"> | <img src="docs/images/bichon-photo-v3-pen-state.gif" width="100" alt="比熊 手写"> | <img src="docs/images/bichon-photo-v3-move-state.gif" width="100" alt="比熊 移动"> |
+| 泰迪 · 杏棕粉蓝 | <img src="docs/images/teddy-profile-v6-help-state.gif" width="100" alt="泰迪 帮助选择"> | <img src="docs/images/teddy-profile-v6-wait-state.gif" width="100" alt="泰迪 忙碌等待"> | <img src="docs/images/teddy-profile-v6-text-state.gif" width="100" alt="泰迪 文本选择"> | <img src="docs/images/teddy-profile-v6-pen-state.gif" width="100" alt="泰迪 手写"> | <img src="docs/images/teddy-profile-v6-move-state.gif" width="100" alt="泰迪 移动"> |
+| 柯基 · 赤金白 | <img src="docs/images/corgi-photo-v3-help-state.gif" width="100" alt="柯基 帮助选择"> | <img src="docs/images/corgi-photo-v3-wait-state.gif" width="100" alt="柯基 忙碌等待"> | <img src="docs/images/corgi-photo-v3-text-state.gif" width="100" alt="柯基 文本选择"> | <img src="docs/images/corgi-photo-v3-pen-state.gif" width="100" alt="柯基 手写"> | <img src="docs/images/corgi-photo-v3-move-state.gif" width="100" alt="柯基 移动"> |
+| 瑞牧 · 雪白 | <img src="docs/images/swiss-profile-v6-help-state.gif" width="100" alt="瑞牧 帮助选择"> | <img src="docs/images/swiss-profile-v6-wait-state.gif" width="100" alt="瑞牧 忙碌等待"> | <img src="docs/images/swiss-profile-v6-text-state.gif" width="100" alt="瑞牧 文本选择"> | <img src="docs/images/swiss-profile-v6-pen-state.gif" width="100" alt="瑞牧 手写"> | <img src="docs/images/swiss-profile-v6-move-state.gif" width="100" alt="瑞牧 移动"> |
+| 二哈 · 黑白棕瞳侧面 | <img src="docs/images/husky-profile-v6-help-state.gif" width="100" alt="二哈 帮助选择"> | <img src="docs/images/husky-profile-v6-wait-state.gif" width="100" alt="二哈 忙碌等待"> | <img src="docs/images/husky-profile-v6-text-state.gif" width="100" alt="二哈 文本选择"> | <img src="docs/images/husky-profile-v6-pen-state.gif" width="100" alt="二哈 手写"> | <img src="docs/images/husky-profile-v6-move-state.gif" width="100" alt="二哈 移动"> |
+| 西高地 · 雪白 | <img src="docs/images/westie-profile-v1-help-state.gif" width="100" alt="西高地 帮助选择"> | <img src="docs/images/westie-profile-v1-wait-state.gif" width="100" alt="西高地 忙碌等待"> | <img src="docs/images/westie-profile-v1-text-state.gif" width="100" alt="西高地 文本选择"> | <img src="docs/images/westie-profile-v1-pen-state.gif" width="100" alt="西高地 手写"> | <img src="docs/images/westie-profile-v1-move-state.gif" width="100" alt="西高地 移动"> |
 
 ## 下载现成安装包
 
@@ -83,14 +86,14 @@ powershell -NoProfile -ExecutionPolicy Bypass -File ./install-catalog.ps1 -Colle
 
 | 犬种 | 配色 · Windows ZIP |
 |---|---|
-| 喜乐蒂 | [貂色](playground/downloads/pet-pixel-complete.zip?raw=1) · [深貂色](playground/downloads/sheltie-dark-sable-pixel.zip?raw=1) · [三色](playground/downloads/sheltie-tricolor-pixel.zip?raw=1) · [蓝陨石](playground/downloads/sheltie-blue-merle-pixel.zip?raw=1) · [红陨石](playground/downloads/sheltie-red-merle-pixel.zip?raw=1) · [黑白](playground/downloads/sheltie-bi-black-pixel.zip?raw=1) · [双色蓝陨石](playground/downloads/sheltie-bi-blue-pixel.zip?raw=1) |
-| 金毛 | [奶油金](playground/downloads/golden-cream-pixel.zip?raw=1) · [标准金](playground/downloads/golden-standard-pixel.zip?raw=1) · [浅金](playground/downloads/golden-light-pixel.zip?raw=1) · [深金](playground/downloads/golden-dark-pixel.zip?raw=1) |
-| 比熊 | [雪白蓝胸背](playground/downloads/bichon-photo-v3.zip?raw=1) · [奶油珊瑚](playground/downloads/bichon-cream-coral-v5.zip?raw=1) · [冰白丁香](playground/downloads/bichon-ice-lilac-v5.zip?raw=1) |
-| 泰迪 | [杏棕粉蓝](playground/downloads/teddy-profile-v6.zip?raw=1) · [奶油杏](playground/downloads/teddy-cream-profile-v6.zip?raw=1) · [巧克力棕](playground/downloads/teddy-chocolate-profile-v6.zip?raw=1) |
-| 柯基 | [赤金白](playground/downloads/corgi-photo-v3.zip?raw=1) · [黑头三色](playground/downloads/corgi-tricolor-v5.zip?raw=1) · [奶油黄白](playground/downloads/corgi-cream-v5.zip?raw=1) |
-| 瑞牧 | [雪白](playground/downloads/swiss-profile-v6.zip?raw=1) · [暖米白](playground/downloads/swiss-ivory-profile-v6.zip?raw=1) · [冰银白](playground/downloads/swiss-ice-profile-v6.zip?raw=1) |
-| 二哈 | [黑白棕瞳侧面](playground/downloads/husky-profile-v6.zip?raw=1) · [银灰白](playground/downloads/husky-silver-profile-v6.zip?raw=1) · [红棕白](playground/downloads/husky-red-profile-v6.zip?raw=1) |
-| 西高地 | [雪白](playground/downloads/westie-profile-v1.zip?raw=1) |
+| 喜乐蒂 | [貂色](downloads/themes/pet-pixel-complete.zip?raw=1) · [深貂色](downloads/themes/sheltie-dark-sable-pixel.zip?raw=1) · [三色](downloads/themes/sheltie-tricolor-pixel.zip?raw=1) · [蓝陨石](downloads/themes/sheltie-blue-merle-pixel.zip?raw=1) · [红陨石](downloads/themes/sheltie-red-merle-pixel.zip?raw=1) · [黑白](downloads/themes/sheltie-bi-black-pixel.zip?raw=1) · [双色蓝陨石](downloads/themes/sheltie-bi-blue-pixel.zip?raw=1) |
+| 金毛 | [奶油金](downloads/themes/golden-cream-pixel.zip?raw=1) · [标准金](downloads/themes/golden-standard-pixel.zip?raw=1) · [浅金](downloads/themes/golden-light-pixel.zip?raw=1) · [深金](downloads/themes/golden-dark-pixel.zip?raw=1) |
+| 比熊 | [雪白蓝胸背](downloads/themes/bichon-photo-v3.zip?raw=1) · [奶油珊瑚](downloads/themes/bichon-cream-coral-v5.zip?raw=1) · [冰白丁香](downloads/themes/bichon-ice-lilac-v5.zip?raw=1) |
+| 泰迪 | [杏棕粉蓝](downloads/themes/teddy-profile-v6.zip?raw=1) · [奶油杏](downloads/themes/teddy-cream-profile-v6.zip?raw=1) · [巧克力棕](downloads/themes/teddy-chocolate-profile-v6.zip?raw=1) |
+| 柯基 | [赤金白](downloads/themes/corgi-photo-v3.zip?raw=1) · [黑头三色](downloads/themes/corgi-tricolor-v5.zip?raw=1) · [奶油黄白](downloads/themes/corgi-cream-v5.zip?raw=1) |
+| 瑞牧 | [雪白](downloads/themes/swiss-profile-v6.zip?raw=1) · [暖米白](downloads/themes/swiss-ivory-profile-v6.zip?raw=1) · [冰银白](downloads/themes/swiss-ice-profile-v6.zip?raw=1) |
+| 二哈 | [黑白棕瞳侧面](downloads/themes/husky-profile-v6.zip?raw=1) · [银灰白](downloads/themes/husky-silver-profile-v6.zip?raw=1) · [红棕白](downloads/themes/husky-red-profile-v6.zip?raw=1) |
+| 西高地 | [雪白](downloads/themes/westie-profile-v1.zip?raw=1) |
 
 ## 动作、鼻尖与验证
 
@@ -112,7 +115,7 @@ python -m unittest discover -s skills/pet-cursor-theme/scripts -p "test_*.py"
 
 ## 文件与许可
 
-`playground/` 为完整体验页；`downloads/` 为平台与犬种合集；`skills/` 为可复用制作工具；`docs/` 为图鉴、动画和检查记录。旧版下载保留供溯源，当前推荐入口均以上方27款为准。下载完整性见 [SHA-256](downloads/SHA256SUMS)。
+`downloads/` 为平台与犬种合集，`downloads/themes/` 为27款单主题包；`skills/` 为可复用制作工具；`docs/` 为图鉴、动画和检查记录。旧版下载保留供溯源，当前推荐入口均以上方27款为准。下载完整性见 [SHA-256](downloads/SHA256SUMS)。
 
 代码与文档采用 [MIT](LICENSE)；宠物照片、参考图及生成美术的权利单独确认，见[素材说明](ASSETS.md)。本次新增主题和合集不附私人参考照片、密钥或本机路径。
 

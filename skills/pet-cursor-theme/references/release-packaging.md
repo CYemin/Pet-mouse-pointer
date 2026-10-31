@@ -8,6 +8,8 @@ For Pet-mouse-pointer, show eight breeds at the beginning of README, in this ord
 
 ## Windows
 
+For the current Pet-mouse-pointer README, use red-merle Sheltie as the representative, retain the normal-state examples for every coat color, and add other actual animated states for every breed. The standalone playground and its offline downloads were removed at the maintainer's request; link directly to single-theme archives and platform collections. Preserve preview files needed by installed theme packages.
+
 Package each theme and collections containing all themes or one breed. A batch launcher must preflight every target and expose `--check` / `-WhatIf` without changing settings. Register each style as a saved scheme; only one can be active. Describe which theme is active after the batch (the last installed). Stop on the first failure and report partial progress. Preserve the original restore baseline across consecutive project themes. Keep a restore launcher in the collection and single-theme package. Test Chinese/spaced paths, both invalid and valid selection, missing assets, PowerShell parsing and dry runs. Native artwork checks do not constitute desktop application testing.
 
 Current packaged launchers default to 32px and open the Windows Pointers page. Advanced installation supports 32/48/64/96/128px. Follow the actual shipped helper behavior when writing instructions.

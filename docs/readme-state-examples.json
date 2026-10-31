@@ -1,0 +1,287 @@
+{
+  "breeds": 8,
+  "state_examples": 40,
+  "sheltie": "sheltie-red-merle-pixel",
+  "checks": [
+    {
+      "theme": "sheltie-red-merle-pixel",
+      "role": "Help",
+      "image": "sheltie-red-merle-pixel-help-state.gif",
+      "frames": 16,
+      "duration_ms": 1350
+    },
+    {
+      "theme": "sheltie-red-merle-pixel",
+      "role": "Wait",
+      "image": "sheltie-red-merle-pixel-wait-state.gif",
+      "frames": 16,
+      "duration_ms": 2400
+    },
+    {
+      "theme": "sheltie-red-merle-pixel",
+      "role": "IBeam",
+      "image": "sheltie-red-merle-pixel-text-state.gif",
+      "frames": 9,
+      "duration_ms": 1000
+    },
+    {
+      "theme": "sheltie-red-merle-pixel",
+      "role": "NWPen",
+      "image": "sheltie-red-merle-pixel-pen-state.gif",
+      "frames": 9,
+      "duration_ms": 1000
+    },
+    {
+      "theme": "sheltie-red-merle-pixel",
+      "role": "SizeAll",
+      "image": "sheltie-red-merle-pixel-move-state.gif",
+      "frames": 9,
+      "duration_ms": 1000
+    },
+    {
+      "theme": "golden-cream-pixel",
+      "role": "Help",
+      "image": "golden-cream-pixel-help-state.gif",
+      "frames": 16,
+      "duration_ms": 1300
+    },
+    {
+      "theme": "golden-cream-pixel",
+      "role": "Wait",
+      "image": "golden-cream-pixel-wait-state.gif",
+      "frames": 16,
+      "duration_ms": 2400
+    },
+    {
+      "theme": "golden-cream-pixel",
+      "role": "IBeam",
+      "image": "golden-cream-pixel-text-state.gif",
+      "frames": 9,
+      "duration_ms": 900
+    },
+    {
+      "theme": "golden-cream-pixel",
+      "role": "NWPen",
+      "image": "golden-cream-pixel-pen-state.gif",
+      "frames": 9,
+      "duration_ms": 900
+    },
+    {
+      "theme": "golden-cream-pixel",
+      "role": "SizeAll",
+      "image": "golden-cream-pixel-move-state.gif",
+      "frames": 9,
+      "duration_ms": 900
+    },
+    {
+      "theme": "bichon-photo-v3",
+      "role": "Help",
+      "image": "bichon-photo-v3-help-state.gif",
+      "frames": 16,
+      "duration_ms": 1000
+    },
+    {
+      "theme": "bichon-photo-v3",
+      "role": "Wait",
+      "image": "bichon-photo-v3-wait-state.gif",
+      "frames": 16,
+      "duration_ms": 2000
+    },
+    {
+      "theme": "bichon-photo-v3",
+      "role": "IBeam",
+      "image": "bichon-photo-v3-text-state.gif",
+      "frames": 16,
+      "duration_ms": 1000
+    },
+    {
+      "theme": "bichon-photo-v3",
+      "role": "NWPen",
+      "image": "bichon-photo-v3-pen-state.gif",
+      "frames": 16,
+      "duration_ms": 1000
+    },
+    {
+      "theme": "bichon-photo-v3",
+      "role": "SizeAll",
+      "image": "bichon-photo-v3-move-state.gif",
+      "frames": 16,
+      "duration_ms": 1000
+    },
+    {
+      "theme": "teddy-profile-v6",
+      "role": "Help",
+      "image": "teddy-profile-v6-help-state.gif",
+      "frames": 16,
+      "duration_ms": 800
+    },
+    {
+      "theme": "teddy-profile-v6",
+      "role": "Wait",
+      "image": "teddy-profile-v6-wait-state.gif",
+      "frames": 16,
+      "duration_ms": 2000
+    },
+    {
+      "theme": "teddy-profile-v6",
+      "role": "IBeam",
+      "image": "teddy-profile-v6-text-state.gif",
+      "frames": 16,
+      "duration_ms": 800
+    },
+    {
+      "theme": "teddy-profile-v6",
+      "role": "NWPen",
+      "image": "teddy-profile-v6-pen-state.gif",
+      "frames": 16,
+      "duration_ms": 800
+    },
+    {
+      "theme": "teddy-profile-v6",
+      "role": "SizeAll",
+      "image": "teddy-profile-v6-move-state.gif",
+      "frames": 16,
+      "duration_ms": 800
+    },
+    {
+      "theme": "corgi-photo-v3",
+      "role": "Help",
+      "image": "corgi-photo-v3-help-state.gif",
+      "frames": 16,
+      "duration_ms": 1000
+    },
+    {
+      "theme": "corgi-photo-v3",
+      "role": "Wait",
+      "image": "corgi-photo-v3-wait-state.gif",
+      "frames": 16,
+      "duration_ms": 2000
+    },
+    {
+      "theme": "corgi-photo-v3",
+      "role": "IBeam",
+      "image": "corgi-photo-v3-text-state.gif",
+      "frames": 16,
+      "duration_ms": 1000
+    },
+    {
+      "theme": "corgi-photo-v3",
+      "role": "NWPen",
+      "image": "corgi-photo-v3-pen-state.gif",
+      "frames": 16,
+      "duration_ms": 1000
+    },
+    {
+      "theme": "corgi-photo-v3",
+      "role": "SizeAll",
+      "image": "corgi-photo-v3-move-state.gif",
+      "frames": 16,
+      "duration_ms": 1000
+    },
+    {
+      "theme": "swiss-profile-v6",
+      "role": "Help",
+      "image": "swiss-profile-v6-help-state.gif",
+      "frames": 16,
+      "duration_ms": 800
+    },
+    {
+      "theme": "swiss-profile-v6",
+      "role": "Wait",
+      "image": "swiss-profile-v6-wait-state.gif",
+      "frames": 16,
+      "duration_ms": 2000
+    },
+    {
+      "theme": "swiss-profile-v6",
+      "role": "IBeam",
+      "image": "swiss-profile-v6-text-state.gif",
+      "frames": 16,
+      "duration_ms": 800
+    },
+    {
+      "theme": "swiss-profile-v6",
+      "role": "NWPen",
+      "image": "swiss-profile-v6-pen-state.gif",
+      "frames": 16,
+      "duration_ms": 800
+    },
+    {
+      "theme": "swiss-profile-v6",
+      "role": "SizeAll",
+      "image": "swiss-profile-v6-move-state.gif",
+      "frames": 16,
+      "duration_ms": 800
+    },
+    {
+      "theme": "husky-profile-v6",
+      "role": "Help",
+      "image": "husky-profile-v6-help-state.gif",
+      "frames": 16,
+      "duration_ms": 800
+    },
+    {
+      "theme": "husky-profile-v6",
+      "role": "Wait",
+      "image": "husky-profile-v6-wait-state.gif",
+      "frames": 16,
+      "duration_ms": 2000
+    },
+    {
+      "theme": "husky-profile-v6",
+      "role": "IBeam",
+      "image": "husky-profile-v6-text-state.gif",
+      "frames": 16,
+      "duration_ms": 800
+    },
+    {
+      "theme": "husky-profile-v6",
+      "role": "NWPen",
+      "image": "husky-profile-v6-pen-state.gif",
+      "frames": 16,
+      "duration_ms": 800
+    },
+    {
+      "theme": "husky-profile-v6",
+      "role": "SizeAll",
+      "image": "husky-profile-v6-move-state.gif",
+      "frames": 16,
+      "duration_ms": 800
+    },
+    {
+      "theme": "westie-profile-v1",
+      "role": "Help",
+      "image": "westie-profile-v1-help-state.gif",
+      "frames": 16,
+      "duration_ms": 800
+    },
+    {
+      "theme": "westie-profile-v1",
+      "role": "Wait",
+      "image": "westie-profile-v1-wait-state.gif",
+      "frames": 16,
+      "duration_ms": 2000
+    },
+    {
+      "theme": "westie-profile-v1",
+      "role": "IBeam",
+      "image": "westie-profile-v1-text-state.gif",
+      "frames": 16,
+      "duration_ms": 800
+    },
+    {
+      "theme": "westie-profile-v1",
+      "role": "NWPen",
+      "image": "westie-profile-v1-pen-state.gif",
+      "frames": 16,
+      "duration_ms": 800
+    },
+    {
+      "theme": "westie-profile-v1",
+      "role": "SizeAll",
+      "image": "westie-profile-v1-move-state.gif",
+      "frames": 16,
+      "duration_ms": 800
+    }
+  ]
+}
