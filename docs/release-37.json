@@ -1,0 +1,267 @@
+{
+  "themes": 37,
+  "breeds": 11,
+  "windows_roles": 629,
+  "mac_native_tested": false,
+  "catalog": [
+    {
+      "id": "pet-pixel-complete",
+      "name": "喜乐蒂 · 貂色",
+      "family": "sheltie",
+      "breed": "喜乐蒂",
+      "color": "貂色"
+    },
+    {
+      "id": "sheltie-dark-sable-pixel",
+      "name": "喜乐蒂 · 深貂色",
+      "family": "sheltie",
+      "breed": "喜乐蒂",
+      "color": "深貂色"
+    },
+    {
+      "id": "sheltie-tricolor-pixel",
+      "name": "喜乐蒂 · 三色",
+      "family": "sheltie",
+      "breed": "喜乐蒂",
+      "color": "三色"
+    },
+    {
+      "id": "sheltie-blue-merle-pixel",
+      "name": "喜乐蒂 · 蓝陨石",
+      "family": "sheltie",
+      "breed": "喜乐蒂",
+      "color": "蓝陨石"
+    },
+    {
+      "id": "sheltie-red-merle-pixel",
+      "name": "喜乐蒂 · 红陨石",
+      "family": "sheltie",
+      "breed": "喜乐蒂",
+      "color": "红陨石"
+    },
+    {
+      "id": "sheltie-bi-black-pixel",
+      "name": "喜乐蒂 · 黑白",
+      "family": "sheltie",
+      "breed": "喜乐蒂",
+      "color": "黑白"
+    },
+    {
+      "id": "sheltie-bi-blue-pixel",
+      "name": "喜乐蒂 · 双色蓝陨石",
+      "family": "sheltie",
+      "breed": "喜乐蒂",
+      "color": "双色蓝陨石"
+    },
+    {
+      "id": "golden-cream-pixel",
+      "name": "金毛 · 奶油金",
+      "family": "golden",
+      "breed": "金毛",
+      "color": "奶油金"
+    },
+    {
+      "id": "golden-standard-pixel",
+      "name": "金毛 · 标准金",
+      "family": "golden",
+      "breed": "金毛",
+      "color": "标准金"
+    },
+    {
+      "id": "golden-light-pixel",
+      "name": "金毛 · 浅金",
+      "family": "golden",
+      "breed": "金毛",
+      "color": "浅金"
+    },
+    {
+      "id": "golden-dark-pixel",
+      "name": "金毛 · 深金",
+      "family": "golden",
+      "breed": "金毛",
+      "color": "深金"
+    },
+    {
+      "id": "bichon-photo-v3",
+      "name": "比熊 · 雪白蓝胸背",
+      "family": "bichon",
+      "breed": "比熊",
+      "color": "雪白蓝胸背"
+    },
+    {
+      "id": "bichon-cream-coral-v5",
+      "name": "比熊 · 奶油珊瑚",
+      "family": "bichon",
+      "breed": "比熊",
+      "color": "奶油珊瑚"
+    },
+    {
+      "id": "bichon-ice-lilac-v5",
+      "name": "比熊 · 冰白丁香",
+      "family": "bichon",
+      "breed": "比熊",
+      "color": "冰白丁香"
+    },
+    {
+      "id": "teddy-profile-v6",
+      "name": "泰迪 · 杏棕粉蓝",
+      "family": "teddy",
+      "breed": "泰迪",
+      "color": "杏棕粉蓝"
+    },
+    {
+      "id": "teddy-cream-profile-v6",
+      "name": "泰迪 · 奶油杏",
+      "family": "teddy",
+      "breed": "泰迪",
+      "color": "奶油杏"
+    },
+    {
+      "id": "teddy-chocolate-profile-v6",
+      "name": "泰迪 · 巧克力棕",
+      "family": "teddy",
+      "breed": "泰迪",
+      "color": "巧克力棕"
+    },
+    {
+      "id": "corgi-photo-v3",
+      "name": "柯基 · 赤金白",
+      "family": "corgi",
+      "breed": "柯基",
+      "color": "赤金白"
+    },
+    {
+      "id": "corgi-tricolor-v5",
+      "name": "柯基 · 黑头三色",
+      "family": "corgi",
+      "breed": "柯基",
+      "color": "黑头三色"
+    },
+    {
+      "id": "corgi-cream-v5",
+      "name": "柯基 · 奶油黄白",
+      "family": "corgi",
+      "breed": "柯基",
+      "color": "奶油黄白"
+    },
+    {
+      "id": "swiss-profile-v6",
+      "name": "瑞牧 · 雪白",
+      "family": "swiss",
+      "breed": "瑞牧",
+      "color": "雪白"
+    },
+    {
+      "id": "swiss-ivory-profile-v6",
+      "name": "瑞牧 · 暖米白",
+      "family": "swiss",
+      "breed": "瑞牧",
+      "color": "暖米白"
+    },
+    {
+      "id": "swiss-ice-profile-v6",
+      "name": "瑞牧 · 冰银白",
+      "family": "swiss",
+      "breed": "瑞牧",
+      "color": "冰银白"
+    },
+    {
+      "id": "husky-profile-v6",
+      "name": "哈士奇 · 黑白棕瞳",
+      "family": "husky",
+      "breed": "哈士奇",
+      "color": "黑白棕瞳"
+    },
+    {
+      "id": "husky-silver-profile-v6",
+      "name": "哈士奇 · 银灰白",
+      "family": "husky",
+      "breed": "哈士奇",
+      "color": "银灰白"
+    },
+    {
+      "id": "husky-red-profile-v6",
+      "name": "哈士奇 · 红棕白",
+      "family": "husky",
+      "breed": "哈士奇",
+      "color": "红棕白"
+    },
+    {
+      "id": "westie-profile-v1",
+      "name": "西高地 · 雪白",
+      "family": "westie",
+      "breed": "西高地",
+      "color": "雪白"
+    },
+    {
+      "id": "pomeranian-orange-v1",
+      "name": "博美 · 橘棕",
+      "family": "pomeranian",
+      "breed": "博美",
+      "color": "橘棕"
+    },
+    {
+      "id": "pomeranian-cream-v1",
+      "name": "博美 · 奶油白",
+      "family": "pomeranian",
+      "breed": "博美",
+      "color": "奶油白"
+    },
+    {
+      "id": "pomeranian-black-tan-v1",
+      "name": "博美 · 黑棕",
+      "family": "pomeranian",
+      "breed": "博美",
+      "color": "黑棕"
+    },
+    {
+      "id": "border-collie-black-white-v1",
+      "name": "边牧 · 黑白",
+      "family": "border-collie",
+      "breed": "边牧",
+      "color": "黑白"
+    },
+    {
+      "id": "border-collie-brown-white-v1",
+      "name": "边牧 · 棕白",
+      "family": "border-collie",
+      "breed": "边牧",
+      "color": "棕白"
+    },
+    {
+      "id": "border-collie-blue-merle-v1",
+      "name": "边牧 · 蓝陨石",
+      "family": "border-collie",
+      "breed": "边牧",
+      "color": "蓝陨石"
+    },
+    {
+      "id": "shiba-white-v1",
+      "name": "柴犬 · 白柴",
+      "family": "shiba",
+      "breed": "柴犬",
+      "color": "白柴"
+    },
+    {
+      "id": "shiba-red-v1",
+      "name": "柴犬 · 赤柴",
+      "family": "shiba",
+      "breed": "柴犬",
+      "color": "赤柴"
+    },
+    {
+      "id": "shiba-black-tan-v1",
+      "name": "柴犬 · 黑柴",
+      "family": "shiba",
+      "breed": "柴犬",
+      "color": "黑柴"
+    },
+    {
+      "id": "shiba-sesame-v1",
+      "name": "柴犬 · 胡麻",
+      "family": "shiba",
+      "breed": "柴犬",
+      "color": "胡麻"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # 宠物鼠标指针 · macOS 测试版
 
-当前10种狗狗、33套像素主题的 Mousecape `.cape` 导出包。制作环境为 Windows，格式和素材转换检查通过，Mac 导入、应用和实际体验尚未验收。
+当前11种狗狗、37套像素主题的 Mousecape `.cape` 导出包。制作环境为 Windows，格式和素材转换检查通过，Mac 导入、应用和实际体验尚未验收。
 
 ## 安装和使用
 
@@ -14,7 +14,7 @@
 
 ## 2026-11-01：普通区域变回默认箭头的修复
 
-视频反馈显示链接处有宠物、普通区域却回退系统箭头；这与[Mousecape上游记录的macOS26新命名问题](https://github.com/alexzielenski/Mousecape/pull/308)一致。旧包只含Arrow／IBeam，现已同时提供ArrowS／IBeamS。该修复覆盖全部33款和各犬种合集；旧11款Mac下载入口也已补丁。
+视频反馈显示链接处有宠物、普通区域却回退系统箭头；这与[Mousecape上游记录的macOS26新命名问题](https://github.com/alexzielenski/Mousecape/pull/308)一致。旧包只含Arrow／IBeam，现已同时提供ArrowS／IBeamS。原33款及旧11款下载入口已完成该修复；新增柴犬四款同样包含兼容条目，当前共37款。
 
 从旧版升级：先在Mousecape恢复默认并移除旧的同款主题，再重新导入新版.cape并Apply；无需移除其他品种。重复导入可能保留同名副本，请确认所选版本为2.0、共19个条目。仅下载或解压ZIP不会更新已导入主题。
 

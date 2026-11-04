@@ -1,16 +1,16 @@
 # Pet Mouse Pointer · 宠物鼠标指针
 
-10种狗狗，33款配色。粗像素动画，把每一次点击变成一点陪伴。
+11种狗狗，37款配色。粗像素动画，把每一次点击变成一点陪伴。
 
-## 先认识十位伙伴
+## 先认识十一位伙伴
 
-| 喜乐蒂 | 金毛 | 比熊 | 泰迪 | 柯基 | 瑞牧 | 哈士奇 | 西高地 | 博美 | 边牧 |
-|---|---|---|---|---|---|---|---|---|---|
-| <img src="docs/images/sheltie-red-merle-pixel-icon.png" width="72" alt="喜乐蒂"> | <img src="docs/images/golden-cream-pixel-icon.png" width="72" alt="金毛"> | <img src="docs/images/bichon-photo-v3-icon.png" width="72" alt="比熊"> | <img src="docs/images/teddy-profile-v6-icon.png" width="72" alt="泰迪"> | <img src="docs/images/corgi-photo-v3-icon.png" width="72" alt="柯基"> | <img src="docs/images/swiss-profile-v6-icon.png" width="72" alt="瑞牧"> | <img src="docs/images/husky-profile-v6-icon.png" width="72" alt="哈士奇"> | <img src="docs/images/westie-profile-v1-icon.png" width="72" alt="西高地"> | <img src="docs/images/pomeranian-orange-v1-icon.png" width="72" alt="博美"> | <img src="docs/images/border-collie-black-white-v1-icon.png" width="72" alt="边牧"> |
+| 喜乐蒂 | 金毛 | 比熊 | 泰迪 | 柯基 | 瑞牧 | 哈士奇 | 西高地 | 博美 | 边牧 | 柴犬 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| <img src="docs/images/sheltie-red-merle-pixel-icon.png" width="72" alt="喜乐蒂"> | <img src="docs/images/golden-cream-pixel-icon.png" width="72" alt="金毛"> | <img src="docs/images/bichon-photo-v3-icon.png" width="72" alt="比熊"> | <img src="docs/images/teddy-profile-v6-icon.png" width="72" alt="泰迪"> | <img src="docs/images/corgi-photo-v3-icon.png" width="72" alt="柯基"> | <img src="docs/images/swiss-profile-v6-icon.png" width="72" alt="瑞牧"> | <img src="docs/images/husky-profile-v6-icon.png" width="72" alt="哈士奇"> | <img src="docs/images/westie-profile-v1-icon.png" width="72" alt="西高地"> | <img src="docs/images/pomeranian-orange-v1-icon.png" width="72" alt="博美"> | <img src="docs/images/border-collie-black-white-v1-icon.png" width="72" alt="边牧"> | <img src="docs/images/shiba-white-v1-icon.png" width="72" alt="柴犬"> |
 
 ## 全部颜色 · 每行一个犬种
 
-![十种狗狗的33款完整配色](docs/images/all-33-colors-rows.png)
+![十一种狗狗的37款完整配色](docs/images/all-37-colors-rows.png)
 
 ## 鼠标动画 · 每个犬种、每款颜色
 
@@ -28,6 +28,7 @@
 | 西高地 | <img src="docs/images/westie-profile-v1-normal.gif" width="90" alt="西高地 雪白"><br>雪白 |  |  |  |  |  |  |
 | 博美 | <img src="docs/images/pomeranian-orange-v1-normal.gif" width="90" alt="博美 橘棕"><br>橘棕 | <img src="docs/images/pomeranian-cream-v1-normal.gif" width="90" alt="博美 奶油白"><br>奶油白 | <img src="docs/images/pomeranian-black-tan-v1-normal.gif" width="90" alt="博美 黑棕"><br>黑棕 |  |  |  |  |
 | 边牧 | <img src="docs/images/border-collie-black-white-v1-normal.gif" width="90" alt="边牧 黑白"><br>黑白 | <img src="docs/images/border-collie-brown-white-v1-normal.gif" width="90" alt="边牧 棕白"><br>棕白 | <img src="docs/images/border-collie-blue-merle-v1-normal.gif" width="90" alt="边牧 蓝陨石"><br>蓝陨石 |  |  |  |  |
+| 柴犬 | <img src="docs/images/shiba-white-v1-normal.gif" width="90" alt="柴犬 白柴"><br>白柴 | <img src="docs/images/shiba-red-v1-normal.gif" width="90" alt="柴犬 赤柴"><br>赤柴 | <img src="docs/images/shiba-black-tan-v1-normal.gif" width="90" alt="柴犬 黑柴"><br>黑柴 | <img src="docs/images/shiba-sesame-v1-normal.gif" width="90" alt="柴犬 胡麻"><br>胡麻 |  |  |  |
 
 ### 更多状态 · 每个品种的动态示意
 
@@ -45,12 +46,13 @@
 | 西高地 · 雪白 | <img src="docs/images/westie-profile-v1-help-state.gif" width="50" alt="西高地 帮助选择"> | <img src="docs/images/westie-profile-v1-wait-state.gif" width="50" alt="西高地 忙碌等待"> | <img src="docs/images/westie-profile-v1-text-state.gif" width="50" alt="西高地 文本选择"> | <img src="docs/images/westie-profile-v1-pen-state.gif" width="50" alt="西高地 手写"> | <img src="docs/images/westie-profile-v1-move-state.gif" width="50" alt="西高地 移动"> |
 | 博美 · 橘棕 | <img src="docs/images/pomeranian-orange-v1-help-state.gif" width="50" alt="博美 帮助选择"> | <img src="docs/images/pomeranian-orange-v1-wait-state.gif" width="50" alt="博美 忙碌等待"> | <img src="docs/images/pomeranian-orange-v1-text-state.gif" width="50" alt="博美 文本选择"> | <img src="docs/images/pomeranian-orange-v1-pen-state.gif" width="50" alt="博美 手写"> | <img src="docs/images/pomeranian-orange-v1-move-state.gif" width="50" alt="博美 移动"> |
 | 边牧 · 黑白 | <img src="docs/images/border-collie-black-white-v1-help-state.gif" width="50" alt="边牧 帮助选择"> | <img src="docs/images/border-collie-black-white-v1-wait-state.gif" width="50" alt="边牧 忙碌等待"> | <img src="docs/images/border-collie-black-white-v1-text-state.gif" width="50" alt="边牧 文本选择"> | <img src="docs/images/border-collie-black-white-v1-pen-state.gif" width="50" alt="边牧 手写"> | <img src="docs/images/border-collie-black-white-v1-move-state.gif" width="50" alt="边牧 移动"> |
+| 柴犬 · 白柴 | <img src="docs/images/shiba-white-v1-help-state.gif" width="50" alt="柴犬 help"> | <img src="docs/images/shiba-white-v1-wait-state.gif" width="50" alt="柴犬 wait"> | <img src="docs/images/shiba-white-v1-text-state.gif" width="50" alt="柴犬 text"> | <img src="docs/images/shiba-white-v1-pen-state.gif" width="50" alt="柴犬 pen"> | <img src="docs/images/shiba-white-v1-move-state.gif" width="50" alt="柴犬 move"> |
 
 ## 下载现成安装包
 
 | 范围 | 款数 | Windows 一键安装包 | macOS Mousecape 测试包 |
 |---|---:|---|---|
-| 全部狗狗 | 33 | [全部安装](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/windows-all.zip) | [全部导入](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/macos-all.zip) |
+| 全部狗狗 | 37 | [全部安装](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/windows-all.zip) | [全部导入](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/macos-all.zip) |
 | 喜乐蒂 | 7 | [安装该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/windows-sheltie.zip) | [导入该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/macos-sheltie.zip) |
 | 金毛 | 4 | [安装该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/windows-golden.zip) | [导入该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/macos-golden.zip) |
 | 比熊 | 3 | [安装该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/windows-bichon.zip) | [导入该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/macos-bichon.zip) |
@@ -61,6 +63,7 @@
 | 西高地 | 1 | [安装该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/windows-westie.zip) | [导入该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/macos-westie.zip) |
 | 博美 | 3 | [安装该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/windows-pomeranian.zip) | [导入该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/macos-pomeranian.zip) |
 | 边牧 | 3 | [安装该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/windows-border-collie.zip) | [导入该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/macos-border-collie.zip) |
+| 柴犬 | 4 | [安装该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/windows-shiba.zip) | [导入该犬种所有配色](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/macos-shiba.zip) |
 
 ### Windows：一键安装与恢复
 
@@ -87,16 +90,16 @@ powershell -NoProfile -ExecutionPolicy Bypass -File ./resize-current.ps1 -Size 9
 
 ### macOS：一键导入与应用
 
-**2026-11-01兼容修复：** 已为全部33款补上macOS26及更新系统使用的普通箭头、文本指针名称。若旧版出现“链接有小狗、普通区域却是默认箭头”，请重新下载Mac包，并在Mousecape恢复默认、移除旧同款后重新导入、Apply。重复导入可能保留同名副本；新版为2.0、19个条目。[原因与验证](docs/macos-compatibility-validation.json)。
+**2026-11-01兼容修复：** 已为原33款补上macOS26及更新系统使用的普通箭头、文本指针名称。若旧版出现“链接有小狗、普通区域却是默认箭头”，请重新下载Mac包，并在Mousecape恢复默认、移除旧同款后重新导入、Apply。重复导入可能保留同名副本；新版为2.0、19个条目。[原因与验证](docs/macos-compatibility-validation.json)。
 
 1. 先安装 [Mousecape 官方版本](https://github.com/alexzielenski/Mousecape/releases)，本项目不捆绑第三方程序。
 2. 解压Mac合集，双击 `一键导入全部主题-32pt.command`；大号使用48pt入口。也可直接双击 `.cape` 文件逐一导入。
 3. 在Mousecape中选中喜欢的一套，然后 **Apply**。批量入口负责导入，不能同时应用多套。
 4. 用 `Capes → Restore Defaults` 恢复默认指针。
 
-所有33款均提供32pt/48pt、1×/2×素材。13种源动作对应19个Mac条目（含ArrowS／IBeamS兼容条目），Windows手写、候选、位置和人员状态不直接导出；Mac额外状态保留系统默认。[Mousecape动画格式](https://github.com/alexzielenski/Mousecape/blob/master/Mousecape/mousecloak/apply.m)最多24个等时帧，部分Windows停留节奏需采样；转换记录随包提供。
+所有37款均提供32pt/48pt、1×/2×素材。13种源动作对应19个Mac条目（含ArrowS／IBeamS兼容条目），Windows手写、候选、位置和人员状态不直接导出；Mac额外状态保留系统默认。[Mousecape动画格式](https://github.com/alexzielenski/Mousecape/blob/master/Mousecape/mousecloak/apply.m)最多24个等时帧，部分Windows停留节奏需采样；转换记录随包提供。
 
-**Mac版已完成格式、热点、时长及全部嵌入像素校验，本次兼容补丁尚未在Mac真机复测，Retina与多屏仍待确认。** 双击脚本还可能受本机执行权限限制，可改用直接打开.cape；不需要绕过系统安全提示。详见[macOS说明](docs/macOS.md)与[33款转换校验](docs/macos-33-validation.json)。
+**Mac版已完成格式、热点、时长及全部嵌入像素校验，本次兼容补丁尚未在Mac真机复测，Retina与多屏仍待确认。** 双击脚本还可能受本机执行权限限制，可改用直接打开.cape；不需要绕过系统安全提示。详见[macOS说明](docs/macOS.md)与[37款转换校验](docs/macos-37-validation.json)。
 
 ## 单款下载
 
@@ -112,12 +115,13 @@ powershell -NoProfile -ExecutionPolicy Bypass -File ./resize-current.ps1 -Size 9
 | 西高地 | [雪白](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/westie-profile-v1.zip) |
 | 博美 | [橘棕](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/pomeranian-orange-v1.zip) · [奶油白](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/pomeranian-cream-v1.zip) · [黑棕](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/pomeranian-black-tan-v1.zip) |
 | 边牧 | [黑白](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/border-collie-black-white-v1.zip) · [棕白](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/border-collie-brown-white-v1.zip) · [蓝陨石](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/border-collie-blue-merle-v1.zip) |
+| 柴犬 | [白柴](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/shiba-white-v1.zip) · [赤柴](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/shiba-red-v1.zip) · [黑柴](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/shiba-black-tan-v1.zip) · [胡麻](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/refs/heads/main/downloads/themes/shiba-sesame-v1.zip) |
 
 ## 动作、鼻尖与验证
 
 Windows每款含17种动画状态：正常、帮助、后台工作、等待、精确定位、文本、手写、不可用、四向缩放、移动、候选、链接、位置和人员选择。点选类使用可见鼻尖；文字用插入线，手写用笔尖，定位及缩放用操作符号接触点。侧面造型保留品种的耳朵、口鼻和毛色特征。
 
-33款沿用已复查的源动作，提供Windows原生加载/绘制、各尺寸与热点检查记录；安装器经过预演，未在制作机应用主题。实际桌面点击手感、不同DPI与多显示器仍需试用；局部毛发纹理变化可能存在。自动检测不能替代逐帧视觉检查。见[发布目录](docs/release-33.json)、[33款扩展打包验证（2026-10-31）](docs/release-33-validation.json)、[Mac兼容修复验证（2026-11-01）](docs/macos-compatibility-validation.json)及各主题包内报告。
+37款使用已复查的源动作，提供Windows原生加载/绘制、各尺寸与热点检查记录；安装器经过预演，未在制作机应用主题。实际桌面点击手感、不同DPI与多显示器仍需试用；局部毛发纹理变化可能存在。自动检测不能替代逐帧视觉检查。见[发布目录](docs/release-37.json)、[柴犬扩展打包验证](docs/release-37-validation.json)、[33款扩展打包验证（2026-10-31）](docs/release-33-validation.json)、[Mac兼容修复验证（2026-11-01）](docs/macos-compatibility-validation.json)及各主题包内报告。
 
 ## 用 Skill 制作自己的宠物
 
@@ -133,8 +137,8 @@ python -m unittest discover -s skills/pet-cursor-theme/scripts -p "test_*.py"
 
 ## 文件与许可
 
-`downloads/` 为平台与犬种合集，`downloads/themes/` 为33款单主题包；`skills/` 为可复用制作工具；`docs/` 为图鉴、动画和检查记录。旧版下载保留供溯源，当前推荐入口均以上方33款为准。下载完整性见 [SHA-256](downloads/SHA256SUMS)。
+`downloads/` 为平台与犬种合集，`downloads/themes/` 为37款单主题包；`skills/` 为可复用制作工具；`docs/` 为图鉴、动画和检查记录。旧版下载保留供溯源，当前推荐入口均以上方37款为准。下载完整性见 [SHA-256](downloads/SHA256SUMS)。
 
-代码与文档采用 [MIT](LICENSE)；宠物照片、参考图及生成美术的权利单独确认，见[素材说明](ASSETS.md)。本次新增主题和合集不附私人参考照片、密钥或本机路径。博美、边牧依据维护者提供的参考形象设计；边牧不包含参考图的牵引绳、衣物或配饰。
+代码与文档采用 [MIT](LICENSE)；宠物照片、参考图及生成美术的权利单独确认，见[素材说明](ASSETS.md)。本次新增主题和合集不附私人参考照片、密钥或本机路径。博美、边牧依据维护者提供的参考形象设计；边牧不包含参考图的牵引绳、衣物或配饰。柴犬参考白柴照片，忽略胸背，另含赤柴、黑柴、胡麻配色。
 
 感谢 🍠 不要芋泥要啵啵 的反馈。

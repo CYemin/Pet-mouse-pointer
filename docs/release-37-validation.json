@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "catalog_themes": 37,
+  "breed_order": [
+    "喜乐蒂",
+    "金毛",
+    "比熊",
+    "泰迪",
+    "柯基",
+    "瑞牧",
+    "哈士奇",
+    "西高地",
+    "博美",
+    "边牧",
+    "柴犬"
+  ],
+  "new_archives_checked": 8,
+  "download_targets_checked": 63,
+  "new_gifs_checked": 24,
+  "new_gif_frames_and_timing_checked": 384,
+  "unchanged_existing_art_files": 3432,
+  "collection_dry_runs": [
+    {
+      "package": "windows-all",
+      "collection": "all",
+      "themes": 37,
+      "default_size": 48,
+      "dry_run": true
+    },
+    {
+      "package": "windows-all",
+      "collection": "shiba",
+      "themes": 4,
+      "default_size": 48,
+      "dry_run": true
+    }
+  ],
+  "partial_source_current_only_resize_dry_runs": 6,
+  "system_settings_modified": false,
+  "native_macos_tested": false
+}

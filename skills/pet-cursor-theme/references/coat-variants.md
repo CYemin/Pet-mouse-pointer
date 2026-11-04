@@ -16,6 +16,7 @@ The repository's release catalog, `themes/` and download table identify which va
 | Golden retriever | cream, light golden, golden, dark golden | Continuous golden shading with lighter feathering; retain the photographed nose and accessory colors |
 | Pomeranian | orange brown, cream white, black and tan | Compact rounded head and ruff, tiny triangular ears and short muzzle; stable tan cheek/eyebrow regions for black and tan |
 | Border Collie | black and white, brown and white, blue merle | Semi-upright folded ears, fixed white blaze/muzzle/chest; a few stable charcoal patches for blue merle |
+| Shiba Inu | white, red, black and tan, sesame | Compact wedge head, firm triangular ears, short dense coat, almond eye; cream urajiro under muzzle/cheeks/throat for colored coats, stable tan points for black and tan and crown tipping for sesame; no harness or collar for this project's photo reference |
 
 These are character-design choices. Do not infer a photographed dog's pedigree or genetics from color alone. See [ASSA's Sheltie colors](https://www.americanshetlandsheepdogassociation.org/sheltie-colors/) and [GRCA's breed study guide](https://grca.org/wp-content/uploads/2017/09/GRCA-Study-Guide-2017pdf.pdf) when checking breed references.
 

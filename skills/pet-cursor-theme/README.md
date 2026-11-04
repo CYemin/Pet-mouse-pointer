@@ -2,7 +2,7 @@
 
 将自己的宠物照片制作成有表情、有动作、能安装和恢复的 Windows 鼠标指针主题。
 
-本 Skill 随 [Pet-mouse-pointer](https://github.com/CYemin/Pet-mouse-pointer) 发布。当前案例为10种狗狗、33款配色：喜乐蒂7、金毛4、比熊3、泰迪3、柯基3、瑞牧3、哈士奇3、西高地1、博美3、边牧3。每套Windows主题覆盖17状态、五档尺寸。也支持从同一复查帧导出macOS Mousecape测试包、整套与单犬种合集。详见[平台与发布](references/release-packaging.md)。
+本 Skill 随 [Pet-mouse-pointer](https://github.com/CYemin/Pet-mouse-pointer) 发布。当前案例为11种狗狗、37款配色：喜乐蒂7、金毛4、比熊3、泰迪3、柯基3、瑞牧3、哈士奇3、西高地1、博美3、边牧3、柴犬4。每套Windows主题覆盖17状态、五档尺寸。也支持从同一复查帧导出macOS Mousecape测试包、整套与单犬种合集。详见[平台与发布](references/release-packaging.md)。
 
 ## 使用
 
