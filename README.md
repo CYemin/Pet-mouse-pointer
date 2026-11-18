@@ -1,5 +1,14 @@
 # Pet Mouse Pointer · 宠物鼠标指针
 
+## 其他宠物 · 猫咪、鹦鹉、守宫和仓鼠
+
+新增16款免费开源像素宠物指针，按系统／种类／颜色整理，提供Windows、macOS和Linux导出。
+
+[查看全部款式、下载与安装说明](other-pets/) · [下载离线测试页面](https://raw.githubusercontent.com/CYemin/Pet-mouse-pointer/main/other-pets/downloads/offline-playgrounds.zip)
+
+![其他宠物指针](other-pets/social-post/总览.png)
+
+
 11种狗狗，37款配色。粗像素动画，把每一次点击变成一点陪伴。
 
 ## 先认识十一位伙伴

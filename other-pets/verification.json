@@ -1,0 +1,16 @@
+{
+  "themes": 16,
+  "platforms": 3,
+  "system_species_color_folders": 48,
+  "windows_source_states": 272,
+  "macOS_per_theme_roles": 13,
+  "macOS_native_tested": false,
+  "linux_native_tested": false,
+  "linux_cursor_files": 912,
+  "social_images": 6,
+  "image_size": [
+    1080,
+    1440
+  ],
+  "offline_animation_links_checked": 1360
+}

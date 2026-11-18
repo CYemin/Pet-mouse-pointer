@@ -1,0 +1,82 @@
+[
+  {
+    "id": "cat",
+    "species": "猫咪",
+    "color": "橘虎斑"
+  },
+  {
+    "id": "cat-silver",
+    "species": "猫咪",
+    "color": "银虎斑"
+  },
+  {
+    "id": "cat-tuxedo",
+    "species": "猫咪",
+    "color": "黑白奶牛"
+  },
+  {
+    "id": "cat-calico",
+    "species": "猫咪",
+    "color": "三花"
+  },
+  {
+    "id": "cat-cream",
+    "species": "猫咪",
+    "color": "奶油虎斑"
+  },
+  {
+    "id": "cockatiel",
+    "species": "玄凤鹦鹉",
+    "color": "原始灰"
+  },
+  {
+    "id": "cockatiel-whiteface",
+    "species": "玄凤鹦鹉",
+    "color": "白脸灰"
+  },
+  {
+    "id": "cockatiel-lutino",
+    "species": "玄凤鹦鹉",
+    "color": "黄化"
+  },
+  {
+    "id": "cockatiel-pearl",
+    "species": "玄凤鹦鹉",
+    "color": "珍珠灰"
+  },
+  {
+    "id": "gecko",
+    "species": "豹纹守宫",
+    "color": "经典金黄"
+  },
+  {
+    "id": "gecko-tangerine",
+    "species": "豹纹守宫",
+    "color": "橘化"
+  },
+  {
+    "id": "gecko-snow",
+    "species": "豹纹守宫",
+    "color": "麦克雪（Mack Snow）"
+  },
+  {
+    "id": "gecko-lavender",
+    "species": "豹纹守宫",
+    "color": "薰衣草斑"
+  },
+  {
+    "id": "hamster-golden",
+    "species": "仓鼠",
+    "color": "金黄"
+  },
+  {
+    "id": "hamster-silver",
+    "species": "仓鼠",
+    "color": "银灰"
+  },
+  {
+    "id": "hamster-ivory",
+    "species": "仓鼠",
+    "color": "奶白"
+  }
+]

@@ -1,0 +1,17 @@
+macOS 宠物鼠标指针安装说明
+
+01 安装 Mousecape
+在项目的 downloads/macOS 目录找到 Mousecape_1813.zip，完整解压，把 Mousecape.app 拖进「应用程序」，然后打开。
+这是官方 1813 的 Intel 版。如果你用的是 Apple 芯片 Mac，系统可能提示安装 Rosetta，请按系统提示操作。
+
+02 导入并应用宠物指针
+完整解压选好的宠物主题 ZIP。双击文件名以 32pt.cape 结尾的文件，将常规尺寸导入 Mousecape。在 Mousecape 列表里选中主题，点击 Apply（应用）。
+
+03 修改大小
+需要更大的指针时，双击同一主题里以 48pt.cape 结尾的文件，导入后在 Mousecape 中选中对应尺寸并点击 Apply。
+
+04 恢复系统指针
+打开 Mousecape，从菜单选择 Capes → Restore Defaults（恢复默认）。
+
+如果 Mac 上还没有 Mousecape，可从官方发布页下载 Mousecape_1813.zip：
+https://github.com/alexzielenski/Mousecape/releases/tag/1813

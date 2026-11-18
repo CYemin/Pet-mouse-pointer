@@ -1,0 +1,155 @@
+{
+  "size-ns": {
+    "version": 2,
+    "source": "assets/golden-cream-pixel/size-ns.png",
+    "source_sprite_sha256": "b81756a8dfc97f854d24a3e71b6aa2fb3cf54d356b392ac622497d953554a6d7",
+    "prepared_source": "output/arrow-upgrade/highres-source/golden-cream-pixel/size-ns-240-0.png",
+    "sha256": "dfa3ba84de588458ff760ee3099eb921b337ca98ba1df2517d618b3da2f38ea3",
+    "frame": 0,
+    "preparation": {
+      "native_pixel_size": 240,
+      "pixel_art": true,
+      "pixel_alpha_threshold": 128,
+      "pixel_palette_colors": 16
+    },
+    "bbox": [
+      15,
+      24,
+      52,
+      91
+    ],
+    "opaque_pixels": 1579,
+    "extraction": "isolated four-connected alpha component from 240px original-sprite preparation",
+    "selection_region": null
+  },
+  "size-we": {
+    "version": 2,
+    "source": "assets/golden-cream-pixel/size-we.png",
+    "source_sprite_sha256": "8ab9f05648dd13ea8e9bdd96b8fb304e2808e5363815939f58479500fc1f92aa",
+    "prepared_source": "output/arrow-upgrade/highres-source/golden-cream-pixel/size-we-240-0.png",
+    "sha256": "aad3d4e460421b42ecb1bdf68d71a360fda34934051dceb3e0337478a1f3681f",
+    "frame": 0,
+    "preparation": {
+      "native_pixel_size": 240,
+      "pixel_art": true,
+      "pixel_alpha_threshold": 128,
+      "pixel_palette_colors": 16
+    },
+    "bbox": [
+      44,
+      15,
+      151,
+      66
+    ],
+    "opaque_pixels": 3849,
+    "extraction": "reviewed arrow-only rectangle above the arrow/forehead contact row; retain original pixels",
+    "selection_region": [
+      43,
+      15,
+      151,
+      66
+    ]
+  },
+  "size-nwse": {
+    "version": 2,
+    "source": "assets/golden-cream-pixel/size-nwse.png",
+    "source_sprite_sha256": "a696008b682962814eb68987bce8b95ba68ec8872626a95d1e271f964111ea05",
+    "prepared_source": "output/arrow-upgrade/highres-source/golden-cream-pixel/size-nwse-240-0.png",
+    "sha256": "d6dab8888a7d48aeb7b7a79cb5c8c1209fbb51a16c9263f05810aca986f27808",
+    "frame": 0,
+    "preparation": {
+      "native_pixel_size": 240,
+      "pixel_art": true,
+      "pixel_alpha_threshold": 128,
+      "pixel_palette_colors": 16
+    },
+    "bbox": [
+      17,
+      15,
+      72,
+      72
+    ],
+    "opaque_pixels": 1725,
+    "extraction": "isolated four-connected alpha component from 240px original-sprite preparation",
+    "selection_region": null
+  },
+  "size-nesw": {
+    "version": 2,
+    "source": "assets/golden-cream-pixel/size-nesw.png",
+    "source_sprite_sha256": "2ad5055f02359a9142aab7fdd21185f7d8589d98119cba4936b4ab4e541b53d8",
+    "prepared_source": "output/arrow-upgrade/highres-source/golden-cream-pixel/size-nesw-240-2.png",
+    "sha256": "dc749a99d41810c43ccc3e299328b9c8d3995b21e2bf20afac17ee63ee6b16d1",
+    "frame": 2,
+    "preparation": {
+      "native_pixel_size": 240,
+      "pixel_art": true,
+      "pixel_alpha_threshold": 128,
+      "pixel_palette_colors": 16
+    },
+    "bbox": [
+      15,
+      16,
+      72,
+      77
+    ],
+    "opaque_pixels": 1781,
+    "extraction": "isolated four-connected alpha component from 240px original-sprite preparation",
+    "selection_region": null
+  },
+  "move": {
+    "version": 2,
+    "source": "assets/golden-cream-pixel/move.png",
+    "source_sprite_sha256": "816485159fe4fad2a3c14149918e7b67afb6ab24fd0f67458b1dd5ef07f4961f",
+    "prepared_source": "output/arrow-upgrade/highres-source/golden-cream-pixel/move-240-0.png",
+    "sha256": "415e89fa39e98c14b08f5a44f31a819f78efd57994af0d24593d4c859a97c523",
+    "frame": 0,
+    "preparation": {
+      "native_pixel_size": 240,
+      "pixel_art": true,
+      "pixel_alpha_threshold": 128,
+      "pixel_palette_colors": 16
+    },
+    "bbox": [
+      17,
+      15,
+      81,
+      77
+    ],
+    "opaque_pixels": 1915,
+    "extraction": "reviewed arrow rectangle with neighbouring nose/ear pixels excluded at lower/right contact; retain original pixels",
+    "selection_region": [
+      17,
+      15,
+      82,
+      77
+    ],
+    "exclusions": [
+      "y>=60 and x>=69",
+      "y==75 and x outside [48,52)",
+      "y==76 and x outside [49,51)"
+    ]
+  },
+  "alternate": {
+    "version": 2,
+    "source": "assets/golden-cream-pixel/alternate.png",
+    "source_sprite_sha256": "6e1a3ce6f5952094426729324d59afc1118eda5ccc4e1ba9a3d0ec7a3b49891a",
+    "prepared_source": "output/arrow-upgrade/highres-source/golden-cream-pixel/alternate-240-0.png",
+    "sha256": "3f1f993a1393258a04d66da851f74475500850ddc4496541b0be332da02d34c4",
+    "frame": 0,
+    "preparation": {
+      "native_pixel_size": 240,
+      "pixel_art": true,
+      "pixel_alpha_threshold": 128,
+      "pixel_palette_colors": 16
+    },
+    "bbox": [
+      15,
+      15,
+      54,
+      57
+    ],
+    "opaque_pixels": 1030,
+    "extraction": "isolated four-connected alpha component from 240px original-sprite preparation",
+    "selection_region": null
+  }
+}
