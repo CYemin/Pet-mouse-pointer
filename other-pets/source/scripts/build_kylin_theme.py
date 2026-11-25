@@ -1,6 +1,7 @@
 """Export a packaged Windows theme's original frames as a UKUI/Xcursor pilot."""
 
 import argparse
+from contextlib import nullcontext
 from concurrent.futures import ThreadPoolExecutor
 from fractions import Fraction
 from io import BytesIO
@@ -150,9 +151,13 @@ def verify_cursor(data, frames):
         raise ValueError('Unexpected bytes in cursor file')
 
 
-def build(source, output):
+def build(source, output, workdir=None):
     output.parent.mkdir(parents=True, exist_ok=True)
-    with ZipFile(source) as original, tempfile.TemporaryDirectory(dir=output.parent) as temp:
+    if workdir is not None:
+        workdir = Path(workdir)
+        workdir.mkdir(parents=True, exist_ok=True)
+    staging = nullcontext(workdir) if workdir is not None else tempfile.TemporaryDirectory(dir=output.parent)
+    with ZipFile(source) as original, staging as temp:
         manifest_path, = (PurePosixPath(n) for n in original.namelist() if n.endswith('/manifest.json'))
         manifest = json.loads(original.read(manifest_path.as_posix()))
         sizes = manifest['sizes']

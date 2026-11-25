@@ -1,16 +1,291 @@
 {
-  "themes": 16,
-  "platforms": 3,
-  "system_species_color_folders": 48,
-  "windows_source_states": 272,
-  "macOS_per_theme_roles": 13,
-  "macOS_native_tested": false,
-  "linux_native_tested": false,
-  "linux_cursor_files": 912,
-  "social_images": 6,
-  "image_size": [
-    1080,
-    1440
-  ],
-  "offline_animation_links_checked": 1360
+  "status": "passed",
+  "themes": 24,
+  "native_windows_tested": true,
+  "native_macos_tested": false,
+  "native_linux_tested": false,
+  "archives": {
+    "macOS.zip": {
+      "bytes": 99647102,
+      "sha256": "bc776330dbbf4852d53ae6e9a1d175141e194151e092321add96b382971fe9d1"
+    },
+    "offline-24-pets.zip": {
+      "bytes": 21696454,
+      "sha256": "735210cbfa493b3afc2e483db28f6729a2aec170592f2a003022fa9aa63cce28"
+    },
+    "Windows.zip": {
+      "bytes": 70578863,
+      "sha256": "7405d8fd913173f61a1534fe5cac23548b96a36837f8268f2a04eb7c96137a7b"
+    },
+    "Linux.tar.gz": {
+      "bytes": 62600582,
+      "sha256": "435d78d447e5fee232f75c93148af3f1f617ded5497e06bbf015626010aeeb9c"
+    }
+  },
+  "checks": [
+    {
+      "id": "cat",
+      "native_files": 102,
+      "gif_frames": 48,
+      "mac": {
+        "cape_files": 2,
+        "cursor_entries": 38,
+        "png_strips": 76,
+        "embedded_frames": 1824
+      }
+    },
+    {
+      "id": "cat-silver",
+      "native_files": 102,
+      "gif_frames": 48,
+      "mac": {
+        "cape_files": 2,
+        "cursor_entries": 38,
+        "png_strips": 76,
+        "embedded_frames": 1824
+      }
+    },
+    {
+      "id": "cat-tuxedo",
+      "native_files": 102,
+      "gif_frames": 48,
+      "mac": {
+        "cape_files": 2,
+        "cursor_entries": 38,
+        "png_strips": 76,
+        "embedded_frames": 1824
+      }
+    },
+    {
+      "id": "cat-calico",
+      "native_files": 102,
+      "gif_frames": 48,
+      "mac": {
+        "cape_files": 2,
+        "cursor_entries": 38,
+        "png_strips": 76,
+        "embedded_frames": 1824
+      }
+    },
+    {
+      "id": "cat-cream",
+      "native_files": 102,
+      "gif_frames": 48,
+      "mac": {
+        "cape_files": 2,
+        "cursor_entries": 38,
+        "png_strips": 76,
+        "embedded_frames": 1824
+      }
+    },
+    {
+      "id": "cockatiel",
+      "native_files": 102,
+      "gif_frames": 48,
+      "mac": {
+        "cape_files": 2,
+        "cursor_entries": 38,
+        "png_strips": 76,
+        "embedded_frames": 1824
+      }
+    },
+    {
+      "id": "cockatiel-lutino",
+      "native_files": 102,
+      "gif_frames": 48,
+      "mac": {
+        "cape_files": 2,
+        "cursor_entries": 38,
+        "png_strips": 76,
+        "embedded_frames": 1824
+      }
+    },
+    {
+      "id": "cockatiel-pearl",
+      "native_files": 102,
+      "gif_frames": 48,
+      "mac": {
+        "cape_files": 2,
+        "cursor_entries": 38,
+        "png_strips": 76,
+        "embedded_frames": 1824
+      }
+    },
+    {
+      "id": "gecko",
+      "native_files": 102,
+      "gif_frames": 48,
+      "mac": {
+        "cape_files": 2,
+        "cursor_entries": 38,
+        "png_strips": 76,
+        "embedded_frames": 1824
+      }
+    },
+    {
+      "id": "gecko-snow",
+      "native_files": 102,
+      "gif_frames": 48,
+      "mac": {
+        "cape_files": 2,
+        "cursor_entries": 38,
+        "png_strips": 76,
+        "embedded_frames": 1824
+      }
+    },
+    {
+      "id": "gecko-lavender",
+      "native_files": 102,
+      "gif_frames": 48,
+      "mac": {
+        "cape_files": 2,
+        "cursor_entries": 38,
+        "png_strips": 76,
+        "embedded_frames": 1824
+      }
+    },
+    {
+      "id": "longhair-ragdoll",
+      "native_files": 102,
+      "gif_frames": 14,
+      "mac": {
+        "cape_files": 2,
+        "cursor_entries": 38,
+        "png_strips": 76,
+        "embedded_frames": 1744
+      }
+    },
+    {
+      "id": "longhair-golden",
+      "native_files": 102,
+      "gif_frames": 14,
+      "mac": {
+        "cape_files": 2,
+        "cursor_entries": 38,
+        "png_strips": 76,
+        "embedded_frames": 1744
+      }
+    },
+    {
+      "id": "longhair-silver",
+      "native_files": 102,
+      "gif_frames": 14,
+      "mac": {
+        "cape_files": 2,
+        "cursor_entries": 38,
+        "png_strips": 76,
+        "embedded_frames": 1744
+      }
+    },
+    {
+      "id": "seed-hamster-golden",
+      "native_files": 102,
+      "gif_frames": 18,
+      "mac": {
+        "cape_files": 2,
+        "cursor_entries": 38,
+        "png_strips": 76,
+        "embedded_frames": 1776
+      }
+    },
+    {
+      "id": "seed-hamster-silver",
+      "native_files": 102,
+      "gif_frames": 18,
+      "mac": {
+        "cape_files": 2,
+        "cursor_entries": 38,
+        "png_strips": 76,
+        "embedded_frames": 1776
+      }
+    },
+    {
+      "id": "seed-hamster-ivory",
+      "native_files": 102,
+      "gif_frames": 18,
+      "mac": {
+        "cape_files": 2,
+        "cursor_entries": 38,
+        "png_strips": 76,
+        "embedded_frames": 1776
+      }
+    },
+    {
+      "id": "lop-rabbit",
+      "native_files": 102,
+      "gif_frames": 18,
+      "mac": {
+        "cape_files": 2,
+        "cursor_entries": 38,
+        "png_strips": 76,
+        "embedded_frames": 1776
+      }
+    },
+    {
+      "id": "sugar-glider",
+      "native_files": 102,
+      "gif_frames": 18,
+      "mac": {
+        "cape_files": 2,
+        "cursor_entries": 38,
+        "png_strips": 76,
+        "embedded_frames": 1776
+      }
+    },
+    {
+      "id": "hedgehog",
+      "native_files": 102,
+      "gif_frames": 18,
+      "mac": {
+        "cape_files": 2,
+        "cursor_entries": 38,
+        "png_strips": 76,
+        "embedded_frames": 1776
+      }
+    },
+    {
+      "id": "red-eared-slider",
+      "native_files": 102,
+      "gif_frames": 18,
+      "mac": {
+        "cape_files": 2,
+        "cursor_entries": 38,
+        "png_strips": 76,
+        "embedded_frames": 1776
+      }
+    },
+    {
+      "id": "corn-snake",
+      "native_files": 102,
+      "gif_frames": 10,
+      "mac": {
+        "cape_files": 2,
+        "cursor_entries": 38,
+        "png_strips": 76,
+        "embedded_frames": 1776
+      }
+    },
+    {
+      "id": "pacman-frog",
+      "native_files": 102,
+      "gif_frames": 18,
+      "mac": {
+        "cape_files": 2,
+        "cursor_entries": 38,
+        "png_strips": 76,
+        "embedded_frames": 1776
+      }
+    },
+    {
+      "id": "capybara",
+      "native_files": 102,
+      "gif_frames": 18,
+      "mac": {
+        "cape_files": 2,
+        "cursor_entries": 38,
+        "png_strips": 76,
+        "embedded_frames": 1776
+      }
+    }
+  ]
 }

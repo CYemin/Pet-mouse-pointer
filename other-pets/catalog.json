@@ -2,17 +2,17 @@
   {
     "id": "cat",
     "species": "猫咪",
-    "color": "橘虎斑"
+    "color": "橘猫"
   },
   {
     "id": "cat-silver",
     "species": "猫咪",
-    "color": "银虎斑"
+    "color": "橘白"
   },
   {
     "id": "cat-tuxedo",
     "species": "猫咪",
-    "color": "黑白奶牛"
+    "color": "黑白猫"
   },
   {
     "id": "cat-calico",
@@ -22,17 +22,12 @@
   {
     "id": "cat-cream",
     "species": "猫咪",
-    "color": "奶油虎斑"
+    "color": "纯白猫"
   },
   {
     "id": "cockatiel",
     "species": "玄凤鹦鹉",
     "color": "原始灰"
-  },
-  {
-    "id": "cockatiel-whiteface",
-    "species": "玄凤鹦鹉",
-    "color": "白脸灰"
   },
   {
     "id": "cockatiel-lutino",
@@ -50,11 +45,6 @@
     "color": "经典金黄"
   },
   {
-    "id": "gecko-tangerine",
-    "species": "豹纹守宫",
-    "color": "橘化"
-  },
-  {
     "id": "gecko-snow",
     "species": "豹纹守宫",
     "color": "麦克雪（Mack Snow）"
@@ -65,18 +55,68 @@
     "color": "薰衣草斑"
   },
   {
-    "id": "hamster-golden",
-    "species": "仓鼠",
+    "id": "longhair-ragdoll",
+    "species": "长毛猫",
+    "color": "布偶 · 蓝双色"
+  },
+  {
+    "id": "longhair-golden",
+    "species": "长毛猫",
+    "color": "长毛猫 · 金渐层"
+  },
+  {
+    "id": "longhair-silver",
+    "species": "长毛猫",
+    "color": "长毛猫 · 银渐层"
+  },
+  {
+    "id": "seed-hamster-golden",
+    "species": "瓜子仓鼠",
     "color": "金黄"
   },
   {
-    "id": "hamster-silver",
-    "species": "仓鼠",
+    "id": "seed-hamster-silver",
+    "species": "瓜子仓鼠",
     "color": "银灰"
   },
   {
-    "id": "hamster-ivory",
-    "species": "仓鼠",
+    "id": "seed-hamster-ivory",
+    "species": "瓜子仓鼠",
     "color": "奶白"
+  },
+  {
+    "id": "lop-rabbit",
+    "species": "垂耳兔",
+    "color": "垂耳兔"
+  },
+  {
+    "id": "sugar-glider",
+    "species": "蜜袋鼯",
+    "color": "蜜袋鼯"
+  },
+  {
+    "id": "hedgehog",
+    "species": "刺猬",
+    "color": "刺猬"
+  },
+  {
+    "id": "red-eared-slider",
+    "species": "巴西龟",
+    "color": "巴西龟"
+  },
+  {
+    "id": "corn-snake",
+    "species": "玉米蛇",
+    "color": "玉米蛇"
+  },
+  {
+    "id": "pacman-frog",
+    "species": "角蛙",
+    "color": "角蛙"
+  },
+  {
+    "id": "capybara",
+    "species": "水豚",
+    "color": "水豚"
   }
 ]
