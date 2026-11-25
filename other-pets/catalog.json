@@ -2,121 +2,145 @@
   {
     "id": "cat",
     "species": "猫咪",
-    "color": "橘猫"
+    "color": "橘猫",
+    "display_name": "猫咪 · 橘猫"
   },
   {
     "id": "cat-silver",
     "species": "猫咪",
-    "color": "橘白"
+    "color": "橘白",
+    "display_name": "猫咪 · 橘白"
   },
   {
     "id": "cat-tuxedo",
     "species": "猫咪",
-    "color": "黑白猫"
+    "color": "黑白猫",
+    "display_name": "猫咪 · 黑白猫"
   },
   {
     "id": "cat-calico",
     "species": "猫咪",
-    "color": "三花"
+    "color": "三花",
+    "display_name": "猫咪 · 三花"
   },
   {
     "id": "cat-cream",
     "species": "猫咪",
-    "color": "纯白猫"
+    "color": "纯白猫",
+    "display_name": "猫咪 · 纯白猫"
   },
   {
     "id": "cockatiel",
     "species": "玄凤鹦鹉",
-    "color": "原始灰"
+    "color": "原始灰",
+    "display_name": "玄凤鹦鹉 · 原始灰"
   },
   {
     "id": "cockatiel-lutino",
     "species": "玄凤鹦鹉",
-    "color": "黄化"
+    "color": "黄化",
+    "display_name": "玄凤鹦鹉 · 黄化"
   },
   {
     "id": "cockatiel-pearl",
     "species": "玄凤鹦鹉",
-    "color": "珍珠灰"
+    "color": "珍珠灰",
+    "display_name": "玄凤鹦鹉 · 珍珠灰"
   },
   {
     "id": "gecko",
     "species": "豹纹守宫",
-    "color": "经典金黄"
+    "color": "经典金黄",
+    "display_name": "豹纹守宫 · 经典金黄"
   },
   {
     "id": "gecko-snow",
     "species": "豹纹守宫",
-    "color": "麦克雪（Mack Snow）"
+    "color": "麦克雪（Mack Snow）",
+    "display_name": "豹纹守宫 · 麦克雪（Mack Snow）"
   },
   {
     "id": "gecko-lavender",
     "species": "豹纹守宫",
-    "color": "薰衣草斑"
+    "color": "薰衣草斑",
+    "display_name": "豹纹守宫 · 薰衣草斑"
   },
   {
     "id": "longhair-ragdoll",
     "species": "长毛猫",
-    "color": "布偶 · 蓝双色"
+    "color": "布偶 · 蓝双色",
+    "display_name": "布偶 · 蓝双色"
   },
   {
     "id": "longhair-golden",
     "species": "长毛猫",
-    "color": "长毛猫 · 金渐层"
+    "color": "长毛猫 · 金渐层",
+    "display_name": "长毛猫 · 金渐层"
   },
   {
     "id": "longhair-silver",
     "species": "长毛猫",
-    "color": "长毛猫 · 银渐层"
+    "color": "长毛猫 · 银渐层",
+    "display_name": "长毛猫 · 银渐层"
   },
   {
     "id": "seed-hamster-golden",
     "species": "瓜子仓鼠",
-    "color": "金黄"
+    "color": "金黄",
+    "display_name": "瓜子仓鼠 · 金黄"
   },
   {
     "id": "seed-hamster-silver",
     "species": "瓜子仓鼠",
-    "color": "银灰"
+    "color": "银灰",
+    "display_name": "瓜子仓鼠 · 银灰"
   },
   {
     "id": "seed-hamster-ivory",
     "species": "瓜子仓鼠",
-    "color": "奶白"
+    "color": "奶白",
+    "display_name": "瓜子仓鼠 · 奶白"
   },
   {
     "id": "lop-rabbit",
     "species": "垂耳兔",
-    "color": "垂耳兔"
+    "color": "垂耳兔",
+    "display_name": "垂耳兔"
   },
   {
     "id": "sugar-glider",
     "species": "蜜袋鼯",
-    "color": "蜜袋鼯"
+    "color": "蜜袋鼯",
+    "display_name": "蜜袋鼯"
   },
   {
     "id": "hedgehog",
     "species": "刺猬",
-    "color": "刺猬"
+    "color": "刺猬",
+    "display_name": "刺猬"
   },
   {
     "id": "red-eared-slider",
     "species": "巴西龟",
-    "color": "巴西龟"
+    "color": "巴西龟",
+    "display_name": "巴西龟"
   },
   {
     "id": "corn-snake",
     "species": "玉米蛇",
-    "color": "玉米蛇"
+    "color": "玉米蛇",
+    "display_name": "玉米蛇"
   },
   {
     "id": "pacman-frog",
     "species": "角蛙",
-    "color": "角蛙"
+    "color": "角蛙",
+    "display_name": "角蛙"
   },
   {
     "id": "capybara",
     "species": "水豚",
-    "color": "水豚"
+    "color": "水豚",
+    "display_name": "水豚"
   }
 ]
