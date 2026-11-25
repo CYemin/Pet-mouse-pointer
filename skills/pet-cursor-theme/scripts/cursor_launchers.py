@@ -1,5 +1,50 @@
 """Write double-click Windows launchers for a compiled cursor theme."""
 from pathlib import Path
+import re
+import shutil
+
+COMPATIBILITY_FILES = ('windows-entry.ps1', 'windows7-theme.ps1')
+
+
+def write_compatibility_files(output):
+    output = Path(output)
+    output.mkdir(parents=True, exist_ok=True)
+    for name in COMPATIBILITY_FILES:
+        source = Path(__file__).resolve().parent / name
+        if source.resolve() != (output / name).resolve():
+            shutil.copy2(source, output / name)
+
+
+def compatibility_launcher_text(text):
+    """Upgrade a known PowerShell CMD entry, keeping its modern UI intact.
+
+    Win7 takes an ASCII-only branch before chcp/UTF-8 Chinese CMD content.
+    This also avoids Win7 cmd.exe's incomplete UTF-8 support.
+    """
+    if ':pet_windows7' in text:
+        return text
+    pattern = r'-File "%~dp0(install-theme|restore-theme|resize-current|install-catalog|install-collection)\.ps1"'
+    upgraded, count = re.subn(pattern, lambda m: '-File "%~dp0windows-entry.ps1" -Script ' + m[1] + '.ps1', text)
+    if count != 1:
+        raise ValueError('Expected exactly one supported PowerShell invocation')
+    command = next(line for line in upgraded.splitlines() if '-File "%~dp0windows-entry.ps1"' in line)
+    command = command.replace('%PET_CURSOR_DRY_RUN%', '%PET_WIN7_CHECK%').replace('%PET_CHECK%', '%PET_WIN7_CHECK%')
+    prefix = ['@echo off', 'setlocal DisableDelayedExpansion',
+              r'ver | "%SystemRoot%\System32\find.exe" "6.1." >nul',
+              'if not errorlevel 1 goto pet_windows7']
+    legacy = ['', ':pet_windows7', 'set "PET_WIN7_CHECK="',
+              'if /i "%~1"=="--check" set "PET_WIN7_CHECK=-WhatIf"',
+              'if not exist "%~dp0windows-entry.ps1" goto pet_win7_missing',
+              'if not exist "%~dp0windows7-theme.ps1" goto pet_win7_missing',
+              command, 'set "PET_WIN7_EXIT=%ERRORLEVEL%"',
+              'if not "%PET_WIN7_EXIT%"=="0" (',
+              '  echo Pointer operation failed. Keep the error above for diagnosis.',
+              '  if not defined PET_WIN7_CHECK pause', ')',
+              'exit /b %PET_WIN7_EXIT%', '', ':pet_win7_missing',
+              'echo Missing compatibility files. Extract the complete updated package first.',
+              'if not defined PET_WIN7_CHECK pause', 'exit /b 1']
+    lines = prefix + upgraded.splitlines() + legacy
+    return '\r\n'.join(lines) + '\r\n'
 
 LAUNCHERS=(
     ('安装鼠标主题.cmd','install-theme.ps1',48,'安装鼠标主题'),
@@ -28,6 +73,8 @@ USAGE_TEXT=r'''安装与恢复
 
 安装会备份原设置、保存方案，并加载全部17种系统光标。失败会回滚。
 恢复时保留已安装文件和方案。查看动作可打开同目录preview.html。
+Windows 7自动使用兼容入口，应用15种系统指针，不启用后台尺寸同步；通过包内尺寸按钮调整。
+Win7无需升级PowerShell，系统自带.NET Framework 3.5需保持启用。详见Windows7使用说明.txt。
 '''
 
 def launcher_text(script,size,title):
@@ -62,10 +109,11 @@ def launcher_text(script,size,title):
         'if not defined PET_CURSOR_DRY_RUN if not "%PET_CURSOR_EXIT%"=="0" pause',
         'exit /b %PET_CURSOR_EXIT%',
     ]
-    return '\r\n'.join(lines)+'\r\n'
+    return compatibility_launcher_text('\r\n'.join(lines)+'\r\n')
 
 def write_launchers(output):
     output=Path(output);output.mkdir(parents=True,exist_ok=True)
+    write_compatibility_files(output)
     # Only retire our known generated shortcuts; never remove arbitrary CMD files.
     for name in LEGACY_LAUNCHERS:
         (output/name).unlink(missing_ok=True)
@@ -123,7 +171,7 @@ _PWSH = r'"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoLogo 
 def collection_install_text(collection):
     """CMD body for 'install every style of this collection'."""
     label = COLLECTIONS[collection][0]
-    return '\r\n'.join([
+    return compatibility_launcher_text('\r\n'.join([
         '@echo off',
         'setlocal DisableDelayedExpansion',
         'chcp 65001 >nul',
@@ -150,7 +198,7 @@ def collection_install_text(collection):
         'echo.',
         'if not defined PET_CURSOR_DRY_RUN if not "%PET_CURSOR_EXIT%"=="0" pause',
         'exit /b %PET_CURSOR_EXIT%',
-    ]) + '\r\n'
+    ]) + '\r\n')
 
 
 
@@ -159,6 +207,7 @@ def write_collection_launchers(output, collection):
     """Write the collection install entry point plus its usage note."""
     output = Path(output)
     output.mkdir(parents=True, exist_ok=True)
+    write_compatibility_files(output)
     label = COLLECTIONS[collection][0]
     files = {
         f'一键安装所有{label}.cmd': collection_install_text(collection),

@@ -12,3 +12,4 @@ Thumbs.db
 .DS_Store
 downloads/*/
 !/downloads/themes/
+!/downloads/collections/

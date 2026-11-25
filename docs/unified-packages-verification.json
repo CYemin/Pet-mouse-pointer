@@ -1,0 +1,391 @@
+{
+  "status": "passed",
+  "themes": 61,
+  "single_theme_packages": 183,
+  "collections": 6,
+  "readme_animated_images": 1037,
+  "native_windows_files": 6222,
+  "artwork_unchanged": true,
+  "installer_checks": {
+    "status": "passed",
+    "themes": 61,
+    "syntax_checks": 366,
+    "install_restore_launcher_dry_runs": 427,
+    "windows7_dry_runs": 61,
+    "cursor_registry_unchanged": true,
+    "system_settings_modified": false
+  },
+  "windows7_unit_tests": 9,
+  "launcher_integration_tests": 6,
+  "transaction_failure_cases": 7,
+  "native_macos_tested": false,
+  "native_linux_tested": false,
+  "details": [
+    {
+      "id": "pet-pixel-complete",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "sheltie-dark-sable-pixel",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "sheltie-tricolor-pixel",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "sheltie-blue-merle-pixel",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "sheltie-red-merle-pixel",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "sheltie-bi-black-pixel",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "sheltie-bi-blue-pixel",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "golden-cream-pixel",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "golden-standard-pixel",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "golden-light-pixel",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "golden-dark-pixel",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "bichon-photo-v3",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "bichon-cream-coral-v5",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "bichon-ice-lilac-v5",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "teddy-profile-v6",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "teddy-cream-profile-v6",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "teddy-chocolate-profile-v6",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "corgi-photo-v3",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "corgi-tricolor-v5",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "corgi-cream-v5",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "swiss-profile-v6",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "swiss-ivory-profile-v6",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "swiss-ice-profile-v6",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "husky-profile-v6",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "husky-silver-profile-v6",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "husky-red-profile-v6",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "westie-profile-v1",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "pomeranian-orange-v1",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "pomeranian-cream-v1",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "pomeranian-black-tan-v1",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "border-collie-black-white-v1",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "border-collie-brown-white-v1",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "border-collie-blue-merle-v1",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "shiba-white-v1",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "shiba-red-v1",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "shiba-black-tan-v1",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "shiba-sesame-v1",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "cat",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "cat-silver",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "cat-tuxedo",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "cat-calico",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "cat-cream",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "cockatiel",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "cockatiel-lutino",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "cockatiel-pearl",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "gecko",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "gecko-snow",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "gecko-lavender",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "longhair-ragdoll",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "longhair-golden",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "longhair-silver",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "seed-hamster-golden",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "seed-hamster-silver",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "seed-hamster-ivory",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "lop-rabbit",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "sugar-glider",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "hedgehog",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "red-eared-slider",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "corn-snake",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "pacman-frog",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    },
+    {
+      "id": "capybara",
+      "native_files": 102,
+      "hotspot_warnings": [],
+      "original_cursor_bytes_unchanged": true
+    }
+  ]
+}
